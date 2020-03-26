@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default } from './view.jsx';","map":{"version":3,"sources":["/Users/ahroidlife/Documents/nextjs/blog/components/atoms/views/index.js"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,YAAxB","sourcesContent":["export { default } from './view.jsx'"]},"metadata":{},"sourceType":"module"}

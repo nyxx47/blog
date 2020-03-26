@@ -1,0 +1,32 @@
+import { withKnobs, text, select } from "@storybook/addon-knobs";
+import { Meta, Story,Props, Preview } from '@storybook/addon-docs/blocks';
+
+import Header from './header.jsx'
+import knobData from "./header.knobs.json";
+const { direction, items } = knobData;
+
+<Meta title="Organisms|Header" component={Header}/>
+
+## Header
+View component is a sub wrapper of Container component
+
+<Preview withToolbar>
+    <Story name="Header">
+        <Header items={items.default}/>
+    </Story>
+</Preview>
+
+<Props of={Header} />
+
+## USAGE
+
+Import your `Header component` in your file
+
+```jsx
+import { View } from "../your_path/components";
+
+```
+
+```jsx
+<Header/>
+```
