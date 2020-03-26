@@ -25,6 +25,8 @@
     "styled-components": "^5.0.1"
   },
   "devDependencies": {
-    "@storybook/react": "^5.3.17"
+    "@storybook/react": "^5.3.17",
+    "file-loader": "^6.0.0",
+    "url-loader": "^4.0.0"
   }
 }
