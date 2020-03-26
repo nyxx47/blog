@@ -14,8 +14,10 @@ const Header = ({direction, items}) => {
         justifyContent="space-between"
         alignItems="center"
         boxSizing="border-box"
-        padding="0px 50px 0px 30px" 
+        padding="5px 50px 5px 30px" 
         backgroundColor="#ffffff"
+        position="fixed"
+        isEqualWidth="100%"
         boxShadow="0px 3px 6px rgba(137, 137, 137, 0.16)">
             <View>
                 <a href="/">

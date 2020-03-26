@@ -50,9 +50,10 @@ export const StyledContainer = styled.div`
     flex-direction: ${props => flexDirection(props)};
     justify-content: ${props => props.justifyContent};
     align-items: ${props => props.alignItems};
-    boxSizing: ${props => props.boxSizing};
+    box-sizing: ${props => props.boxSizing};
     padding: ${props => props.padding};
-    box-shadow: ${props => props.boxShadow}
+    box-shadow: ${props => props.boxShadow};
+    position: ${props => props.position};
 
 `
 

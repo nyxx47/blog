@@ -94,6 +94,19 @@ var Backpress = function Backpress(props) {
 
 /***/ }),
 
+/***/ "./assets/images/DailyResources.svg":
+/*!******************************************!*\
+  !*** ./assets/images/DailyResources.svg ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjUiIGhlaWdodD0iODQiIHZpZXdCb3g9IjAgMCAxMjUgODQiPgogIDx0ZXh0IGlkPSJEYWlseV9SZXNvdXJjZXMiIGRhdGEtbmFtZT0iRGFpbHkgClJlc291cmNlcyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMCAyOSkiIGZpbGw9IiMxZTIxMjciIGZvbnQtc2l6ZT0iMzIiIGZvbnQtZmFtaWx5PSJEYWlseVdBTEtFUiwgRGFpbHkgV0FMS0VSIj48dHNwYW4geD0iMCIgeT0iMCI+RGFpbHkgPC90c3Bhbj48dHNwYW4geD0iMCIgeT0iNDIiPlJlc291cmNlczwvdHNwYW4+PC90ZXh0Pgo8L3N2Zz4K");
+
+/***/ }),
+
 /***/ "./assets/images/hero.svg":
 /*!********************************!*\
   !*** ./assets/images/hero.svg ***!
@@ -463,7 +476,8 @@ var Container = function Container(_ref) {
       boxSizing = _ref.boxSizing,
       padding = _ref.padding,
       boxShadow = _ref.boxShadow,
-      props = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, ["children", "isEqualWidth", "isEqualHeight", "flexDirection", "backgroundColor", "display", "justifyContent", "alignItems", "boxSizing", "padding", "boxShadow"]);
+      position = _ref.position,
+      props = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, ["children", "isEqualWidth", "isEqualHeight", "flexDirection", "backgroundColor", "display", "justifyContent", "alignItems", "boxSizing", "padding", "boxShadow", "position"]);
 
   return __jsx(_container_styles_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
     display: display,
@@ -475,7 +489,8 @@ var Container = function Container(_ref) {
     backgroundColor: backgroundColor,
     boxSizing: boxSizing,
     padding: padding,
-    boxShadow: boxShadow
+    boxShadow: boxShadow,
+    position: position
   }, props, {
     __self: _this,
     __source: {
@@ -565,7 +580,7 @@ var flexDirection = function flexDirection(props) {
 var StyledContainer = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].div.withConfig({
   displayName: "containerstyles__StyledContainer",
   componentId: "ygznhw-0"
-})(["display:", ";width:", ";height:", ";background:", ";flex-direction:", ";justify-content:", ";align-items:", ";boxSizing:", ";padding:", ";box-shadow:", ""], function (props) {
+})(["display:", ";width:", ";height:", ";background:", ";flex-direction:", ";justify-content:", ";align-items:", ";box-sizing:", ";padding:", ";box-shadow:", ";position:", ";"], function (props) {
   return isDisplayProps(props);
 }, function (props) {
   return props.isEqualWidth;
@@ -585,6 +600,8 @@ var StyledContainer = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].
   return props.padding;
 }, function (props) {
   return props.boxShadow;
+}, function (props) {
+  return props.position;
 });
 /* harmony default export */ __webpack_exports__["default"] = (StyledContainer);
 
@@ -1031,7 +1048,9 @@ var Text = function Text(_ref) {
       align = _ref.align,
       isEqualSize = _ref.isEqualSize,
       isEqualAlign = _ref.isEqualAlign,
-      props = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, ["children", "href", "target", "variant", "size", "weight", "align", "isEqualSize", "isEqualAlign"]);
+      margin = _ref.margin,
+      width = _ref.width,
+      props = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, ["children", "href", "target", "variant", "size", "weight", "align", "isEqualSize", "isEqualAlign", "margin", "width"]);
 
   if (!href) return __jsx(_text_styles_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
     variant: variant,
@@ -1039,7 +1058,9 @@ var Text = function Text(_ref) {
     weight: weight,
     align: align,
     isEqualSize: isEqualSize,
-    isEqualAlign: isEqualAlign
+    isEqualAlign: isEqualAlign,
+    margin: margin,
+    width: width
   }, props, {
     __self: _this,
     __source: {
@@ -1055,7 +1076,7 @@ var Text = function Text(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 26,
       columnNumber: 9
     }
   }, children);
@@ -1093,7 +1114,7 @@ var color = function color(props) {
 
   switch (props.variant) {
     case "primary":
-      return "#403e3e";
+      return "#1E2127";
       break;
 
     case "secondary":
@@ -1141,7 +1162,7 @@ var weight = function weight(props) {
 var StyledText = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].p.withConfig({
   displayName: "textstyles__StyledText",
   componentId: "sc-1c7yjdi-0"
-})(["font-family:'Montserrat',sans-serif;font-weight:", ";font-size:", "px;text-align:", ";color:", ";@media ", "{font-size:", "px !important;text-align:", "px !important;}"], function (props) {
+})(["font-family:'Montserrat',sans-serif;font-weight:", ";font-size:", "px;text-align:", ";color:", ";margin:", ";width:", ";@media ", "{font-size:", "px !important;text-align:", "px !important;}"], function (props) {
   return weight(props);
 }, function (props) {
   return size(props);
@@ -1149,6 +1170,10 @@ var StyledText = styled_components__WEBPACK_IMPORTED_MODULE_0__["default"].p.wit
   return !props.align ? 'left' : props.align;
 }, function (props) {
   return color(props);
+}, function (props) {
+  return props.margin;
+}, function (props) {
+  return props.width;
 }, _particles_breakpoints__WEBPACK_IMPORTED_MODULE_1__["default"].mobileL, function (props) {
   return props.isEqualSize;
 }, function (props) {
@@ -1590,8 +1615,10 @@ var Header = function Header(_ref) {
     justifyContent: "space-between",
     alignItems: "center",
     boxSizing: "border-box",
-    padding: "0px 50px 0px 30px",
+    padding: "5px 50px 5px 30px",
     backgroundColor: "#ffffff",
+    position: "fixed",
+    isEqualWidth: "100%",
     boxShadow: "0px 3px 6px rgba(137, 137, 137, 0.16)",
     __self: _this,
     __source: {
@@ -1603,7 +1630,7 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 22,
       columnNumber: 13
     }
   }, __jsx("a", {
@@ -1611,7 +1638,7 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 23,
       columnNumber: 17
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Logo"], {
@@ -1619,14 +1646,14 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 24,
       columnNumber: 21
     }
   }))), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 27,
       columnNumber: 13
     }
   }, __jsx(_molecules__WEBPACK_IMPORTED_MODULE_2__["Navigation"], {
@@ -1635,7 +1662,7 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 28,
       columnNumber: 17
     }
   })));
@@ -1685,46 +1712,86 @@ var Hero = function Hero(_ref) {
       subtitle = _ref.subtitle,
       img = _ref.img;
   return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Container"], {
+    isEqualWidth: "100%",
+    isEqualHeight: "100vh",
+    justifyContent: "center",
+    alignItems: "center",
+    padding: "0px 100px 0px 100px",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 8,
       columnNumber: 13
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10,
-      columnNumber: 17
-    }
-  }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Text"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 21
-    }
-  }, title, "}"), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Text"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 21
-    }
-  }, subtitle)), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
+    height: "100%",
+    flexValue: "1",
+    direction: "column",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14,
       columnNumber: 17
     }
-  }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-    src: img,
+  }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
+    flexValue: "1",
+    direction: "column",
+    align: "flex-start",
+    padding: "150px 0px 0px 0px",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15,
+      columnNumber: 21
+    }
+  }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+    draggable: "false",
+    src: title,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 25
+    }
+  }), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Text"], {
+    margin: "20px 0px 0px 0px",
+    width: "50%",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 25
+    }
+  }, subtitle)), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
+    flexValue: "1",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 21
+    }
+  }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Text"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 25
+    }
+  }, "Continue"))), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
+    flexValue: "1",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 17
+    }
+  }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+    draggable: "false",
+    src: img,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
       columnNumber: 21
     }
   }))));
@@ -1850,22 +1917,13 @@ var Layout = function Layout(_ref) {
       lineNumber: 12,
       columnNumber: 13
     }
-  }, title), __jsx("meta", {
-    name: "viewport",
-    content: "initial-scale=1.0, width=device-width",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 13
-    }
-  })), __jsx(_organisms__WEBPACK_IMPORTED_MODULE_2__["Header"], {
+  }, title)), __jsx(_organisms__WEBPACK_IMPORTED_MODULE_2__["Header"], {
     direction: direction.horizontal,
     items: items["default"],
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16,
+      lineNumber: 15,
       columnNumber: 9
     }
   }), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_3__["Container"], {
@@ -1873,7 +1931,7 @@ var Layout = function Layout(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 16,
       columnNumber: 9
     }
   }, children));
@@ -26836,11 +26894,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_templates_defaults__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/templates/defaults */ "./components/templates/defaults/index.js");
 /* harmony import */ var _components_organisms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/organisms */ "./components/organisms/index.js");
 /* harmony import */ var _assets_images_hero_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/images/hero.svg */ "./assets/images/hero.svg");
+/* harmony import */ var _assets_images_DailyResources_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../assets/images/DailyResources.svg */ "./assets/images/DailyResources.svg");
+/* harmony import */ var _static_css_main_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../static/css/main.scss */ "./static/css/main.scss");
+/* harmony import */ var _static_css_main_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_static_css_main_scss__WEBPACK_IMPORTED_MODULE_5__);
 var _this = undefined,
     _jsxFileName = "/Users/ahroidlife/Documents/nextjs/blog/pages/index.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
 
 
 
@@ -26851,17 +26914,17 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
+      lineNumber: 11,
       columnNumber: 13
     }
   }, __jsx(_components_organisms__WEBPACK_IMPORTED_MODULE_2__["Hero"], {
-    title: "Daily Resource",
+    title: _assets_images_DailyResources_svg__WEBPACK_IMPORTED_MODULE_4__["default"],
     subtitle: "The more that you read the more things you will know.",
     img: _assets_images_hero_svg__WEBPACK_IMPORTED_MODULE_3__["default"],
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 12,
       columnNumber: 17
     }
   })));
@@ -26894,5 +26957,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

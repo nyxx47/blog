@@ -3,7 +3,7 @@ import React from 'react'
 import StyledContainer from './container.styles.jsx'
 import { node, string } from 'prop-types'
 
-const Container = ({children, isEqualWidth, isEqualHeight, flexDirection, backgroundColor, display, justifyContent, alignItems, boxSizing, padding,boxShadow, ...props}) => (
+const Container = ({children, isEqualWidth, isEqualHeight, flexDirection, backgroundColor, display, justifyContent, alignItems, boxSizing, padding,boxShadow,position, ...props}) => (
     <StyledContainer 
         display={display}
         justifyContent={justifyContent}
@@ -15,6 +15,7 @@ const Container = ({children, isEqualWidth, isEqualHeight, flexDirection, backgr
         boxSizing={boxSizing}
         padding={padding}
         boxShadow={boxShadow}
+        position={position}
         {...props}>
         { children }
     </StyledContainer>

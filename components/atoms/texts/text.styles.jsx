@@ -5,7 +5,7 @@ const color = props => {
     if(!props.variant) return "#403e3e"
     switch (props.variant) {
         case "primary":
-            return "#403e3e"
+            return "#1E2127"
             break;
         case "secondary":
             return "#F7FBFF"
@@ -49,6 +49,8 @@ const StyledText = styled.p`
     font-size: ${props => size(props)}px;
     text-align: ${props => !props.align ? 'left' : props.align};
     color: ${props => color(props)};
+    margin: ${props => props.margin};
+    width: ${props => props.width};
 
     @media ${breakpoints.mobileL} {
         font-size: ${props => props.isEqualSize}px !important;
