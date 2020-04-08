@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default } from './issues.jsx';","map":{"version":3,"sources":["/Users/ahroidlife/Documents/nextjs/blog/pages/issues/index.js"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,cAAxB","sourcesContent":["export { default } from './issues.jsx'"]},"metadata":{},"sourceType":"module"}

@@ -2,8 +2,9 @@ import React from 'react'
 
 import StyledText, {StyledLink} from './text.styles.jsx'
 import { string } from 'prop-types'
+import Link from 'next/link'
 
-const Text = ({children, href, target, variant, size, weight, align, isEqualSize, isEqualAlign, margin, width, ...props}) => {
+const Text = ({children, href, family, target, variant, size, weight, align, isEqualSize, isEqualAlign, margin, width, isEqualMargin, ...props}) => {
 
     if(!href)
         return(
@@ -16,6 +17,8 @@ const Text = ({children, href, target, variant, size, weight, align, isEqualSize
             isEqualAlign={isEqualAlign}
             margin={margin}
             width={width}
+            family={family}
+            isEqualMargin={isEqualMargin}
             {...props}
             >
                 {children}
@@ -23,9 +26,11 @@ const Text = ({children, href, target, variant, size, weight, align, isEqualSize
         )
 
     return (
-        <StyledLink href={href} variant={variant} target={target}>
-            {children}
-        </StyledLink>
+        <Link href={href} prefetch={false}>
+            <StyledLink  variant={variant} target={target}>
+                {children}
+            </StyledLink>
+        </Link>
     )
 }
 

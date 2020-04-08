@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import breakpoints from '../../particles/breakpoints'
 
 const isDisplayProps = props => {
 
@@ -54,7 +55,39 @@ export const StyledContainer = styled.div`
     padding: ${props => props.padding};
     box-shadow: ${props => props.boxShadow};
     position: ${props => props.position};
+    z-index: ${props => !props.zIndex ? undefined : props.zIndex};
 
+
+      &.hero{
+
+        @media ${breakpoints.laptopL} {
+            
+        }
+    
+        @media ${breakpoints.laptop} {
+            padding: 0 50px 0 50px;
+        }
+    
+        @media ${breakpoints.tablet} {
+            flex-direction: column-reverse;
+            padding: 50px 25px 0 25px;
+        }
+      }
+
+      &.section{
+
+        @media ${breakpoints.laptopL} {
+            
+        }
+    
+        @media ${breakpoints.laptop} {
+            padding: 25px;
+        }
+    
+        @media ${breakpoints.tablet} {
+            padding: 25px;
+        }
+      }
 `
 
 export default StyledContainer

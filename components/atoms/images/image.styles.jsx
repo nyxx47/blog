@@ -10,6 +10,7 @@ const StyledImage = styled.img`
     right: ${props => props.right};
     bottom: ${props => props.bottom};
     margin: ${props => props.margin};
+    border-radius: ${props => props.radius};
 
     @media ${breakpoints.mobileL} {
         position: ${props => props.isEqualposition};

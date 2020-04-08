@@ -1,18 +1,28 @@
-import Layout from '../components/templates/defaults'
+
+import Layout from '../components/templates/layouts'
 import { Hero } from '../components/organisms'
-import ImageHero from '../assets/images/hero.svg'
-import Title from '../assets/images/DailyResources.svg'
-import '../static/css/main.scss'
+import { ArticleImage } from '../components/organisms'
+import ImageHero from '../assets/illustrations/daily-resources.svg'
+
+import Knobs from './index.knobs.json'
+const { sections } = Knobs.data
 
 const App = () => {
     
     return (
         <>
-            <Layout title="Daily Resources">
+            <Layout title="Daily Resources" line="illustration-outline" >
                 <Hero 
-                title={Title} 
+                title="Daily Resources" 
                 subtitle="The more that you read the more things you will know." 
                 img={ImageHero}/>
+
+                {
+                    sections.map( section => (
+                        <ArticleImage items={section.items}/>
+                    ))
+                }
+
             </Layout>
         </>
     )

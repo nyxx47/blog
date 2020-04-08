@@ -10,7 +10,7 @@ const color = props => {
         case "secondary":
             return "#F7FBFF"
         default:
-            return "#403e3e"
+            return props.variant
             break;
     }
 }
@@ -43,8 +43,23 @@ const weight = props => {
     }
 }
 
+const isFamily = props => {
+    if(!props.family) return "'Montserrat', sans-serif"
+    switch(props.family){
+        case "montserrat":
+            return "'Montserrat', sans-serif"
+            break;
+        case "daily":
+            return "Daily"
+            break;
+        default:
+            return "'Montserrat', sans-serif"
+            break;
+    }
+}
+
 const StyledText = styled.p`
-    font-family: 'Montserrat', sans-serif;
+    font-family: ${props => isFamily(props)};
     font-weight: ${props => weight(props)};
     font-size: ${props => size(props)}px;
     text-align: ${props => !props.align ? 'left' : props.align};
@@ -55,6 +70,7 @@ const StyledText = styled.p`
     @media ${breakpoints.mobileL} {
         font-size: ${props => props.isEqualSize}px !important;
         text-align: ${props => props.isEqualAlign}px !important;
+        margin: ${props => props.isEqualMargin};
     }
 `
 
@@ -65,6 +81,7 @@ export const StyledLink = styled.a`
     text-align: left;
     color: #1e2127;
     text-decoration: none;
+    cursor: pointer;
 `
 
 export default StyledText

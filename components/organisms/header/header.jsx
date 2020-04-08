@@ -1,9 +1,9 @@
 import React from 'react'
 
-
-import { Container, View, Logo} from '../../atoms'
-import { Navigation } from '../../molecules'
+import { Container, View, Logo, Input} from '../../atoms'
+import { Navigation, TextIcon } from '../../molecules'
 import Link from 'next/link'
+
 
 
 const Header = ({direction, items}) => {
@@ -17,12 +17,16 @@ const Header = ({direction, items}) => {
         padding="5px 50px 5px 30px" 
         backgroundColor="#ffffff"
         position="fixed"
+        zIndex="99"
         isEqualWidth="100%"
         boxShadow="0px 3px 6px rgba(137, 137, 137, 0.16)">
             <View>
-                <a href="/">
-                    <Logo width="2em"/>
-                </a>
+                <Link href="/">
+                    <a>
+                        <Logo width="2em"/>
+                    </a>
+                </Link>
+                <TextIcon placeholder="What are you looking for?" left="30px"/>
             </View>
             <View>
                 <Navigation direction={direction} items={items}/>

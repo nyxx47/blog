@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="211" height="107" viewBox="0 0 211 107">
+  <g id="Group_234" data-name="Group 234" transform="translate(-123 -918)">
+    <g id="Rectangle_190" data-name="Rectangle 190" transform="translate(148 918)" fill="#ededed" stroke="#1e2127" stroke-width="1">
+      <rect width="150" height="39" rx="12" stroke="none"/>
+      <rect x="0.5" y="0.5" width="149" height="38" rx="11.5" fill="none"/>
+    </g>
+    <g id="Group_223" data-name="Group 223" transform="translate(-269 287)">
+      <path id="Path_347" data-name="Path 347" d="M10394,433.587h34.1v53.16H10394" transform="translate(-9834.812 223.823)" fill="none" stroke="#1e2127" stroke-linejoin="round" stroke-width="1"/>
+      <g id="Group_222" data-name="Group 222" transform="translate(0 1)">
+        <circle id="Ellipse_186" data-name="Ellipse 186" cx="9.5" cy="9.5" r="9.5" transform="translate(584 672)" fill="#1e2127"/>
+        <path id="Icon_material-settings-backup-restore" data-name="Icon material-settings-backup-restore" d="M9.676,10.72A1.382,1.382,0,1,0,8.293,12.1,1.386,1.386,0,0,0,9.676,10.72ZM8.293,4.5a6.221,6.221,0,0,0-6.22,6.22H0l2.764,2.764L5.529,10.72H3.456A4.841,4.841,0,1,1,5.488,14.66l-.981,1A6.22,6.22,0,1,0,8.293,4.5Z" transform="translate(584.981 670.929)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Rectangle_189" data-name="Rectangle 189" transform="translate(141 923)" fill="#ededed" stroke="#1e2127" stroke-width="1">
+      <rect width="153" height="40" rx="12" stroke="none"/>
+      <rect x="0.5" y="0.5" width="152" height="39" rx="11.5" fill="none"/>
+    </g>
+    <path id="Icon_material-error-outline" data-name="Icon material-error-outline" d="M9.75,12.75h1.5v1.5H9.75Zm0-6h1.5v4.5H9.75ZM10.493,3A7.5,7.5,0,1,0,18,10.5,7.5,7.5,0,0,0,10.493,3ZM10.5,16.5a6,6,0,1,1,6-6A6,6,0,0,1,10.5,16.5Z" transform="translate(150.8 933)" fill="#1e2127"/>
+    <g id="Group_221" data-name="Group 221" transform="translate(-269 287)">
+      <g id="Rectangle_188" data-name="Rectangle 188" transform="translate(400 688)" fill="#ededed" stroke="#1e2127" stroke-width="1">
+        <rect width="163" height="43" rx="12" stroke="none"/>
+        <rect x="0.5" y="0.5" width="162" height="42" rx="11.5" fill="none"/>
+      </g>
+      <g id="Group_220" data-name="Group 220">
+        <rect id="Rectangle_187" data-name="Rectangle 187" width="167" height="44" rx="12" transform="translate(392 694)" fill="#1e2127"/>
+        <g id="Group_219" data-name="Group 219">
+          <rect id="Rectangle_191" data-name="Rectangle 191" width="18" height="18" rx="4" transform="translate(406 707)" fill="#fff"/>
+          <path id="Icon_ionic-ios-checkmark" data-name="Icon ionic-ios-checkmark" d="M21.528,13.206l-.912-.937a.2.2,0,0,0-.145-.062h0a.188.188,0,0,0-.145.062l-6.319,6.365-2.3-2.3a.2.2,0,0,0-.29,0l-.922.922a.206.206,0,0,0,0,.3l2.9,2.9a.917.917,0,0,0,.606.3.961.961,0,0,0,.6-.285h.005L21.534,13.5A.221.221,0,0,0,21.528,13.206Z" transform="translate(398.88 699.05)" fill="#1e2127"/>
+        </g>
+        <g id="Group_218" data-name="Group 218">
+          <circle id="Ellipse_187" data-name="Ellipse 187" cx="3" cy="3" r="3" transform="translate(535 713)" fill="#fff"/>
+          <circle id="Ellipse_188" data-name="Ellipse 188" cx="3" cy="3" r="3" transform="translate(524 713)" fill="#fff"/>
+          <circle id="Ellipse_189" data-name="Ellipse 189" cx="3" cy="3" r="3" transform="translate(513 713)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+    <circle id="Ellipse_190" data-name="Ellipse 190" cx="2.5" cy="2.5" r="2.5" transform="translate(291 942)" fill="#1e2127"/>
+  </g>
+</svg>

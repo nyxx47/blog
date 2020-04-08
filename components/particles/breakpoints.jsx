@@ -7,7 +7,7 @@ const size = {
     laptopL: '1440px',
     desktop: '2560px'
   }
-
+ 
   export const breakpoints = {
     mobileS: `(max-width: ${size.mobileS})`,
     mobileM: `(max-width: ${size.mobileM})`,

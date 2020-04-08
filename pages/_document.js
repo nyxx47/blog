@@ -2,15 +2,9 @@ import React from 'react';
 import Document, { Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheet, createGlobalStyle } from 'styled-components';
 
-const GlobalStyle = createGlobalStyle`
-  *{
-    padding: 0;
-    margin:0;
-  }
 
-  body{
-    margin:0 !important;
-  }
+const GlobalStyle = createGlobalStyle`
+ 
 `;
 
 class MyDocument extends Document {
@@ -46,7 +40,7 @@ class MyDocument extends Document {
           <meta charSet="utf-8" />
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
           <link href="https://fonts.googleapis.com/css?family=Chewy&display=swap" rel="stylesheet"></link>
-        
+          <link rel='stylesheet' href='/static/css/nprogress.css'/>
         </Head>
         <body>
           <GlobalStyle/>

@@ -1,0 +1,82 @@
+import { Meta, Story,Props, Preview } from '@storybook/addon-docs/blocks';
+import { withKnobs, select } from '@storybook/addon-knobs';
+import Icon from './icon'
+
+<Meta title="Atoms|Icons" component={Icon} />
+
+## Icons
+
+
+Use an icon for attributing actions or content to specific symbol. 
+<Preview withToolbar>
+    <Story name="All Icons">
+        <div>
+            <Icon name="message"/>
+            <Icon name="notification"/>
+            <Icon name="search"/>
+            <br/>
+            <Icon name="bag"/>
+            <Icon name="activity"/>
+            <Icon name="layer"/> 
+            <Icon name="edit"/> 
+            <Icon name="arrow_down"/>
+            <Icon name="arrow_left"/> 
+            <Icon name="arrow_right"/> 
+            <Icon name="arrow_up"/> 
+            <Icon name="chevron_left"/> 
+            <Icon name="chevron_right"/>
+            <Icon name="chevrons_left"/> 
+            <Icon name="chevrons_right"/> 
+            <Icon name="user"/> 
+            <Icon name="users"/> 
+            <Icon name="upload_cloud"/> 
+            <Icon name="close"/>
+            <Icon name="plus"/>
+        </div>
+    </Story>
+</Preview>
+
+<Props of={Icon} />
+
+## Usage
+
+Icons is used to represents a symbols by default the icon show a bag symbol.
+https://feathericons.com/
+
+You can used our list icons name on below : 
+<ul>
+    <li>message</li>
+    <li>notification</li>
+    <li>search</li>
+    <li>bag</li>
+    <li>activity</li>
+    <li>layer</li>
+    <li>edit</li>
+    <li>arrow_down</li>
+    <li>arrow_left</li>
+    <li>arrow_right</li>
+    <li>arrow_up</li>
+    <li>chevron_left</li>
+    <li>chevron_right</li>
+    <li>chevrons_left</li>
+    <li>chevrons_right</li>
+    <li>user</li>
+    <li>users</li>
+    <li>upload_cloud</li>
+    <li>close</li>
+    <li>plus</li>
+</ul>
+
+
+### Playground
+
+Experiment with this story with Knobs addon in Canvas mode.
+
+<Story name="knobs" parameters={{ decorators: [withKnobs] }}>
+  <Icon name={select(
+    'Name', ['notification','message','search','bag', 'activity', 'layer', 'edit', 'arrow_down',
+    'arrow_left','arrow_right','arrow_up','chevron_left','chevron_right',
+    'chevrons_left','chevrons_right','user','users','upload_cloud','close','plus']
+    )}/>
+</Story>
+

@@ -1,0 +1,33 @@
+import { withKnobs, text, select } from "@storybook/addon-knobs";
+import { Meta, Story,Props, Preview } from '@storybook/addon-docs/blocks';
+
+import CardImage from './cardImage.jsx'
+import Knobs from './cardImage.knobs.json'
+const {item} = Knobs
+
+<Meta title="Molecules|Articles|CardImage" component={CardImage}/>
+
+## CardImage
+CardImage is small and adaptive tag for adding context to content.
+
+<Preview withToolbar>
+    <Story name="CardImage">
+        <CardImage item={item}/>
+    </Story>
+</Preview>
+
+<Props of={CardImage} />
+
+## USAGE 
+
+Import your `CardImage component` in your file
+
+```jsx
+import { CardImage } from "../your_path/components/molecules";
+
+```
+
+```jsx
+<CardImage item={item}/>
+```
+

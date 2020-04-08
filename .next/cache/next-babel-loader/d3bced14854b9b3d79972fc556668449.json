@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default } from './articleHero.jsx';","map":{"version":3,"sources":["/Users/ahroidlife/Documents/nextjs/blog/components/organisms/articles/sliderHero/index.js"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,mBAAxB","sourcesContent":["export { default } from './articleHero.jsx'"]},"metadata":{},"sourceType":"module"}
