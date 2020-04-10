@@ -102,3 +102,23 @@ export const Backpress = props => (
       <path d="M784.3 945.1c-3.5 2.2-4.6 3.7-1.5 2 2.2-1.3 5.8-4 5.2-4.1-.3 0-2 1-3.7 2.1zm-6.9 4.5c-1.8 1.4-1.8 1.5.4.4 1.2-.6 2.2-1.3 2.2-1.5 0-.8-.5-.6-2.6 1.1zm-5 3c-1.8 1.4-1.8 1.5.4.4 1.2-.6 2.2-1.3 2.2-1.5 0-.8-.5-.6-2.6 1.1zm-5 3c-1.8 1.4-1.8 1.5.4.4 1.2-.6 2.2-1.3 2.2-1.5 0-.8-.5-.6-2.6 1.1zm-7.6 4c-3.8 2-3.6 2.8.2.9 1.7-.9 3-1.8 3-2 0-.7-.1-.6-3.2 1.1z" />
     </svg>
   )
+
+  export const IosArrowBack = props => (
+    <svg width={props.width} height={props.height} viewBox="0 0 11.478 20.077" {...props}>
+      <path
+        data-name="Icon ionic-ios-arrow-back"
+        d="M3.46 10.036l7.6-7.591A1.435 1.435 0 009.028.419l-8.607 8.6a1.432 1.432 0 00-.042 1.978l8.643 8.661a1.435 1.435 0 102.027-2.026z"
+        fill={!props.fill ? "#1e2127" : props.fill}
+      />
+    </svg>
+  )
+
+  export const IosArrowForward = props => (
+    <svg width={props.width} height={props.height} viewBox="0 0 11.478 20.075" {...props}>
+      <path
+        data-name="Icon ionic-ios-arrow-forward"
+        d="M8.019 10.034l-7.6-7.591a1.429 1.429 0 010-2.026 1.447 1.447 0 012.032 0l8.607 8.6a1.432 1.432 0 01.042 1.978l-8.643 8.661A1.435 1.435 0 01.425 17.63z"
+        fill={!props.fill ? "#1e2127" : props.fill}
+      />
+    </svg>
+  )

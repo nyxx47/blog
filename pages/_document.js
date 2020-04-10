@@ -41,6 +41,7 @@ class MyDocument extends Document {
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
           <link href="https://fonts.googleapis.com/css?family=Chewy&display=swap" rel="stylesheet"></link>
           <link rel='stylesheet' href='/static/css/nprogress.css'/>
+          <link rel="shortcut icon" href="/static/favicon.ico" />
         </Head>
         <body>
           <GlobalStyle/>

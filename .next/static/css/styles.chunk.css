@@ -26,6 +26,16 @@ body::-webkit-scrollbar-thumb {
   background-position: right top !important;
   background-size: 150vh !important; }
 
+.eg-flick-viewport {
+  padding: 20px;
+  box-sizing: border-box; }
+
+.stories-popular {
+  transition: 0.3s ease; }
+
+.stories-popular:hover {
+  transform: scale(1.05); }
+
 .inputTextIcon:focus + .search-results {
   display: flex; }
 

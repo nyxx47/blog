@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -409,6 +409,8 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 const BackgroundImage = ({
+  children,
+  className,
   width,
   height,
   size,
@@ -421,13 +423,14 @@ const BackgroundImage = ({
     src: src,
     size: size,
     radius: radius,
+    className: className,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7,
       columnNumber: 9
     }
-  });
+  }, children);
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (BackgroundImage);
@@ -449,7 +452,7 @@ __webpack_require__.r(__webpack_exports__);
 const StyledBackgroundImage = styled_components__WEBPACK_IMPORTED_MODULE_0___default.a.div.withConfig({
   displayName: "backgroundImagestyles__StyledBackgroundImage",
   componentId: "sc-1b7k81x-0"
-})(["width:", ";height:", ";background-image:url(", ");background-size:", ";background-repeat:no-repeat;border-radius:", ";"], props => !props.width ? '400px' : props.width, props => !props.height ? '250px' : props.height, props => props.src, props => props.size, props => !props.radius ? undefined : props.radius);
+})(["width:", ";height:", ";background-image:url(", ");background-size:", ";background-repeat:no-repeat;border-radius:", ";display:flex;"], props => !props.width ? '400px' : props.width, props => !props.height ? '250px' : props.height, props => props.src, props => props.size, props => !props.radius ? undefined : props.radius);
 /* harmony default export */ __webpack_exports__["default"] = (StyledBackgroundImage);
 
 /***/ }),
@@ -2450,6 +2453,142 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./components/molecules/articles/cardStories/cardStories.jsx":
+/*!*******************************************************************!*\
+  !*** ./components/molecules/articles/cardStories/cardStories.jsx ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _atoms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../atoms */ "./components/atoms/index.js");
+var _jsxFileName = "/Users/ahroidlife/Documents/nextjs/blog/components/molecules/articles/cardStories/cardStories.jsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+const CardStories = ({
+  props
+}) => {
+  return __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["BackgroundImage"], {
+    src: "/static/unsplash/aron-visuals-unsplash.jpg",
+    width: "370px",
+    height: "500px",
+    size: "cover",
+    radius: "20px",
+    className: "stories-popular",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 5
+    }
+  }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
+    direction: "column",
+    width: "100%",
+    padding: "30px",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 7
+    }
+  }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
+    justify: "flex-end",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16,
+      columnNumber: 9
+    }
+  }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Badge"], {
+    title: "SOLO TRAVEL",
+    backgroundColor: "#FCEEDE",
+    color: "#D9A971",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 11
+    }
+  })), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
+    flexValue: "1",
+    direction: "column",
+    justify: "flex-end",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 9
+    }
+  }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
+    margin: "0  0 30px 0",
+    width: "50%",
+    direction: "column",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 11
+    }
+  }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Text"], {
+    size: "20",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 13
+    }
+  }, "STORY"), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Text"], {
+    size: "20",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 13
+    }
+  }, "OF MY LIFE")), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 11
+    }
+  }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Text"], {
+    family: "daily",
+    size: "32",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 13
+    }
+  }, "Bali")))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (CardStories);
+
+/***/ }),
+
+/***/ "./components/molecules/articles/cardStories/index.js":
+/*!************************************************************!*\
+  !*** ./components/molecules/articles/cardStories/index.js ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _cardStories_jsx__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./cardStories.jsx */ "./components/molecules/articles/cardStories/cardStories.jsx");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _cardStories_jsx__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+
+
+
+/***/ }),
+
 /***/ "./components/molecules/articles/cardText/cardText.jsx":
 /*!*************************************************************!*\
   !*** ./components/molecules/articles/cardText/cardText.jsx ***!
@@ -2804,6 +2943,7 @@ const TextIcon = ({
       columnNumber: 21
     }
   }, searchResults.map(item => __jsx("li", {
+    key: item,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -2821,7 +2961,7 @@ const TextIcon = ({
 /*!***************************************!*\
   !*** ./components/molecules/index.js ***!
   \***************************************/
-/*! exports provided: Navigation, Social, TextIcon, CardText, CardImage, CardHero, NotFound */
+/*! exports provided: Navigation, Social, TextIcon, CardText, CardImage, CardHero, CardStories, NotFound */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2844,8 +2984,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _articles_cardHero__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./articles/cardHero */ "./components/molecules/articles/cardHero/index.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CardHero", function() { return _articles_cardHero__WEBPACK_IMPORTED_MODULE_5__["default"]; });
 
-/* harmony import */ var _404__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./404 */ "./components/molecules/404/index.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "NotFound", function() { return _404__WEBPACK_IMPORTED_MODULE_6__["default"]; });
+/* harmony import */ var _articles_cardStories__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./articles/cardStories */ "./components/molecules/articles/cardStories/index.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CardStories", function() { return _articles_cardStories__WEBPACK_IMPORTED_MODULE_6__["default"]; });
+
+/* harmony import */ var _404__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./404 */ "./components/molecules/404/index.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "NotFound", function() { return _404__WEBPACK_IMPORTED_MODULE_7__["default"]; });
+
 
 
 
@@ -3102,6 +3246,7 @@ const ArticleImage = ({
       columnNumber: 13
     }
   }), items[1].childs.map(item => __jsx(_molecules__WEBPACK_IMPORTED_MODULE_2__["CardImage"], {
+    key: item.id,
     item: item,
     __self: undefined,
     __source: {
@@ -3283,6 +3428,17 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./components/organisms/articles/sliderHero/slide.jsx":
+/*!************************************************************!*\
+  !*** ./components/organisms/articles/sliderHero/slide.jsx ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+
+
+/***/ }),
+
 /***/ "./components/organisms/articles/sliderHero/sliderHero.jsx":
 /*!*****************************************************************!*\
   !*** ./components/organisms/articles/sliderHero/sliderHero.jsx ***!
@@ -3294,68 +3450,122 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _atoms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../atoms */ "./components/atoms/index.js");
+/* harmony import */ var _egjs_react_flicking__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @egjs/react-flicking */ "@egjs/react-flicking");
+/* harmony import */ var _egjs_react_flicking__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_egjs_react_flicking__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _atoms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../atoms */ "./components/atoms/index.js");
+/* harmony import */ var _molecules__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../molecules */ "./components/molecules/index.js");
 var _jsxFileName = "/Users/ahroidlife/Documents/nextjs/blog/components/organisms/articles/sliderHero/sliderHero.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
 
 
 
 const SliderHero = ({
   props
 }) => {
-  return __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Container"], {
+  return __jsx(_atoms__WEBPACK_IMPORTED_MODULE_2__["Container"], {
     padding: "100px 0 0 100px",
     isEqualHeight: "80vh",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7,
-      columnNumber: 9
+      lineNumber: 11,
+      columnNumber: 5
     }
-  }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
+  }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_2__["View"], {
     width: "25%",
     direction: "column",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 13
+      lineNumber: 12,
+      columnNumber: 7
     }
-  }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Text"], {
+  }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_2__["Text"], {
     family: "daily",
     size: "32",
     width: "50px",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 17
+      lineNumber: 13,
+      columnNumber: 9
     }
-  }, "Most Popular"), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Text"], {
+  }, "Most Popular"), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_2__["Text"], {
     margin: "30px 30px 0  0",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
-      columnNumber: 17
+      lineNumber: 14,
+      columnNumber: 9
     }
-  }, "We write various stories here for the present and the future. You can find various stories about us sharing knowledge, adventure and whatever it is here.")), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
+  }, "We write various stories here for the present and the future. You can find various stories about us sharing knowledge, adventure and whatever it is here.")), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_2__["View"], {
     flexValue: "1",
-    backgroundColor: "pink",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14,
+      lineNumber: 19,
+      columnNumber: 7
+    }
+  }, __jsx(_egjs_react_flicking__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    gap: 50,
+    infinite: true,
+    infiniteThreshold: 100,
+    bound: true,
+    moveType: "freeScroll",
+    style: {
+      width: 100 + '%'
+    },
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 9
+    }
+  }, __jsx(_molecules__WEBPACK_IMPORTED_MODULE_3__["CardStories"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
       columnNumber: 13
     }
-  }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Text"], {
+  }), __jsx(_molecules__WEBPACK_IMPORTED_MODULE_3__["CardStories"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 17
+      lineNumber: 22,
+      columnNumber: 13
     }
-  }, "Content")));
+  }), __jsx(_molecules__WEBPACK_IMPORTED_MODULE_3__["CardStories"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 13
+    }
+  }), __jsx(_molecules__WEBPACK_IMPORTED_MODULE_3__["CardStories"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 13
+    }
+  }), __jsx(_molecules__WEBPACK_IMPORTED_MODULE_3__["CardStories"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 13
+    }
+  }), __jsx(_molecules__WEBPACK_IMPORTED_MODULE_3__["CardStories"], {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 13
+    }
+  }))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (SliderHero);
@@ -3514,7 +3724,7 @@ const Header = ({
     padding: "5px 50px 5px 30px",
     backgroundColor: "#ffffff",
     position: "fixed",
-    zIndex: "99",
+    zIndex: "9999",
     isEqualWidth: "100%",
     boxShadow: "0px 3px 6px rgba(137, 137, 137, 0.16)",
     __self: undefined,
@@ -5636,42 +5846,53 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_templates_layouts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/templates/layouts */ "./components/templates/layouts/index.js");
 /* harmony import */ var _components_organisms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/organisms */ "./components/organisms/index.js");
 /* harmony import */ var _assets_illustrations_daily_stories_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../assets/illustrations/daily-stories.svg */ "./assets/illustrations/daily-stories.svg");
+/* harmony import */ var _components_organisms_articles_sliderHero_slide_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/organisms/articles/sliderHero/slide.jsx */ "./components/organisms/articles/sliderHero/slide.jsx");
+/* harmony import */ var _components_organisms_articles_sliderHero_slide_jsx__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_components_organisms_articles_sliderHero_slide_jsx__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _components_atoms__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/atoms */ "./components/atoms/index.js");
+/* harmony import */ var _egjs_flicking__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @egjs/flicking */ "@egjs/flicking");
+/* harmony import */ var _egjs_flicking__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_egjs_flicking__WEBPACK_IMPORTED_MODULE_6__);
 var _jsxFileName = "/Users/ahroidlife/Documents/nextjs/blog/pages/stories/stories.jsx";
-
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
 
 
-const Stories = () => {
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components_templates_layouts__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    title: "Stories",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10,
-      columnNumber: 13
-    }
-  }, __jsx(_components_organisms__WEBPACK_IMPORTED_MODULE_2__["Hero"], {
-    title: "Stories Resources",
-    subtitle: "The more that you read the more things you will know.",
-    img: _assets_illustrations_daily_stories_svg__WEBPACK_IMPORTED_MODULE_3__["default"],
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 17
-    }
-  }), __jsx(_components_organisms__WEBPACK_IMPORTED_MODULE_2__["SliderHero"], {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 17
-    }
-  })));
-};
+
+
+
+
+class Stories extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    return __jsx(_components_templates_layouts__WEBPACK_IMPORTED_MODULE_1__["default"], {
+      title: "Stories",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17,
+        columnNumber: 9
+      }
+    }, __jsx(_components_organisms__WEBPACK_IMPORTED_MODULE_2__["Hero"], {
+      title: "Stories Resources",
+      subtitle: "The more that you read the more things you will know.",
+      img: _assets_illustrations_daily_stories_svg__WEBPACK_IMPORTED_MODULE_3__["default"],
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18,
+        columnNumber: 9
+      }
+    }), " ", __jsx(_components_organisms__WEBPACK_IMPORTED_MODULE_2__["SliderHero"], {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22,
+        columnNumber: 13
+      }
+    }));
+  }
+
+}
 
 /* harmony default export */ __webpack_exports__["default"] = (Stories);
 
@@ -5688,7 +5909,7 @@ const Stories = () => {
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!**************************************!*\
   !*** multi ./pages/stories/index.js ***!
   \**************************************/
@@ -5697,6 +5918,28 @@ const Stories = () => {
 
 module.exports = __webpack_require__(/*! /Users/ahroidlife/Documents/nextjs/blog/pages/stories/index.js */"./pages/stories/index.js");
 
+
+/***/ }),
+
+/***/ "@egjs/flicking":
+/*!*********************************!*\
+  !*** external "@egjs/flicking" ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@egjs/flicking");
+
+/***/ }),
+
+/***/ "@egjs/react-flicking":
+/*!***************************************!*\
+  !*** external "@egjs/react-flicking" ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@egjs/react-flicking");
 
 /***/ }),
 

@@ -7,6 +7,7 @@ const StyledBackgroundImage = styled.div`
     background-size: ${props => props.size};
     background-repeat: no-repeat;
     border-radius: ${props => !props.radius ? undefined : props.radius};
+    display: flex;
     
 `
 

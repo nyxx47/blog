@@ -34,6 +34,20 @@ body::-webkit-scrollbar-thumb
     background-size: 150vh !important;
 }
 
+// SLIDER
+.eg-flick-viewport {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+// STORIES
+.stories-popular{
+    transition: 0.3s ease;
+}
+.stories-popular:hover{
+    transform: scale(1.05);
+}
+
 // SEARCH BAR
 .inputTextIcon:focus + .search-results{
     display: flex;

@@ -19,7 +19,7 @@ const App = () => {
 
                 {
                     sections.map( section => (
-                        <ArticleImage items={section.items}/>
+                        <ArticleImage key={section.id} items={section.items}/>
                     ))
                 }
 

@@ -54,7 +54,7 @@ const TextIcon = ({placeholder, left}) => {
                 <View flexValue="1" className="content">
                     <ul>
                         {searchResults.map(item => (
-                        <li>{item}</li>
+                        <li key={item}>{item}</li>
                         ))}
                     </ul>
                 </View>

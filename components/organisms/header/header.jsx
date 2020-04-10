@@ -17,7 +17,7 @@ const Header = ({direction, items}) => {
         padding="5px 50px 5px 30px" 
         backgroundColor="#ffffff"
         position="fixed"
-        zIndex="99"
+        zIndex="9999"
         isEqualWidth="100%"
         boxShadow="0px 3px 6px rgba(137, 137, 137, 0.16)">
             <View>

@@ -7,10 +7,10 @@ const isBackgroundColor = props => {
   let color;
   switch(props.variant){
     case "primary":
-      color = "#001CF9"
+      color = "#1E2127"
       break;
     case "secondary":
-      color = "#F7FBFF"
+      color = "#EDEDED"
       break;
     default:
       color = "#001CF9"
@@ -48,7 +48,7 @@ const isCursor = props => {
 
 const isColor = props => {
   if(props.variant == "secondary"){
-    return "#001CF9"
+    return "#1E2127"
   }else{
     return "#ffffff"
   }
@@ -69,10 +69,10 @@ const border = props => {
 
   switch (props.border) {
     case 'primary':
-      return "#001CF9"
+      return "#1E2127"
       break;
     case 'secondary':
-      return "#F7FBFF"
+      return "#EDEDED"
     default:
       return "none"
       break;
@@ -102,10 +102,9 @@ export const StyledButton = styled.button`
     text-align: center;
     color: ${props => isColor(props)};
     &:hover{
-        background: ${props => !props.isFocus ? isHover(props) : 'none'};
         color: ${props => !props.isFocus ? '#ffffff' : '#001CF9'};
        
-    box-shadow: 5px 10px 15px rgba(0, 28, 249, 0.25);
+    box-shadow: 2px 10px 15px rgba(30, 33, 39, 0.10);
 
 
       }

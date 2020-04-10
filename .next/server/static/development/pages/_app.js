@@ -123,6 +123,7 @@ nprogress__WEBPACK_IMPORTED_MODULE_2___default.a.configure({
 });
 
 next_router__WEBPACK_IMPORTED_MODULE_1___default.a.onRouteChangeStart = () => {
+  console.log("NPROGRESS is START!s");
   nprogress__WEBPACK_IMPORTED_MODULE_2___default.a.start();
 };
 
@@ -152,7 +153,7 @@ const App = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 33,
       columnNumber: 5
     }
   }));

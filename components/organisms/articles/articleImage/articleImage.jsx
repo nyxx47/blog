@@ -11,7 +11,7 @@ const ArticleImage = ({items}) => {
                 
                 {
                     items[1].childs.map( item => (
-                        <CardImage item={item}/>
+                        <CardImage key={item.id} item={item}/>
                     ))
                 }
             </Wrapper>

@@ -3,6 +3,7 @@
         "name": "section",
         "items": [
             {
+                "id":1,
                 "type": "large",
                 "direction": "rows",
                 "hero": {
@@ -17,6 +18,7 @@
             {
                 "childs": [
                     {
+                        "id":1,
                         "type": "half",
                         "direction": "column",
                         "hero": {
@@ -29,6 +31,7 @@
                         }
                     },
                     {
+                        "id":2,
                         "type": "half",
                         "direction": "column",
                         "hero": {

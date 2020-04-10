@@ -1,7 +1,8 @@
 const withFonts = require('next-fonts');
 const withSass = require('@zeit/next-sass')
+const withCSS = require('@zeit/next-css')
 
-module.exports = withSass(withFonts({
+module.exports = withCSS(withSass(withFonts({
   webpack (config, options) {
     config.module.rules.push({
       test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/,
@@ -14,4 +15,4 @@ module.exports = withSass(withFonts({
     })
     return config
   }
-}))
+})))
