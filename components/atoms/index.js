@@ -3,6 +3,7 @@ export {default as Wrapper } from './wrapper';
 export {default as View } from './views';
 export {default as Rows } from './rows';
 
+export {default as ButtonIcon } from './buttons/buttonIcons';
 export {default as Button } from './buttons';
 export {default as Badge } from './badges';
 export {default as Image } from './images';

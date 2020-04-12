@@ -21,6 +21,8 @@ const StyledButtonIcon = styled.div`
     padding: 10px 30px 10px 30px;
     border-radius: 8px;
     border: ${props => !props.outline ? undefined : "1px solid #1E2127"};
+    margin: ${props => !props.margin ? undefined : props.margin};
+    cursor: pointer;
 `
 
 export default StyledButtonIcon

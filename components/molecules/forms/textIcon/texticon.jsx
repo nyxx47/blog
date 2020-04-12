@@ -1,5 +1,6 @@
 import React from 'react'
 import {Container, View, Input, Icon, Text} from '../../../atoms'
+import './styles.scss'
 
 const people = [
     "Siri",

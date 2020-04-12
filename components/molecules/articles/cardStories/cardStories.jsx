@@ -1,18 +1,17 @@
 import React from 'react'
 import {View, Text, BackgroundImage, Badge} from '../../../atoms'
+import './styles.scss'
 
-
-const CardStories = ({props}) => {
+const CardStories = ({className}) => {
 
   return (
-    <BackgroundImage
-      src="/static/unsplash/aron-visuals-unsplash.jpg"
-      width="370px"
-      height="500px"
-      size="cover"
-      radius="20px"
-      className="stories-popular">
-      <View direction="column" width="100%" padding="30px">
+    <View className={`card-stories ${className}`}>
+      <BackgroundImage
+        src="/static/unsplash/aron-visuals-unsplash.jpg"
+        size="cover"
+        className="card-stories-image"/>
+
+      <View direction="column" className="card-stories-content">
         <View justify="flex-end">
           <Badge title="SOLO TRAVEL" backgroundColor="#FCEEDE" color="#D9A971"/>
         </View>
@@ -26,7 +25,7 @@ const CardStories = ({props}) => {
           </View>
         </View>
       </View>
-    </BackgroundImage>
+    </View>
   )
 }
 
