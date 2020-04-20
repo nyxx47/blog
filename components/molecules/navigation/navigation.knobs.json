@@ -12,14 +12,17 @@
         "label": "Items",
         "default": [
             {
+                "id":"1",
                 "title": "Issues",
                 "url": "/issues"
             },
             {
+                "id":"2",
                 "title": "Stories",
                 "url": "/stories"
             },
             {
+                "id":"3",
                 "title": "About us",
                 "url": "about"
             }

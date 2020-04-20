@@ -1,5 +1,9 @@
 import React, { useEffect } from 'react'
+import App from 'next/app';
 import Router from 'next/router';
+import {Provider} from 'react-redux';
+import withRedux from 'next-redux-wrapper';
+import configureStore from '../store';
 import NProgress from 'nprogress';
 
 NProgress.configure({ easing: 'ease', speed: 500, showSpinner: false });
@@ -17,8 +21,8 @@ Router.onRouteChangeError = () => {
   NProgress.done();
 };
 
-const App = ({ Component, pageProps }) => {
-  useEffect(() => {
+class MyApp extends App{
+ componentDidMount(){
     const handleRouteChange = url => {
       console.log('App is changing to: ', url)
     }
@@ -27,11 +31,27 @@ const App = ({ Component, pageProps }) => {
     return () => {
       Router.events.off('routeChangeStart', handleRouteChange)
     }
-  }, [])
+ }
 
-  return (
-    <Component {...pageProps} />
-  )
+  static async getInitialProps({ Component, ctx }) {
+    return {
+      pageProps: {
+        ...(Component.getInitialProps
+          ? await Component.getInitialProps(ctx)
+          : {})
+      }
+    };
+  }
+
+  render() {
+    const { Component, pageProps, store } = this.props;
+    return (
+        <Provider store={store}>
+          <Component {...pageProps} />
+        </Provider>
+    );
+}
 }
 
-export default App
+
+export default withRedux(configureStore, { debug: true })(MyApp)

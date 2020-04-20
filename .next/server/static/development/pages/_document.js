@@ -1140,7 +1140,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
         columnNumber: 11
       }
     }), __jsx("link", {
-      href: "https://fonts.googleapis.com/css?family=Chewy&display=swap",
+      href: "https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap",
       rel: "stylesheet",
       __self: this,
       __source: {

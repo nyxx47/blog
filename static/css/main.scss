@@ -34,9 +34,115 @@ body::-webkit-scrollbar-thumb
     background-size: 150vh !important;
 }
 
+// Landing page
+.main-header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+    .main-header-content{
+        width: 100%;
+        z-index: 1;
+
+        .main-header-nav{
+            width:100%; 
+            height:100px; 
+            align-items:center; 
+            justify-content:space-between;
+            padding:0 100px 0 100px;
+
+            .social-media{
+
+                ul,li{
+                    list-style-type: none;
+                    display: inline;
+
+                    a{
+                        font-family: 'Quicksand', sans-serif;
+                        font-size: 16px;
+                        font-weight: 400;
+                        margin-left: 20px;
+                        margin-right: 20px;
+                        text-decoration: none;
+                        color: #2525F0;
+                        box-sizing: border-box;
+
+                        &.active-media{
+                            background-color: #2525F0;
+                            color: #ffffff;
+                            padding: 5px 8px 5px 8px;
+                            border-radius: 4px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .main-header-body{
+            width:100%;  
+            align-items:center; 
+            justify-content:space-between; 
+            padding:0 100px 0 100px;
+
+            .main-header-left{
+                width: 50%;
+                height: 100%;
+                justify-content: center;
+            }
+
+            .main-header-right{
+                width: 50%;
+                height: 100%;
+            }
+        }
+
+        .main-header-hero{
+            position: relative;
+            left: 20px;
+            top: -20px;
+        }
+    }
+
+    .overlay{
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 40%;
+        height: 95vh;
+        background: #EBEFFD;
+        z-index: 0;
+        border-radius: 0 0 0 50px;
+    }
+}
+
 
 // FONTS
 @font-face {
     font-family: 'Daily';
     src: url('/static/fonts/Daily.otf');
+}
+
+@font-face {
+    font-family: 'Quicksand-Bold';
+    src: url('/static/fonts/Quicksand-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Quicksand-Light';
+    src: url('/static/fonts/Quicksand-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Quicksand-Medium';
+    src: url('/static/fonts/Quicksand-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Quicksand-Regular';
+    src: url('/static/fonts/Quicksand-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Quicksand-SemiBold';
+    src: url('/static/fonts/Quicksand-SemiBold.ttf');
 }

@@ -27,7 +27,7 @@ const Text = ({children, href, family, target, variant, size, weight, align, isE
 
     return (
         <Link href={href} prefetch={false}>
-            <StyledLink  variant={variant} target={target}>
+            <StyledLink  variant={variant} target={target} family={family} size={size} weight={weight} >
                 {children}
             </StyledLink>
         </Link>

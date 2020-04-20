@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import Layout from "../../components/templates/layouts";
+import { BlogLayout } from "../../components/templates/layouts";
 import {Hero} from '../../components/organisms'
 import ImageHero from '../../assets/illustrations/daily-stories.svg'
 import {SliderHero, SliderCategories} from '../../components/organisms'
@@ -16,7 +16,7 @@ class Stories extends Component {
   render() {
 
     return ( 
-        <Layout title="Stories">
+        <BlogLayout title="Stories">
             <Hero
                 title="Stories Resources"
                 subtitle="The more that you read the more things you will know."
@@ -56,7 +56,7 @@ class Stories extends Component {
                     </View>
                 </Rows>
             </Container>
-        </Layout> 
+        </BlogLayout> 
         )
     }
 }

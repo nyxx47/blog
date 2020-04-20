@@ -1,4 +1,4 @@
-import Layout from "../../components/templates/layouts";
+import { BlogLayout } from "../../components/templates/layouts";
 import { Hero } from '../../components/organisms'
 import { Text, View} from '../../components/atoms'
 import { ArticleText} from '../../components/organisms'
@@ -16,7 +16,7 @@ const Issues = () => {
 
     return (
         <>
-            <Layout title="Issues" line="illustration-outline">
+            <BlogLayout title="Issues" line="illustration-outline">
                 <Hero 
                     title="Daily Problems" 
                     subtitle="The more that you read the more things you will know." 
@@ -33,7 +33,7 @@ const Issues = () => {
                         <Text size="32" family="daily" margin={styles.margin}>Other Issues</Text>
                         <ArticleText items={others}/>
                 </View>
-            </Layout>
+            </BlogLayout>
         </>
     )
 }

@@ -2,12 +2,12 @@ import styled from 'styled-components'
 import breakpoints from '../../particles/breakpoints'
 
 const isBackgroundColor = props => {
-  if(!props.variant) return "#001CF9"
+  if(!props.variant) return "#2525F0"
   
   let color;
   switch(props.variant){
     case "primary":
-      color = "#1E2127"
+      color = "#2525F0"
       break;
     case "secondary":
       color = "#EDEDED"
@@ -69,7 +69,7 @@ const border = props => {
 
   switch (props.border) {
     case 'primary':
-      return "#1E2127"
+      return "#3838F8"
       break;
     case 'secondary':
       return "#EDEDED"

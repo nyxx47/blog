@@ -5,11 +5,11 @@ import Text from '../../atoms/texts'
 import { StyledNavigation } from "./navigation.styles";
 import { string, arrayOf, shape } from 'prop-types';
 
-const Navigation =  ({direction, items, padding, isEqualPadding}) => (
+const Navigation =  ({direction, items, padding, isEqualPadding, family, variant, weight, size}) => (
     <StyledNavigation direction={direction} padding={padding} isEqualPadding={isEqualPadding}>
         {
             items.map(item => (
-                <Text href={item.url} key={item.id}>{item.title}</Text>
+                <Text href={item.url} key={item.id} family={family} weight={weight} variant={variant} size={size}>{item.title}</Text>
             ))
         }
     </StyledNavigation>
