@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import {MainLayout} from '../components/templates/layouts'
 
 import {Navigation} from '../components/molecules'
@@ -46,9 +47,13 @@ const App = () => {
                             <Button  className="btn-hire">
                                 HIRE ME
                             </Button>
-                            <Text family="quicksand" variant="blue" weight="regular" className="consult">
-                                Free - 15min consult
-                            </Text>
+                            <Link href="https://calendly.com/ahroidlife/15min">
+                                <a target="_blank">
+                                    <Text family="quicksand" variant="blue" weight="regular" className="consult">
+                                        Free - 15min consult
+                                    </Text>
+                                </a>
+                            </Link>
                         </View>
                     </View>
                     <View className="main-header-right">

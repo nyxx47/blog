@@ -209,6 +209,8 @@ body::-webkit-scrollbar-thumb {
         width: 50%;
         height: 100%;
         justify-content: center; }
+        .main-header .main-header-content .main-header-body .main-header-left a {
+          text-decoration: none; }
         .main-header .main-header-content .main-header-body .main-header-left .consult {
           margin-left: 50px;
           font-size: 16px; }
