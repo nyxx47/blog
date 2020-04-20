@@ -41895,7 +41895,6 @@ var App = function App() {
   }, __jsx("a", {
     href: "/",
     target: "_blank",
-    className: "active-media",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -41924,6 +41923,7 @@ var App = function App() {
     variant: "blue",
     family: "quicksand",
     margin: "0  0 50px 0 ",
+    className: "sayHi",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -41942,8 +41942,8 @@ var App = function App() {
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_3__["Text"], {
     variant: "blue",
     family: "quicksand",
-    size: "32",
     weight: "medium",
+    className: "fullname",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -41952,8 +41952,9 @@ var App = function App() {
     }
   }, "I\u2019m Krisna Ahroid"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_3__["Text"], {
     family: "quicksand",
-    size: "18",
     variant: "grey",
+    weight: "medium",
+    className: "subtitle",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -41962,7 +41963,7 @@ var App = function App() {
     }
   }, "UI/UX Designer & Frontend Developer")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_3__["View"], {
     width: "80%",
-    margin: "0  0 150px 0 ",
+    className: "main-header-text-content",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -41972,15 +41973,25 @@ var App = function App() {
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_3__["Text"], {
     family: "quicksand",
     variant: "grey",
-    size: "18",
     weight: "regular",
+    className: "text-overview",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 41,
       columnNumber: 29
     }
-  }, "I design & code that turn the idea to product digital and website that people love it.")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_3__["View"], {
+  }, "I design & code that turn the idea to ", __jsx("span", {
+    style: {
+      color: '#2525F0'
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 71
+    }
+  }, "product digital and website that people love it."))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_3__["View"], {
     align: "center",
     __self: _this,
     __source: {
@@ -41989,8 +42000,7 @@ var App = function App() {
       columnNumber: 25
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_3__["Button"], {
-    width: "150px",
-    height: "40px",
+    className: "btn-hire",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -41999,10 +42009,9 @@ var App = function App() {
     }
   }, "HIRE ME"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_3__["Text"], {
     family: "quicksand",
-    margin: "0  0 0 50px",
     variant: "blue",
     weight: "regular",
-    size: "16",
+    className: "consult",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -42027,12 +42036,21 @@ var App = function App() {
       lineNumber: 55,
       columnNumber: 25
     }
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_3__["Image"], {
+    src: "/static/illustrations/bubbble.svg",
+    className: "main-header-bubble",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56,
+      columnNumber: 25
+    }
   })))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_3__["View"], {
     className: "overlay",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59,
+      lineNumber: 60,
       columnNumber: 13
     }
   })));

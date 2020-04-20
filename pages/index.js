@@ -25,34 +25,35 @@ const App = () => {
                                 <a href="/" target="_blank">FB</a>
                             </li>
                             <li>
-                                <a href="/" target="_blank" className="active-media">IG</a>
+                                <a href="/" target="_blank">IG</a>
                             </li>
                         </ul>
                     </View>
                 </View>
                 <View flexValue="1" className="main-header-body">
                     <View direction="column" className="main-header-left">
-                        <Text variant="blue" family="quicksand" margin="0  0 50px 0 ">Hi, there</Text>
+                        <Text variant="blue" family="quicksand" margin="0  0 50px 0 " className="sayHi">Hi, there</Text>
                         <View direction="column" margin="0  0 30px 0 ">
-                            <Text variant="blue" family="quicksand" size="32" weight="medium">I’m Krisna Ahroid</Text>
-                            <Text family="quicksand" size="18" variant="grey">UI/UX Designer & Frontend Developer</Text>
+                            <Text variant="blue" family="quicksand" weight="medium" className="fullname">I’m Krisna Ahroid</Text>
+                            <Text family="quicksand"  variant="grey" weight="medium" className="subtitle">UI/UX Designer & Frontend Developer</Text>
                         </View>
-                        <View width="80%" margin="0  0 150px 0 ">
-                            <Text family="quicksand" variant="grey" size="18" weight="regular">
-                                I design & code that turn the idea to product digital and website that people love it.
+                        <View width="80%" className="main-header-text-content">
+                            <Text family="quicksand" variant="grey" weight="regular" className="text-overview">
+                                I design & code that turn the idea to <span style={{color: '#2525F0'}}>product digital and website that people love it.</span>
                             </Text>
                         </View>
                         <View align="center">
-                            <Button width="150px" height="40px">
+                            <Button  className="btn-hire">
                                 HIRE ME
                             </Button>
-                            <Text family="quicksand" margin="0  0 0 50px" variant="blue" weight="regular" size="16">
+                            <Text family="quicksand" variant="blue" weight="regular" className="consult">
                                 Free - 15min consult
                             </Text>
                         </View>
                     </View>
                     <View className="main-header-right">
                         <Image src="/static/illustrations/hero-image.png" className="main-header-hero" draggable="false"/>
+                        <Image src="/static/illustrations/bubbble.svg" className="main-header-bubble"/>
                     </View>
                 </View>
             </View>

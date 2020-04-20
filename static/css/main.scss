@@ -34,22 +34,45 @@ body::-webkit-scrollbar-thumb
     background-size: 150vh !important;
 }
 
+// FONTS
+@font-face {
+    font-family: 'Daily';
+    src: url('/static/fonts/Daily.otf');
+}
+
 // Landing page
 .main-header{
     width: 100%;
     height: 100vh;
     position: relative;
 
+
     .main-header-content{
         width: 100%;
         z-index: 1;
+
+        @media only screen 
+            and (min-device-width: 320px) 
+            and (max-device-width: 480px)
+            and (-webkit-min-device-pixel-ratio: 2) {
+             height: auto;
+             margin-bottom: 50px;
+             padding-bottom: 20px;   
+            }
 
         .main-header-nav{
             width:100%; 
             height:100px; 
             align-items:center; 
             justify-content:space-between;
-            padding:0 100px 0 100px;
+            padding:30px 100px 0 100px;
+
+            @media only screen 
+            and (min-device-width: 320px) 
+            and (max-device-width: 480px)
+            and (-webkit-min-device-pixel-ratio: 2) {
+             display: none;   
+            }
 
             .social-media{
 
@@ -60,7 +83,7 @@ body::-webkit-scrollbar-thumb
                     a{
                         font-family: 'Quicksand', sans-serif;
                         font-size: 16px;
-                        font-weight: 400;
+                        font-weight: 500;
                         margin-left: 20px;
                         margin-right: 20px;
                         text-decoration: none;
@@ -84,23 +107,121 @@ body::-webkit-scrollbar-thumb
             justify-content:space-between; 
             padding:0 100px 0 100px;
 
+            @media only screen 
+            and (min-device-width: 320px) 
+            and (max-device-width: 480px)
+            and (-webkit-min-device-pixel-ratio: 2) {
+             flex-direction: column-reverse;
+             padding: 0 30px 0 30px;
+
+             .main-header-left{
+                 width: 100% !important;
+                 height: auto !important;
+
+                 .consult{
+                    margin-left: 20px !important;
+                    font-size: 14px !important;
+                }
+
+                 .btn-hire{
+                    width:100px !important; 
+                    height:35px !important;
+                }
+
+                 .main-header-text-content{
+                    margin:0  0 50px 0 !important;
+                    width: 100% !important;
+                 }
+
+                 .fullname{
+                    font-size: 24px !important;
+                }
+
+                 .sayHi{
+                     font-size: 16px;
+                 }
+
+                 .subtitle{
+                    font-size: 16px !important;
+                }
+
+                .text-overview{
+                    font-size: 16px !important;
+                }
+             }
+
+             .main-header-right{
+                width: 100% !important;
+                height: auto !important;
+
+                .main-header-hero{
+                    width: 100% !important;
+                    top: 5vh !important;
+                }
+
+                .main-header-bubble{
+                    display: none;
+                }
+             }
+            } //END MEDIA QUERY
+
             .main-header-left{
                 width: 50%;
                 height: 100%;
                 justify-content: center;
+
+                .consult{
+                    margin-left: 50px;
+                    font-size: 16px;
+                }
+
+                .btn-hire{
+                    width:150px; 
+                    height:40px;
+                }
+
+                .main-header-text-content{
+                    margin:0  0 150px 0;
+                }
+
+                .sayHi{
+                    font-size: 18px;
+                }
+
+                .fullname{
+                    font-size: 32px;
+                }
+
+                .subtitle{
+                    font-size: 18px;
+                }
+
+                .text-overview{
+                    font-size: 18px;
+                }
             }
 
             .main-header-right{
                 width: 50%;
                 height: 100%;
+                position: relative;
+
+                .main-header-hero{
+                    position: relative;
+                    left: 20px;
+                    top: -20px;
+                    z-index: 10;
+                }
+
+                .main-header-bubble{
+                    position: absolute;
+                    top: 40vh;
+                    left: -25%;
+                }
             }
         }
 
-        .main-header-hero{
-            position: relative;
-            left: 20px;
-            top: -20px;
-        }
+        
     }
 
     .overlay{
@@ -112,37 +233,15 @@ body::-webkit-scrollbar-thumb
         background: #EBEFFD;
         z-index: 0;
         border-radius: 0 0 0 50px;
+
+        @media only screen 
+        and (min-device-width: 320px) 
+        and (max-device-width: 480px)
+        and (-webkit-min-device-pixel-ratio: 2){
+            width: 93% !important;
+            height: 45vh;
+        }
     }
 }
 
 
-// FONTS
-@font-face {
-    font-family: 'Daily';
-    src: url('/static/fonts/Daily.otf');
-}
-
-@font-face {
-    font-family: 'Quicksand-Bold';
-    src: url('/static/fonts/Quicksand-Bold.ttf');
-}
-
-@font-face {
-    font-family: 'Quicksand-Light';
-    src: url('/static/fonts/Quicksand-Light.ttf');
-}
-
-@font-face {
-    font-family: 'Quicksand-Medium';
-    src: url('/static/fonts/Quicksand-Medium.ttf');
-}
-
-@font-face {
-    font-family: 'Quicksand-Regular';
-    src: url('/static/fonts/Quicksand-Regular.ttf');
-}
-
-@font-face {
-    font-family: 'Quicksand-SemiBold';
-    src: url('/static/fonts/Quicksand-SemiBold.ttf');
-}
