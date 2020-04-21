@@ -14,9 +14,26 @@ const App = () => {
         <View className="main-header">
             <View className="main-header-content" direction="column">
                 <View className="main-header-nav">
-                    <View>
-                        <Navigation items={menus} family="quicksand" size="16" weight="400" variant="grey" padding="0"/>
+                    <View className="navigation-bar">
+                        <Navigation items={menus} family="quicksand" size="16" weight="400" variant="grey" padding="0" />
                     </View>
+                    <View className="nav-menu-mobile">
+                        <Image src="/static/illustrations/menu.svg"/>
+                    </View>
+                    <View className="nav-menu-wrapper-mobile">
+                        <View className="nav-menu-header-mobile" direction="column">
+                            <Text variant="white" family="quicksand" size="18" margin="0 0 2px 0">Good Morning</Text>
+                            <Text variant="white" family="quicksand" weight="light" size="14">21 April 2020</Text>
+                            <View className="nav-menu-button-close">
+                                <Image src="/static/illustrations/close.svg"/>
+                            </View>
+                            <View className="nav-menu-dots">
+                                <Image src="/static/illustrations/dot-header-mobile.svg"/>
+                            </View>
+                        </View>
+                        
+                    </View>
+                    <View className="overlay-background"></View>
                     <View className="social-media">
                         <ul>
                             <li>

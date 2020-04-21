@@ -2004,6 +2004,9 @@ var color = function color(props) {
     case "blue":
       return "#2525F0";
 
+    case "white":
+      return "#ffffff";
+
     default:
       return props.variant;
       break;
@@ -41822,6 +41825,7 @@ var App = function App() {
       columnNumber: 17
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["View"], {
+    className: "navigation-bar",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -41842,57 +41846,120 @@ var App = function App() {
       columnNumber: 25
     }
   })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["View"], {
-    className: "social-media",
+    className: "nav-menu-mobile",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20,
       columnNumber: 21
     }
-  }, __jsx("ul", {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["Image"], {
+    src: "/static/illustrations/menu.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21,
       columnNumber: 25
     }
-  }, __jsx("li", {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 29
-    }
-  }, __jsx("a", {
-    href: "/",
-    target: "_blank",
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["View"], {
+    className: "nav-menu-wrapper-mobile",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23,
-      columnNumber: 33
+      columnNumber: 21
     }
-  }, "IN")), __jsx("li", {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["View"], {
+    className: "nav-menu-header-mobile",
+    direction: "column",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24,
+      columnNumber: 25
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["Text"], {
+    variant: "white",
+    family: "quicksand",
+    size: "18",
+    margin: "0 0 2px 0",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25,
       columnNumber: 29
     }
-  }, __jsx("a", {
-    href: "/",
-    target: "_blank",
+  }, "Good Morning"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["Text"], {
+    variant: "white",
+    family: "quicksand",
+    weight: "light",
+    size: "14",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26,
-      columnNumber: 33
+      columnNumber: 29
     }
-  }, "FB")), __jsx("li", {
+  }, "21 April 2020"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["View"], {
+    className: "nav-menu-button-close",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 29
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["Image"], {
+    src: "/static/illustrations/close.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28,
+      columnNumber: 33
+    }
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["View"], {
+    className: "nav-menu-dots",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30,
+      columnNumber: 29
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["Image"], {
+    src: "/static/illustrations/dot-header-mobile.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31,
+      columnNumber: 33
+    }
+  })))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["View"], {
+    className: "overlay-background",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36,
+      columnNumber: 21
+    }
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["View"], {
+    className: "social-media",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 21
+    }
+  }, __jsx("ul", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 25
+    }
+  }, __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
       columnNumber: 29
     }
   }, __jsx("a", {
@@ -41901,7 +41968,39 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 40,
+      columnNumber: 33
+    }
+  }, "IN")), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
+      columnNumber: 29
+    }
+  }, __jsx("a", {
+    href: "/",
+    target: "_blank",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43,
+      columnNumber: 33
+    }
+  }, "FB")), __jsx("li", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 29
+    }
+  }, __jsx("a", {
+    href: "/",
+    target: "_blank",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
       columnNumber: 33
     }
   }, "IG"))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["View"], {
@@ -41910,7 +42009,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 51,
       columnNumber: 17
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["View"], {
@@ -41919,7 +42018,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 52,
       columnNumber: 21
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["Text"], {
@@ -41930,7 +42029,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 53,
       columnNumber: 25
     }
   }, "Hi, there"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["View"], {
@@ -41939,7 +42038,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 54,
       columnNumber: 25
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["Text"], {
@@ -41950,7 +42049,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 55,
       columnNumber: 29
     }
   }, "I\u2019m Krisna Ahroid"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["Text"], {
@@ -41961,7 +42060,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 56,
       columnNumber: 29
     }
   }, "UI/UX Designer & Frontend Developer")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["View"], {
@@ -41970,7 +42069,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 58,
       columnNumber: 25
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["Text"], {
@@ -41981,7 +42080,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 59,
       columnNumber: 29
     }
   }, "I design & code that turn the idea to ", __jsx("span", {
@@ -41991,7 +42090,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
+      lineNumber: 60,
       columnNumber: 71
     }
   }, "product digital and website that people love it."))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["View"], {
@@ -41999,7 +42098,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
+      lineNumber: 63,
       columnNumber: 25
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["Button"], {
@@ -42007,7 +42106,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 64,
       columnNumber: 29
     }
   }, "HIRE ME"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -42015,7 +42114,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
+      lineNumber: 67,
       columnNumber: 29
     }
   }, __jsx("a", {
@@ -42023,7 +42122,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 68,
       columnNumber: 33
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["Text"], {
@@ -42034,7 +42133,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 69,
       columnNumber: 37
     }
   }, "Free - 15min consult"))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["View"], {
@@ -42042,7 +42141,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59,
+      lineNumber: 76,
       columnNumber: 21
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["Image"], {
@@ -42052,7 +42151,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60,
+      lineNumber: 77,
       columnNumber: 25
     }
   }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["Image"], {
@@ -42061,7 +42160,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61,
+      lineNumber: 78,
       columnNumber: 25
     }
   })))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["View"], {
@@ -42069,7 +42168,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65,
+      lineNumber: 82,
       columnNumber: 13
     }
   })));
@@ -42090,7 +42189,7 @@ module.exports = JSON.parse("{\"data\":{\"menus\":[{\"id\":\"1\",\"title\":\"Pro
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!*************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fahroidlife%2FDocuments%2Fnextjs%2Fblog%2Fpages%2Findex.js ***!
   \*************************************************************************************************************************************/
@@ -42113,5 +42212,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js","styles"]]]);
+},[[1,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

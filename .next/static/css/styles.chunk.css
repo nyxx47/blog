@@ -150,7 +150,69 @@ body::-webkit-scrollbar-thumb {
       padding: 30px 100px 0 100px; }
       @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
         .main-header .main-header-content .main-header-nav {
-          display: none; } }
+          padding: 10px 30px 10px 30px !important; }
+          .main-header .main-header-content .main-header-nav .navigation-bar {
+            display: none !important; }
+          .main-header .main-header-content .main-header-nav .nav-menu-mobile {
+            display: inline !important; }
+          .main-header .main-header-content .main-header-nav .overlay-background {
+            display: block !important; }
+          .main-header .main-header-content .main-header-nav .nav-menu-wrapper-mobile {
+            display: inline-block !important; }
+            .main-header .main-header-content .main-header-nav .nav-menu-wrapper-mobile .nav-menu-button-close {
+              display: flex !important; }
+            .main-header .main-header-content .main-header-nav .nav-menu-wrapper-mobile .nav-menu-dots {
+              display: flex !important; } }
+      .main-header .main-header-content .main-header-nav .nav-menu-mobile {
+        display: none; }
+      .main-header .main-header-content .main-header-nav .nav-menu-wrapper-mobile {
+        display: none;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 95vh;
+        z-index: 99;
+        border-radius: 30px 30px 0px 0px;
+        background: linear-gradient(#f7f7ff 0%, #fff 100%);
+        overflow: hidden; }
+        .main-header .main-header-content .main-header-nav .nav-menu-wrapper-mobile .nav-menu-header-mobile {
+          background-color: #2525F0;
+          background-image: url("/static/illustrations/outline-wave-menu.svg");
+          background-repeat: no-repeat;
+          background-position: right top;
+          background-position-y: -4em;
+          background-position-x: 9em;
+          width: 100%;
+          height: 20vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative; }
+          .main-header .main-header-content .main-header-nav .nav-menu-wrapper-mobile .nav-menu-header-mobile .nav-menu-button-close {
+            display: none;
+            width: 45px;
+            height: 45px;
+            border-radius: 50px;
+            background-color: #ffffff;
+            justify-content: center;
+            filter: drop-shadow(0px -2px 10px rgba(88, 88, 88, 0.16));
+            position: absolute;
+            bottom: -1.5em; }
+          .main-header .main-header-content .main-header-nav .nav-menu-wrapper-mobile .nav-menu-header-mobile .nav-menu-dots {
+            display: none;
+            position: absolute;
+            left: 0;
+            bottom: -2em; }
+      .main-header .main-header-content .main-header-nav .overlay-background {
+        display: none;
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.4);
+        opacity: 1; }
       .main-header .main-header-content .main-header-nav .social-media ul, .main-header .main-header-content .main-header-nav .social-media li {
         list-style-type: none;
         display: inline; }
@@ -202,7 +264,8 @@ body::-webkit-scrollbar-thumb {
             height: auto !important; }
             .main-header .main-header-content .main-header-body .main-header-right .main-header-hero {
               width: 100% !important;
-              top: 5vh !important; }
+              top: 0 !important;
+              left: 0 !important; }
             .main-header .main-header-content .main-header-body .main-header-right .main-header-bubble {
               display: none; } }
       .main-header .main-header-content .main-header-body .main-header-left {
@@ -251,7 +314,7 @@ body::-webkit-scrollbar-thumb {
     border-radius: 0 0 0 50px; }
     @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
       .main-header .overlay {
-        width: 93% !important;
+        width: 70% !important;
         height: 45vh; } }
 
 
