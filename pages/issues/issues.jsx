@@ -6,6 +6,7 @@ import ImageHero from '../../assets/illustrations/daily-problem.svg'
 import IssueFlow from '../../static/illustrations/issue-flow.svg'
 
 import Knobs from './issues.knobs.json'
+import { useEffect } from "react";
 const {items, populars, others} = Knobs.data
 
 const styles = {
@@ -13,6 +14,10 @@ const styles = {
 }
 
 const Issues = () => {
+
+    useEffect(() => {
+        document.body.style.overflow = 'unset';
+    })
 
     return (
         <>

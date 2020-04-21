@@ -12,6 +12,8 @@ const App = () => {
 
   const [open,setOpen] = useState(false)
   const [overlay, setOverlay] = useState(false)
+  const [greeting, setGreeting] = useState('Good Morning')
+  const [date, setDate] = useState('01 Jan 2020')
 
   const ref = useRef()
 
@@ -19,6 +21,21 @@ const App = () => {
 
   useEffect(() => {
     console.log(`The component is ${isVisible ? "visible" : "not visible"}.`)
+
+    let date = new Date();
+    let time = date.getHours();
+    let months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];
+
+    setDate(`${date.getDate()} ${months[date.getMonth()]} ${date.getFullYear()}`)
+
+    if (time < 12 && time > 5) {
+        setGreeting('Good Morning')
+    }else if (time > 12 && time < 17) {
+        setGreeting('Good Afternoon')
+    }else{
+        setGreeting('Good Evening')
+    }
+
   },[isVisible])
 
 
@@ -57,8 +74,8 @@ const App = () => {
               ? 'nav-menu-isActive'
               : ''}`}>
               <View className="nav-menu-header-mobile" direction="column">
-                <Text variant="white" family="quicksand" size="18" margin="0 0 2px 0">Good Morning</Text>
-                <Text variant="white" family="quicksand" weight="light" size="14">21 April 2020</Text>
+                <Text variant="white" family="quicksand" size="18" margin="0 0 2px 0">{greeting}</Text>
+                <Text variant="white" family="quicksand" weight="light" size="14">{date}</Text>
                 <View className="nav-menu-button-close" onClick={closeMenu}>
                   <Image src="/static/illustrations/close.svg"/>
                 </View>
@@ -70,7 +87,7 @@ const App = () => {
                 <View className="nav-menu-items" direction="column" flexValue="1">
                   <Link href="/products">
                     <a>
-                      <View className="nav-menu-item">
+                      <View className="nav-menu-item" >
 
                         <Image src="/static/illustrations/products.svg"/>
                         <Text size="18" margin="0 0 0 20px">My Products</Text>

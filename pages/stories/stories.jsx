@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, {Component, useEffect} from 'react'
 import { BlogLayout } from "../../components/templates/layouts";
 import {Hero} from '../../components/organisms'
 import ImageHero from '../../assets/illustrations/daily-stories.svg'
@@ -10,10 +10,11 @@ import { CardStories } from '../../components/molecules'
 import Knobs from './stories.knobs.json'
 const {item} = Knobs
 
-class Stories extends Component {
+const Stories = () => {
 
-
-  render() {
+    useEffect(() => {
+        document.body.style.overflow = 'unset';
+    })
 
     return ( 
         <BlogLayout title="Stories">
@@ -58,7 +59,6 @@ class Stories extends Component {
             </Container>
         </BlogLayout> 
         )
-    }
 }
 
 export default Stories;
