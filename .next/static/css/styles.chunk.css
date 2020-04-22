@@ -339,12 +339,104 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   height: 30vh;
   padding: 100px 0  0 100px; }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .tools-wrapper {
+      padding: 50px 0  0 30px !important; } }
   .tools-wrapper .tools-title {
     font-size: 18px; }
   .tools-wrapper .tools-items {
     margin-top: 50px; }
     .tools-wrapper .tools-items .eg-flick-viewport {
       padding: 0 !important; }
+
+.specializing-wrapper {
+  margin-top: 200px;
+  padding: 100px;
+  height: 100vh; }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .specializing-wrapper {
+      padding: 0 !important; } }
+  .specializing-wrapper .specializing-header {
+    padding: 10px; }
+    .specializing-wrapper .specializing-header p {
+      text-align: center; }
+  .specializing-wrapper .specializing-content .specializing-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    position: relative; }
+    .specializing-wrapper .specializing-content .specializing-cards .carousel {
+      width: 100%; }
+    .specializing-wrapper .specializing-content .specializing-cards .square-dots {
+      position: absolute;
+      left: 10%;
+      bottom: 5%; }
+    .specializing-wrapper .specializing-content .specializing-cards .card {
+      margin: 20px;
+      width: 266px;
+      min-height: 296px;
+      background: #ffffff;
+      border-radius: 10px 10px 30px 10px;
+      box-shadow: 0px 10px 25px rgba(96, 96, 96, 0.2);
+      padding: 32px;
+      box-sizing: border-box;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.3s ease-in-out; }
+      .specializing-wrapper .specializing-content .specializing-cards .card .line {
+        position: absolute;
+        right: 6%;
+        top: 5%;
+        width: 50px;
+        height: 3px;
+        border-radius: 10px; }
+      .specializing-wrapper .specializing-content .specializing-cards .card .line1 {
+        background: #fbff9d; }
+      .specializing-wrapper .specializing-content .specializing-cards .card .line2 {
+        background: #9d9dff; }
+      .specializing-wrapper .specializing-content .specializing-cards .card .line3 {
+        background: #ff9d9d; }
+      .specializing-wrapper .specializing-content .specializing-cards .card .title p {
+        font-size: 32px;
+        color: #64637b; }
+      .specializing-wrapper .specializing-content .specializing-cards .card .title .main-title-card {
+        font-weight: 400; }
+        .specializing-wrapper .specializing-content .specializing-cards .card .title .main-title-card span {
+          font-weight: 500; }
+          .specializing-wrapper .specializing-content .specializing-cards .card .title .main-title-card span.light {
+            font-weight: 300; }
+      .specializing-wrapper .specializing-content .specializing-cards .card .title .sub-title-card {
+        font-weight: 500; }
+        .specializing-wrapper .specializing-content .specializing-cards .card .title .sub-title-card span {
+          font-weight: 500; }
+          .specializing-wrapper .specializing-content .specializing-cards .card .title .sub-title-card span.light {
+            font-weight: 300; }
+      .specializing-wrapper .specializing-content .specializing-cards .card .content p {
+        font-family: "Quicksand", sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        color: #64637b; }
+      .specializing-wrapper .specializing-content .specializing-cards .card .more h2 {
+        font-family: "Quicksand", sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        color: #64637b; }
+      .specializing-wrapper .specializing-content .specializing-cards .card:hover {
+        background: #3838f8;
+        box-shadow: 0px 10px 25px rgba(56, 56, 248, 0.4) !important;
+        background-image: url("/static/illustrations/art-box.svg");
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        transform: scale(1.1); }
+        .specializing-wrapper .specializing-content .specializing-cards .card:hover .title p {
+          color: #ffffff !important; }
+        .specializing-wrapper .specializing-content .specializing-cards .card:hover .content p {
+          color: #ffffff !important; }
+        .specializing-wrapper .specializing-content .specializing-cards .card:hover .more h2 {
+          color: #ffffff !important; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

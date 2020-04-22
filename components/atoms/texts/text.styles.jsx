@@ -14,8 +14,10 @@ const color = props => {
       return "#7b7a8c"
     case "blue":
       return "#2525F0"
-      case "white":
+    case "white":
         return "#ffffff"
+    case "dark":
+      return "#64637B"
     default:
       return props.variant
       break;

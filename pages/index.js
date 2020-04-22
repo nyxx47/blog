@@ -244,6 +244,55 @@ const App = () => {
           </Flicking>
         </View>
       </View>
+      <View className="specializing-wrapper" direction="column">
+          <View direction="column" align="center" className="specializing-header">
+                  <Text family="quicksand" size="32" weight="500">Specializing in</Text>
+                  <Text family="quicksand" size="18" weight="400">I a UI/UX Designer & Frontend  Developer, and I love what I do.</Text>
+          </View>
+          <View className="specializing-content">
+            <Flicking gap={50} infinite={true} infiniteThreshold={100}  bound={true} moveType="freeScroll" style={{width:100+'%', height: 80+'vh'}}>
+                <View className="specializing-cards">
+                      {/* <Image class="square-dots" src="~assets/images/square-dots.svg" alt="dots" /> */}
+                      <View class="card">
+                        <View class="line line1"></View>
+                        <View class="title">
+                          <Text variant="dark" family="quicksand" className="main-title-card"><span>UI</span> <span className="light">Design &</span></Text>
+                          <Text variant="dark" family="quicksand" className="sub-title-card">Protoyping</Text>
+                        </View>
+                        <View class="content">
+                          <Text variant="dark" family="quicksand">
+                          The beauty can be subjective depending on the viewer. I enjoy the challenge to create visual and prototyping and also leverage micro-interactions.
+                          </Text>
+                        </View>
+                      </View>
+                      <View class="card">
+                        <View class="line line2"></View>
+                        <View class="title">
+                          <Text variant="dark" family="quicksand" className="main-title-card"><span>UX</span> <span className="light">Design &</span></Text>
+                          <Text variant="dark" family="quicksand" className="sub-title-card"><span>Interaction</span> <span className="light">Design</span></Text>
+                        </View>
+                        <View class="content">
+                          <Text variant="dark" family="quicksand">
+                          I design experience for user to achieve their objective(s) in the best way possible and how it looks and works.
+                          </Text>
+                        </View>
+                      </View>
+                      <View class="card">
+                        <View class="line line3"></View>
+                        <View class="title">
+                          <Text variant="dark" family="quicksand" className="main-title-card"><span>Frontend</span></Text>
+                          <Text variant="dark" family="quicksand" className="sub-title-card"><span className="light">Development</span></Text>
+                        </View>
+                        <View class="content">
+                          <Text variant="dark" family="quicksand">
+                          I turn the Design into Code, Build something great website that people love it. In practice of producing websites with a popular library / framework.
+                          </Text>
+                        </View>
+                      </View>
+                    </View>
+            </Flicking>
+          </View>
+      </View>
     </MainLayout>
   )
 }

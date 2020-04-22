@@ -2007,6 +2007,9 @@ var color = function color(props) {
     case "white":
       return "#ffffff";
 
+    case "dark":
+      return "#64637B";
+
     default:
       return props.variant;
       break;
@@ -42768,7 +42771,321 @@ var App = function App() {
       lineNumber: 242,
       columnNumber: 21
     }
-  }))))));
+  }))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "specializing-wrapper",
+    direction: "column",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 247,
+      columnNumber: 7
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    direction: "column",
+    align: "center",
+    className: "specializing-header",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 248,
+      columnNumber: 11
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    family: "quicksand",
+    size: "32",
+    weight: "500",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 249,
+      columnNumber: 19
+    }
+  }, "Specializing in"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    family: "quicksand",
+    size: "18",
+    weight: "400",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 250,
+      columnNumber: 19
+    }
+  }, "I a UI/UX Designer & Frontend  Developer, and I love what I do.")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "specializing-content",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 252,
+      columnNumber: 11
+    }
+  }, __jsx(_egjs_react_flicking__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    gap: 50,
+    infinite: true,
+    infiniteThreshold: 100,
+    bound: true,
+    moveType: "freeScroll",
+    style: {
+      width: 100 + '%',
+      height: 80 + 'vh'
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 253,
+      columnNumber: 13
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "specializing-cards",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 254,
+      columnNumber: 17
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    "class": "card",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 256,
+      columnNumber: 23
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    "class": "line line1",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 257,
+      columnNumber: 25
+    }
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    "class": "title",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 258,
+      columnNumber: 25
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    variant: "dark",
+    family: "quicksand",
+    className: "main-title-card",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 259,
+      columnNumber: 27
+    }
+  }, __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 259,
+      columnNumber: 95
+    }
+  }, "UI"), " ", __jsx("span", {
+    className: "light",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 259,
+      columnNumber: 111
+    }
+  }, "Design &")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    variant: "dark",
+    family: "quicksand",
+    className: "sub-title-card",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 260,
+      columnNumber: 27
+    }
+  }, "Protoyping")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    "class": "content",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 262,
+      columnNumber: 25
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    variant: "dark",
+    family: "quicksand",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 263,
+      columnNumber: 27
+    }
+  }, "The beauty can be subjective depending on the viewer. I enjoy the challenge to create visual and prototyping and also leverage micro-interactions."))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    "class": "card",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 268,
+      columnNumber: 23
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    "class": "line line2",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 269,
+      columnNumber: 25
+    }
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    "class": "title",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 270,
+      columnNumber: 25
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    variant: "dark",
+    family: "quicksand",
+    className: "main-title-card",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 271,
+      columnNumber: 27
+    }
+  }, __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 271,
+      columnNumber: 95
+    }
+  }, "UX"), " ", __jsx("span", {
+    className: "light",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 271,
+      columnNumber: 111
+    }
+  }, "Design &")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    variant: "dark",
+    family: "quicksand",
+    className: "sub-title-card",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 272,
+      columnNumber: 27
+    }
+  }, __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 272,
+      columnNumber: 94
+    }
+  }, "Interaction"), " ", __jsx("span", {
+    className: "light",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 272,
+      columnNumber: 119
+    }
+  }, "Design"))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    "class": "content",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 274,
+      columnNumber: 25
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    variant: "dark",
+    family: "quicksand",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 275,
+      columnNumber: 27
+    }
+  }, "I design experience for user to achieve their objective(s) in the best way possible and how it looks and works."))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    "class": "card",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 280,
+      columnNumber: 23
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    "class": "line line3",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 281,
+      columnNumber: 25
+    }
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    "class": "title",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 282,
+      columnNumber: 25
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    variant: "dark",
+    family: "quicksand",
+    className: "main-title-card",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 283,
+      columnNumber: 27
+    }
+  }, __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 283,
+      columnNumber: 95
+    }
+  }, "Frontend")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    variant: "dark",
+    family: "quicksand",
+    className: "sub-title-card",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 284,
+      columnNumber: 27
+    }
+  }, __jsx("span", {
+    className: "light",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 284,
+      columnNumber: 94
+    }
+  }, "Development"))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    "class": "content",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 286,
+      columnNumber: 25
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    variant: "dark",
+    family: "quicksand",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 287,
+      columnNumber: 27
+    }
+  }, "I turn the Design into Code, Build something great website that people love it. In practice of producing websites with a popular library / framework."))))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (App);
