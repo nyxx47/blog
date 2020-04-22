@@ -323,6 +323,67 @@ freelance work.
               <Image className="gallery" draggable="false" src="/static/illustrations/gallery.png"/>
             </View>
       </View>
+      <View className="testimonial-wrapper" direction="column">
+           <View className="testimonial-header" direction="column" align="center">
+                  <Text family="quicksand">TESTIMONIALS</Text>
+                  <Text family="quicksand" size="32" className="testimonial-title">Customers's quotes</Text>
+                  <Text className="testimonial-subtitle">Don’t take our word for it. Take theirs…</Text>
+           </View>
+           <View className="testimonial-content">
+                  <View className="testimonial-content-left">
+                    <Image className="square-dots-down" src="/static/illustrations/square-dots-down.svg"/>
+                    <Image className="quote-icon" src="/static/illustrations/quote.svg"/>
+                    <View className="testimonial-content-left-text">
+                      <Text family="quicksand" size="32">
+                      What other people <br/> are saying
+                      </Text>
+                    </View>
+                  </View>
+                  <View className="testimonial-content-right">
+                  <Image className="testimonial-square-dots" src="/static/illustrations/dots.svg"/>
+                  <Flicking gap={50} infinite={true} infiniteThreshold={100}  bound={true} moveType="freeScroll" style={{width:100+'%', height: 50+'vh'}}>
+                    <View className="testimonial-card" direction="column">
+                        <View className="testimonial-card-header">
+                          <View>
+                            <Image src="/static/clients/hannari.png"/>
+                          </View>
+                          <View className="testimonial-card-header-title" direction="column">
+                            <Text family="quicksand" className="testimonial-card-header-title-name">Eduardo Hannari</Text>
+                            <Text family="quicksand">São Paulo, Brazil </Text>
+                          </View>
+                        </View>
+                        <View className="testimonial-card-content">
+                          <Text family="quicksand">
+                          “You made it so simple and minimalist design.”
+                          </Text>
+                        </View>
+                        <View family="quicksand" className="testimonial-card-role">
+                          <Text>Marketing Manager at Digital Mind</Text>
+                        </View>
+                    </View>
+                    <View className="testimonial-card" direction="column">
+                        <View className="testimonial-card-header">
+                          <View>
+                            <Image src="/static/clients/boby.png"/>
+                          </View>
+                          <View className="testimonial-card-header-title" direction="column">
+                            <Text family="quicksand" className="testimonial-card-header-title-name">Boby Indra</Text>
+                            <Text family="quicksand">Jakarta, Indonesia </Text>
+                          </View>
+                        </View>
+                        <View className="testimonial-card-content">
+                          <Text family="quicksand">
+                          “Working together has been a pleasure. Exectional experience.”
+                          </Text>
+                        </View>
+                        <View family="quicksand" className="testimonial-card-role">
+                          <Text>Founder at Konseline</Text>
+                        </View>
+                    </View>
+                  </Flicking>
+                  </View>
+           </View>
+      </View>
     </MainLayout>
   )
 }

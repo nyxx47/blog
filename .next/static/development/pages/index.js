@@ -43261,7 +43261,323 @@ var App = function App() {
       lineNumber: 323,
       columnNumber: 15
     }
-  }))));
+  }))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "testimonial-wrapper",
+    direction: "column",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 326,
+      columnNumber: 7
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "testimonial-header",
+    direction: "column",
+    align: "center",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 327,
+      columnNumber: 12
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    family: "quicksand",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 328,
+      columnNumber: 19
+    }
+  }, "TESTIMONIALS"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    family: "quicksand",
+    size: "32",
+    className: "testimonial-title",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 329,
+      columnNumber: 19
+    }
+  }, "Customers's quotes"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    className: "testimonial-subtitle",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 330,
+      columnNumber: 19
+    }
+  }, "Don\u2019t take our word for it. Take theirs\u2026")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "testimonial-content",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 332,
+      columnNumber: 12
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "testimonial-content-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 333,
+      columnNumber: 19
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+    className: "square-dots-down",
+    src: "/static/illustrations/square-dots-down.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 334,
+      columnNumber: 21
+    }
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+    className: "quote-icon",
+    src: "/static/illustrations/quote.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 335,
+      columnNumber: 21
+    }
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "testimonial-content-left-text",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 336,
+      columnNumber: 21
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    family: "quicksand",
+    size: "32",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 337,
+      columnNumber: 23
+    }
+  }, "What other people ", __jsx("br", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 338,
+      columnNumber: 41
+    }
+  }), " are saying"))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "testimonial-content-right",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 342,
+      columnNumber: 19
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+    className: "testimonial-square-dots",
+    src: "/static/illustrations/dots.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 343,
+      columnNumber: 19
+    }
+  }), __jsx(_egjs_react_flicking__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    gap: 50,
+    infinite: true,
+    infiniteThreshold: 100,
+    bound: true,
+    moveType: "freeScroll",
+    style: {
+      width: 100 + '%',
+      height: 50 + 'vh'
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 344,
+      columnNumber: 19
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "testimonial-card",
+    direction: "column",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 345,
+      columnNumber: 21
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "testimonial-card-header",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 346,
+      columnNumber: 25
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 347,
+      columnNumber: 27
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+    src: "/static/clients/hannari.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 348,
+      columnNumber: 29
+    }
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "testimonial-card-header-title",
+    direction: "column",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 350,
+      columnNumber: 27
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    family: "quicksand",
+    className: "testimonial-card-header-title-name",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 351,
+      columnNumber: 29
+    }
+  }, "Eduardo Hannari"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    family: "quicksand",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 352,
+      columnNumber: 29
+    }
+  }, "S\xE3o Paulo, Brazil "))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "testimonial-card-content",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 355,
+      columnNumber: 25
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    family: "quicksand",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 356,
+      columnNumber: 27
+    }
+  }, "\u201CYou made it so simple and minimalist design.\u201D")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    family: "quicksand",
+    className: "testimonial-card-role",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 360,
+      columnNumber: 25
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 361,
+      columnNumber: 27
+    }
+  }, "Marketing Manager at Digital Mind"))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "testimonial-card",
+    direction: "column",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 364,
+      columnNumber: 21
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "testimonial-card-header",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 365,
+      columnNumber: 25
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 366,
+      columnNumber: 27
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+    src: "/static/clients/boby.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 367,
+      columnNumber: 29
+    }
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "testimonial-card-header-title",
+    direction: "column",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 369,
+      columnNumber: 27
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    family: "quicksand",
+    className: "testimonial-card-header-title-name",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 370,
+      columnNumber: 29
+    }
+  }, "Boby Indra"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    family: "quicksand",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 371,
+      columnNumber: 29
+    }
+  }, "Jakarta, Indonesia "))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "testimonial-card-content",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 374,
+      columnNumber: 25
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    family: "quicksand",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 375,
+      columnNumber: 27
+    }
+  }, "\u201CWorking together has been a pleasure. Exectional experience.\u201D")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    family: "quicksand",
+    className: "testimonial-card-role",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 379,
+      columnNumber: 25
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 380,
+      columnNumber: 27
+    }
+  }, "Founder at Konseline"))))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (App);
