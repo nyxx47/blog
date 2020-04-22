@@ -1,5 +1,6 @@
 import React, {useState, useEffect, useRef} from 'react'
 import Link from 'next/link'
+import Flicking from "@egjs/react-flicking";
 import useOnScreen from '../components/particles/useOnScreen'
 import {MainLayout} from '../components/templates/layouts'
 
@@ -160,10 +161,10 @@ const App = () => {
                   variant="grey"
                   weight="regular"
                   className="text-overview">
-                  I design & code that turn the idea to
+                  I design & code that turn the idea to 
                   <span style={{
                     color: '#2525F0'
-                  }}>product digital and website that people love it.</span>
+                  }}> product digital and website that people love it.</span>
                 </Text>
               </View>
               <View align="center">
@@ -188,30 +189,60 @@ const App = () => {
         </View>
         <View className="overlay"></View>
       </View>
-      <View>
-        <Text>
-          Other keyframes are removed for the sake of bytes. Please disregard the odd
-          coding, it is made by a php script picking values from an array and
-          str_replacing a template: I'm too lazy to retype everything for every
-          proprietary prefix on a 100+ divs slideshow.Other keyframes are removed for the
-          sake of bytes. Please disregard the odd coding, it is made by a php script
-          picking values from an array and str_replacing a template: I'm too lazy to
-          retype everything for every proprietary prefix on a 100+ divs slideshow.Other
-          keyframes are removed for the sake of bytes. Please disregard the odd coding, it
-          is made by a php script picking values from an array and str_replacing a
-          template: I'm too lazy to retype everything for every proprietary prefix on a
-          100+ divs slideshow.Other keyframes are removed for the sake of bytes. Please
-          disregard the odd coding, it is made by a php script picking values from an
-          array and str_replacing a template: I'm too lazy to retype everything for every
-          proprietary prefix on a 100+ divs slideshow.Other keyframes are removed for the
-          sake of bytes. Please disregard the odd coding, it is made by a php script
-          picking values from an array and str_replacing a template: I'm too lazy to
-          retype everything for every proprietary prefix on a 100+ divs slideshow.Other
-          keyframes are removed for the sake of bytes. Please disregard the odd coding, it
-          is made by a php script picking values from an array and str_replacing a
-          template: I'm too lazy to retype everything for every proprietary prefix on a
-          100+ divs slideshow.
-        </Text>
+      <View className="tools-wrapper" direction="column">
+        <Text className="tools-title">Work with</Text>
+        <View className="tools-items">
+          <Flicking gap={50} infinite={true} infiniteThreshold={100}  bound={true} moveType="freeScroll" style={{width:100+'%', height: 50+'vh'}}>
+                  <View>
+                    <Image src="/static/tools/l_xd.svg"/>
+                  </View>
+                  <View>
+                    <Image src="/static/tools/figma-1.svg"/>
+                  </View>
+                  <View>
+                    <Image src="/static/tools/protopie.svg"/>
+                  </View>
+                  <View>
+                    <Image src="/static/tools/l_ps.svg"/>
+                  </View>
+                  <View>
+                    <Image src="/static/tools/ae.svg"/>
+                  </View>
+                  <View>
+                    <Image src="/static/tools/l_Zeplin.svg"/>
+                  </View>
+                  <View>
+                    <Image src="/static/tools/react.svg"/>
+                  </View>
+                  <View>
+                    <Image src="/static/tools/l_redux.svg"/>
+                  </View>
+                  <View>
+                    <Image src="/static/tools/next-js.svg"/>
+                  </View>
+                  <View>
+                    <Image src="/static/tools/vue-js.svg"/>
+                  </View>
+                  <View>
+                    <Image src="/static/tools/nuxt-square.svg"/>
+                  </View>
+                  <View>
+                    <Image src="/static/tools/wix.svg"/>
+                  </View>
+                  <View>
+                    <Image src="/static/tools/webflow.svg"/>
+                  </View>
+                  <View>
+                    <Image src="/static/tools/github-1.svg"/>
+                  </View>
+                  <View>
+                    <Image src="/static/tools/nginx.svg"/>
+                  </View>
+                  <View>
+                    <Image src="/static/tools/lottiefiles.svg"/>
+                  </View>
+          </Flicking>
+        </View>
       </View>
     </MainLayout>
   )

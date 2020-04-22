@@ -41822,12 +41822,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_particles_useOnScreen__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/particles/useOnScreen */ "./components/particles/useOnScreen.js");
-/* harmony import */ var _components_templates_layouts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/templates/layouts */ "./components/templates/layouts/index.js");
-/* harmony import */ var _components_molecules__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/molecules */ "./components/molecules/index.js");
-/* harmony import */ var _components_atoms__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/atoms */ "./components/atoms/index.js");
-/* harmony import */ var _index_knobs_json__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./index.knobs.json */ "./pages/index.knobs.json");
-var _index_knobs_json__WEBPACK_IMPORTED_MODULE_6___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./index.knobs.json */ "./pages/index.knobs.json", 1);
+/* harmony import */ var _egjs_react_flicking__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @egjs/react-flicking */ "./node_modules/@egjs/react-flicking/dist/flicking.esm.js");
+/* harmony import */ var _components_particles_useOnScreen__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/particles/useOnScreen */ "./components/particles/useOnScreen.js");
+/* harmony import */ var _components_templates_layouts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/templates/layouts */ "./components/templates/layouts/index.js");
+/* harmony import */ var _components_molecules__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/molecules */ "./components/molecules/index.js");
+/* harmony import */ var _components_atoms__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/atoms */ "./components/atoms/index.js");
+/* harmony import */ var _index_knobs_json__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./index.knobs.json */ "./pages/index.knobs.json");
+var _index_knobs_json__WEBPACK_IMPORTED_MODULE_7___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./index.knobs.json */ "./pages/index.knobs.json", 1);
 var _this = undefined,
     _jsxFileName = "/Users/ahroidlife/Documents/nextjs/blog/pages/index.js";
 
@@ -41839,7 +41840,8 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-var menus = _index_knobs_json__WEBPACK_IMPORTED_MODULE_6__.data.menus;
+
+var menus = _index_knobs_json__WEBPACK_IMPORTED_MODULE_7__.data.menus;
 
 var App = function App() {
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
@@ -41859,7 +41861,7 @@ var App = function App() {
       setDate = _useState4[1];
 
   var ref = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])();
-  var isVisible = Object(_components_particles_useOnScreen__WEBPACK_IMPORTED_MODULE_2__["default"])(ref);
+  var isVisible = Object(_components_particles_useOnScreen__WEBPACK_IMPORTED_MODULE_3__["default"])(ref);
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
     console.log("The component is ".concat(isVisible ? "visible" : "not visible", "."));
     var date = new Date();
@@ -41888,11 +41890,11 @@ var App = function App() {
     document.body.style.overflow = 'unset';
   };
 
-  return __jsx(_components_templates_layouts__WEBPACK_IMPORTED_MODULE_3__["MainLayout"], {
+  return __jsx(_components_templates_layouts__WEBPACK_IMPORTED_MODULE_4__["MainLayout"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 56,
       columnNumber: 5
     }
   }, __jsx("div", {
@@ -41900,43 +41902,43 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56,
+      lineNumber: 57,
       columnNumber: 5
     }
-  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
     className: "main-header",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57,
+      lineNumber: 58,
       columnNumber: 7
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
     className: "main-header-content",
     direction: "column",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58,
+      lineNumber: 59,
       columnNumber: 9
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
     className: "main-header-nav",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59,
+      lineNumber: 60,
       columnNumber: 11
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
     className: "navigation-bar",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60,
+      lineNumber: 61,
       columnNumber: 13
     }
-  }, __jsx(_components_molecules__WEBPACK_IMPORTED_MODULE_4__["Navigation"], {
+  }, __jsx(_components_molecules__WEBPACK_IMPORTED_MODULE_5__["Navigation"], {
     items: menus,
     family: "quicksand",
     size: "16",
@@ -41946,44 +41948,44 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61,
+      lineNumber: 62,
       columnNumber: 15
     }
-  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
     className: "nav-menu-mobile",
     onClick: openMenu,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69,
+      lineNumber: 70,
       columnNumber: 13
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
     src: "/static/illustrations/menu.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70,
+      lineNumber: 71,
       columnNumber: 15
     }
-  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
     className: "nav-menu-wrapper-mobile ".concat(isVisible ? 'isActiveEl' : '', " ").concat(open ? 'nav-menu-isActive' : ''),
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72,
+      lineNumber: 73,
       columnNumber: 13
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
     className: "nav-menu-header-mobile",
     direction: "column",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76,
+      lineNumber: 77,
       columnNumber: 15
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
     variant: "white",
     family: "quicksand",
     size: "18",
@@ -41991,10 +41993,10 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77,
+      lineNumber: 78,
       columnNumber: 17
     }
-  }, greeting), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["Text"], {
+  }, greeting), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
     variant: "white",
     family: "quicksand",
     weight: "light",
@@ -42002,59 +42004,59 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78,
+      lineNumber: 79,
       columnNumber: 17
     }
-  }, date), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
+  }, date), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
     className: "nav-menu-button-close",
     onClick: closeMenu,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79,
+      lineNumber: 80,
       columnNumber: 17
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
     src: "/static/illustrations/close.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80,
+      lineNumber: 81,
       columnNumber: 19
     }
-  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
     className: "nav-menu-dots",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82,
+      lineNumber: 83,
       columnNumber: 17
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
     src: "/static/illustrations/dot-header-mobile.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83,
+      lineNumber: 84,
       columnNumber: 19
     }
-  }))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
+  }))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
     className: "nav-menu-content-mobile",
     direction: "column",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86,
+      lineNumber: 87,
       columnNumber: 15
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
     className: "nav-menu-items",
     direction: "column",
     flexValue: "1",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87,
+      lineNumber: 88,
       columnNumber: 17
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -42062,39 +42064,39 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88,
+      lineNumber: 89,
       columnNumber: 19
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89,
+      lineNumber: 90,
       columnNumber: 21
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
     className: "nav-menu-item",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90,
+      lineNumber: 91,
       columnNumber: 23
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
     src: "/static/illustrations/products.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92,
+      lineNumber: 93,
       columnNumber: 25
     }
-  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["Text"], {
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
     size: "18",
     margin: "0 0 0 20px",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93,
+      lineNumber: 94,
       columnNumber: 25
     }
   }, "My Products")))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -42102,39 +42104,39 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98,
+      lineNumber: 99,
       columnNumber: 19
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99,
+      lineNumber: 100,
       columnNumber: 21
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
     className: "nav-menu-item",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100,
+      lineNumber: 101,
       columnNumber: 23
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
     src: "/static/illustrations/projects.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101,
+      lineNumber: 102,
       columnNumber: 25
     }
-  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["Text"], {
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
     size: "18",
     margin: "0 0 0 20px",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102,
+      lineNumber: 103,
       columnNumber: 25
     }
   }, "My Related Projects")))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -42142,39 +42144,39 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106,
+      lineNumber: 107,
       columnNumber: 19
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107,
+      lineNumber: 108,
       columnNumber: 21
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
     className: "nav-menu-item",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108,
+      lineNumber: 109,
       columnNumber: 23
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
     src: "/static/illustrations/issues.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109,
+      lineNumber: 110,
       columnNumber: 25
     }
-  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["Text"], {
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
     size: "18",
     margin: "0 0 0 20px",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110,
+      lineNumber: 111,
       columnNumber: 25
     }
   }, "Issues")))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -42182,50 +42184,50 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114,
+      lineNumber: 115,
       columnNumber: 19
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115,
+      lineNumber: 116,
       columnNumber: 21
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
     className: "nav-menu-item",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116,
+      lineNumber: 117,
       columnNumber: 23
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
     src: "/static/illustrations/stories.svg",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 117,
-      columnNumber: 25
-    }
-  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["Text"], {
-    size: "18",
-    margin: "0 0 0 20px",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 118,
       columnNumber: 25
     }
-  }, "Stories"))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    size: "18",
+    margin: "0 0 0 20px",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 119,
+      columnNumber: 25
+    }
+  }, "Stories"))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
     className: "nav-menu-item-footer",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123,
+      lineNumber: 124,
       columnNumber: 17
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
     className: "nav-menu-item",
     onClick: function onClick() {
       return navigator.clipboard.writeText(window.location.href);
@@ -42233,54 +42235,54 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124,
+      lineNumber: 125,
       columnNumber: 19
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
     src: "/static/illustrations/copy.svg",
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 127,
-      columnNumber: 21
-    }
-  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["Text"], {
-    size: "18",
-    margin: "0 0 0 20px",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 128,
       columnNumber: 21
     }
-  }, "\u201CCopy Link to Clipboard\u201D"))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
-    className: "overlay-background  ".concat(overlay ? 'is-overlay-background' : ''),
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    size: "18",
+    margin: "0 0 0 20px",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135,
-      columnNumber: 13
+      lineNumber: 129,
+      columnNumber: 21
     }
-  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
-    className: "social-media",
+  }, "\u201CCopy Link to Clipboard\u201D"))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "overlay-background  ".concat(overlay ? 'is-overlay-background' : ''),
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 136,
       columnNumber: 13
     }
-  }, __jsx("ul", {
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "social-media",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 137,
+      columnNumber: 13
+    }
+  }, __jsx("ul", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 138,
       columnNumber: 15
     }
   }, __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 138,
+      lineNumber: 139,
       columnNumber: 17
     }
   }, __jsx("a", {
@@ -42289,14 +42291,14 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 139,
+      lineNumber: 140,
       columnNumber: 19
     }
   }, "IN")), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 141,
+      lineNumber: 142,
       columnNumber: 17
     }
   }, __jsx("a", {
@@ -42305,14 +42307,14 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 142,
+      lineNumber: 143,
       columnNumber: 19
     }
   }, "FB")), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 144,
+      lineNumber: 145,
       columnNumber: 17
     }
   }, __jsx("a", {
@@ -42321,28 +42323,28 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 145,
+      lineNumber: 146,
       columnNumber: 19
     }
-  }, "IG"))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
+  }, "IG"))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
     flexValue: "1",
     className: "main-header-body",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 150,
+      lineNumber: 151,
       columnNumber: 11
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
     direction: "column",
     className: "main-header-left",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151,
+      lineNumber: 152,
       columnNumber: 13
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
     variant: "blue",
     family: "quicksand",
     margin: "0  0 50px 0 ",
@@ -42350,19 +42352,19 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 152,
+      lineNumber: 153,
       columnNumber: 15
     }
-  }, "Hi, there"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
+  }, "Hi, there"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
     direction: "column",
     margin: "0  0 30px 0 ",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 153,
+      lineNumber: 154,
       columnNumber: 15
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
     variant: "blue",
     family: "quicksand",
     weight: "medium",
@@ -42370,10 +42372,10 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 154,
+      lineNumber: 155,
       columnNumber: 17
     }
-  }, "I\u2019m Krisna Ahroid"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["Text"], {
+  }, "I\u2019m Krisna Ahroid"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
     family: "quicksand",
     variant: "grey",
     weight: "medium",
@@ -42381,19 +42383,19 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 155,
+      lineNumber: 156,
       columnNumber: 17
     }
-  }, "UI/UX Designer & Frontend Developer")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
+  }, "UI/UX Designer & Frontend Developer")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
     width: "80%",
     className: "main-header-text-content",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 157,
+      lineNumber: 158,
       columnNumber: 15
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
     family: "quicksand",
     variant: "grey",
     weight: "regular",
@@ -42401,7 +42403,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 158,
+      lineNumber: 159,
       columnNumber: 17
     }
   }, "I design & code that turn the idea to", __jsx("span", {
@@ -42411,23 +42413,23 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 164,
+      lineNumber: 165,
       columnNumber: 19
     }
-  }, "product digital and website that people love it."))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
+  }, " product digital and website that people love it."))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
     align: "center",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 169,
+      lineNumber: 170,
       columnNumber: 15
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["Button"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Button"], {
     className: "btn-hire",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 170,
+      lineNumber: 171,
       columnNumber: 17
     }
   }, "HIRE ME"), __jsx("a", {
@@ -42436,10 +42438,10 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 173,
+      lineNumber: 174,
       columnNumber: 17
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
     family: "quicksand",
     variant: "blue",
     weight: "regular",
@@ -42447,59 +42449,326 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 174,
+      lineNumber: 175,
       columnNumber: 19
     }
-  }, "Free - 15min consult")))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
+  }, "Free - 15min consult")))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
     className: "main-header-right",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 180,
+      lineNumber: 181,
       columnNumber: 13
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
     src: "/static/illustrations/hero-image.png",
     className: "main-header-hero",
     draggable: "false",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 181,
+      lineNumber: 182,
       columnNumber: 15
     }
-  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["Image"], {
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
     src: "/static/illustrations/bubbble.svg",
     className: "main-header-bubble",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 185,
+      lineNumber: 186,
       columnNumber: 15
     }
-  })))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
+  })))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
     className: "overlay",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 189,
+      lineNumber: 190,
       columnNumber: 9
     }
-  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
-    __self: _this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 191,
-      columnNumber: 7
-    }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["Text"], {
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "tools-wrapper",
+    direction: "column",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 192,
+      columnNumber: 7
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    className: "tools-title",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 193,
       columnNumber: 9
     }
-  }, "Other keyframes are removed for the sake of bytes. Please disregard the odd coding, it is made by a php script picking values from an array and str_replacing a template: I'm too lazy to retype everything for every proprietary prefix on a 100+ divs slideshow.Other keyframes are removed for the sake of bytes. Please disregard the odd coding, it is made by a php script picking values from an array and str_replacing a template: I'm too lazy to retype everything for every proprietary prefix on a 100+ divs slideshow.Other keyframes are removed for the sake of bytes. Please disregard the odd coding, it is made by a php script picking values from an array and str_replacing a template: I'm too lazy to retype everything for every proprietary prefix on a 100+ divs slideshow.Other keyframes are removed for the sake of bytes. Please disregard the odd coding, it is made by a php script picking values from an array and str_replacing a template: I'm too lazy to retype everything for every proprietary prefix on a 100+ divs slideshow.Other keyframes are removed for the sake of bytes. Please disregard the odd coding, it is made by a php script picking values from an array and str_replacing a template: I'm too lazy to retype everything for every proprietary prefix on a 100+ divs slideshow.Other keyframes are removed for the sake of bytes. Please disregard the odd coding, it is made by a php script picking values from an array and str_replacing a template: I'm too lazy to retype everything for every proprietary prefix on a 100+ divs slideshow.")));
+  }, "Work with"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "tools-items",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 194,
+      columnNumber: 9
+    }
+  }, __jsx(_egjs_react_flicking__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    gap: 50,
+    infinite: true,
+    infiniteThreshold: 100,
+    bound: true,
+    moveType: "freeScroll",
+    style: {
+      width: 100 + '%',
+      height: 50 + 'vh'
+    },
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 195,
+      columnNumber: 11
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 196,
+      columnNumber: 19
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+    src: "/static/tools/l_xd.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 197,
+      columnNumber: 21
+    }
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 199,
+      columnNumber: 19
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+    src: "/static/tools/figma-1.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 200,
+      columnNumber: 21
+    }
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 202,
+      columnNumber: 19
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+    src: "/static/tools/protopie.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 203,
+      columnNumber: 21
+    }
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 205,
+      columnNumber: 19
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+    src: "/static/tools/l_ps.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 206,
+      columnNumber: 21
+    }
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 208,
+      columnNumber: 19
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+    src: "/static/tools/ae.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 209,
+      columnNumber: 21
+    }
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 211,
+      columnNumber: 19
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+    src: "/static/tools/l_Zeplin.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 212,
+      columnNumber: 21
+    }
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 214,
+      columnNumber: 19
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+    src: "/static/tools/react.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 215,
+      columnNumber: 21
+    }
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 217,
+      columnNumber: 19
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+    src: "/static/tools/l_redux.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 218,
+      columnNumber: 21
+    }
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 220,
+      columnNumber: 19
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+    src: "/static/tools/next-js.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 221,
+      columnNumber: 21
+    }
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 223,
+      columnNumber: 19
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+    src: "/static/tools/vue-js.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 224,
+      columnNumber: 21
+    }
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 226,
+      columnNumber: 19
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+    src: "/static/tools/nuxt-square.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 227,
+      columnNumber: 21
+    }
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 229,
+      columnNumber: 19
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+    src: "/static/tools/wix.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 230,
+      columnNumber: 21
+    }
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 232,
+      columnNumber: 19
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+    src: "/static/tools/webflow.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 233,
+      columnNumber: 21
+    }
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 235,
+      columnNumber: 19
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+    src: "/static/tools/github-1.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 236,
+      columnNumber: 21
+    }
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 238,
+      columnNumber: 19
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+    src: "/static/tools/nginx.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 239,
+      columnNumber: 21
+    }
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 241,
+      columnNumber: 19
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+    src: "/static/tools/lottiefiles.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 242,
+      columnNumber: 21
+    }
+  }))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (App);
@@ -42517,7 +42786,7 @@ module.exports = JSON.parse("{\"data\":{\"menus\":[{\"id\":\"1\",\"title\":\"Pro
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!*************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fahroidlife%2FDocuments%2Fnextjs%2Fblog%2Fpages%2Findex.js ***!
   \*************************************************************************************************************************************/
@@ -42540,5 +42809,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js","styles"]]]);
+},[[1,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

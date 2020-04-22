@@ -374,4 +374,20 @@ body::-webkit-scrollbar-thumb
     }
 }
 
+.tools-wrapper{
+    width: 100%;
+    height: 30vh;
+    padding: 100px 0  0 100px;
 
+    .tools-title{
+        font-size: 18px;
+    }
+
+    .tools-items{
+        margin-top: 50px;
+
+        .eg-flick-viewport{
+            padding: 0 !important;
+        }
+    }
+}

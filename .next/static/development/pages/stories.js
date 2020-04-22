@@ -42037,7 +42037,7 @@ module.exports = JSON.parse("{\"item\":{\"type\":\"half\",\"direction\":\"column
 
 /***/ }),
 
-/***/ 1:
+/***/ 7:
 /*!******************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fstories&absolutePagePath=%2FUsers%2Fahroidlife%2FDocuments%2Fnextjs%2Fblog%2Fpages%2Fstories%2Findex.js ***!
   \******************************************************************************************************************************************************/
@@ -42060,5 +42060,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js","styles"]]]);
+},[[7,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=stories.js.map
