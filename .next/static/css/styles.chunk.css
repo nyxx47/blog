@@ -341,7 +341,8 @@ body::-webkit-scrollbar-thumb {
   padding: 100px 0  0 100px; }
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
     .tools-wrapper {
-      padding: 50px 0  0 30px !important; } }
+      padding: 50px 0  0 30px !important;
+      margin-top: 100px; } }
   .tools-wrapper .tools-title {
     font-size: 18px; }
   .tools-wrapper .tools-items {
@@ -355,9 +356,10 @@ body::-webkit-scrollbar-thumb {
   height: 100vh; }
   @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
     .specializing-wrapper {
-      padding: 0 !important; } }
+      padding: 0 !important;
+      margin-top: 100px !important; } }
   .specializing-wrapper .specializing-header {
-    padding: 10px; }
+    padding: 30px; }
     .specializing-wrapper .specializing-header p {
       text-align: center; }
   .specializing-wrapper .specializing-content .specializing-cards {
@@ -366,6 +368,9 @@ body::-webkit-scrollbar-thumb {
     margin-top: 100px;
     padding-bottom: 50px;
     position: relative; }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+      .specializing-wrapper .specializing-content .specializing-cards {
+        margin-top: 50px; } }
     .specializing-wrapper .specializing-content .specializing-cards .carousel {
       width: 100%; }
     .specializing-wrapper .specializing-content .specializing-cards .square-dots {
@@ -437,6 +442,66 @@ body::-webkit-scrollbar-thumb {
           color: #ffffff !important; }
         .specializing-wrapper .specializing-content .specializing-cards .card:hover .more h2 {
           color: #ffffff !important; }
+
+.about-wrapper {
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 100px 100px 100px 0;
+  height: auto; }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .about-wrapper {
+      flex-direction: column-reverse;
+      padding: 0;
+      margin-top: 0px; } }
+  .about-wrapper .about-content-left {
+    padding-left: 100px;
+    position: relative;
+    width: 50%; }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+      .about-wrapper .about-content-left {
+        width: 100%;
+        padding-left: 30px; }
+        .about-wrapper .about-content-left .square-art {
+          width: 90%; } }
+    .about-wrapper .about-content-left .square-art {
+      position: absolute;
+      left: 0; }
+    .about-wrapper .about-content-left .about-content {
+      z-index: 1;
+      width: 100%; }
+      .about-wrapper .about-content-left .about-content .about-content-header {
+        padding-top: 35px; }
+        .about-wrapper .about-content-left .about-content .about-content-header p {
+          font-weight: 300; }
+      .about-wrapper .about-content-left .about-content .about-content-body {
+        margin-top: 100px; }
+        .about-wrapper .about-content-left .about-content .about-content-body .hi {
+          font-size: 16px;
+          font-weight: 500; }
+        .about-wrapper .about-content-left .about-content .about-content-body .about-me {
+          margin-top: 50px;
+          font-weight: 300;
+          font-size: 18px;
+          width: 60%; }
+          .about-wrapper .about-content-left .about-content .about-content-body .about-me a {
+            text-decoration: none;
+            color: #3838F8; }
+        .about-wrapper .about-content-left .about-content .about-content-body .available-me {
+          margin-top: 50px;
+          font-weight: 500;
+          font-size: 18px; }
+        .about-wrapper .about-content-left .about-content .about-content-body .letmeknow {
+          margin-top: 25px;
+          font-size: 18px;
+          font-weight: 300; }
+  .about-wrapper .about-content-right {
+    padding: 30px; }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+      .about-wrapper .about-content-right {
+        margin-bottom: 50px; } }
+    .about-wrapper .about-content-right .gallery {
+      width: 100%; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/

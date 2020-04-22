@@ -5,7 +5,7 @@ import useOnScreen from '../components/particles/useOnScreen'
 import {MainLayout} from '../components/templates/layouts'
 
 import {Navigation} from '../components/molecules'
-import {View, Text, Image, Button} from '../components/atoms'
+import {View, Text, Image, Button, BackgroundImage} from '../components/atoms'
 import knobData from "./index.knobs.json";
 const {menus} = knobData.data;
 
@@ -253,37 +253,37 @@ const App = () => {
             <Flicking gap={50} infinite={true} infiniteThreshold={100}  bound={true} moveType="freeScroll" style={{width:100+'%', height: 80+'vh'}}>
                 <View className="specializing-cards">
                       {/* <Image class="square-dots" src="~assets/images/square-dots.svg" alt="dots" /> */}
-                      <View class="card">
-                        <View class="line line1"></View>
-                        <View class="title">
+                      <View className="card">
+                        <View className="line line1"></View>
+                        <View className="title" direction="column">
                           <Text variant="dark" family="quicksand" className="main-title-card"><span>UI</span> <span className="light">Design &</span></Text>
                           <Text variant="dark" family="quicksand" className="sub-title-card">Protoyping</Text>
                         </View>
-                        <View class="content">
+                        <View className="content">
                           <Text variant="dark" family="quicksand">
                           The beauty can be subjective depending on the viewer. I enjoy the challenge to create visual and prototyping and also leverage micro-interactions.
                           </Text>
                         </View>
                       </View>
-                      <View class="card">
-                        <View class="line line2"></View>
-                        <View class="title">
+                      <View className="card">
+                        <View className="line line2"></View>
+                        <View className="title" direction="column">
                           <Text variant="dark" family="quicksand" className="main-title-card"><span>UX</span> <span className="light">Design &</span></Text>
                           <Text variant="dark" family="quicksand" className="sub-title-card"><span>Interaction</span> <span className="light">Design</span></Text>
                         </View>
-                        <View class="content">
+                        <View className="content">
                           <Text variant="dark" family="quicksand">
                           I design experience for user to achieve their objective(s) in the best way possible and how it looks and works.
                           </Text>
                         </View>
                       </View>
-                      <View class="card">
-                        <View class="line line3"></View>
-                        <View class="title">
+                      <View className="card">
+                        <View className="line line3"></View>
+                        <View className="title" direction="column">
                           <Text variant="dark" family="quicksand" className="main-title-card"><span>Frontend</span></Text>
                           <Text variant="dark" family="quicksand" className="sub-title-card"><span className="light">Development</span></Text>
                         </View>
-                        <View class="content">
+                        <View className="content">
                           <Text variant="dark" family="quicksand">
                           I turn the Design into Code, Build something great website that people love it. In practice of producing websites with a popular library / framework.
                           </Text>
@@ -292,6 +292,36 @@ const App = () => {
                     </View>
             </Flicking>
           </View>
+      </View>
+      <View className="about-wrapper">
+            <View className="about-content-left">
+            <Image draggable="false" src="/static/illustrations/square-dots.svg" className="square-art"/>
+              <View className="about-content" direction="column">
+                <View className="about-content-header">
+                  <Text variant="dark" family="quicksand" size="32" >
+                  Krisna Ahroid. <br/>
+  A UI/UX Designer & <br/>
+  Frontend  Developer  based in  <br/>
+  Jakarta, Indonesia
+                  </Text>
+                </View>
+                <View className="about-content-body" direction="column">
+                  <Text family="quicksand" variant="dark" className="hi">Hi There,</Text>
+                  <Text family="quicksand" variant="dark" className="about-me">I’m an enthusiastic UI/UX Designer & Frontend Developer, You can find my recent projects on <a href="https://dribbble.com/ahroidlife" target="_blank">Dribbble</a> and <a href="https://www.instagram.com/user.ahroidlife/" target="_blank">Instagram</a> or if you’re interested in my design and if you are want to development an application, let me know.
+                  </Text>
+                  <Text family="quicksand" variant="dark" className="available-me">
+                  I’m currently available for <br/>
+freelance work.
+                  </Text>
+                  <Text family="quicksand" variant="dark" className="letmeknow">
+                  If you have a project that you want to get started, <br/>let me know.
+                  </Text>
+                </View>
+              </View>
+            </View>
+            <View className="about-content-right">
+              <Image className="gallery" draggable="false" src="/static/illustrations/gallery.png"/>
+            </View>
       </View>
     </MainLayout>
   )

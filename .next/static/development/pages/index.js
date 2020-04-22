@@ -42843,7 +42843,7 @@ var App = function App() {
       columnNumber: 17
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
-    "class": "card",
+    className: "card",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -42851,7 +42851,7 @@ var App = function App() {
       columnNumber: 23
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
-    "class": "line line1",
+    className: "line line1",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -42859,7 +42859,8 @@ var App = function App() {
       columnNumber: 25
     }
   }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
-    "class": "title",
+    className: "title",
+    direction: "column",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -42902,7 +42903,7 @@ var App = function App() {
       columnNumber: 27
     }
   }, "Protoyping")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
-    "class": "content",
+    className: "content",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -42919,7 +42920,7 @@ var App = function App() {
       columnNumber: 27
     }
   }, "The beauty can be subjective depending on the viewer. I enjoy the challenge to create visual and prototyping and also leverage micro-interactions."))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
-    "class": "card",
+    className: "card",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -42927,7 +42928,7 @@ var App = function App() {
       columnNumber: 23
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
-    "class": "line line2",
+    className: "line line2",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -42935,7 +42936,8 @@ var App = function App() {
       columnNumber: 25
     }
   }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
-    "class": "title",
+    className: "title",
+    direction: "column",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -42993,7 +42995,7 @@ var App = function App() {
       columnNumber: 119
     }
   }, "Design"))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
-    "class": "content",
+    className: "content",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -43010,7 +43012,7 @@ var App = function App() {
       columnNumber: 27
     }
   }, "I design experience for user to achieve their objective(s) in the best way possible and how it looks and works."))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
-    "class": "card",
+    className: "card",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -43018,7 +43020,7 @@ var App = function App() {
       columnNumber: 23
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
-    "class": "line line3",
+    className: "line line3",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -43026,7 +43028,8 @@ var App = function App() {
       columnNumber: 25
     }
   }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
-    "class": "title",
+    className: "title",
+    direction: "column",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -43069,7 +43072,7 @@ var App = function App() {
       columnNumber: 94
     }
   }, "Development"))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
-    "class": "content",
+    className: "content",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -43085,7 +43088,180 @@ var App = function App() {
       lineNumber: 287,
       columnNumber: 27
     }
-  }, "I turn the Design into Code, Build something great website that people love it. In practice of producing websites with a popular library / framework."))))))));
+  }, "I turn the Design into Code, Build something great website that people love it. In practice of producing websites with a popular library / framework."))))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "about-wrapper",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 296,
+      columnNumber: 7
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "about-content-left",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 297,
+      columnNumber: 13
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+    draggable: "false",
+    src: "/static/illustrations/square-dots.svg",
+    className: "square-art",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 298,
+      columnNumber: 13
+    }
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "about-content",
+    direction: "column",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 299,
+      columnNumber: 15
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "about-content-header",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 300,
+      columnNumber: 17
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    variant: "dark",
+    family: "quicksand",
+    size: "32",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 301,
+      columnNumber: 19
+    }
+  }, "Krisna Ahroid. ", __jsx("br", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 302,
+      columnNumber: 34
+    }
+  }), "A UI/UX Designer & ", __jsx("br", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 303,
+      columnNumber: 22
+    }
+  }), "Frontend  Developer  based in  ", __jsx("br", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 304,
+      columnNumber: 34
+    }
+  }), "Jakarta, Indonesia")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "about-content-body",
+    direction: "column",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 308,
+      columnNumber: 17
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    family: "quicksand",
+    variant: "dark",
+    className: "hi",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 309,
+      columnNumber: 19
+    }
+  }, "Hi There,"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    family: "quicksand",
+    variant: "dark",
+    className: "about-me",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 310,
+      columnNumber: 19
+    }
+  }, "I\u2019m an enthusiastic UI/UX Designer & Frontend Developer, You can find my recent projects on ", __jsx("a", {
+    href: "https://dribbble.com/ahroidlife",
+    target: "_blank",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 310,
+      columnNumber: 172
+    }
+  }, "Dribbble"), " and ", __jsx("a", {
+    href: "https://www.instagram.com/user.ahroidlife/",
+    target: "_blank",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 310,
+      columnNumber: 247
+    }
+  }, "Instagram"), " or if you\u2019re interested in my design and if you are want to development an application, let me know."), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    family: "quicksand",
+    variant: "dark",
+    className: "available-me",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 312,
+      columnNumber: 19
+    }
+  }, "I\u2019m currently available for ", __jsx("br", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 313,
+      columnNumber: 47
+    }
+  }), "freelance work."), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    family: "quicksand",
+    variant: "dark",
+    className: "letmeknow",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 316,
+      columnNumber: 19
+    }
+  }, "If you have a project that you want to get started, ", __jsx("br", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 317,
+      columnNumber: 71
+    }
+  }), "let me know.")))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "about-content-right",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 322,
+      columnNumber: 13
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+    className: "gallery",
+    draggable: "false",
+    src: "/static/illustrations/gallery.png",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 323,
+      columnNumber: 15
+    }
+  }))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (App);
