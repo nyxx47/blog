@@ -604,6 +604,10 @@ body::-webkit-scrollbar-thumb {
   min-height: 100vh;
   margin-top: 200px;
   margin-bottom: 200px; }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .contact-wrapper {
+      padding: 30px !important;
+      margin-top: 400px !important; } }
   .contact-wrapper .contact-header {
     align-items: center; }
     .contact-wrapper .contact-header .contact-header-title {
@@ -628,9 +632,19 @@ body::-webkit-scrollbar-thumb {
       width: 100%;
       justify-content: space-between;
       margin-bottom: 30px; }
+      @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+        .contact-wrapper .contact-content .contact-content-item {
+          flex-direction: column; }
+          .contact-wrapper .contact-content .contact-content-item .contact-input {
+            width: 100%; }
+          .contact-wrapper .contact-content .contact-content-item .contac-content-item-first-name {
+            margin-bottom: 30px; } }
       .contact-wrapper .contact-content .contact-content-item .contact-input {
         height: 50px;
         padding: 20px; }
+      @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+        .contact-wrapper .contact-content .contact-content-item .input-group-first-item {
+          margin-bottom: 30px; } }
       .contact-wrapper .contact-content .contact-content-item .inputGroup {
         background-color: #f7f7f8;
         display: flex;
@@ -640,6 +654,9 @@ body::-webkit-scrollbar-thumb {
         border-radius: 10px;
         overflow: hidden;
         align-items: center; }
+        @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+          .contact-wrapper .contact-content .contact-content-item .inputGroup {
+            width: 100% !important; } }
         .contact-wrapper .contact-content .contact-content-item .inputGroup label {
           padding: 12px 30px;
           height: 100%;

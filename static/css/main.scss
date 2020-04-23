@@ -839,6 +839,14 @@ body::-webkit-scrollbar-thumb
     margin-top: 200px;
     margin-bottom: 200px;
 
+    @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        padding: 30px !important;
+        margin-top: 400px !important;
+    }
+
     .contact-header{
         align-items: center;
 
@@ -858,6 +866,7 @@ body::-webkit-scrollbar-thumb
         max-width: 700px;
         padding-top: 100px;
         margin: 0 auto;
+        
 
         .contact-content-submit{
             margin-top: 50px;
@@ -875,9 +884,33 @@ body::-webkit-scrollbar-thumb
             justify-content: space-between;
             margin-bottom: 30px;
 
+            @media only screen 
+            and (min-device-width: 320px) 
+            and (max-device-width: 480px)
+            and (-webkit-min-device-pixel-ratio: 2) {
+                flex-direction: column;
+
+                .contact-input{
+                    width: 100%;
+                }
+
+                .contac-content-item-first-name{
+                    margin-bottom: 30px;
+                }
+            }
+
             .contact-input{
                 height: 50px;
                 padding: 20px;
+            }
+
+            .input-group-first-item{
+                @media only screen 
+                and (min-device-width: 320px) 
+                and (max-device-width: 480px)
+                and (-webkit-min-device-pixel-ratio: 2) {
+                    margin-bottom: 30px;
+                }
             }
 
             .inputGroup {
@@ -889,6 +922,13 @@ body::-webkit-scrollbar-thumb
                 border-radius: 10px;
                 overflow: hidden;
                 align-items: center;
+
+                @media only screen 
+                and (min-device-width: 320px) 
+                and (max-device-width: 480px)
+                and (-webkit-min-device-pixel-ratio: 2) {
+                    width: 100% !important;
+                }
             
                 label {
                   padding: 12px 30px;

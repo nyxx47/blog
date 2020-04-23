@@ -43640,6 +43640,7 @@ var App = function App() {
       columnNumber: 11
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "contac-content-item-first-name",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -43725,7 +43726,7 @@ var App = function App() {
       columnNumber: 11
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
-    className: "inputGroup",
+    className: "inputGroup input-group-first-item",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -43785,7 +43786,7 @@ var App = function App() {
       columnNumber: 11
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
-    className: "inputGroup",
+    className: "inputGroup input-group-first-item",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -44162,7 +44163,7 @@ module.exports = JSON.parse("{\"data\":{\"menus\":[{\"id\":\"1\",\"title\":\"Pro
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!*************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fahroidlife%2FDocuments%2Fnextjs%2Fblog%2Fpages%2Findex.js ***!
   \*************************************************************************************************************************************/
@@ -44185,5 +44186,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js","styles"]]]);
+},[[2,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

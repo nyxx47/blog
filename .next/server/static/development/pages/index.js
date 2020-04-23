@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -8229,6 +8229,7 @@ const App = () => {
       columnNumber: 11
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "contac-content-item-first-name",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -8314,7 +8315,7 @@ const App = () => {
       columnNumber: 11
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
-    className: "inputGroup",
+    className: "inputGroup input-group-first-item",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -8374,7 +8375,7 @@ const App = () => {
       columnNumber: 11
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
-    className: "inputGroup",
+    className: "inputGroup input-group-first-item",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -8762,7 +8763,7 @@ module.exports = JSON.parse("{\"data\":{\"menus\":[{\"id\":\"1\",\"title\":\"Pro
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

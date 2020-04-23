@@ -392,7 +392,7 @@ freelance work.
         <View className="contact-content" direction="column">
           <Text className="contact-item-title" family="quicksand">Let me know about you.</Text>
           <View className="contact-content-item">
-            <View>
+            <View className="contac-content-item-first-name">
               <Input placeholder="First name" className="contact-input"/>
             </View>
             <View>
@@ -407,7 +407,7 @@ freelance work.
           </View>
           <Text className="contact-item-title" family="quicksand">What budget range are you in? </Text>  
           <View className="contact-content-item">
-            <View className="inputGroup">
+            <View className="inputGroup input-group-first-item">
               <input id="radio1" name="radio" type="radio"/>
               <label htmlFor="radio1">$500 - $1,000</label>
             </View>
@@ -417,7 +417,7 @@ freelance work.
             </View>
           </View>
           <View className="contact-content-item">
-            <View className="inputGroup">
+            <View className="inputGroup input-group-first-item">
               <input id="radio3" name="radio" type="radio"/>
               <label htmlFor="radio3">$5,000 - $10,000</label>
             </View>
@@ -472,6 +472,7 @@ freelance work.
           </View>
         </View>
       </View>
+      
     </MainLayout>
   )
 }
