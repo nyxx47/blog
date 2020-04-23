@@ -39,6 +39,12 @@ const App = () => {
 
   },[isVisible])
 
+  const toInquiry = () => {
+    document.getElementById('inquiry').scrollIntoView({
+      behavior: 'smooth'
+    });
+  }
+
 
   const openMenu = () => {
       setOpen(true)
@@ -168,7 +174,7 @@ const App = () => {
                 </Text>
               </View>
               <View align="center">
-                <Button className="btn-hire">
+                <Button className="btn-hire" onClick={toInquiry}>
                   HIRE ME
                 </Button>
                 <a href="https://calendly.com/ahroidlife/15min" target="_blank">
@@ -384,7 +390,7 @@ freelance work.
                   </View>
            </View>
       </View>
-      <View className="contact-wrapper" direction="column">
+      <View id="inquiry" className="contact-wrapper" direction="column">
         <View className="contact-header" direction="column">
             <Text family="quicksand" className="contact-header-title">Get in Touch</Text>
             <Text family="quicksand" className="contact-header-subtitle">Let’s start build something great together.</Text>
@@ -472,7 +478,41 @@ freelance work.
           </View>
         </View>
       </View>
-      
+      <View className="footer-wrapper">
+            <View className="footer-social-media">
+                  <ul>
+                    <li>
+                      <a href="" target="_blank">
+                        <Image src="/static/illustrations/linkedin.svg"/>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="" target="_blank">
+                        <Image src="/static/illustrations/instagram.svg"/>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="" target="_blank">
+                        <Image src="/static/illustrations/facebook.svg"/>
+                      </a>
+                    </li>
+                  </ul>
+            </View>
+            <View className="footer-content">
+              <Text family="quicksand" variant="dark">Copyright 2020. Designed and build by Krisna Ahroid with XD, ReactJs, and Golang.</Text>
+            </View>
+            <View className="footer-languages">
+              <View className="languages-select" direction="column">
+                 <View className="select-item">
+                  <Text>ENGLISH</Text>
+                  <Image src="/static/illustrations/ios-arrow-down.svg" className="icon-arrow-dropdown"/>
+                 </View>
+                 <View className="select-item hidden">
+                  <Text>INDONESIA</Text>
+                 </View>
+              </View>
+            </View>
+      </View>
     </MainLayout>
   )
 }
