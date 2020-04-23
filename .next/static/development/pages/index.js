@@ -42584,7 +42584,7 @@ var App = function App() {
       columnNumber: 19
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
-    src: "/static/tools/l_ps.svg",
+    src: "/static/tools/affinity.png",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -43577,7 +43577,574 @@ var App = function App() {
       lineNumber: 380,
       columnNumber: 27
     }
-  }, "Founder at Konseline"))))))));
+  }, "Founder at Konseline"))))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "contact-wrapper",
+    direction: "column",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 387,
+      columnNumber: 7
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "contact-header",
+    direction: "column",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 388,
+      columnNumber: 9
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    family: "quicksand",
+    className: "contact-header-title",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 389,
+      columnNumber: 13
+    }
+  }, "Get in Touch"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    family: "quicksand",
+    className: "contact-header-subtitle",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 390,
+      columnNumber: 13
+    }
+  }, "Let\u2019s start build something great together.")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "contact-content",
+    direction: "column",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 392,
+      columnNumber: 9
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    className: "contact-item-title",
+    family: "quicksand",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 393,
+      columnNumber: 11
+    }
+  }, "Let me know about you."), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "contact-content-item",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 394,
+      columnNumber: 11
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 395,
+      columnNumber: 13
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Input"], {
+    placeholder: "First name",
+    className: "contact-input",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 396,
+      columnNumber: 15
+    }
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 398,
+      columnNumber: 13
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Input"], {
+    placeholder: "Last name",
+    className: "contact-input",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 399,
+      columnNumber: 15
+    }
+  }))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "contact-content-item",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 402,
+      columnNumber: 11
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Input"], {
+    placeholder: "Email address",
+    width: "100%",
+    className: "contact-input",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 403,
+      columnNumber: 13
+    }
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "contact-content-item",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 405,
+      columnNumber: 11
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Input"], {
+    placeholder: "Phone number (optional)",
+    width: "100%",
+    className: "contact-input",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 406,
+      columnNumber: 13
+    }
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    className: "contact-item-title",
+    family: "quicksand",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 408,
+      columnNumber: 11
+    }
+  }, "What budget range are you in? "), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "contact-content-item",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 409,
+      columnNumber: 11
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "inputGroup",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 410,
+      columnNumber: 13
+    }
+  }, __jsx("input", {
+    id: "radio1",
+    name: "radio",
+    type: "radio",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 411,
+      columnNumber: 15
+    }
+  }), __jsx("label", {
+    htmlFor: "radio1",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 412,
+      columnNumber: 15
+    }
+  }, "$500 - $1,000")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "inputGroup",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 414,
+      columnNumber: 13
+    }
+  }, __jsx("input", {
+    id: "radio2",
+    name: "radio",
+    type: "radio",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 415,
+      columnNumber: 15
+    }
+  }), __jsx("label", {
+    htmlFor: "radio2",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 416,
+      columnNumber: 15
+    }
+  }, "$1,000 - $5,000"))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "contact-content-item",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 419,
+      columnNumber: 11
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "inputGroup",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 420,
+      columnNumber: 13
+    }
+  }, __jsx("input", {
+    id: "radio3",
+    name: "radio",
+    type: "radio",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 421,
+      columnNumber: 15
+    }
+  }), __jsx("label", {
+    htmlFor: "radio3",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 422,
+      columnNumber: 15
+    }
+  }, "$5,000 - $10,000")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "inputGroup",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 424,
+      columnNumber: 13
+    }
+  }, __jsx("input", {
+    id: "radio4",
+    name: "radio",
+    type: "radio",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 425,
+      columnNumber: 15
+    }
+  }), __jsx("label", {
+    htmlFor: "radio4",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 426,
+      columnNumber: 15
+    }
+  }, "$10,000 - $50,000+"))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    className: "contact-item-title",
+    family: "quicksand",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 429,
+      columnNumber: 11
+    }
+  }, "Tell me more about the project. "), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "contact-content-item",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 430,
+      columnNumber: 11
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "contact-dropdown animated zoomIn",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 431,
+      columnNumber: 13
+    }
+  }, __jsx("label", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 432,
+      columnNumber: 17
+    }
+  }, __jsx("input", {
+    type: "checkbox",
+    name: "placeholder",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 433,
+      columnNumber: 21
+    }
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+    src: "/static/illustrations/ios-arrow-down.svg",
+    className: "icon-arrow-dropdown",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 434,
+      columnNumber: 21
+    }
+  }), __jsx("span", {
+    className: "placeholder",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 435,
+      columnNumber: 21
+    }
+  }, "Choose your Timeline"), __jsx("label", {
+    className: "option",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 436,
+      columnNumber: 21
+    }
+  }, __jsx("input", {
+    type: "radio",
+    name: "option",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 437,
+      columnNumber: 25
+    }
+  }), __jsx("span", {
+    className: "title animated fadeIn",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 438,
+      columnNumber: 25
+    }
+  }, __jsx("i", {
+    className: "icon icon-speedometer",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 438,
+      columnNumber: 65
+    }
+  }), "ASAP")), __jsx("label", {
+    className: "option",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 440,
+      columnNumber: 21
+    }
+  }, __jsx("input", {
+    type: "radio",
+    name: "option",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 441,
+      columnNumber: 25
+    }
+  }), __jsx("span", {
+    className: "title animated fadeIn",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 442,
+      columnNumber: 25
+    }
+  }, __jsx("i", {
+    className: "icon icon-fire",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 442,
+      columnNumber: 65
+    }
+  }), "1 Month")), __jsx("label", {
+    className: "option",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 444,
+      columnNumber: 21
+    }
+  }, __jsx("input", {
+    type: "radio",
+    name: "option",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 445,
+      columnNumber: 25
+    }
+  }), __jsx("span", {
+    className: "title animated fadeIn",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 446,
+      columnNumber: 25
+    }
+  }, __jsx("i", {
+    className: "icon icon-fire",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 446,
+      columnNumber: 65
+    }
+  }), "3 Months")), __jsx("label", {
+    className: "option",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 448,
+      columnNumber: 21
+    }
+  }, __jsx("input", {
+    type: "radio",
+    name: "option",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 449,
+      columnNumber: 25
+    }
+  }), __jsx("span", {
+    className: "title animated fadeIn",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 450,
+      columnNumber: 25
+    }
+  }, __jsx("i", {
+    className: "icon icon-fire",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 450,
+      columnNumber: 65
+    }
+  }), "6 Months")), __jsx("label", {
+    className: "option",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 452,
+      columnNumber: 21
+    }
+  }, __jsx("input", {
+    type: "radio",
+    name: "option",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 453,
+      columnNumber: 25
+    }
+  }), __jsx("span", {
+    className: "title animated fadeIn",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 454,
+      columnNumber: 25
+    }
+  }, __jsx("i", {
+    className: "icon icon-fire",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 454,
+      columnNumber: 65
+    }
+  }), "1 Year")), __jsx("label", {
+    className: "option",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 456,
+      columnNumber: 21
+    }
+  }, __jsx("input", {
+    type: "radio",
+    name: "option",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 457,
+      columnNumber: 25
+    }
+  }), __jsx("span", {
+    className: "title animated fadeIn",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 458,
+      columnNumber: 25
+    }
+  }, __jsx("i", {
+    className: "icon icon-fire",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 458,
+      columnNumber: 65
+    }
+  }), "Ongoing"))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "contact-content-item",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 463,
+      columnNumber: 11
+    }
+  }, __jsx("textarea", {
+    className: "input-textarea",
+    placeholder: "Write us a few word about your project and we\u2019ll prepare a proposal for you within 24 hours.",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 464,
+      columnNumber: 13
+    }
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "contact-content-item",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 467,
+      columnNumber: 11
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+    family: "quicksand",
+    variant: "dark",
+    size: "16",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 468,
+      columnNumber: 13
+    }
+  }, "I promise to keep your personal information and never give it to anyone, for any reason.")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+    className: "contact-content-submit",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 470,
+      columnNumber: 11
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Button"], {
+    width: "150px",
+    height: "40px",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 471,
+      columnNumber: 13
+    }
+  }, "SUBMIT")))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (App);

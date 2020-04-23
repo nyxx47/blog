@@ -5,7 +5,7 @@ import useOnScreen from '../components/particles/useOnScreen'
 import {MainLayout} from '../components/templates/layouts'
 
 import {Navigation} from '../components/molecules'
-import {View, Text, Image, Button, BackgroundImage} from '../components/atoms'
+import {View, Text, Image, Button, Input} from '../components/atoms'
 import knobData from "./index.knobs.json";
 const {menus} = knobData.data;
 
@@ -203,7 +203,7 @@ const App = () => {
                     <Image src="/static/tools/protopie.svg"/>
                   </View>
                   <View>
-                    <Image src="/static/tools/l_ps.svg"/>
+                    <Image src="/static/tools/affinity.png"/>
                   </View>
                   <View>
                     <Image src="/static/tools/ae.svg"/>
@@ -383,6 +383,94 @@ freelance work.
                   </Flicking>
                   </View>
            </View>
+      </View>
+      <View className="contact-wrapper" direction="column">
+        <View className="contact-header" direction="column">
+            <Text family="quicksand" className="contact-header-title">Get in Touch</Text>
+            <Text family="quicksand" className="contact-header-subtitle">Let’s start build something great together.</Text>
+        </View>
+        <View className="contact-content" direction="column">
+          <Text className="contact-item-title" family="quicksand">Let me know about you.</Text>
+          <View className="contact-content-item">
+            <View>
+              <Input placeholder="First name" className="contact-input"/>
+            </View>
+            <View>
+              <Input placeholder="Last name" className="contact-input"/>
+            </View>
+          </View>
+          <View className="contact-content-item">
+            <Input placeholder="Email address" width="100%" className="contact-input"/>
+          </View>
+          <View className="contact-content-item">
+            <Input placeholder="Phone number (optional)" width="100%" className="contact-input"/>
+          </View>
+          <Text className="contact-item-title" family="quicksand">What budget range are you in? </Text>  
+          <View className="contact-content-item">
+            <View className="inputGroup">
+              <input id="radio1" name="radio" type="radio"/>
+              <label htmlFor="radio1">$500 - $1,000</label>
+            </View>
+            <View className="inputGroup">
+              <input id="radio2" name="radio" type="radio"/>
+              <label htmlFor="radio2">$1,000 - $5,000</label>
+            </View>
+          </View>
+          <View className="contact-content-item">
+            <View className="inputGroup">
+              <input id="radio3" name="radio" type="radio"/>
+              <label htmlFor="radio3">$5,000 - $10,000</label>
+            </View>
+            <View className="inputGroup">
+              <input id="radio4" name="radio" type="radio"/>
+              <label htmlFor="radio4">$10,000 - $50,000+</label>
+            </View>
+          </View>
+          <Text className="contact-item-title" family="quicksand">Tell me more about the project. </Text>
+          <View className="contact-content-item">
+            <View className="contact-dropdown animated zoomIn">
+                <label>
+                    <input type="checkbox" name="placeholder" />
+                    <Image src="/static/illustrations/ios-arrow-down.svg" className="icon-arrow-dropdown"/>
+                    <span className="placeholder">Choose your Timeline</span>
+                    <label className="option">
+                        <input type="radio" name="option" />
+                        <span className="title animated fadeIn"><i className="icon icon-speedometer"></i>ASAP</span>
+                    </label>
+                    <label className="option">
+                        <input type="radio" name="option" />
+                        <span className="title animated fadeIn"><i className="icon icon-fire"></i>1 Month</span>
+                    </label>
+                    <label className="option">
+                        <input type="radio" name="option" />
+                        <span className="title animated fadeIn"><i className="icon icon-fire"></i>3 Months</span>
+                    </label>
+                    <label className="option">
+                        <input type="radio" name="option" />
+                        <span className="title animated fadeIn"><i className="icon icon-fire"></i>6 Months</span>
+                    </label>
+                    <label className="option">
+                        <input type="radio" name="option" />
+                        <span className="title animated fadeIn"><i className="icon icon-fire"></i>1 Year</span>
+                    </label>
+                    <label className="option">
+                        <input type="radio" name="option" />
+                        <span className="title animated fadeIn"><i className="icon icon-fire"></i>Ongoing</span>
+                    </label>
+                </label>
+            </View>
+          </View>
+          <View className="contact-content-item">
+            <textarea className="input-textarea" placeholder="Write us a few word about your project and we’ll prepare a proposal for you within 24 hours.">
+            </textarea>
+          </View>
+          <View className="contact-content-item">
+            <Text family="quicksand" variant="dark" size="16">I promise to keep your personal information and never give it to anyone, for any reason.</Text>
+          </View>
+          <View className="contact-content-submit">
+            <Button width="150px" height="40px">SUBMIT</Button>
+          </View>
+        </View>
       </View>
     </MainLayout>
   )
