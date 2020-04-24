@@ -1,0 +1,82 @@
+import { Meta, Story,Props, Preview } from '@storybook/addon-docs/blocks';
+import { withKnobs, select } from '@storybook/addon-knobs';
+import Icon from './icon'
+
+<Meta title="Atoms|Icons" component={Icon} />
+
+## Icons
+
+
+Use an icon for attributing actions or content to specific symbol. 
+<Preview withToolbar>
+    <Story name="All Icons">
+        <div>
+            <Icon name="message" width="3em"/>
+            <Icon name="notification" width="3em"/>
+            <Icon name="search" width="3em"/>
+            <br/>
+            <Icon name="bag" width="3em"/>
+            <Icon name="activity" width="3em"/>
+            <Icon name="layer" width="3em"/> 
+            <Icon name="edit" width="3em"/> 
+            <Icon name="arrow_down" width="3em"/>
+            <Icon name="arrow_left" width="3em"/> 
+            <Icon name="arrow_right" width="3em"/> 
+            <Icon name="arrow_up" width="3em"/> 
+            <Icon name="chevron_left" width="3em"/> 
+            <Icon name="chevron_right" width="3em"/>
+            <Icon name="chevrons_left" width="3em"/> 
+            <Icon name="chevrons_right" width="3em"/> 
+            <Icon name="user" width="3em"/> 
+            <Icon name="users" width="3em"/> 
+            <Icon name="upload_cloud" width="3em"/> 
+            <Icon name="close" width="3em"/>
+            <Icon name="plus" width="3em"/>
+        </div>
+    </Story>
+</Preview>
+
+<Props of={Icon} />
+
+## Usage
+
+Icons is used to represents a symbols by default the icon show a bag symbol.
+https://feathericons.com/
+
+You can used our list icons name on below : 
+<ul>
+    <li>message</li>
+    <li>notification</li>
+    <li>search</li>
+    <li>bag</li>
+    <li>activity</li>
+    <li>layer</li>
+    <li>edit</li>
+    <li>arrow_down</li>
+    <li>arrow_left</li>
+    <li>arrow_right</li>
+    <li>arrow_up</li>
+    <li>chevron_left</li>
+    <li>chevron_right</li>
+    <li>chevrons_left</li>
+    <li>chevrons_right</li>
+    <li>user</li>
+    <li>users</li>
+    <li>upload_cloud</li>
+    <li>close</li>
+    <li>plus</li>
+</ul>
+
+
+### Playground
+
+Experiment with this story with Knobs addon in Canvas mode.
+
+<Story name="knobs" parameters={{ decorators: [withKnobs] }}>
+  <Icon name={select(
+    'Name', ['notification','message','search','bag', 'activity', 'layer', 'edit', 'arrow_down',
+    'arrow_left','arrow_right','arrow_up','chevron_left','chevron_right',
+    'chevrons_left','chevrons_right','user','users','upload_cloud','close','plus']
+    )} width="3em"/>
+</Story>
+

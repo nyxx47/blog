@@ -1,0 +1,31 @@
+import { withKnobs, text, select } from "@storybook/addon-knobs";
+import { Meta, Story,Props, Preview } from '@storybook/addon-docs/blocks';
+
+import SliderHero from './sliderHero.jsx'
+
+<Meta title="Organisms|Articles|SliderHero" component={SliderHero}/>
+
+## SliderHero
+SliderHero is small and adaptive tag for adding context to content.
+
+<Preview withToolbar>
+    <Story name="SliderHero">
+        <SliderHero/>
+    </Story>
+</Preview>
+
+<Props of={SliderHero} />
+
+## SliderHero
+
+Import your `SliderHero component` in your file
+
+```jsx
+import { SliderHero } from "../your_path/components/organisms";
+
+```
+
+```jsx
+<SliderHero/>
+```
+

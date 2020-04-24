@@ -1,0 +1,53 @@
+{
+    "data":{
+        "menu": {
+            "items": {
+                "label": "Menu",
+                "default": [
+                    {
+                        "id":"1",
+                        "title": "Home",
+                        "url": "/"
+                    },
+                    {
+                        "id":"2",
+                        "title": "Issues",
+                        "url": "/issues"
+                    },
+                    {
+                        "id":"3",
+                        "title": "Stories",
+                        "url": "/stories"
+                    },
+                    {
+                        "id":"4",
+                        "title": "About Us",
+                        "url": "/about"
+                    }
+                ]
+            }
+        },
+        "submenu":{
+            "items": {
+                "label": "Sub",
+                "default": [
+                    {
+                        "id":"1",
+                        "title": "IN",
+                        "url": "/"
+                    },
+                    {
+                        "id":"2",
+                        "title": "IG",
+                        "url": "/issues"
+                    },
+                    {
+                        "id":"3",
+                        "title": "FB",
+                        "url": "/stories"
+                    }
+                ]
+            }
+        }
+    }
+}

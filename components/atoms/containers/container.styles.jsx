@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import breakpoints from '../../particles/breakpoints'
 
 const isDisplayProps = props => {
 
@@ -46,14 +47,47 @@ export const StyledContainer = styled.div`
     display: ${props => isDisplayProps(props)};
     width: ${props => props.isEqualWidth};
     height: ${props => props.isEqualHeight};
-    background: ${props => !props.backgroundColor ? 'linear-gradient(#e1e7ed 0%, #e1f0f5 100%)' : props.backgroundColor};
+    background: ${props => !props.backgroundColor ? 'none' : props.backgroundColor};
     flex-direction: ${props => flexDirection(props)};
     justify-content: ${props => props.justifyContent};
     align-items: ${props => props.alignItems};
-    boxSizing: ${props => props.boxSizing};
+    box-sizing: ${props => props.boxSizing};
     padding: ${props => props.padding};
-    box-shadow: ${props => props.boxShadow}
+    box-shadow: ${props => props.boxShadow};
+    position: ${props => props.position};
+    z-index: ${props => !props.zIndex ? undefined : props.zIndex};
 
+
+      &.hero{
+
+        @media ${breakpoints.laptopL} {
+            
+        }
+    
+        @media ${breakpoints.laptop} {
+            padding: 0 50px 0 50px;
+        }
+    
+        @media ${breakpoints.tablet} {
+            flex-direction: column-reverse;
+            padding: 50px 25px 0 25px;
+        }
+      }
+
+      &.section{
+
+        @media ${breakpoints.laptopL} {
+            
+        }
+    
+        @media ${breakpoints.laptop} {
+            padding: 25px;
+        }
+    
+        @media ${breakpoints.tablet} {
+            padding: 25px;
+        }
+      }
 `
 
 export default StyledContainer

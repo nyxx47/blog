@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="367" height="227" viewBox="0 0 367 227">
+  <g id="Group_170" data-name="Group 170" transform="translate(-626 -311)">
+    <g id="Group_164" data-name="Group 164" transform="translate(0 -31)">
+      <g id="Rectangle_135" data-name="Rectangle 135" transform="translate(834 342)" fill="#ededed" stroke="#1e2127" stroke-width="1">
+        <rect width="159" height="207" rx="35" stroke="none"/>
+        <rect x="0.5" y="0.5" width="158" height="206" rx="34.5" fill="none"/>
+      </g>
+      <g id="Rectangle_133" data-name="Rectangle 133" transform="translate(815 347)" fill="#ededed" stroke="#1e2127" stroke-width="1">
+        <rect width="171" height="222" rx="35" stroke="none"/>
+        <rect x="0.5" y="0.5" width="170" height="221" rx="34.5" fill="none"/>
+      </g>
+      <rect id="Rectangle_134" data-name="Rectangle 134" width="29" height="117" transform="translate(801 400)" fill="#ededed"/>
+    </g>
+    <g id="Group_169" data-name="Group 169">
+      <g id="Rectangle_132" data-name="Rectangle 132" transform="translate(646 383)" fill="#ededed" stroke="#1e2127" stroke-width="1">
+        <rect width="292" height="83" rx="14" stroke="none"/>
+        <rect x="0.5" y="0.5" width="291" height="82" rx="13.5" fill="none"/>
+      </g>
+      <g id="Group_166" data-name="Group 166">
+        <g id="Group_162" data-name="Group 162" transform="translate(0 -31)">
+          <g id="Rectangle_129" data-name="Rectangle 129" transform="translate(626 422)" fill="#ededed" stroke="#1e2127" stroke-width="1">
+            <rect width="300" height="85" rx="14" stroke="none"/>
+            <rect x="0.5" y="0.5" width="299" height="84" rx="13.5" fill="none"/>
+          </g>
+          <g id="Group_161" data-name="Group 161" transform="translate(-168 2)">
+            <circle id="Ellipse_168" data-name="Ellipse 168" cx="7" cy="7" r="7" transform="translate(868 456)" fill="#1e2127"/>
+            <ellipse id="Ellipse_169" data-name="Ellipse 169" cx="6.5" cy="7" rx="6.5" ry="7" transform="translate(847 456)" fill="#1e2127"/>
+            <circle id="Ellipse_170" data-name="Ellipse 170" cx="7" cy="7" r="7" transform="translate(825 456)" fill="#1e2127"/>
+          </g>
+        </g>
+        <g id="Group_165" data-name="Group 165">
+          <g id="Rectangle_136" data-name="Rectangle 136" transform="translate(871 419)" fill="#fff" stroke="#1e2127" stroke-width="1">
+            <rect width="29" height="29" rx="7" stroke="none"/>
+            <rect x="0.5" y="0.5" width="28" height="28" rx="6.5" fill="none"/>
+          </g>
+          <path id="Icon_ionic-ios-checkmark" data-name="Icon ionic-ios-checkmark" d="M25.5,13.563l-1.237-1.273a.266.266,0,0,0-.2-.084h0a.255.255,0,0,0-.2.084l-8.578,8.641L12.164,17.81a.272.272,0,0,0-.394,0l-1.252,1.252a.28.28,0,0,0,0,.4L14.456,23.4a1.245,1.245,0,0,0,.823.4,1.3,1.3,0,0,0,.816-.387H16.1l9.4-9.45A.3.3,0,0,0,25.5,13.563Z" transform="translate(867.98 415.496)" fill="#1e2127"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

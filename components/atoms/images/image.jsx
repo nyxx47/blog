@@ -18,6 +18,7 @@ const Image = ({
     isEqualbottom,
     width,
     height, 
+    radius,
     ...props}) => {
 
     return (
@@ -36,6 +37,7 @@ const Image = ({
         isEqualbottom={isEqualbottom}
         width={width}
         height={height}
+        radius={radius}
         {...props}/>
     )
 }
@@ -54,7 +56,8 @@ Image.propTypes = {
     isEqualright: string,
     isEqualbottom: string,
     width: string,
-    height: string
+    height: string,
+    radius: string
 }
 
 export default Image

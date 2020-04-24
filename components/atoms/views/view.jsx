@@ -21,7 +21,13 @@ const View = ({
     isEqualBackground,
     isEqualDirection, 
     position,
+    bottom,
     margin,
+    maxWidth,
+    top,
+    left,
+    border,
+    isPadding,
     ...props}) => {
 
     return (
@@ -40,9 +46,15 @@ const View = ({
         justify={justify}
         overflow={overflow}
         position={position}
+        bottom={bottom}
         direction={direction}
         isEqualDirection={isEqualDirection}
         margin={margin}
+        maxWidth={maxWidth}
+        top={top}
+        left={left}
+        border={border}
+        isPadding={isPadding}
         {...props}>
             {children}
         </StyledView>
@@ -66,7 +78,10 @@ View.propTypes = {
     backgroundColor: string,
     isEqualBackground: string,
     isBoxShadow: string,
-    radius: string
+    radius: string,
+    maxWidth: string,
+    top: string,
+    left: string
 }
 
 export default View

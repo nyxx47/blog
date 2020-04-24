@@ -1,0 +1,16 @@
+{
+    "items": [
+        {
+            "type": "large",
+            "direction": "rows",
+            "hero": {
+                "image": "https://increment.com/art/12/case-studies-in-reachitecting/cover-1000-570f4642.jpeg",
+                "class": "semi-half"
+            },
+            "content": {
+                "title": "Case studies in rearchitecting",
+                "subtitle": "How Buffer, ThoughtWorks, N26, and Zapier have shifted their software to respond to new contexts and met new needs."
+            }
+        }
+    ]
+}

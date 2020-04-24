@@ -1,0 +1,43 @@
+import { withKnobs, text, select } from "@storybook/addon-knobs";
+import { Meta, Story,Props, Preview } from '@storybook/addon-docs/blocks';
+
+import CardText from './cardText.jsx'
+
+<Meta title="Molecules|Articles|CardText" component={CardText}/>
+
+## CardText
+CardText is small and adaptive tag for adding context to content.
+
+<Preview withToolbar>
+    <Story name="CardText">
+        <CardText
+            key="1"
+            title="How can I show SVG file on React Native?"
+            subtitle="I want to show svg files (I have bunch of svg images) but the thing I couldn’t find the way to show."
+            variant="#dce2ff"
+            color="#4762F5"
+            badgeTitle="React Native"
+        />
+    </Story>
+</Preview>
+
+<Props of={CardText} />
+
+## USAGE 
+
+Import your `Badge component` in your file
+
+```jsx
+import { CardText } from "../your_path/components/atoms";
+
+```
+
+```jsx
+<CardText
+    title="How can I show SVG file on React Native?"
+            
+    icon="react"
+    tagname="React Native"
+/>
+```
+

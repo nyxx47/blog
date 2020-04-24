@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default } from './articleText.jsx';","map":{"version":3,"sources":["/Users/ahroidlife/Documents/nextjs/blog/components/organisms/articles/articleText/index.js"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,mBAAxB","sourcesContent":["export { default } from './articleText.jsx'"]},"metadata":{},"sourceType":"module"}
