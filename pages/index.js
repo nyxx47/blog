@@ -1,11 +1,15 @@
 import React, {useState, useEffect, useRef} from 'react'
 import Link from 'next/link'
+import axios from 'axios'
 import Flicking from "@egjs/react-flicking";
 import useOnScreen from '../components/particles/useOnScreen'
 import {MainLayout} from '../components/templates/layouts'
 
 import {Navigation} from '../components/molecules'
-import {View, Text, Image, Button, Input} from '../components/atoms'
+import {View, Text, Image, Button, Input, Lottie} from '../components/atoms'
+
+import * as Loading from '../assets/lottiefiles/loading-circle.json'
+import * as Success from '../assets/lottiefiles/success.json'
 import knobData from "./index.knobs.json";
 const {menus} = knobData.data;
 
@@ -15,10 +19,48 @@ const App = () => {
   const [overlay, setOverlay] = useState(false)
   const [greeting, setGreeting] = useState('Good Morning')
   const [date, setDate] = useState('01 Jan 2020')
+  const [loading, setLoading] = useState(false)
+  const [visible, setVisible] = useState(false)
+
+  const [firstname, setFirstname] = useState('')
+  const [lastname, setLastname] = useState('')
+  const [email, setEmail] = useState('')
+  const [phone, setPhone] = useState('')
+  const [budget, setBudget] = useState('')
+  const [timeline, setTimeline] = useState('')
+  const [message, setMessage] = useState('')
 
   const ref = useRef()
 
   const isVisible = useOnScreen(ref);
+
+  const inquiry = () => {
+      let payload = {
+        firstname: firstname,
+        lastname: lastname,
+        email: email,
+        phone: phone,
+        budget: budget,
+        timeline: timeline,
+        message: message
+      }
+
+      setVisible(true)
+      setLoading(true)
+      axios.post(process.env.API+'/api/inquiry/create', JSON.stringify(payload)).then(res => {
+        setTimeout(() => {
+          setLoading(false)
+        }, 2000)
+        setFirstname('')
+        setLastname('')
+        setEmail('')
+        setPhone('')
+        setMessage('')
+        console.log("RES :: ", res)
+      }).catch(err => {
+        console.log(err)
+      })
+    }
 
   useEffect(() => {
     console.log(`The component is ${isVisible ? "visible" : "not visible"}.`)
@@ -37,6 +79,7 @@ const App = () => {
         setGreeting('Good Evening')
     }
 
+
   },[isVisible])
 
   const toInquiry = () => {
@@ -45,6 +88,9 @@ const App = () => {
     });
   }
 
+  const done = () => {
+    setVisible(false)
+  }
 
   const openMenu = () => {
       setOpen(true)
@@ -58,9 +104,15 @@ const App = () => {
     document.body.style.overflow = 'unset';
   }
 
+
   return (
     <MainLayout>
     <div ref={ref}></div>
+      <View className={`overlay ${visible ? 'isVisibility' : ''}`} justify="center" align="center" direction="column">
+        { loading ? <Lottie width={200} height={200} autoplay={true} loop={true} path={Loading.default}/> : <Lottie width={250} height={250} autoplay={true} loop={true} path={Success.default}/>}
+        <Text margin="15px 0 0 0" family="quicksand" size="32">{loading ? 'Just take a moment' : 'Thank You!'}</Text>
+        { loading ? undefined : <Button className="btn-done" onClick={done}>Done</Button>}
+      </View>
       <View className="main-header" >
         <View className="main-header-content" direction="column">
           <View className="main-header-nav">
@@ -143,13 +195,13 @@ const App = () => {
             <View className="social-media">
               <ul>
                 <li>
-                  <a href="/" target="_blank">IN</a>
+                  <a href="https://www.linkedin.com/in/ahroidlife/" target="_blank">IN</a>
                 </li>
                 <li>
-                  <a href="/" target="_blank">FB</a>
+                  <a href="https://www.facebook.com/krisnaahroid" target="_blank">FB</a>
                 </li>
                 <li>
-                  <a href="/" target="_blank">IG</a>
+                  <a href="https://www.instagram.com/user.ahroidlife/" target="_blank">IG</a>
                 </li>
               </ul>
             </View>
@@ -256,6 +308,7 @@ const App = () => {
                   <Text family="quicksand" size="18" weight="400">I a UI/UX Designer & Frontend  Developer, and I love what I do.</Text>
           </View>
           <View className="specializing-content">
+          <Image className="specializing-square-dots" src="/static/illustrations/dots.svg"/>
             <Flicking gap={50} infinite={true} infiniteThreshold={100}  bound={true} moveType="freeScroll" style={{width:100+'%', height: 80+'vh'}}>
                 <View className="specializing-cards">
                       {/* <Image class="square-dots" src="~assets/images/square-dots.svg" alt="dots" /> */}
@@ -399,36 +452,36 @@ freelance work.
           <Text className="contact-item-title" family="quicksand">Let me know about you.</Text>
           <View className="contact-content-item">
             <View className="contac-content-item-first-name">
-              <Input placeholder="First name" className="contact-input"/>
+              <Input placeholder="First name" value={firstname} onChange={(e) => setFirstname(e.target.value)} className="contact-input"/>
             </View>
             <View>
-              <Input placeholder="Last name" className="contact-input"/>
+              <Input placeholder="Last name" value={lastname} onChange={(e) => setLastname(e.target.value)} className="contact-input"/>
             </View>
           </View>
           <View className="contact-content-item">
-            <Input placeholder="Email address" width="100%" className="contact-input"/>
+            <Input placeholder="Email address" value={email} onChange={(e) => setEmail(e.target.value)} width="100%" className="contact-input"/>
           </View>
           <View className="contact-content-item">
-            <Input placeholder="Phone number (optional)" width="100%" className="contact-input"/>
+            <Input placeholder="Phone number (optional)" value={phone} onChange={(e) => setPhone(e.target.value)} width="100%" className="contact-input"/>
           </View>
           <Text className="contact-item-title" family="quicksand">What budget range are you in? </Text>  
           <View className="contact-content-item">
-            <View className="inputGroup input-group-first-item">
+            <View className="inputGroup input-group-first-item" onClick={() => setBudget('$500 - $1,000')}>
               <input id="radio1" name="radio" type="radio"/>
               <label htmlFor="radio1">$500 - $1,000</label>
             </View>
             <View className="inputGroup">
-              <input id="radio2" name="radio" type="radio"/>
+              <input id="radio2" name="radio" type="radio" onClick={() => setBudget('$1,000 - $5,000')}/>
               <label htmlFor="radio2">$1,000 - $5,000</label>
             </View>
           </View>
           <View className="contact-content-item">
             <View className="inputGroup input-group-first-item">
-              <input id="radio3" name="radio" type="radio"/>
+              <input id="radio3" name="radio" type="radio" onClick={() => setBudget('$5,000 - $10,000')}/>
               <label htmlFor="radio3">$5,000 - $10,000</label>
             </View>
             <View className="inputGroup">
-              <input id="radio4" name="radio" type="radio"/>
+              <input id="radio4" name="radio" type="radio" onClick={() => setBudget('$10,000 - $50,000+')}/>
               <label htmlFor="radio4">$10,000 - $50,000+</label>
             </View>
           </View>
@@ -439,27 +492,27 @@ freelance work.
                     <input type="checkbox" name="placeholder" />
                     <Image src="/static/illustrations/ios-arrow-down.svg" className="icon-arrow-dropdown"/>
                     <span className="placeholder">Choose your Timeline</span>
-                    <label className="option">
+                    <label className="option" onClick={() => setTimeline('ASAP')}>
                         <input type="radio" name="option" />
                         <span className="title animated fadeIn"><i className="icon icon-speedometer"></i>ASAP</span>
                     </label>
-                    <label className="option">
+                    <label className="option" onClick={() => setTimeline('1 Month')}>
                         <input type="radio" name="option" />
                         <span className="title animated fadeIn"><i className="icon icon-fire"></i>1 Month</span>
                     </label>
-                    <label className="option">
+                    <label className="option" onClick={() => setTimeline('3 Months')}>
                         <input type="radio" name="option" />
                         <span className="title animated fadeIn"><i className="icon icon-fire"></i>3 Months</span>
                     </label>
-                    <label className="option">
+                    <label className="option" onClick={() => setTimeline('6 Months')}>
                         <input type="radio" name="option" />
                         <span className="title animated fadeIn"><i className="icon icon-fire"></i>6 Months</span>
                     </label>
-                    <label className="option">
+                    <label className="option" onClick={() => setTimeline('1 Year')}>
                         <input type="radio" name="option" />
                         <span className="title animated fadeIn"><i className="icon icon-fire"></i>1 Year</span>
                     </label>
-                    <label className="option">
+                    <label className="option" onClick={() => setTimeline('Ongoing')}>
                         <input type="radio" name="option" />
                         <span className="title animated fadeIn"><i className="icon icon-fire"></i>Ongoing</span>
                     </label>
@@ -467,14 +520,14 @@ freelance work.
             </View>
           </View>
           <View className="contact-content-item">
-            <textarea className="input-textarea" placeholder="Write us a few word about your project and we’ll prepare a proposal for you within 24 hours.">
+            <textarea className="input-textarea" onChange={(e) => setMessage(e.target.value)} placeholder="Write us a few word about your project and we’ll prepare a proposal for you within 24 hours.">
             </textarea>
           </View>
           <View className="contact-content-item">
             <Text family="quicksand" variant="dark" size="16">I promise to keep your personal information and never give it to anyone, for any reason.</Text>
           </View>
           <View className="contact-content-submit">
-            <Button width="150px" height="40px">SUBMIT</Button>
+            <Button width="150px" height="40px" onClick={inquiry}>SUBMIT</Button>
           </View>
         </View>
       </View>
@@ -482,17 +535,17 @@ freelance work.
             <View className="footer-social-media">
                   <ul>
                     <li>
-                      <a href="" target="_blank">
+                      <a href="https://www.linkedin.com/in/ahroidlife/" target="_blank">
                         <Image src="/static/illustrations/linkedin.svg"/>
                       </a>
                     </li>
                     <li>
-                      <a href="" target="_blank">
+                      <a href="https://www.instagram.com/user.ahroidlife/" target="_blank">
                         <Image src="/static/illustrations/instagram.svg"/>
                       </a>
                     </li>
                     <li>
-                      <a href="" target="_blank">
+                      <a href="https://www.facebook.com/krisnaahroid" target="_blank">
                         <Image src="/static/illustrations/facebook.svg"/>
                       </a>
                     </li>

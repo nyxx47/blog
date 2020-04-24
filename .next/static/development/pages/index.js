@@ -351,6 +351,28 @@ module.exports = JSON.parse("{\"v\":\"5.4.1\",\"fr\":30,\"ip\":0,\"op\":120,\"w\
 
 /***/ }),
 
+/***/ "./assets/lottiefiles/loading-circle.json":
+/*!************************************************!*\
+  !*** ./assets/lottiefiles/loading-circle.json ***!
+  \************************************************/
+/*! exports provided: v, fr, ip, op, w, h, nm, ddd, assets, layers, markers, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"v\":\"5.6.5\",\"fr\":60,\"ip\":0,\"op\":90,\"w\":1024,\"h\":1024,\"nm\":\"03_Loading Animation\",\"ddd\":0,\"assets\":[],\"layers\":[{\"ddd\":0,\"ind\":1,\"ty\":4,\"nm\":\"Oval Copy\",\"sr\":1,\"ks\":{\"o\":{\"a\":0,\"k\":100,\"ix\":11},\"r\":{\"a\":1,\"k\":[{\"i\":{\"x\":[0.332],\"y\":[1]},\"o\":{\"x\":[0.455],\"y\":[0]},\"t\":0,\"s\":[45]},{\"t\":89,\"s\":[765]}],\"ix\":10},\"p\":{\"a\":0,\"k\":[512,512,0],\"ix\":2},\"a\":{\"a\":0,\"k\":[0,0,0],\"ix\":1},\"s\":{\"a\":0,\"k\":[100,100,100],\"ix\":6}},\"ao\":0,\"shapes\":[{\"ty\":\"gr\",\"it\":[{\"d\":1,\"ty\":\"el\",\"s\":{\"a\":0,\"k\":[500,500],\"ix\":2},\"p\":{\"a\":0,\"k\":[0,0],\"ix\":3},\"nm\":\"Ellipse Path 1\",\"mn\":\"ADBE Vector Shape - Ellipse\",\"hd\":false},{\"ty\":\"st\",\"c\":{\"a\":0,\"k\":[0.180391997099,0.184313997626,0.188234999776,1],\"ix\":3},\"o\":{\"a\":0,\"k\":100,\"ix\":4},\"w\":{\"a\":0,\"k\":60,\"ix\":5},\"lc\":2,\"lj\":2,\"bm\":0,\"nm\":\"Stroke 1\",\"mn\":\"ADBE Vector Graphic - Stroke\",\"hd\":false},{\"ty\":\"tr\",\"p\":{\"a\":0,\"k\":[0,0],\"ix\":2},\"a\":{\"a\":0,\"k\":[0,0],\"ix\":1},\"s\":{\"a\":0,\"k\":[100,100],\"ix\":3},\"r\":{\"a\":0,\"k\":0,\"ix\":6},\"o\":{\"a\":0,\"k\":100,\"ix\":7},\"sk\":{\"a\":0,\"k\":0,\"ix\":4},\"sa\":{\"a\":0,\"k\":0,\"ix\":5},\"nm\":\"Transform\"}],\"nm\":\"Oval Copy\",\"np\":2,\"cix\":2,\"bm\":0,\"ix\":1,\"mn\":\"ADBE Vector Group\",\"hd\":false},{\"ty\":\"tm\",\"s\":{\"a\":1,\"k\":[{\"i\":{\"x\":[0.648],\"y\":[1]},\"o\":{\"x\":[0.522],\"y\":[0]},\"t\":0,\"s\":[88]},{\"i\":{\"x\":[0.667],\"y\":[1]},\"o\":{\"x\":[0.812],\"y\":[0]},\"t\":45,\"s\":[75]},{\"t\":89,\"s\":[88]}],\"ix\":1},\"e\":{\"a\":0,\"k\":100,\"ix\":2},\"o\":{\"a\":0,\"k\":0,\"ix\":3},\"m\":1,\"ix\":2,\"nm\":\"Trim Paths 1\",\"mn\":\"ADBE Vector Filter - Trim\",\"hd\":false}],\"ip\":0,\"op\":90,\"st\":0,\"bm\":0},{\"ddd\":0,\"ind\":2,\"ty\":4,\"nm\":\"Oval\",\"sr\":1,\"ks\":{\"o\":{\"a\":0,\"k\":100,\"ix\":11},\"r\":{\"a\":1,\"k\":[{\"i\":{\"x\":[0.833],\"y\":[0.833]},\"o\":{\"x\":[0.167],\"y\":[0.167]},\"t\":0,\"s\":[0]},{\"t\":89,\"s\":[45]}],\"ix\":10},\"p\":{\"a\":0,\"k\":[512,512,0],\"ix\":2},\"a\":{\"a\":0,\"k\":[0,0,0],\"ix\":1},\"s\":{\"a\":0,\"k\":[100,100,100],\"ix\":6}},\"ao\":0,\"shapes\":[{\"ty\":\"gr\",\"it\":[{\"d\":1,\"ty\":\"el\",\"s\":{\"a\":0,\"k\":[500,500],\"ix\":2},\"p\":{\"a\":0,\"k\":[0,0],\"ix\":3},\"nm\":\"Ellipse Path 1\",\"mn\":\"ADBE Vector Shape - Ellipse\",\"hd\":false},{\"ty\":\"st\",\"c\":{\"a\":0,\"k\":[0.180391997099,0.184313997626,0.188234999776,1],\"ix\":3},\"o\":{\"a\":0,\"k\":100,\"ix\":4},\"w\":{\"a\":0,\"k\":50,\"ix\":5},\"lc\":2,\"lj\":1,\"ml\":4,\"bm\":0,\"d\":[{\"n\":\"d\",\"nm\":\"dash\",\"v\":{\"a\":0,\"k\":0,\"ix\":1}},{\"n\":\"g\",\"nm\":\"gap\",\"v\":{\"a\":0,\"k\":197,\"ix\":2}}],\"nm\":\"Stroke 1\",\"mn\":\"ADBE Vector Graphic - Stroke\",\"hd\":false},{\"ty\":\"tr\",\"p\":{\"a\":0,\"k\":[0,0],\"ix\":2},\"a\":{\"a\":0,\"k\":[0,0],\"ix\":1},\"s\":{\"a\":0,\"k\":[100,100],\"ix\":3},\"r\":{\"a\":0,\"k\":0,\"ix\":6},\"o\":{\"a\":0,\"k\":100,\"ix\":7},\"sk\":{\"a\":0,\"k\":0,\"ix\":4},\"sa\":{\"a\":0,\"k\":0,\"ix\":5},\"nm\":\"Transform\"}],\"nm\":\"Oval\",\"np\":2,\"cix\":2,\"bm\":0,\"ix\":1,\"mn\":\"ADBE Vector Group\",\"hd\":false}],\"ip\":0,\"op\":90,\"st\":0,\"bm\":0}],\"markers\":[]}");
+
+/***/ }),
+
+/***/ "./assets/lottiefiles/success.json":
+/*!*****************************************!*\
+  !*** ./assets/lottiefiles/success.json ***!
+  \*****************************************/
+/*! exports provided: v, fr, ip, op, w, h, nm, ddd, assets, layers, markers, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"v\":\"5.2.1\",\"fr\":30,\"ip\":0,\"op\":165,\"w\":218,\"h\":218,\"nm\":\"Success Screen\",\"ddd\":0,\"assets\":[],\"layers\":[{\"ddd\":0,\"ind\":1,\"ty\":4,\"nm\":\"Shape Layer 11\",\"sr\":1,\"ks\":{\"o\":{\"a\":0,\"k\":100,\"ix\":11},\"r\":{\"a\":0,\"k\":0,\"ix\":10},\"p\":{\"a\":0,\"k\":[109,109,0],\"ix\":2},\"a\":{\"a\":0,\"k\":[0,0,0],\"ix\":1},\"s\":{\"a\":0,\"k\":[100,100,100],\"ix\":6}},\"ao\":0,\"hasMask\":true,\"masksProperties\":[{\"inv\":false,\"mode\":\"a\",\"pt\":{\"a\":1,\"k\":[{\"i\":{\"x\":0.667,\"y\":1},\"o\":{\"x\":1,\"y\":0},\"n\":\"0p667_1_1_0\",\"t\":17,\"s\":[{\"i\":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],\"o\":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],\"v\":[[-12.5,-12.094],[-24.5,-3.219],[-22.625,-0.911],[-20.333,-2.846],[-12.621,-6.546],[-9.486,-8.744]],\"c\":true}],\"e\":[{\"i\":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],\"o\":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],\"v\":[[-12.5,-12.25],[-24.5,-3.375],[-3.792,20.903],[-4.154,14.93],[-4.711,1.572],[-4.764,-4.375]],\"c\":true}]},{\"i\":{\"x\":0.667,\"y\":1},\"o\":{\"x\":1,\"y\":0},\"n\":\"0p667_1_1_0\",\"t\":20,\"s\":[{\"i\":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],\"o\":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],\"v\":[[-12.5,-12.25],[-24.5,-3.375],[-3.792,20.903],[-4.154,14.93],[-4.711,1.572],[-4.764,-4.375]],\"c\":true}],\"e\":[{\"i\":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],\"o\":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],\"v\":[[-12.5,-12.25],[-24.5,-3.375],[-4.625,18.125],[26.012,-14.403],[15.455,-24.928],[-5.875,-4.375]],\"c\":true}]},{\"t\":25}],\"ix\":1},\"o\":{\"a\":0,\"k\":100,\"ix\":3},\"x\":{\"a\":0,\"k\":0,\"ix\":4},\"nm\":\"Mask 1\"}],\"shapes\":[{\"ty\":\"gr\",\"it\":[{\"ind\":0,\"ty\":\"sh\",\"ix\":1,\"ks\":{\"a\":0,\"k\":{\"i\":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],\"o\":[[0,0],[0,0],[0,0],[0,0],[0,0],[0,0]],\"v\":[[18.67,-17.068],[-4.318,5.818],[-13.261,-3.068],[-16.375,-0.057],[-4.466,11.909],[21.432,-14.023]],\"c\":true},\"ix\":2},\"nm\":\"Path 1\",\"mn\":\"ADBE Vector Shape - Group\",\"hd\":false},{\"ty\":\"st\",\"c\":{\"a\":0,\"k\":[1,1,1,1],\"ix\":3},\"o\":{\"a\":0,\"k\":0,\"ix\":4},\"w\":{\"a\":0,\"k\":0,\"ix\":5},\"lc\":1,\"lj\":1,\"ml\":4,\"ml2\":{\"a\":0,\"k\":4,\"ix\":8},\"nm\":\"Stroke 1\",\"mn\":\"ADBE Vector Graphic - Stroke\",\"hd\":true},{\"ty\":\"fl\",\"c\":{\"a\":0,\"k\":[0.243137255311,0.917647063732,0.06274510175,1],\"ix\":4},\"o\":{\"a\":0,\"k\":100,\"ix\":5},\"r\":1,\"nm\":\"Fill 1\",\"mn\":\"ADBE Vector Graphic - Fill\",\"hd\":false},{\"ty\":\"tr\",\"p\":{\"a\":0,\"k\":[0,0],\"ix\":2},\"a\":{\"a\":0,\"k\":[0,0],\"ix\":1},\"s\":{\"a\":0,\"k\":[100,100],\"ix\":3},\"r\":{\"a\":0,\"k\":0,\"ix\":6},\"o\":{\"a\":0,\"k\":100,\"ix\":7},\"sk\":{\"a\":0,\"k\":0,\"ix\":4},\"sa\":{\"a\":0,\"k\":0,\"ix\":5},\"nm\":\"Transform\"}],\"nm\":\"Shape 1\",\"np\":3,\"cix\":2,\"ix\":1,\"mn\":\"ADBE Vector Group\",\"hd\":false}],\"ip\":17,\"op\":3617,\"st\":17,\"bm\":0},{\"ddd\":0,\"ind\":3,\"ty\":4,\"nm\":\"Main circle\",\"sr\":1,\"ks\":{\"o\":{\"a\":1,\"k\":[{\"i\":{\"x\":[0.833],\"y\":[0.833]},\"o\":{\"x\":[0.167],\"y\":[0.167]},\"n\":[\"0p833_0p833_0p167_0p167\"],\"t\":0,\"s\":[0],\"e\":[100]},{\"t\":4}],\"ix\":11},\"r\":{\"a\":0,\"k\":0,\"ix\":10},\"p\":{\"a\":0,\"k\":[111.457,106.301,0],\"ix\":2},\"a\":{\"a\":0,\"k\":[-6.543,-634.699,0],\"ix\":1},\"s\":{\"a\":1,\"k\":[{\"i\":{\"x\":[0,0,0.667],\"y\":[1,1,1]},\"o\":{\"x\":[0.203,0.203,0.333],\"y\":[0,0,0]},\"n\":[\"0_1_0p203_0\",\"0_1_0p203_0\",\"0p667_1_0p333_0\"],\"t\":0,\"s\":[171.238,171.238,100],\"e\":[40,40,100]},{\"i\":{\"x\":[1,1,0.667],\"y\":[1,1,1]},\"o\":{\"x\":[0.694,0.694,0.333],\"y\":[0,0,0]},\"n\":[\"1_1_0p694_0\",\"1_1_0p694_0\",\"0p667_1_0p333_0\"],\"t\":16,\"s\":[40,40,100],\"e\":[100,100,100]},{\"t\":30}],\"ix\":6}},\"ao\":0,\"shapes\":[{\"ty\":\"gr\",\"it\":[{\"d\":1,\"ty\":\"el\",\"s\":{\"a\":0,\"k\":[113,113],\"ix\":2},\"p\":{\"a\":0,\"k\":[0,0],\"ix\":3},\"nm\":\"Ellipse Path 1\",\"mn\":\"ADBE Vector Shape - Ellipse\",\"hd\":false},{\"ty\":\"st\",\"c\":{\"a\":0,\"k\":[0.243137270212,0.917647123337,0.06274510175,1],\"ix\":3},\"o\":{\"a\":1,\"k\":[{\"i\":{\"x\":[0.833],\"y\":[0.833]},\"o\":{\"x\":[0.167],\"y\":[0.167]},\"n\":[\"0p833_0p833_0p167_0p167\"],\"t\":20,\"s\":[100],\"e\":[100]},{\"i\":{\"x\":[0.833],\"y\":[0.833]},\"o\":{\"x\":[0.167],\"y\":[0.167]},\"n\":[\"0p833_0p833_0p167_0p167\"],\"t\":38,\"s\":[100],\"e\":[100]},{\"t\":146}],\"ix\":4},\"w\":{\"a\":0,\"k\":3,\"ix\":5},\"lc\":1,\"lj\":1,\"ml\":4,\"ml2\":{\"a\":0,\"k\":4,\"ix\":8},\"nm\":\"Stroke 1\",\"mn\":\"ADBE Vector Graphic - Stroke\",\"hd\":false},{\"ty\":\"fl\",\"c\":{\"a\":0,\"k\":[1,1,1,1],\"ix\":4},\"o\":{\"a\":1,\"k\":[{\"i\":{\"x\":[0.833],\"y\":[0.833]},\"o\":{\"x\":[0.167],\"y\":[0.167]},\"n\":[\"0p833_0p833_0p167_0p167\"],\"t\":4,\"s\":[0],\"e\":[100]},{\"t\":27}],\"ix\":5},\"r\":1,\"nm\":\"Fill 1\",\"mn\":\"ADBE Vector Graphic - Fill\",\"hd\":false},{\"ty\":\"tr\",\"p\":{\"a\":0,\"k\":[-8,-633],\"ix\":2},\"a\":{\"a\":0,\"k\":[0,0],\"ix\":1},\"s\":{\"a\":0,\"k\":[100,100],\"ix\":3},\"r\":{\"a\":0,\"k\":0,\"ix\":6},\"o\":{\"a\":0,\"k\":100,\"ix\":7},\"sk\":{\"a\":0,\"k\":0,\"ix\":4},\"sa\":{\"a\":0,\"k\":0,\"ix\":5},\"nm\":\"Transform\"}],\"nm\":\"Ellipse 1\",\"np\":3,\"cix\":2,\"ix\":1,\"mn\":\"ADBE Vector Group\",\"hd\":false}],\"ip\":0,\"op\":3600,\"st\":0,\"bm\":0},{\"ddd\":0,\"ind\":4,\"ty\":4,\"nm\":\"Shape Layer 4\",\"sr\":1,\"ks\":{\"o\":{\"a\":1,\"k\":[{\"i\":{\"x\":[0.833],\"y\":[0.833]},\"o\":{\"x\":[0.167],\"y\":[0.167]},\"n\":[\"0p833_0p833_0p167_0p167\"],\"t\":30,\"s\":[100],\"e\":[0]},{\"t\":74}],\"ix\":11},\"r\":{\"a\":0,\"k\":0,\"ix\":10},\"p\":{\"a\":0,\"k\":[111.457,106.301,0],\"ix\":2},\"a\":{\"a\":0,\"k\":[-6.543,-634.699,0],\"ix\":1},\"s\":{\"a\":1,\"k\":[{\"i\":{\"x\":[0,0,0.833],\"y\":[1,1,1]},\"o\":{\"x\":[0,0,0.167],\"y\":[0,0,0]},\"n\":[\"0_1_0_0\",\"0_1_0_0\",\"0p833_1_0p167_0\"],\"t\":30,\"s\":[100,100,100],\"e\":[186,186,100]},{\"t\":74}],\"ix\":6}},\"ao\":0,\"shapes\":[{\"ty\":\"gr\",\"it\":[{\"d\":1,\"ty\":\"el\",\"s\":{\"a\":0,\"k\":[113,113],\"ix\":2},\"p\":{\"a\":0,\"k\":[0,0],\"ix\":3},\"nm\":\"Ellipse Path 1\",\"mn\":\"ADBE Vector Shape - Ellipse\",\"hd\":false},{\"ty\":\"st\",\"c\":{\"a\":0,\"k\":[0.243137270212,0.917647123337,0.06274510175,1],\"ix\":3},\"o\":{\"a\":0,\"k\":0,\"ix\":4},\"w\":{\"a\":1,\"k\":[{\"i\":{\"x\":[0.833],\"y\":[0.833]},\"o\":{\"x\":[0.167],\"y\":[0.167]},\"n\":[\"0p833_0p833_0p167_0p167\"],\"t\":30,\"s\":[2.5],\"e\":[0]},{\"t\":74}],\"ix\":5},\"lc\":1,\"lj\":1,\"ml\":4,\"ml2\":{\"a\":0,\"k\":4,\"ix\":8},\"nm\":\"Stroke 1\",\"mn\":\"ADBE Vector Graphic - Stroke\",\"hd\":true},{\"ty\":\"fl\",\"c\":{\"a\":0,\"k\":[0.243137255311,0.917647063732,0.06274510175,1],\"ix\":4},\"o\":{\"a\":0,\"k\":50,\"ix\":5},\"r\":1,\"nm\":\"Fill 1\",\"mn\":\"ADBE Vector Graphic - Fill\",\"hd\":false},{\"ty\":\"tr\",\"p\":{\"a\":0,\"k\":[-8,-633],\"ix\":2},\"a\":{\"a\":0,\"k\":[0,0],\"ix\":1},\"s\":{\"a\":0,\"k\":[100,100],\"ix\":3},\"r\":{\"a\":0,\"k\":0,\"ix\":6},\"o\":{\"a\":0,\"k\":100,\"ix\":7},\"sk\":{\"a\":0,\"k\":0,\"ix\":4},\"sa\":{\"a\":0,\"k\":0,\"ix\":5},\"nm\":\"Transform\"}],\"nm\":\"Ellipse 1\",\"np\":3,\"cix\":2,\"ix\":1,\"mn\":\"ADBE Vector Group\",\"hd\":false}],\"ip\":30,\"op\":3605,\"st\":5,\"bm\":0},{\"ddd\":0,\"ind\":5,\"ty\":4,\"nm\":\"Shape Layer 10\",\"sr\":1,\"ks\":{\"o\":{\"a\":1,\"k\":[{\"i\":{\"x\":[0.833],\"y\":[0.833]},\"o\":{\"x\":[0.167],\"y\":[0.167]},\"n\":[\"0p833_0p833_0p167_0p167\"],\"t\":43,\"s\":[100],\"e\":[0]},{\"t\":123}],\"ix\":11},\"r\":{\"a\":0,\"k\":0,\"ix\":10},\"p\":{\"a\":0,\"k\":[111.457,106.301,0],\"ix\":2},\"a\":{\"a\":0,\"k\":[-6.543,-634.699,0],\"ix\":1},\"s\":{\"a\":1,\"k\":[{\"i\":{\"x\":[0,0,0.833],\"y\":[1,1,1]},\"o\":{\"x\":[0,0,0.167],\"y\":[0,0,0]},\"n\":[\"0_1_0_0\",\"0_1_0_0\",\"0p833_1_0p167_0\"],\"t\":43,\"s\":[100,100,100],\"e\":[186,186,100]},{\"t\":123}],\"ix\":6}},\"ao\":0,\"shapes\":[{\"ty\":\"gr\",\"it\":[{\"d\":1,\"ty\":\"el\",\"s\":{\"a\":0,\"k\":[113,113],\"ix\":2},\"p\":{\"a\":0,\"k\":[0,0],\"ix\":3},\"nm\":\"Ellipse Path 1\",\"mn\":\"ADBE Vector Shape - Ellipse\",\"hd\":false},{\"ty\":\"st\",\"c\":{\"a\":0,\"k\":[0.243137270212,0.917647123337,0.06274510175,1],\"ix\":3},\"o\":{\"a\":0,\"k\":0,\"ix\":4},\"w\":{\"a\":1,\"k\":[{\"i\":{\"x\":[0.833],\"y\":[0.833]},\"o\":{\"x\":[0.167],\"y\":[0.167]},\"n\":[\"0p833_0p833_0p167_0p167\"],\"t\":43,\"s\":[2.5],\"e\":[0]},{\"t\":123}],\"ix\":5},\"lc\":1,\"lj\":1,\"ml\":4,\"ml2\":{\"a\":0,\"k\":4,\"ix\":8},\"nm\":\"Stroke 1\",\"mn\":\"ADBE Vector Graphic - Stroke\",\"hd\":true},{\"ty\":\"fl\",\"c\":{\"a\":0,\"k\":[0.243137270212,0.917647123337,0.058823533356,1],\"ix\":4},\"o\":{\"a\":0,\"k\":50,\"ix\":5},\"r\":1,\"nm\":\"Fill 1\",\"mn\":\"ADBE Vector Graphic - Fill\",\"hd\":false},{\"ty\":\"tr\",\"p\":{\"a\":0,\"k\":[-8,-633],\"ix\":2},\"a\":{\"a\":0,\"k\":[0,0],\"ix\":1},\"s\":{\"a\":0,\"k\":[100,100],\"ix\":3},\"r\":{\"a\":0,\"k\":0,\"ix\":6},\"o\":{\"a\":0,\"k\":100,\"ix\":7},\"sk\":{\"a\":0,\"k\":0,\"ix\":4},\"sa\":{\"a\":0,\"k\":0,\"ix\":5},\"nm\":\"Transform\"}],\"nm\":\"Ellipse 1\",\"np\":3,\"cix\":2,\"ix\":1,\"mn\":\"ADBE Vector Group\",\"hd\":false}],\"ip\":43,\"op\":3618,\"st\":18,\"bm\":0}],\"markers\":[]}");
+
+/***/ }),
+
 /***/ "./components/atoms/backgroundImages/backgroundImage.jsx":
 /*!***************************************************************!*\
   !*** ./components/atoms/backgroundImages/backgroundImage.jsx ***!
@@ -18185,6 +18207,1819 @@ var unitlessKeys = {
 
 /***/ }),
 
+/***/ "./node_modules/axios/index.js":
+/*!*************************************!*\
+  !*** ./node_modules/axios/index.js ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! ./lib/axios */ "./node_modules/axios/lib/axios.js");
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/adapters/xhr.js":
+/*!************************************************!*\
+  !*** ./node_modules/axios/lib/adapters/xhr.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ "./node_modules/axios/lib/utils.js");
+var settle = __webpack_require__(/*! ./../core/settle */ "./node_modules/axios/lib/core/settle.js");
+var buildURL = __webpack_require__(/*! ./../helpers/buildURL */ "./node_modules/axios/lib/helpers/buildURL.js");
+var buildFullPath = __webpack_require__(/*! ../core/buildFullPath */ "./node_modules/axios/lib/core/buildFullPath.js");
+var parseHeaders = __webpack_require__(/*! ./../helpers/parseHeaders */ "./node_modules/axios/lib/helpers/parseHeaders.js");
+var isURLSameOrigin = __webpack_require__(/*! ./../helpers/isURLSameOrigin */ "./node_modules/axios/lib/helpers/isURLSameOrigin.js");
+var createError = __webpack_require__(/*! ../core/createError */ "./node_modules/axios/lib/core/createError.js");
+
+module.exports = function xhrAdapter(config) {
+  return new Promise(function dispatchXhrRequest(resolve, reject) {
+    var requestData = config.data;
+    var requestHeaders = config.headers;
+
+    if (utils.isFormData(requestData)) {
+      delete requestHeaders['Content-Type']; // Let the browser set it
+    }
+
+    var request = new XMLHttpRequest();
+
+    // HTTP basic authentication
+    if (config.auth) {
+      var username = config.auth.username || '';
+      var password = config.auth.password || '';
+      requestHeaders.Authorization = 'Basic ' + btoa(username + ':' + password);
+    }
+
+    var fullPath = buildFullPath(config.baseURL, config.url);
+    request.open(config.method.toUpperCase(), buildURL(fullPath, config.params, config.paramsSerializer), true);
+
+    // Set the request timeout in MS
+    request.timeout = config.timeout;
+
+    // Listen for ready state
+    request.onreadystatechange = function handleLoad() {
+      if (!request || request.readyState !== 4) {
+        return;
+      }
+
+      // The request errored out and we didn't get a response, this will be
+      // handled by onerror instead
+      // With one exception: request that using file: protocol, most browsers
+      // will return status as 0 even though it's a successful request
+      if (request.status === 0 && !(request.responseURL && request.responseURL.indexOf('file:') === 0)) {
+        return;
+      }
+
+      // Prepare the response
+      var responseHeaders = 'getAllResponseHeaders' in request ? parseHeaders(request.getAllResponseHeaders()) : null;
+      var responseData = !config.responseType || config.responseType === 'text' ? request.responseText : request.response;
+      var response = {
+        data: responseData,
+        status: request.status,
+        statusText: request.statusText,
+        headers: responseHeaders,
+        config: config,
+        request: request
+      };
+
+      settle(resolve, reject, response);
+
+      // Clean up request
+      request = null;
+    };
+
+    // Handle browser request cancellation (as opposed to a manual cancellation)
+    request.onabort = function handleAbort() {
+      if (!request) {
+        return;
+      }
+
+      reject(createError('Request aborted', config, 'ECONNABORTED', request));
+
+      // Clean up request
+      request = null;
+    };
+
+    // Handle low level network errors
+    request.onerror = function handleError() {
+      // Real errors are hidden from us by the browser
+      // onerror should only fire if it's a network error
+      reject(createError('Network Error', config, null, request));
+
+      // Clean up request
+      request = null;
+    };
+
+    // Handle timeout
+    request.ontimeout = function handleTimeout() {
+      var timeoutErrorMessage = 'timeout of ' + config.timeout + 'ms exceeded';
+      if (config.timeoutErrorMessage) {
+        timeoutErrorMessage = config.timeoutErrorMessage;
+      }
+      reject(createError(timeoutErrorMessage, config, 'ECONNABORTED',
+        request));
+
+      // Clean up request
+      request = null;
+    };
+
+    // Add xsrf header
+    // This is only done if running in a standard browser environment.
+    // Specifically not if we're in a web worker, or react-native.
+    if (utils.isStandardBrowserEnv()) {
+      var cookies = __webpack_require__(/*! ./../helpers/cookies */ "./node_modules/axios/lib/helpers/cookies.js");
+
+      // Add xsrf header
+      var xsrfValue = (config.withCredentials || isURLSameOrigin(fullPath)) && config.xsrfCookieName ?
+        cookies.read(config.xsrfCookieName) :
+        undefined;
+
+      if (xsrfValue) {
+        requestHeaders[config.xsrfHeaderName] = xsrfValue;
+      }
+    }
+
+    // Add headers to the request
+    if ('setRequestHeader' in request) {
+      utils.forEach(requestHeaders, function setRequestHeader(val, key) {
+        if (typeof requestData === 'undefined' && key.toLowerCase() === 'content-type') {
+          // Remove Content-Type if data is undefined
+          delete requestHeaders[key];
+        } else {
+          // Otherwise add header to the request
+          request.setRequestHeader(key, val);
+        }
+      });
+    }
+
+    // Add withCredentials to request if needed
+    if (!utils.isUndefined(config.withCredentials)) {
+      request.withCredentials = !!config.withCredentials;
+    }
+
+    // Add responseType to request if needed
+    if (config.responseType) {
+      try {
+        request.responseType = config.responseType;
+      } catch (e) {
+        // Expected DOMException thrown by browsers not compatible XMLHttpRequest Level 2.
+        // But, this can be suppressed for 'json' type as it can be parsed by default 'transformResponse' function.
+        if (config.responseType !== 'json') {
+          throw e;
+        }
+      }
+    }
+
+    // Handle progress if needed
+    if (typeof config.onDownloadProgress === 'function') {
+      request.addEventListener('progress', config.onDownloadProgress);
+    }
+
+    // Not all browsers support upload events
+    if (typeof config.onUploadProgress === 'function' && request.upload) {
+      request.upload.addEventListener('progress', config.onUploadProgress);
+    }
+
+    if (config.cancelToken) {
+      // Handle cancellation
+      config.cancelToken.promise.then(function onCanceled(cancel) {
+        if (!request) {
+          return;
+        }
+
+        request.abort();
+        reject(cancel);
+        // Clean up request
+        request = null;
+      });
+    }
+
+    if (requestData === undefined) {
+      requestData = null;
+    }
+
+    // Send the request
+    request.send(requestData);
+  });
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/axios.js":
+/*!*****************************************!*\
+  !*** ./node_modules/axios/lib/axios.js ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./utils */ "./node_modules/axios/lib/utils.js");
+var bind = __webpack_require__(/*! ./helpers/bind */ "./node_modules/axios/lib/helpers/bind.js");
+var Axios = __webpack_require__(/*! ./core/Axios */ "./node_modules/axios/lib/core/Axios.js");
+var mergeConfig = __webpack_require__(/*! ./core/mergeConfig */ "./node_modules/axios/lib/core/mergeConfig.js");
+var defaults = __webpack_require__(/*! ./defaults */ "./node_modules/axios/lib/defaults.js");
+
+/**
+ * Create an instance of Axios
+ *
+ * @param {Object} defaultConfig The default config for the instance
+ * @return {Axios} A new instance of Axios
+ */
+function createInstance(defaultConfig) {
+  var context = new Axios(defaultConfig);
+  var instance = bind(Axios.prototype.request, context);
+
+  // Copy axios.prototype to instance
+  utils.extend(instance, Axios.prototype, context);
+
+  // Copy context to instance
+  utils.extend(instance, context);
+
+  return instance;
+}
+
+// Create the default instance to be exported
+var axios = createInstance(defaults);
+
+// Expose Axios class to allow class inheritance
+axios.Axios = Axios;
+
+// Factory for creating new instances
+axios.create = function create(instanceConfig) {
+  return createInstance(mergeConfig(axios.defaults, instanceConfig));
+};
+
+// Expose Cancel & CancelToken
+axios.Cancel = __webpack_require__(/*! ./cancel/Cancel */ "./node_modules/axios/lib/cancel/Cancel.js");
+axios.CancelToken = __webpack_require__(/*! ./cancel/CancelToken */ "./node_modules/axios/lib/cancel/CancelToken.js");
+axios.isCancel = __webpack_require__(/*! ./cancel/isCancel */ "./node_modules/axios/lib/cancel/isCancel.js");
+
+// Expose all/spread
+axios.all = function all(promises) {
+  return Promise.all(promises);
+};
+axios.spread = __webpack_require__(/*! ./helpers/spread */ "./node_modules/axios/lib/helpers/spread.js");
+
+module.exports = axios;
+
+// Allow use of default import syntax in TypeScript
+module.exports.default = axios;
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/cancel/Cancel.js":
+/*!*************************************************!*\
+  !*** ./node_modules/axios/lib/cancel/Cancel.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * A `Cancel` is an object that is thrown when an operation is canceled.
+ *
+ * @class
+ * @param {string=} message The message.
+ */
+function Cancel(message) {
+  this.message = message;
+}
+
+Cancel.prototype.toString = function toString() {
+  return 'Cancel' + (this.message ? ': ' + this.message : '');
+};
+
+Cancel.prototype.__CANCEL__ = true;
+
+module.exports = Cancel;
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/cancel/CancelToken.js":
+/*!******************************************************!*\
+  !*** ./node_modules/axios/lib/cancel/CancelToken.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var Cancel = __webpack_require__(/*! ./Cancel */ "./node_modules/axios/lib/cancel/Cancel.js");
+
+/**
+ * A `CancelToken` is an object that can be used to request cancellation of an operation.
+ *
+ * @class
+ * @param {Function} executor The executor function.
+ */
+function CancelToken(executor) {
+  if (typeof executor !== 'function') {
+    throw new TypeError('executor must be a function.');
+  }
+
+  var resolvePromise;
+  this.promise = new Promise(function promiseExecutor(resolve) {
+    resolvePromise = resolve;
+  });
+
+  var token = this;
+  executor(function cancel(message) {
+    if (token.reason) {
+      // Cancellation has already been requested
+      return;
+    }
+
+    token.reason = new Cancel(message);
+    resolvePromise(token.reason);
+  });
+}
+
+/**
+ * Throws a `Cancel` if cancellation has been requested.
+ */
+CancelToken.prototype.throwIfRequested = function throwIfRequested() {
+  if (this.reason) {
+    throw this.reason;
+  }
+};
+
+/**
+ * Returns an object that contains a new `CancelToken` and a function that, when called,
+ * cancels the `CancelToken`.
+ */
+CancelToken.source = function source() {
+  var cancel;
+  var token = new CancelToken(function executor(c) {
+    cancel = c;
+  });
+  return {
+    token: token,
+    cancel: cancel
+  };
+};
+
+module.exports = CancelToken;
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/cancel/isCancel.js":
+/*!***************************************************!*\
+  !*** ./node_modules/axios/lib/cancel/isCancel.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = function isCancel(value) {
+  return !!(value && value.__CANCEL__);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/core/Axios.js":
+/*!**********************************************!*\
+  !*** ./node_modules/axios/lib/core/Axios.js ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ "./node_modules/axios/lib/utils.js");
+var buildURL = __webpack_require__(/*! ../helpers/buildURL */ "./node_modules/axios/lib/helpers/buildURL.js");
+var InterceptorManager = __webpack_require__(/*! ./InterceptorManager */ "./node_modules/axios/lib/core/InterceptorManager.js");
+var dispatchRequest = __webpack_require__(/*! ./dispatchRequest */ "./node_modules/axios/lib/core/dispatchRequest.js");
+var mergeConfig = __webpack_require__(/*! ./mergeConfig */ "./node_modules/axios/lib/core/mergeConfig.js");
+
+/**
+ * Create a new instance of Axios
+ *
+ * @param {Object} instanceConfig The default config for the instance
+ */
+function Axios(instanceConfig) {
+  this.defaults = instanceConfig;
+  this.interceptors = {
+    request: new InterceptorManager(),
+    response: new InterceptorManager()
+  };
+}
+
+/**
+ * Dispatch a request
+ *
+ * @param {Object} config The config specific for this request (merged with this.defaults)
+ */
+Axios.prototype.request = function request(config) {
+  /*eslint no-param-reassign:0*/
+  // Allow for axios('example/url'[, config]) a la fetch API
+  if (typeof config === 'string') {
+    config = arguments[1] || {};
+    config.url = arguments[0];
+  } else {
+    config = config || {};
+  }
+
+  config = mergeConfig(this.defaults, config);
+
+  // Set config.method
+  if (config.method) {
+    config.method = config.method.toLowerCase();
+  } else if (this.defaults.method) {
+    config.method = this.defaults.method.toLowerCase();
+  } else {
+    config.method = 'get';
+  }
+
+  // Hook up interceptors middleware
+  var chain = [dispatchRequest, undefined];
+  var promise = Promise.resolve(config);
+
+  this.interceptors.request.forEach(function unshiftRequestInterceptors(interceptor) {
+    chain.unshift(interceptor.fulfilled, interceptor.rejected);
+  });
+
+  this.interceptors.response.forEach(function pushResponseInterceptors(interceptor) {
+    chain.push(interceptor.fulfilled, interceptor.rejected);
+  });
+
+  while (chain.length) {
+    promise = promise.then(chain.shift(), chain.shift());
+  }
+
+  return promise;
+};
+
+Axios.prototype.getUri = function getUri(config) {
+  config = mergeConfig(this.defaults, config);
+  return buildURL(config.url, config.params, config.paramsSerializer).replace(/^\?/, '');
+};
+
+// Provide aliases for supported request methods
+utils.forEach(['delete', 'get', 'head', 'options'], function forEachMethodNoData(method) {
+  /*eslint func-names:0*/
+  Axios.prototype[method] = function(url, config) {
+    return this.request(utils.merge(config || {}, {
+      method: method,
+      url: url
+    }));
+  };
+});
+
+utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
+  /*eslint func-names:0*/
+  Axios.prototype[method] = function(url, data, config) {
+    return this.request(utils.merge(config || {}, {
+      method: method,
+      url: url,
+      data: data
+    }));
+  };
+});
+
+module.exports = Axios;
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/core/InterceptorManager.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/axios/lib/core/InterceptorManager.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ "./node_modules/axios/lib/utils.js");
+
+function InterceptorManager() {
+  this.handlers = [];
+}
+
+/**
+ * Add a new interceptor to the stack
+ *
+ * @param {Function} fulfilled The function to handle `then` for a `Promise`
+ * @param {Function} rejected The function to handle `reject` for a `Promise`
+ *
+ * @return {Number} An ID used to remove interceptor later
+ */
+InterceptorManager.prototype.use = function use(fulfilled, rejected) {
+  this.handlers.push({
+    fulfilled: fulfilled,
+    rejected: rejected
+  });
+  return this.handlers.length - 1;
+};
+
+/**
+ * Remove an interceptor from the stack
+ *
+ * @param {Number} id The ID that was returned by `use`
+ */
+InterceptorManager.prototype.eject = function eject(id) {
+  if (this.handlers[id]) {
+    this.handlers[id] = null;
+  }
+};
+
+/**
+ * Iterate over all the registered interceptors
+ *
+ * This method is particularly useful for skipping over any
+ * interceptors that may have become `null` calling `eject`.
+ *
+ * @param {Function} fn The function to call for each interceptor
+ */
+InterceptorManager.prototype.forEach = function forEach(fn) {
+  utils.forEach(this.handlers, function forEachHandler(h) {
+    if (h !== null) {
+      fn(h);
+    }
+  });
+};
+
+module.exports = InterceptorManager;
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/core/buildFullPath.js":
+/*!******************************************************!*\
+  !*** ./node_modules/axios/lib/core/buildFullPath.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var isAbsoluteURL = __webpack_require__(/*! ../helpers/isAbsoluteURL */ "./node_modules/axios/lib/helpers/isAbsoluteURL.js");
+var combineURLs = __webpack_require__(/*! ../helpers/combineURLs */ "./node_modules/axios/lib/helpers/combineURLs.js");
+
+/**
+ * Creates a new URL by combining the baseURL with the requestedURL,
+ * only when the requestedURL is not already an absolute URL.
+ * If the requestURL is absolute, this function returns the requestedURL untouched.
+ *
+ * @param {string} baseURL The base URL
+ * @param {string} requestedURL Absolute or relative URL to combine
+ * @returns {string} The combined full path
+ */
+module.exports = function buildFullPath(baseURL, requestedURL) {
+  if (baseURL && !isAbsoluteURL(requestedURL)) {
+    return combineURLs(baseURL, requestedURL);
+  }
+  return requestedURL;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/core/createError.js":
+/*!****************************************************!*\
+  !*** ./node_modules/axios/lib/core/createError.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var enhanceError = __webpack_require__(/*! ./enhanceError */ "./node_modules/axios/lib/core/enhanceError.js");
+
+/**
+ * Create an Error with the specified message, config, error code, request and response.
+ *
+ * @param {string} message The error message.
+ * @param {Object} config The config.
+ * @param {string} [code] The error code (for example, 'ECONNABORTED').
+ * @param {Object} [request] The request.
+ * @param {Object} [response] The response.
+ * @returns {Error} The created error.
+ */
+module.exports = function createError(message, config, code, request, response) {
+  var error = new Error(message);
+  return enhanceError(error, config, code, request, response);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/core/dispatchRequest.js":
+/*!********************************************************!*\
+  !*** ./node_modules/axios/lib/core/dispatchRequest.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ "./node_modules/axios/lib/utils.js");
+var transformData = __webpack_require__(/*! ./transformData */ "./node_modules/axios/lib/core/transformData.js");
+var isCancel = __webpack_require__(/*! ../cancel/isCancel */ "./node_modules/axios/lib/cancel/isCancel.js");
+var defaults = __webpack_require__(/*! ../defaults */ "./node_modules/axios/lib/defaults.js");
+
+/**
+ * Throws a `Cancel` if cancellation has been requested.
+ */
+function throwIfCancellationRequested(config) {
+  if (config.cancelToken) {
+    config.cancelToken.throwIfRequested();
+  }
+}
+
+/**
+ * Dispatch a request to the server using the configured adapter.
+ *
+ * @param {object} config The config that is to be used for the request
+ * @returns {Promise} The Promise to be fulfilled
+ */
+module.exports = function dispatchRequest(config) {
+  throwIfCancellationRequested(config);
+
+  // Ensure headers exist
+  config.headers = config.headers || {};
+
+  // Transform request data
+  config.data = transformData(
+    config.data,
+    config.headers,
+    config.transformRequest
+  );
+
+  // Flatten headers
+  config.headers = utils.merge(
+    config.headers.common || {},
+    config.headers[config.method] || {},
+    config.headers
+  );
+
+  utils.forEach(
+    ['delete', 'get', 'head', 'post', 'put', 'patch', 'common'],
+    function cleanHeaderConfig(method) {
+      delete config.headers[method];
+    }
+  );
+
+  var adapter = config.adapter || defaults.adapter;
+
+  return adapter(config).then(function onAdapterResolution(response) {
+    throwIfCancellationRequested(config);
+
+    // Transform response data
+    response.data = transformData(
+      response.data,
+      response.headers,
+      config.transformResponse
+    );
+
+    return response;
+  }, function onAdapterRejection(reason) {
+    if (!isCancel(reason)) {
+      throwIfCancellationRequested(config);
+
+      // Transform response data
+      if (reason && reason.response) {
+        reason.response.data = transformData(
+          reason.response.data,
+          reason.response.headers,
+          config.transformResponse
+        );
+      }
+    }
+
+    return Promise.reject(reason);
+  });
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/core/enhanceError.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/axios/lib/core/enhanceError.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Update an Error with the specified config, error code, and response.
+ *
+ * @param {Error} error The error to update.
+ * @param {Object} config The config.
+ * @param {string} [code] The error code (for example, 'ECONNABORTED').
+ * @param {Object} [request] The request.
+ * @param {Object} [response] The response.
+ * @returns {Error} The error.
+ */
+module.exports = function enhanceError(error, config, code, request, response) {
+  error.config = config;
+  if (code) {
+    error.code = code;
+  }
+
+  error.request = request;
+  error.response = response;
+  error.isAxiosError = true;
+
+  error.toJSON = function() {
+    return {
+      // Standard
+      message: this.message,
+      name: this.name,
+      // Microsoft
+      description: this.description,
+      number: this.number,
+      // Mozilla
+      fileName: this.fileName,
+      lineNumber: this.lineNumber,
+      columnNumber: this.columnNumber,
+      stack: this.stack,
+      // Axios
+      config: this.config,
+      code: this.code
+    };
+  };
+  return error;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/core/mergeConfig.js":
+/*!****************************************************!*\
+  !*** ./node_modules/axios/lib/core/mergeConfig.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ../utils */ "./node_modules/axios/lib/utils.js");
+
+/**
+ * Config-specific merge-function which creates a new config-object
+ * by merging two configuration objects together.
+ *
+ * @param {Object} config1
+ * @param {Object} config2
+ * @returns {Object} New object resulting from merging config2 to config1
+ */
+module.exports = function mergeConfig(config1, config2) {
+  // eslint-disable-next-line no-param-reassign
+  config2 = config2 || {};
+  var config = {};
+
+  var valueFromConfig2Keys = ['url', 'method', 'params', 'data'];
+  var mergeDeepPropertiesKeys = ['headers', 'auth', 'proxy'];
+  var defaultToConfig2Keys = [
+    'baseURL', 'url', 'transformRequest', 'transformResponse', 'paramsSerializer',
+    'timeout', 'withCredentials', 'adapter', 'responseType', 'xsrfCookieName',
+    'xsrfHeaderName', 'onUploadProgress', 'onDownloadProgress',
+    'maxContentLength', 'validateStatus', 'maxRedirects', 'httpAgent',
+    'httpsAgent', 'cancelToken', 'socketPath'
+  ];
+
+  utils.forEach(valueFromConfig2Keys, function valueFromConfig2(prop) {
+    if (typeof config2[prop] !== 'undefined') {
+      config[prop] = config2[prop];
+    }
+  });
+
+  utils.forEach(mergeDeepPropertiesKeys, function mergeDeepProperties(prop) {
+    if (utils.isObject(config2[prop])) {
+      config[prop] = utils.deepMerge(config1[prop], config2[prop]);
+    } else if (typeof config2[prop] !== 'undefined') {
+      config[prop] = config2[prop];
+    } else if (utils.isObject(config1[prop])) {
+      config[prop] = utils.deepMerge(config1[prop]);
+    } else if (typeof config1[prop] !== 'undefined') {
+      config[prop] = config1[prop];
+    }
+  });
+
+  utils.forEach(defaultToConfig2Keys, function defaultToConfig2(prop) {
+    if (typeof config2[prop] !== 'undefined') {
+      config[prop] = config2[prop];
+    } else if (typeof config1[prop] !== 'undefined') {
+      config[prop] = config1[prop];
+    }
+  });
+
+  var axiosKeys = valueFromConfig2Keys
+    .concat(mergeDeepPropertiesKeys)
+    .concat(defaultToConfig2Keys);
+
+  var otherKeys = Object
+    .keys(config2)
+    .filter(function filterAxiosKeys(key) {
+      return axiosKeys.indexOf(key) === -1;
+    });
+
+  utils.forEach(otherKeys, function otherKeysDefaultToConfig2(prop) {
+    if (typeof config2[prop] !== 'undefined') {
+      config[prop] = config2[prop];
+    } else if (typeof config1[prop] !== 'undefined') {
+      config[prop] = config1[prop];
+    }
+  });
+
+  return config;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/core/settle.js":
+/*!***********************************************!*\
+  !*** ./node_modules/axios/lib/core/settle.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var createError = __webpack_require__(/*! ./createError */ "./node_modules/axios/lib/core/createError.js");
+
+/**
+ * Resolve or reject a Promise based on response status.
+ *
+ * @param {Function} resolve A function that resolves the promise.
+ * @param {Function} reject A function that rejects the promise.
+ * @param {object} response The response.
+ */
+module.exports = function settle(resolve, reject, response) {
+  var validateStatus = response.config.validateStatus;
+  if (!validateStatus || validateStatus(response.status)) {
+    resolve(response);
+  } else {
+    reject(createError(
+      'Request failed with status code ' + response.status,
+      response.config,
+      null,
+      response.request,
+      response
+    ));
+  }
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/core/transformData.js":
+/*!******************************************************!*\
+  !*** ./node_modules/axios/lib/core/transformData.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ "./node_modules/axios/lib/utils.js");
+
+/**
+ * Transform the data for a request or a response
+ *
+ * @param {Object|String} data The data to be transformed
+ * @param {Array} headers The headers for the request or response
+ * @param {Array|Function} fns A single function or Array of functions
+ * @returns {*} The resulting transformed data
+ */
+module.exports = function transformData(data, headers, fns) {
+  /*eslint no-param-reassign:0*/
+  utils.forEach(fns, function transform(fn) {
+    data = fn(data, headers);
+  });
+
+  return data;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/defaults.js":
+/*!********************************************!*\
+  !*** ./node_modules/axios/lib/defaults.js ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(process) {
+
+var utils = __webpack_require__(/*! ./utils */ "./node_modules/axios/lib/utils.js");
+var normalizeHeaderName = __webpack_require__(/*! ./helpers/normalizeHeaderName */ "./node_modules/axios/lib/helpers/normalizeHeaderName.js");
+
+var DEFAULT_CONTENT_TYPE = {
+  'Content-Type': 'application/x-www-form-urlencoded'
+};
+
+function setContentTypeIfUnset(headers, value) {
+  if (!utils.isUndefined(headers) && utils.isUndefined(headers['Content-Type'])) {
+    headers['Content-Type'] = value;
+  }
+}
+
+function getDefaultAdapter() {
+  var adapter;
+  if (typeof XMLHttpRequest !== 'undefined') {
+    // For browsers use XHR adapter
+    adapter = __webpack_require__(/*! ./adapters/xhr */ "./node_modules/axios/lib/adapters/xhr.js");
+  } else if (typeof process !== 'undefined' && Object.prototype.toString.call(process) === '[object process]') {
+    // For node use HTTP adapter
+    adapter = __webpack_require__(/*! ./adapters/http */ "./node_modules/axios/lib/adapters/xhr.js");
+  }
+  return adapter;
+}
+
+var defaults = {
+  adapter: getDefaultAdapter(),
+
+  transformRequest: [function transformRequest(data, headers) {
+    normalizeHeaderName(headers, 'Accept');
+    normalizeHeaderName(headers, 'Content-Type');
+    if (utils.isFormData(data) ||
+      utils.isArrayBuffer(data) ||
+      utils.isBuffer(data) ||
+      utils.isStream(data) ||
+      utils.isFile(data) ||
+      utils.isBlob(data)
+    ) {
+      return data;
+    }
+    if (utils.isArrayBufferView(data)) {
+      return data.buffer;
+    }
+    if (utils.isURLSearchParams(data)) {
+      setContentTypeIfUnset(headers, 'application/x-www-form-urlencoded;charset=utf-8');
+      return data.toString();
+    }
+    if (utils.isObject(data)) {
+      setContentTypeIfUnset(headers, 'application/json;charset=utf-8');
+      return JSON.stringify(data);
+    }
+    return data;
+  }],
+
+  transformResponse: [function transformResponse(data) {
+    /*eslint no-param-reassign:0*/
+    if (typeof data === 'string') {
+      try {
+        data = JSON.parse(data);
+      } catch (e) { /* Ignore */ }
+    }
+    return data;
+  }],
+
+  /**
+   * A timeout in milliseconds to abort a request. If set to 0 (default) a
+   * timeout is not created.
+   */
+  timeout: 0,
+
+  xsrfCookieName: 'XSRF-TOKEN',
+  xsrfHeaderName: 'X-XSRF-TOKEN',
+
+  maxContentLength: -1,
+
+  validateStatus: function validateStatus(status) {
+    return status >= 200 && status < 300;
+  }
+};
+
+defaults.headers = {
+  common: {
+    'Accept': 'application/json, text/plain, */*'
+  }
+};
+
+utils.forEach(['delete', 'get', 'head'], function forEachMethodNoData(method) {
+  defaults.headers[method] = {};
+});
+
+utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
+  defaults.headers[method] = utils.merge(DEFAULT_CONTENT_TYPE);
+});
+
+module.exports = defaults;
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../process/browser.js */ "./node_modules/process/browser.js")))
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/helpers/bind.js":
+/*!************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/bind.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = function bind(fn, thisArg) {
+  return function wrap() {
+    var args = new Array(arguments.length);
+    for (var i = 0; i < args.length; i++) {
+      args[i] = arguments[i];
+    }
+    return fn.apply(thisArg, args);
+  };
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/helpers/buildURL.js":
+/*!****************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/buildURL.js ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ "./node_modules/axios/lib/utils.js");
+
+function encode(val) {
+  return encodeURIComponent(val).
+    replace(/%40/gi, '@').
+    replace(/%3A/gi, ':').
+    replace(/%24/g, '$').
+    replace(/%2C/gi, ',').
+    replace(/%20/g, '+').
+    replace(/%5B/gi, '[').
+    replace(/%5D/gi, ']');
+}
+
+/**
+ * Build a URL by appending params to the end
+ *
+ * @param {string} url The base of the url (e.g., http://www.google.com)
+ * @param {object} [params] The params to be appended
+ * @returns {string} The formatted url
+ */
+module.exports = function buildURL(url, params, paramsSerializer) {
+  /*eslint no-param-reassign:0*/
+  if (!params) {
+    return url;
+  }
+
+  var serializedParams;
+  if (paramsSerializer) {
+    serializedParams = paramsSerializer(params);
+  } else if (utils.isURLSearchParams(params)) {
+    serializedParams = params.toString();
+  } else {
+    var parts = [];
+
+    utils.forEach(params, function serialize(val, key) {
+      if (val === null || typeof val === 'undefined') {
+        return;
+      }
+
+      if (utils.isArray(val)) {
+        key = key + '[]';
+      } else {
+        val = [val];
+      }
+
+      utils.forEach(val, function parseValue(v) {
+        if (utils.isDate(v)) {
+          v = v.toISOString();
+        } else if (utils.isObject(v)) {
+          v = JSON.stringify(v);
+        }
+        parts.push(encode(key) + '=' + encode(v));
+      });
+    });
+
+    serializedParams = parts.join('&');
+  }
+
+  if (serializedParams) {
+    var hashmarkIndex = url.indexOf('#');
+    if (hashmarkIndex !== -1) {
+      url = url.slice(0, hashmarkIndex);
+    }
+
+    url += (url.indexOf('?') === -1 ? '?' : '&') + serializedParams;
+  }
+
+  return url;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/helpers/combineURLs.js":
+/*!*******************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/combineURLs.js ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Creates a new URL by combining the specified URLs
+ *
+ * @param {string} baseURL The base URL
+ * @param {string} relativeURL The relative URL
+ * @returns {string} The combined URL
+ */
+module.exports = function combineURLs(baseURL, relativeURL) {
+  return relativeURL
+    ? baseURL.replace(/\/+$/, '') + '/' + relativeURL.replace(/^\/+/, '')
+    : baseURL;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/helpers/cookies.js":
+/*!***************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/cookies.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ "./node_modules/axios/lib/utils.js");
+
+module.exports = (
+  utils.isStandardBrowserEnv() ?
+
+  // Standard browser envs support document.cookie
+    (function standardBrowserEnv() {
+      return {
+        write: function write(name, value, expires, path, domain, secure) {
+          var cookie = [];
+          cookie.push(name + '=' + encodeURIComponent(value));
+
+          if (utils.isNumber(expires)) {
+            cookie.push('expires=' + new Date(expires).toGMTString());
+          }
+
+          if (utils.isString(path)) {
+            cookie.push('path=' + path);
+          }
+
+          if (utils.isString(domain)) {
+            cookie.push('domain=' + domain);
+          }
+
+          if (secure === true) {
+            cookie.push('secure');
+          }
+
+          document.cookie = cookie.join('; ');
+        },
+
+        read: function read(name) {
+          var match = document.cookie.match(new RegExp('(^|;\\s*)(' + name + ')=([^;]*)'));
+          return (match ? decodeURIComponent(match[3]) : null);
+        },
+
+        remove: function remove(name) {
+          this.write(name, '', Date.now() - 86400000);
+        }
+      };
+    })() :
+
+  // Non standard browser env (web workers, react-native) lack needed support.
+    (function nonStandardBrowserEnv() {
+      return {
+        write: function write() {},
+        read: function read() { return null; },
+        remove: function remove() {}
+      };
+    })()
+);
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/helpers/isAbsoluteURL.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/isAbsoluteURL.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Determines whether the specified URL is absolute
+ *
+ * @param {string} url The URL to test
+ * @returns {boolean} True if the specified URL is absolute, otherwise false
+ */
+module.exports = function isAbsoluteURL(url) {
+  // A URL is considered absolute if it begins with "<scheme>://" or "//" (protocol-relative URL).
+  // RFC 3986 defines scheme name as a sequence of characters beginning with a letter and followed
+  // by any combination of letters, digits, plus, period, or hyphen.
+  return /^([a-z][a-z\d\+\-\.]*:)?\/\//i.test(url);
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/helpers/isURLSameOrigin.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/isURLSameOrigin.js ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ "./node_modules/axios/lib/utils.js");
+
+module.exports = (
+  utils.isStandardBrowserEnv() ?
+
+  // Standard browser envs have full support of the APIs needed to test
+  // whether the request URL is of the same origin as current location.
+    (function standardBrowserEnv() {
+      var msie = /(msie|trident)/i.test(navigator.userAgent);
+      var urlParsingNode = document.createElement('a');
+      var originURL;
+
+      /**
+    * Parse a URL to discover it's components
+    *
+    * @param {String} url The URL to be parsed
+    * @returns {Object}
+    */
+      function resolveURL(url) {
+        var href = url;
+
+        if (msie) {
+        // IE needs attribute set twice to normalize properties
+          urlParsingNode.setAttribute('href', href);
+          href = urlParsingNode.href;
+        }
+
+        urlParsingNode.setAttribute('href', href);
+
+        // urlParsingNode provides the UrlUtils interface - http://url.spec.whatwg.org/#urlutils
+        return {
+          href: urlParsingNode.href,
+          protocol: urlParsingNode.protocol ? urlParsingNode.protocol.replace(/:$/, '') : '',
+          host: urlParsingNode.host,
+          search: urlParsingNode.search ? urlParsingNode.search.replace(/^\?/, '') : '',
+          hash: urlParsingNode.hash ? urlParsingNode.hash.replace(/^#/, '') : '',
+          hostname: urlParsingNode.hostname,
+          port: urlParsingNode.port,
+          pathname: (urlParsingNode.pathname.charAt(0) === '/') ?
+            urlParsingNode.pathname :
+            '/' + urlParsingNode.pathname
+        };
+      }
+
+      originURL = resolveURL(window.location.href);
+
+      /**
+    * Determine if a URL shares the same origin as the current location
+    *
+    * @param {String} requestURL The URL to test
+    * @returns {boolean} True if URL shares the same origin, otherwise false
+    */
+      return function isURLSameOrigin(requestURL) {
+        var parsed = (utils.isString(requestURL)) ? resolveURL(requestURL) : requestURL;
+        return (parsed.protocol === originURL.protocol &&
+            parsed.host === originURL.host);
+      };
+    })() :
+
+  // Non standard browser envs (web workers, react-native) lack needed support.
+    (function nonStandardBrowserEnv() {
+      return function isURLSameOrigin() {
+        return true;
+      };
+    })()
+);
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/helpers/normalizeHeaderName.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/normalizeHeaderName.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ../utils */ "./node_modules/axios/lib/utils.js");
+
+module.exports = function normalizeHeaderName(headers, normalizedName) {
+  utils.forEach(headers, function processHeader(value, name) {
+    if (name !== normalizedName && name.toUpperCase() === normalizedName.toUpperCase()) {
+      headers[normalizedName] = value;
+      delete headers[name];
+    }
+  });
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/helpers/parseHeaders.js":
+/*!********************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/parseHeaders.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(/*! ./../utils */ "./node_modules/axios/lib/utils.js");
+
+// Headers whose duplicates are ignored by node
+// c.f. https://nodejs.org/api/http.html#http_message_headers
+var ignoreDuplicateOf = [
+  'age', 'authorization', 'content-length', 'content-type', 'etag',
+  'expires', 'from', 'host', 'if-modified-since', 'if-unmodified-since',
+  'last-modified', 'location', 'max-forwards', 'proxy-authorization',
+  'referer', 'retry-after', 'user-agent'
+];
+
+/**
+ * Parse headers into an object
+ *
+ * ```
+ * Date: Wed, 27 Aug 2014 08:58:49 GMT
+ * Content-Type: application/json
+ * Connection: keep-alive
+ * Transfer-Encoding: chunked
+ * ```
+ *
+ * @param {String} headers Headers needing to be parsed
+ * @returns {Object} Headers parsed into an object
+ */
+module.exports = function parseHeaders(headers) {
+  var parsed = {};
+  var key;
+  var val;
+  var i;
+
+  if (!headers) { return parsed; }
+
+  utils.forEach(headers.split('\n'), function parser(line) {
+    i = line.indexOf(':');
+    key = utils.trim(line.substr(0, i)).toLowerCase();
+    val = utils.trim(line.substr(i + 1));
+
+    if (key) {
+      if (parsed[key] && ignoreDuplicateOf.indexOf(key) >= 0) {
+        return;
+      }
+      if (key === 'set-cookie') {
+        parsed[key] = (parsed[key] ? parsed[key] : []).concat([val]);
+      } else {
+        parsed[key] = parsed[key] ? parsed[key] + ', ' + val : val;
+      }
+    }
+  });
+
+  return parsed;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/helpers/spread.js":
+/*!**************************************************!*\
+  !*** ./node_modules/axios/lib/helpers/spread.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Syntactic sugar for invoking a function and expanding an array for arguments.
+ *
+ * Common use case would be to use `Function.prototype.apply`.
+ *
+ *  ```js
+ *  function f(x, y, z) {}
+ *  var args = [1, 2, 3];
+ *  f.apply(null, args);
+ *  ```
+ *
+ * With `spread` this example can be re-written.
+ *
+ *  ```js
+ *  spread(function(x, y, z) {})([1, 2, 3]);
+ *  ```
+ *
+ * @param {Function} callback
+ * @returns {Function}
+ */
+module.exports = function spread(callback) {
+  return function wrap(arr) {
+    return callback.apply(null, arr);
+  };
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/axios/lib/utils.js":
+/*!*****************************************!*\
+  !*** ./node_modules/axios/lib/utils.js ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var bind = __webpack_require__(/*! ./helpers/bind */ "./node_modules/axios/lib/helpers/bind.js");
+
+/*global toString:true*/
+
+// utils is a library of generic helper functions non-specific to axios
+
+var toString = Object.prototype.toString;
+
+/**
+ * Determine if a value is an Array
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is an Array, otherwise false
+ */
+function isArray(val) {
+  return toString.call(val) === '[object Array]';
+}
+
+/**
+ * Determine if a value is undefined
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if the value is undefined, otherwise false
+ */
+function isUndefined(val) {
+  return typeof val === 'undefined';
+}
+
+/**
+ * Determine if a value is a Buffer
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is a Buffer, otherwise false
+ */
+function isBuffer(val) {
+  return val !== null && !isUndefined(val) && val.constructor !== null && !isUndefined(val.constructor)
+    && typeof val.constructor.isBuffer === 'function' && val.constructor.isBuffer(val);
+}
+
+/**
+ * Determine if a value is an ArrayBuffer
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is an ArrayBuffer, otherwise false
+ */
+function isArrayBuffer(val) {
+  return toString.call(val) === '[object ArrayBuffer]';
+}
+
+/**
+ * Determine if a value is a FormData
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is an FormData, otherwise false
+ */
+function isFormData(val) {
+  return (typeof FormData !== 'undefined') && (val instanceof FormData);
+}
+
+/**
+ * Determine if a value is a view on an ArrayBuffer
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is a view on an ArrayBuffer, otherwise false
+ */
+function isArrayBufferView(val) {
+  var result;
+  if ((typeof ArrayBuffer !== 'undefined') && (ArrayBuffer.isView)) {
+    result = ArrayBuffer.isView(val);
+  } else {
+    result = (val) && (val.buffer) && (val.buffer instanceof ArrayBuffer);
+  }
+  return result;
+}
+
+/**
+ * Determine if a value is a String
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is a String, otherwise false
+ */
+function isString(val) {
+  return typeof val === 'string';
+}
+
+/**
+ * Determine if a value is a Number
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is a Number, otherwise false
+ */
+function isNumber(val) {
+  return typeof val === 'number';
+}
+
+/**
+ * Determine if a value is an Object
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is an Object, otherwise false
+ */
+function isObject(val) {
+  return val !== null && typeof val === 'object';
+}
+
+/**
+ * Determine if a value is a Date
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is a Date, otherwise false
+ */
+function isDate(val) {
+  return toString.call(val) === '[object Date]';
+}
+
+/**
+ * Determine if a value is a File
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is a File, otherwise false
+ */
+function isFile(val) {
+  return toString.call(val) === '[object File]';
+}
+
+/**
+ * Determine if a value is a Blob
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is a Blob, otherwise false
+ */
+function isBlob(val) {
+  return toString.call(val) === '[object Blob]';
+}
+
+/**
+ * Determine if a value is a Function
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is a Function, otherwise false
+ */
+function isFunction(val) {
+  return toString.call(val) === '[object Function]';
+}
+
+/**
+ * Determine if a value is a Stream
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is a Stream, otherwise false
+ */
+function isStream(val) {
+  return isObject(val) && isFunction(val.pipe);
+}
+
+/**
+ * Determine if a value is a URLSearchParams object
+ *
+ * @param {Object} val The value to test
+ * @returns {boolean} True if value is a URLSearchParams object, otherwise false
+ */
+function isURLSearchParams(val) {
+  return typeof URLSearchParams !== 'undefined' && val instanceof URLSearchParams;
+}
+
+/**
+ * Trim excess whitespace off the beginning and end of a string
+ *
+ * @param {String} str The String to trim
+ * @returns {String} The String freed of excess whitespace
+ */
+function trim(str) {
+  return str.replace(/^\s*/, '').replace(/\s*$/, '');
+}
+
+/**
+ * Determine if we're running in a standard browser environment
+ *
+ * This allows axios to run in a web worker, and react-native.
+ * Both environments support XMLHttpRequest, but not fully standard globals.
+ *
+ * web workers:
+ *  typeof window -> undefined
+ *  typeof document -> undefined
+ *
+ * react-native:
+ *  navigator.product -> 'ReactNative'
+ * nativescript
+ *  navigator.product -> 'NativeScript' or 'NS'
+ */
+function isStandardBrowserEnv() {
+  if (typeof navigator !== 'undefined' && (navigator.product === 'ReactNative' ||
+                                           navigator.product === 'NativeScript' ||
+                                           navigator.product === 'NS')) {
+    return false;
+  }
+  return (
+    typeof window !== 'undefined' &&
+    typeof document !== 'undefined'
+  );
+}
+
+/**
+ * Iterate over an Array or an Object invoking a function for each item.
+ *
+ * If `obj` is an Array callback will be called passing
+ * the value, index, and complete array for each item.
+ *
+ * If 'obj' is an Object callback will be called passing
+ * the value, key, and complete object for each property.
+ *
+ * @param {Object|Array} obj The object to iterate
+ * @param {Function} fn The callback to invoke for each item
+ */
+function forEach(obj, fn) {
+  // Don't bother if no value provided
+  if (obj === null || typeof obj === 'undefined') {
+    return;
+  }
+
+  // Force an array if not already something iterable
+  if (typeof obj !== 'object') {
+    /*eslint no-param-reassign:0*/
+    obj = [obj];
+  }
+
+  if (isArray(obj)) {
+    // Iterate over array values
+    for (var i = 0, l = obj.length; i < l; i++) {
+      fn.call(null, obj[i], i, obj);
+    }
+  } else {
+    // Iterate over object keys
+    for (var key in obj) {
+      if (Object.prototype.hasOwnProperty.call(obj, key)) {
+        fn.call(null, obj[key], key, obj);
+      }
+    }
+  }
+}
+
+/**
+ * Accepts varargs expecting each argument to be an object, then
+ * immutably merges the properties of each object and returns result.
+ *
+ * When multiple objects contain the same key the later object in
+ * the arguments list will take precedence.
+ *
+ * Example:
+ *
+ * ```js
+ * var result = merge({foo: 123}, {foo: 456});
+ * console.log(result.foo); // outputs 456
+ * ```
+ *
+ * @param {Object} obj1 Object to merge
+ * @returns {Object} Result of all merge properties
+ */
+function merge(/* obj1, obj2, obj3, ... */) {
+  var result = {};
+  function assignValue(val, key) {
+    if (typeof result[key] === 'object' && typeof val === 'object') {
+      result[key] = merge(result[key], val);
+    } else {
+      result[key] = val;
+    }
+  }
+
+  for (var i = 0, l = arguments.length; i < l; i++) {
+    forEach(arguments[i], assignValue);
+  }
+  return result;
+}
+
+/**
+ * Function equal to merge with the difference being that no reference
+ * to original objects is kept.
+ *
+ * @see merge
+ * @param {Object} obj1 Object to merge
+ * @returns {Object} Result of all merge properties
+ */
+function deepMerge(/* obj1, obj2, obj3, ... */) {
+  var result = {};
+  function assignValue(val, key) {
+    if (typeof result[key] === 'object' && typeof val === 'object') {
+      result[key] = deepMerge(result[key], val);
+    } else if (typeof val === 'object') {
+      result[key] = deepMerge({}, val);
+    } else {
+      result[key] = val;
+    }
+  }
+
+  for (var i = 0, l = arguments.length; i < l; i++) {
+    forEach(arguments[i], assignValue);
+  }
+  return result;
+}
+
+/**
+ * Extends object a by mutably adding to it the properties of object b.
+ *
+ * @param {Object} a The object to be extended
+ * @param {Object} b The object to copy properties from
+ * @param {Object} thisArg The object to bind function to
+ * @return {Object} The resulting value of object a
+ */
+function extend(a, b, thisArg) {
+  forEach(b, function assignValue(val, key) {
+    if (thisArg && typeof val === 'function') {
+      a[key] = bind(val, thisArg);
+    } else {
+      a[key] = val;
+    }
+  });
+  return a;
+}
+
+module.exports = {
+  isArray: isArray,
+  isArrayBuffer: isArrayBuffer,
+  isBuffer: isBuffer,
+  isFormData: isFormData,
+  isArrayBufferView: isArrayBufferView,
+  isString: isString,
+  isNumber: isNumber,
+  isObject: isObject,
+  isUndefined: isUndefined,
+  isDate: isDate,
+  isFile: isFile,
+  isBlob: isBlob,
+  isFunction: isFunction,
+  isStream: isStream,
+  isURLSearchParams: isURLSearchParams,
+  isStandardBrowserEnv: isStandardBrowserEnv,
+  forEach: forEach,
+  merge: merge,
+  deepMerge: deepMerge,
+  extend: extend,
+  trim: trim
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/babel-runtime/core-js/object/assign.js":
 /*!*************************************************************!*\
   !*** ./node_modules/babel-runtime/core-js/object/assign.js ***!
@@ -25892,9 +27727,7 @@ TextProperty.prototype.completeTextData = function(documentData) {
         newLineFlag = false;
         currentChar = documentData.finalText[i];
         charCode = currentChar.charCodeAt(0);
-        if (currentChar === ' '){
-            val = '\u00A0';
-        } else if (charCode === 13 || charCode === 3) {
+        if (charCode === 13 || charCode === 3) {
             uncollapsedSpaces = 0;
             lineWidths.push(lineWidth);
             maxLineWidth = lineWidth > maxLineWidth ? lineWidth : maxLineWidth;
@@ -25903,7 +27736,7 @@ TextProperty.prototype.completeTextData = function(documentData) {
             newLineFlag = true;
             currentLine += 1;
         }else{
-            val = documentData.finalText[i];
+            val = currentChar;
         }
         if(fontManager.chars){
             charData = fontManager.getCharData(currentChar, fontData.fStyle, fontManager.getFontByName(documentData.f).fFamily);
@@ -25924,8 +27757,8 @@ TextProperty.prototype.completeTextData = function(documentData) {
         letters.push({l:cLength,an:cLength,add:currentSize,n:newLineFlag, anIndexes:[], val: val, line: currentLine, animatorJustifyOffset: 0});
         if(anchorGrouping == 2){
             currentSize += cLength;
-            if(val === '' || val === '\u00A0' || i === len - 1){
-                if(val === '' || val === '\u00A0'){
+            if(val === '' || val === ' ' || i === len - 1){
+                if(val === '' || val === ' '){
                     currentSize -= cLength;
                 }
                 while(currentPos<=i){
@@ -25998,7 +27831,7 @@ TextProperty.prototype.completeTextData = function(documentData) {
         for(i=0;i<len;i+=1){
             letterData = letters[i];
             letterData.anIndexes[j] = ind;
-            if((based == 1 && letterData.val !== '') || (based == 2 && letterData.val !== '' && letterData.val !== '\u00A0') || (based == 3 && (letterData.n || letterData.val == '\u00A0' || i == len - 1)) || (based == 4 && (letterData.n || i == len - 1))){
+            if((based == 1 && letterData.val !== '') || (based == 2 && letterData.val !== '' && letterData.val !== ' ') || (based == 3 && (letterData.n || letterData.val == ' ' || i == len - 1)) || (based == 4 && (letterData.n || i == len - 1))){
                 if(animatorData.s.rn === 1){
                     indexes.push(ind);
                 }
@@ -31989,6 +33822,7 @@ AnimationItem.prototype.setParams = function(params) {
     this.name = params.name ? params.name :  '';
     this.autoloadSegments = params.hasOwnProperty('autoloadSegments') ? params.autoloadSegments :  true;
     this.assetsPath = params.assetsPath;
+    this.initialSegment = params.initialSegment;
     if (params.animationData) {
         this.configAnimation(params.animationData);
     } else if(params.path){
@@ -32006,7 +33840,6 @@ AnimationItem.prototype.setParams = function(params) {
         }.bind(this));
     }
 
-    this.initialSegment = params.initialSegment;
 };
 
 AnimationItem.prototype.setData = function (wrapper, animationData) {
@@ -35099,7 +36932,7 @@ lottie.freeze = animationManager.freeze;
 lottie.unfreeze = animationManager.unfreeze;
 lottie.getRegisteredAnimations = animationManager.getRegisteredAnimations;
 lottie.__getFactory = getFactory;
-lottie.version = '5.6.6';
+lottie.version = '5.6.8';
 
 function checkReady() {
     if (document.readyState === "complete") {
@@ -41825,13 +43658,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _egjs_react_flicking__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @egjs/react-flicking */ "./node_modules/@egjs/react-flicking/dist/flicking.esm.js");
-/* harmony import */ var _components_particles_useOnScreen__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/particles/useOnScreen */ "./components/particles/useOnScreen.js");
-/* harmony import */ var _components_templates_layouts__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/templates/layouts */ "./components/templates/layouts/index.js");
-/* harmony import */ var _components_molecules__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/molecules */ "./components/molecules/index.js");
-/* harmony import */ var _components_atoms__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/atoms */ "./components/atoms/index.js");
-/* harmony import */ var _index_knobs_json__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./index.knobs.json */ "./pages/index.knobs.json");
-var _index_knobs_json__WEBPACK_IMPORTED_MODULE_7___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./index.knobs.json */ "./pages/index.knobs.json", 1);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _egjs_react_flicking__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @egjs/react-flicking */ "./node_modules/@egjs/react-flicking/dist/flicking.esm.js");
+/* harmony import */ var _components_particles_useOnScreen__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/particles/useOnScreen */ "./components/particles/useOnScreen.js");
+/* harmony import */ var _components_templates_layouts__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/templates/layouts */ "./components/templates/layouts/index.js");
+/* harmony import */ var _components_molecules__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../components/molecules */ "./components/molecules/index.js");
+/* harmony import */ var _components_atoms__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../components/atoms */ "./components/atoms/index.js");
+/* harmony import */ var _assets_lottiefiles_loading_circle_json__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../assets/lottiefiles/loading-circle.json */ "./assets/lottiefiles/loading-circle.json");
+var _assets_lottiefiles_loading_circle_json__WEBPACK_IMPORTED_MODULE_8___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../assets/lottiefiles/loading-circle.json */ "./assets/lottiefiles/loading-circle.json", 1);
+/* harmony import */ var _assets_lottiefiles_success_json__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../assets/lottiefiles/success.json */ "./assets/lottiefiles/success.json");
+var _assets_lottiefiles_success_json__WEBPACK_IMPORTED_MODULE_9___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../assets/lottiefiles/success.json */ "./assets/lottiefiles/success.json", 1);
+/* harmony import */ var _index_knobs_json__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./index.knobs.json */ "./pages/index.knobs.json");
+var _index_knobs_json__WEBPACK_IMPORTED_MODULE_10___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./index.knobs.json */ "./pages/index.knobs.json", 1);
 var _this = undefined,
     _jsxFileName = "/Users/ahroidlife/Documents/nextjs/blog/pages/index.js";
 
@@ -41844,7 +43683,10 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-var menus = _index_knobs_json__WEBPACK_IMPORTED_MODULE_7__.data.menus;
+
+
+
+var menus = _index_knobs_json__WEBPACK_IMPORTED_MODULE_10__.data.menus;
 
 var App = function App() {
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
@@ -41863,8 +43705,72 @@ var App = function App() {
       date = _useState4[0],
       setDate = _useState4[1];
 
+  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
+      loading = _useState5[0],
+      setLoading = _useState5[1];
+
+  var _useState6 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
+      visible = _useState6[0],
+      setVisible = _useState6[1];
+
+  var _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(''),
+      firstname = _useState7[0],
+      setFirstname = _useState7[1];
+
+  var _useState8 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(''),
+      lastname = _useState8[0],
+      setLastname = _useState8[1];
+
+  var _useState9 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(''),
+      email = _useState9[0],
+      setEmail = _useState9[1];
+
+  var _useState10 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(''),
+      phone = _useState10[0],
+      setPhone = _useState10[1];
+
+  var _useState11 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(''),
+      budget = _useState11[0],
+      setBudget = _useState11[1];
+
+  var _useState12 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(''),
+      timeline = _useState12[0],
+      setTimeline = _useState12[1];
+
+  var _useState13 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(''),
+      message = _useState13[0],
+      setMessage = _useState13[1];
+
   var ref = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])();
-  var isVisible = Object(_components_particles_useOnScreen__WEBPACK_IMPORTED_MODULE_3__["default"])(ref);
+  var isVisible = Object(_components_particles_useOnScreen__WEBPACK_IMPORTED_MODULE_4__["default"])(ref);
+
+  var inquiry = function inquiry() {
+    var payload = {
+      firstname: firstname,
+      lastname: lastname,
+      email: email,
+      phone: phone,
+      budget: budget,
+      timeline: timeline,
+      message: message
+    };
+    setVisible(true);
+    setLoading(true);
+    axios__WEBPACK_IMPORTED_MODULE_2___default.a.post("http://localhost:8080" + '/api/inquiry/create', JSON.stringify(payload)).then(function (res) {
+      setTimeout(function () {
+        setLoading(false);
+      }, 2000);
+      setFirstname('');
+      setLastname('');
+      setEmail('');
+      setPhone('');
+      setMessage('');
+      console.log("RES :: ", res);
+    })["catch"](function (err) {
+      console.log(err);
+    });
+  };
+
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
     console.log("The component is ".concat(isVisible ? "visible" : "not visible", "."));
     var date = new Date();
@@ -41887,6 +43793,10 @@ var App = function App() {
     });
   };
 
+  var done = function done() {
+    setVisible(false);
+  };
+
   var openMenu = function openMenu() {
     setOpen(true);
     setOverlay(true);
@@ -41899,11 +43809,11 @@ var App = function App() {
     document.body.style.overflow = 'unset';
   };
 
-  return __jsx(_components_templates_layouts__WEBPACK_IMPORTED_MODULE_4__["MainLayout"], {
+  return __jsx(_components_templates_layouts__WEBPACK_IMPORTED_MODULE_5__["MainLayout"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62,
+      lineNumber: 109,
       columnNumber: 5
     }
   }, __jsx("div", {
@@ -41911,43 +43821,97 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63,
+      lineNumber: 110,
       columnNumber: 5
     }
-  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
+    className: "overlay ".concat(visible ? 'isVisibility' : ''),
+    justify: "center",
+    align: "center",
+    direction: "column",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 111,
+      columnNumber: 7
+    }
+  }, loading ? __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Lottie"], {
+    width: 200,
+    height: 200,
+    autoplay: true,
+    loop: true,
+    path: _assets_lottiefiles_loading_circle_json__WEBPACK_IMPORTED_MODULE_8__,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 112,
+      columnNumber: 21
+    }
+  }) : __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Lottie"], {
+    width: 250,
+    height: 250,
+    autoplay: true,
+    loop: true,
+    path: _assets_lottiefiles_success_json__WEBPACK_IMPORTED_MODULE_9__,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 112,
+      columnNumber: 109
+    }
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
+    margin: "15px 0 0 0",
+    family: "quicksand",
+    size: "32",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 113,
+      columnNumber: 9
+    }
+  }, loading ? 'Just take a moment' : 'Thank You!'), loading ? undefined : __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Button"], {
+    className: "btn-done",
+    onClick: done,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 114,
+      columnNumber: 33
+    }
+  }, "Done")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "main-header",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64,
+      lineNumber: 116,
       columnNumber: 7
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "main-header-content",
     direction: "column",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65,
+      lineNumber: 117,
       columnNumber: 9
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "main-header-nav",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66,
+      lineNumber: 118,
       columnNumber: 11
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "navigation-bar",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67,
+      lineNumber: 119,
       columnNumber: 13
     }
-  }, __jsx(_components_molecules__WEBPACK_IMPORTED_MODULE_5__["Navigation"], {
+  }, __jsx(_components_molecules__WEBPACK_IMPORTED_MODULE_6__["Navigation"], {
     items: menus,
     family: "quicksand",
     size: "16",
@@ -41957,44 +43921,44 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68,
+      lineNumber: 120,
       columnNumber: 15
     }
-  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "nav-menu-mobile",
     onClick: openMenu,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76,
+      lineNumber: 128,
       columnNumber: 13
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     src: "/static/illustrations/menu.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77,
+      lineNumber: 129,
       columnNumber: 15
     }
-  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "nav-menu-wrapper-mobile ".concat(isVisible ? 'isActiveEl' : '', " ").concat(open ? 'nav-menu-isActive' : ''),
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79,
+      lineNumber: 131,
       columnNumber: 13
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "nav-menu-header-mobile",
     direction: "column",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83,
+      lineNumber: 135,
       columnNumber: 15
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     variant: "white",
     family: "quicksand",
     size: "18",
@@ -42002,10 +43966,10 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84,
+      lineNumber: 136,
       columnNumber: 17
     }
-  }, greeting), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, greeting), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     variant: "white",
     family: "quicksand",
     weight: "light",
@@ -42013,59 +43977,59 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85,
+      lineNumber: 137,
       columnNumber: 17
     }
-  }, date), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, date), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "nav-menu-button-close",
     onClick: closeMenu,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86,
+      lineNumber: 138,
       columnNumber: 17
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     src: "/static/illustrations/close.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87,
+      lineNumber: 139,
       columnNumber: 19
     }
-  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "nav-menu-dots",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89,
+      lineNumber: 141,
       columnNumber: 17
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     src: "/static/illustrations/dot-header-mobile.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90,
+      lineNumber: 142,
       columnNumber: 19
     }
-  }))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "nav-menu-content-mobile",
     direction: "column",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93,
+      lineNumber: 145,
       columnNumber: 15
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "nav-menu-items",
     direction: "column",
     flexValue: "1",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94,
+      lineNumber: 146,
       columnNumber: 17
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -42073,39 +44037,39 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95,
+      lineNumber: 147,
       columnNumber: 19
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96,
+      lineNumber: 148,
       columnNumber: 21
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "nav-menu-item",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97,
+      lineNumber: 149,
       columnNumber: 23
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     src: "/static/illustrations/products.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99,
+      lineNumber: 151,
       columnNumber: 25
     }
-  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     size: "18",
     margin: "0 0 0 20px",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100,
+      lineNumber: 152,
       columnNumber: 25
     }
   }, "My Products")))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -42113,39 +44077,39 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105,
+      lineNumber: 157,
       columnNumber: 19
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106,
+      lineNumber: 158,
       columnNumber: 21
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "nav-menu-item",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107,
+      lineNumber: 159,
       columnNumber: 23
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     src: "/static/illustrations/projects.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108,
+      lineNumber: 160,
       columnNumber: 25
     }
-  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     size: "18",
     margin: "0 0 0 20px",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109,
+      lineNumber: 161,
       columnNumber: 25
     }
   }, "My Related Projects")))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -42153,39 +44117,39 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 113,
+      lineNumber: 165,
       columnNumber: 19
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114,
+      lineNumber: 166,
       columnNumber: 21
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "nav-menu-item",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 115,
+      lineNumber: 167,
       columnNumber: 23
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     src: "/static/illustrations/issues.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116,
+      lineNumber: 168,
       columnNumber: 25
     }
-  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     size: "18",
     margin: "0 0 0 20px",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 117,
+      lineNumber: 169,
       columnNumber: 25
     }
   }, "Issues")))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
@@ -42193,50 +44157,50 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 121,
+      lineNumber: 173,
       columnNumber: 19
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122,
+      lineNumber: 174,
       columnNumber: 21
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "nav-menu-item",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123,
+      lineNumber: 175,
       columnNumber: 23
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     src: "/static/illustrations/stories.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124,
+      lineNumber: 176,
       columnNumber: 25
     }
-  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     size: "18",
     margin: "0 0 0 20px",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125,
+      lineNumber: 177,
       columnNumber: 25
     }
-  }, "Stories"))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, "Stories"))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "nav-menu-item-footer",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130,
+      lineNumber: 182,
       columnNumber: 17
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "nav-menu-item",
     onClick: function onClick() {
       return navigator.clipboard.writeText(window.location.href);
@@ -42244,116 +44208,116 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 131,
+      lineNumber: 183,
       columnNumber: 19
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     src: "/static/illustrations/copy.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134,
+      lineNumber: 186,
       columnNumber: 21
     }
-  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     size: "18",
     margin: "0 0 0 20px",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 135,
+      lineNumber: 187,
       columnNumber: 21
     }
-  }, "\u201CCopy Link to Clipboard\u201D"))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, "\u201CCopy Link to Clipboard\u201D"))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "overlay-background  ".concat(overlay ? 'is-overlay-background' : ''),
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 142,
+      lineNumber: 194,
       columnNumber: 13
     }
-  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "social-media",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 143,
+      lineNumber: 195,
       columnNumber: 13
     }
   }, __jsx("ul", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 144,
+      lineNumber: 196,
       columnNumber: 15
     }
   }, __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 145,
+      lineNumber: 197,
       columnNumber: 17
     }
   }, __jsx("a", {
-    href: "/",
+    href: "https://www.linkedin.com/in/ahroidlife/",
     target: "_blank",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 146,
+      lineNumber: 198,
       columnNumber: 19
     }
   }, "IN")), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 148,
+      lineNumber: 200,
       columnNumber: 17
     }
   }, __jsx("a", {
-    href: "/",
+    href: "https://www.facebook.com/krisnaahroid",
     target: "_blank",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 149,
+      lineNumber: 201,
       columnNumber: 19
     }
   }, "FB")), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151,
+      lineNumber: 203,
       columnNumber: 17
     }
   }, __jsx("a", {
-    href: "/",
+    href: "https://www.instagram.com/user.ahroidlife/",
     target: "_blank",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 152,
+      lineNumber: 204,
       columnNumber: 19
     }
-  }, "IG"))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, "IG"))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     flexValue: "1",
     className: "main-header-body",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 157,
+      lineNumber: 209,
       columnNumber: 11
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     direction: "column",
     className: "main-header-left",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 158,
+      lineNumber: 210,
       columnNumber: 13
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     variant: "blue",
     family: "quicksand",
     margin: "0  0 50px 0 ",
@@ -42361,19 +44325,19 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 159,
+      lineNumber: 211,
       columnNumber: 15
     }
-  }, "Hi, there"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, "Hi, there"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     direction: "column",
     margin: "0  0 30px 0 ",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 160,
+      lineNumber: 212,
       columnNumber: 15
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     variant: "blue",
     family: "quicksand",
     weight: "medium",
@@ -42381,10 +44345,10 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 161,
+      lineNumber: 213,
       columnNumber: 17
     }
-  }, "I\u2019m Krisna Ahroid"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, "I\u2019m Krisna Ahroid"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     family: "quicksand",
     variant: "grey",
     weight: "medium",
@@ -42392,19 +44356,19 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 162,
+      lineNumber: 214,
       columnNumber: 17
     }
-  }, "UI/UX Designer & Frontend Developer")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, "UI/UX Designer & Frontend Developer")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     width: "80%",
     className: "main-header-text-content",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 164,
+      lineNumber: 216,
       columnNumber: 15
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     family: "quicksand",
     variant: "grey",
     weight: "regular",
@@ -42412,7 +44376,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 165,
+      lineNumber: 217,
       columnNumber: 17
     }
   }, "I design & code that turn the idea to", __jsx("span", {
@@ -42422,24 +44386,24 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 171,
+      lineNumber: 223,
       columnNumber: 19
     }
-  }, " product digital and website that people love it."))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, " product digital and website that people love it."))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     align: "center",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 176,
+      lineNumber: 228,
       columnNumber: 15
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Button"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Button"], {
     className: "btn-hire",
     onClick: toInquiry,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 177,
+      lineNumber: 229,
       columnNumber: 17
     }
   }, "HIRE ME"), __jsx("a", {
@@ -42448,10 +44412,10 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 180,
+      lineNumber: 232,
       columnNumber: 17
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     family: "quicksand",
     variant: "blue",
     weight: "regular",
@@ -42459,70 +44423,70 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 181,
+      lineNumber: 233,
       columnNumber: 19
     }
-  }, "Free - 15min consult")))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, "Free - 15min consult")))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "main-header-right",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 187,
+      lineNumber: 239,
       columnNumber: 13
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     src: "/static/illustrations/hero-image.png",
     className: "main-header-hero",
     draggable: "false",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 188,
+      lineNumber: 240,
       columnNumber: 15
     }
-  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     src: "/static/illustrations/bubbble.svg",
     className: "main-header-bubble",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 192,
+      lineNumber: 244,
       columnNumber: 15
     }
-  })))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  })))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "overlay",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 196,
+      lineNumber: 248,
       columnNumber: 9
     }
-  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "tools-wrapper",
     direction: "column",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 198,
+      lineNumber: 250,
       columnNumber: 7
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     className: "tools-title",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 199,
+      lineNumber: 251,
       columnNumber: 9
     }
-  }, "Work with"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, "Work with"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "tools-items",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 200,
+      lineNumber: 252,
       columnNumber: 9
     }
-  }, __jsx(_egjs_react_flicking__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, __jsx(_egjs_react_flicking__WEBPACK_IMPORTED_MODULE_3__["default"], {
     gap: 50,
     infinite: true,
     infiniteThreshold: 100,
@@ -42535,297 +44499,306 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 201,
+      lineNumber: 253,
       columnNumber: 11
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 202,
+      lineNumber: 254,
       columnNumber: 19
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     src: "/static/tools/l_xd.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 203,
+      lineNumber: 255,
       columnNumber: 21
     }
-  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 205,
+      lineNumber: 257,
       columnNumber: 19
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     src: "/static/tools/figma-1.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 206,
+      lineNumber: 258,
       columnNumber: 21
     }
-  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 208,
+      lineNumber: 260,
       columnNumber: 19
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     src: "/static/tools/protopie.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 209,
+      lineNumber: 261,
       columnNumber: 21
     }
-  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 211,
+      lineNumber: 263,
       columnNumber: 19
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     src: "/static/tools/affinity.png",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 212,
+      lineNumber: 264,
       columnNumber: 21
     }
-  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 214,
+      lineNumber: 266,
       columnNumber: 19
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     src: "/static/tools/ae.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 215,
+      lineNumber: 267,
       columnNumber: 21
     }
-  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 217,
+      lineNumber: 269,
       columnNumber: 19
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     src: "/static/tools/l_Zeplin.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 218,
+      lineNumber: 270,
       columnNumber: 21
     }
-  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 220,
+      lineNumber: 272,
       columnNumber: 19
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     src: "/static/tools/react.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 221,
+      lineNumber: 273,
       columnNumber: 21
     }
-  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 223,
+      lineNumber: 275,
       columnNumber: 19
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     src: "/static/tools/l_redux.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 224,
+      lineNumber: 276,
       columnNumber: 21
     }
-  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 226,
+      lineNumber: 278,
       columnNumber: 19
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     src: "/static/tools/next-js.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 227,
+      lineNumber: 279,
       columnNumber: 21
     }
-  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 229,
+      lineNumber: 281,
       columnNumber: 19
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     src: "/static/tools/vue-js.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 230,
+      lineNumber: 282,
       columnNumber: 21
     }
-  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 232,
+      lineNumber: 284,
       columnNumber: 19
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     src: "/static/tools/nuxt-square.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 233,
+      lineNumber: 285,
       columnNumber: 21
     }
-  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 235,
+      lineNumber: 287,
       columnNumber: 19
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     src: "/static/tools/wix.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 236,
+      lineNumber: 288,
       columnNumber: 21
     }
-  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 238,
+      lineNumber: 290,
       columnNumber: 19
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     src: "/static/tools/webflow.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 239,
+      lineNumber: 291,
       columnNumber: 21
     }
-  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 241,
+      lineNumber: 293,
       columnNumber: 19
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     src: "/static/tools/github-1.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 242,
+      lineNumber: 294,
       columnNumber: 21
     }
-  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 244,
+      lineNumber: 296,
       columnNumber: 19
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     src: "/static/tools/nginx.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 245,
+      lineNumber: 297,
       columnNumber: 21
     }
-  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 247,
+      lineNumber: 299,
       columnNumber: 19
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     src: "/static/tools/lottiefiles.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 248,
+      lineNumber: 300,
       columnNumber: 21
     }
-  }))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "specializing-wrapper",
     direction: "column",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 253,
+      lineNumber: 305,
       columnNumber: 7
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     direction: "column",
     align: "center",
     className: "specializing-header",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 254,
+      lineNumber: 306,
       columnNumber: 11
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     family: "quicksand",
     size: "32",
     weight: "500",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 255,
+      lineNumber: 307,
       columnNumber: 19
     }
-  }, "Specializing in"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, "Specializing in"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     family: "quicksand",
     size: "18",
     weight: "400",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 256,
+      lineNumber: 308,
       columnNumber: 19
     }
-  }, "I a UI/UX Designer & Frontend  Developer, and I love what I do.")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, "I a UI/UX Designer & Frontend  Developer, and I love what I do.")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "specializing-content",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 258,
+      lineNumber: 310,
       columnNumber: 11
     }
-  }, __jsx(_egjs_react_flicking__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
+    className: "specializing-square-dots",
+    src: "/static/illustrations/dots.svg",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 311,
+      columnNumber: 11
+    }
+  }), __jsx(_egjs_react_flicking__WEBPACK_IMPORTED_MODULE_3__["default"], {
     gap: 50,
     infinite: true,
     infiniteThreshold: 100,
@@ -42838,57 +44811,57 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 259,
+      lineNumber: 312,
       columnNumber: 13
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "specializing-cards",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 260,
+      lineNumber: 313,
       columnNumber: 17
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "card",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 262,
+      lineNumber: 315,
       columnNumber: 23
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "line line1",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 263,
+      lineNumber: 316,
       columnNumber: 25
     }
-  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "title",
     direction: "column",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 264,
+      lineNumber: 317,
       columnNumber: 25
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     variant: "dark",
     family: "quicksand",
     className: "main-title-card",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 265,
+      lineNumber: 318,
       columnNumber: 27
     }
   }, __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 265,
+      lineNumber: 318,
       columnNumber: 95
     }
   }, "UI"), " ", __jsx("span", {
@@ -42896,76 +44869,76 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 265,
+      lineNumber: 318,
       columnNumber: 111
     }
-  }, "Design &")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, "Design &")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     variant: "dark",
     family: "quicksand",
     className: "sub-title-card",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 266,
+      lineNumber: 319,
       columnNumber: 27
     }
-  }, "Protoyping")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, "Protoyping")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "content",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 268,
+      lineNumber: 321,
       columnNumber: 25
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     variant: "dark",
     family: "quicksand",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 269,
+      lineNumber: 322,
       columnNumber: 27
     }
-  }, "The beauty can be subjective depending on the viewer. I enjoy the challenge to create visual and prototyping and also leverage micro-interactions."))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, "The beauty can be subjective depending on the viewer. I enjoy the challenge to create visual and prototyping and also leverage micro-interactions."))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "card",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 274,
+      lineNumber: 327,
       columnNumber: 23
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "line line2",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 275,
+      lineNumber: 328,
       columnNumber: 25
     }
-  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "title",
     direction: "column",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 276,
+      lineNumber: 329,
       columnNumber: 25
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     variant: "dark",
     family: "quicksand",
     className: "main-title-card",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 277,
+      lineNumber: 330,
       columnNumber: 27
     }
   }, __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 277,
+      lineNumber: 330,
       columnNumber: 95
     }
   }, "UX"), " ", __jsx("span", {
@@ -42973,24 +44946,24 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 277,
+      lineNumber: 330,
       columnNumber: 111
     }
-  }, "Design &")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, "Design &")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     variant: "dark",
     family: "quicksand",
     className: "sub-title-card",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 278,
+      lineNumber: 331,
       columnNumber: 27
     }
   }, __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 278,
+      lineNumber: 331,
       columnNumber: 94
     }
   }, "Interaction"), " ", __jsx("span", {
@@ -42998,76 +44971,76 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 278,
+      lineNumber: 331,
       columnNumber: 119
     }
-  }, "Design"))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, "Design"))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "content",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 280,
+      lineNumber: 333,
       columnNumber: 25
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     variant: "dark",
     family: "quicksand",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 281,
+      lineNumber: 334,
       columnNumber: 27
     }
-  }, "I design experience for user to achieve their objective(s) in the best way possible and how it looks and works."))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, "I design experience for user to achieve their objective(s) in the best way possible and how it looks and works."))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "card",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 286,
+      lineNumber: 339,
       columnNumber: 23
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "line line3",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 287,
+      lineNumber: 340,
       columnNumber: 25
     }
-  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "title",
     direction: "column",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 288,
+      lineNumber: 341,
       columnNumber: 25
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     variant: "dark",
     family: "quicksand",
     className: "main-title-card",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 289,
+      lineNumber: 342,
       columnNumber: 27
     }
   }, __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 289,
+      lineNumber: 342,
       columnNumber: 95
     }
-  }, "Frontend")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, "Frontend")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     variant: "dark",
     family: "quicksand",
     className: "sub-title-card",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 290,
+      lineNumber: 343,
       columnNumber: 27
     }
   }, __jsx("span", {
@@ -43075,127 +45048,127 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 290,
+      lineNumber: 343,
       columnNumber: 94
     }
-  }, "Development"))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, "Development"))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "content",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 292,
+      lineNumber: 345,
       columnNumber: 25
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     variant: "dark",
     family: "quicksand",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 293,
+      lineNumber: 346,
       columnNumber: 27
     }
-  }, "I turn the Design into Code, Build something great website that people love it. In practice of producing websites with a popular library / framework."))))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, "I turn the Design into Code, Build something great website that people love it. In practice of producing websites with a popular library / framework."))))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "about-wrapper",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 302,
+      lineNumber: 355,
       columnNumber: 7
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "about-content-left",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 303,
+      lineNumber: 356,
       columnNumber: 13
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     draggable: "false",
     src: "/static/illustrations/square-dots.svg",
     className: "square-art",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 304,
+      lineNumber: 357,
       columnNumber: 13
     }
-  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "about-content",
     direction: "column",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 305,
+      lineNumber: 358,
       columnNumber: 15
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "about-content-header",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 306,
+      lineNumber: 359,
       columnNumber: 17
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     variant: "dark",
     family: "quicksand",
     size: "32",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 307,
+      lineNumber: 360,
       columnNumber: 19
     }
   }, "Krisna Ahroid. ", __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 308,
+      lineNumber: 361,
       columnNumber: 34
     }
   }), "A UI/UX Designer & ", __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 309,
+      lineNumber: 362,
       columnNumber: 22
     }
   }), "Frontend  Developer  based in  ", __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 310,
+      lineNumber: 363,
       columnNumber: 34
     }
-  }), "Jakarta, Indonesia")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }), "Jakarta, Indonesia")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "about-content-body",
     direction: "column",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 314,
+      lineNumber: 367,
       columnNumber: 17
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     family: "quicksand",
     variant: "dark",
     className: "hi",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 315,
+      lineNumber: 368,
       columnNumber: 19
     }
-  }, "Hi There,"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, "Hi There,"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     family: "quicksand",
     variant: "dark",
     className: "about-me",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 316,
+      lineNumber: 369,
       columnNumber: 19
     }
   }, "I\u2019m an enthusiastic UI/UX Designer & Frontend Developer, You can find my recent projects on ", __jsx("a", {
@@ -43204,7 +45177,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 316,
+      lineNumber: 369,
       columnNumber: 172
     }
   }, "Dribbble"), " and ", __jsx("a", {
@@ -43213,182 +45186,182 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 316,
+      lineNumber: 369,
       columnNumber: 247
     }
-  }, "Instagram"), " or if you\u2019re interested in my design and if you are want to development an application, let me know."), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, "Instagram"), " or if you\u2019re interested in my design and if you are want to development an application, let me know."), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     family: "quicksand",
     variant: "dark",
     className: "available-me",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 318,
+      lineNumber: 371,
       columnNumber: 19
     }
   }, "I\u2019m currently available for ", __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 319,
+      lineNumber: 372,
       columnNumber: 47
     }
-  }), "freelance work."), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }), "freelance work."), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     family: "quicksand",
     variant: "dark",
     className: "letmeknow",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 322,
+      lineNumber: 375,
       columnNumber: 19
     }
   }, "If you have a project that you want to get started, ", __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 323,
+      lineNumber: 376,
       columnNumber: 71
     }
-  }), "let me know.")))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }), "let me know.")))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "about-content-right",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 328,
+      lineNumber: 381,
       columnNumber: 13
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     className: "gallery",
     draggable: "false",
     src: "/static/illustrations/gallery.png",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 329,
+      lineNumber: 382,
       columnNumber: 15
     }
-  }))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "testimonial-wrapper",
     direction: "column",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 332,
+      lineNumber: 385,
       columnNumber: 7
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "testimonial-header",
     direction: "column",
     align: "center",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 333,
+      lineNumber: 386,
       columnNumber: 12
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     family: "quicksand",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 334,
+      lineNumber: 387,
       columnNumber: 19
     }
-  }, "TESTIMONIALS"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, "TESTIMONIALS"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     family: "quicksand",
     size: "32",
     className: "testimonial-title",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 335,
+      lineNumber: 388,
       columnNumber: 19
     }
-  }, "Customers's quotes"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, "Customers's quotes"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     className: "testimonial-subtitle",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 336,
+      lineNumber: 389,
       columnNumber: 19
     }
-  }, "Don\u2019t take our word for it. Take theirs\u2026")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, "Don\u2019t take our word for it. Take theirs\u2026")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "testimonial-content",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 338,
+      lineNumber: 391,
       columnNumber: 12
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "testimonial-content-left",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 339,
+      lineNumber: 392,
       columnNumber: 19
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     className: "square-dots-down",
     src: "/static/illustrations/square-dots-down.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 340,
+      lineNumber: 393,
       columnNumber: 21
     }
-  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     className: "quote-icon",
     src: "/static/illustrations/quote.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 341,
+      lineNumber: 394,
       columnNumber: 21
     }
-  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "testimonial-content-left-text",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 342,
+      lineNumber: 395,
       columnNumber: 21
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     family: "quicksand",
     size: "32",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 343,
+      lineNumber: 396,
       columnNumber: 23
     }
   }, "What other people ", __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 344,
+      lineNumber: 397,
       columnNumber: 41
     }
-  }), " are saying"))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }), " are saying"))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "testimonial-content-right",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 348,
+      lineNumber: 401,
       columnNumber: 19
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     className: "testimonial-square-dots",
     src: "/static/illustrations/dots.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 349,
+      lineNumber: 402,
       columnNumber: 19
     }
-  }), __jsx(_egjs_react_flicking__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }), __jsx(_egjs_react_flicking__WEBPACK_IMPORTED_MODULE_3__["default"], {
     gap: 50,
     infinite: true,
     infiniteThreshold: 100,
@@ -43401,344 +45374,363 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 350,
+      lineNumber: 403,
       columnNumber: 19
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "testimonial-card",
     direction: "column",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 351,
+      lineNumber: 404,
       columnNumber: 21
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "testimonial-card-header",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 352,
+      lineNumber: 405,
       columnNumber: 25
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 353,
+      lineNumber: 406,
       columnNumber: 27
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     src: "/static/clients/hannari.png",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 354,
+      lineNumber: 407,
       columnNumber: 29
     }
-  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "testimonial-card-header-title",
     direction: "column",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 356,
+      lineNumber: 409,
       columnNumber: 27
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     family: "quicksand",
     className: "testimonial-card-header-title-name",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 357,
+      lineNumber: 410,
       columnNumber: 29
     }
-  }, "Eduardo Hannari"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, "Eduardo Hannari"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     family: "quicksand",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 358,
+      lineNumber: 411,
       columnNumber: 29
     }
-  }, "S\xE3o Paulo, Brazil "))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, "S\xE3o Paulo, Brazil "))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "testimonial-card-content",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 361,
+      lineNumber: 414,
       columnNumber: 25
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     family: "quicksand",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 362,
+      lineNumber: 415,
       columnNumber: 27
     }
-  }, "\u201CYou made it so simple and minimalist design.\u201D")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, "\u201CYou made it so simple and minimalist design.\u201D")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     family: "quicksand",
     className: "testimonial-card-role",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 366,
+      lineNumber: 419,
       columnNumber: 25
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 367,
+      lineNumber: 420,
       columnNumber: 27
     }
-  }, "Marketing Manager at Digital Mind"))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, "Marketing Manager at Digital Mind"))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "testimonial-card",
     direction: "column",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 370,
+      lineNumber: 423,
       columnNumber: 21
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "testimonial-card-header",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 371,
+      lineNumber: 424,
       columnNumber: 25
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 372,
+      lineNumber: 425,
       columnNumber: 27
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     src: "/static/clients/boby.png",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 373,
+      lineNumber: 426,
       columnNumber: 29
     }
-  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "testimonial-card-header-title",
     direction: "column",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 375,
+      lineNumber: 428,
       columnNumber: 27
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     family: "quicksand",
     className: "testimonial-card-header-title-name",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 376,
+      lineNumber: 429,
       columnNumber: 29
     }
-  }, "Boby Indra"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, "Boby Indra"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     family: "quicksand",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 377,
+      lineNumber: 430,
       columnNumber: 29
     }
-  }, "Jakarta, Indonesia "))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, "Jakarta, Indonesia "))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "testimonial-card-content",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 380,
+      lineNumber: 433,
       columnNumber: 25
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     family: "quicksand",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 381,
+      lineNumber: 434,
       columnNumber: 27
     }
-  }, "\u201CWorking together has been a pleasure. Exectional experience.\u201D")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, "\u201CWorking together has been a pleasure. Exectional experience.\u201D")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     family: "quicksand",
     className: "testimonial-card-role",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 385,
+      lineNumber: 438,
       columnNumber: 25
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 386,
+      lineNumber: 439,
       columnNumber: 27
     }
-  }, "Founder at Konseline"))))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, "Founder at Konseline"))))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     id: "inquiry",
     className: "contact-wrapper",
     direction: "column",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 393,
+      lineNumber: 446,
       columnNumber: 7
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "contact-header",
     direction: "column",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 394,
+      lineNumber: 447,
       columnNumber: 9
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     family: "quicksand",
     className: "contact-header-title",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 395,
+      lineNumber: 448,
       columnNumber: 13
     }
-  }, "Get in Touch"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, "Get in Touch"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     family: "quicksand",
     className: "contact-header-subtitle",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 396,
+      lineNumber: 449,
       columnNumber: 13
     }
-  }, "Let\u2019s start build something great together.")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, "Let\u2019s start build something great together.")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "contact-content",
     direction: "column",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 398,
+      lineNumber: 451,
       columnNumber: 9
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     className: "contact-item-title",
     family: "quicksand",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 399,
+      lineNumber: 452,
       columnNumber: 11
     }
-  }, "Let me know about you."), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, "Let me know about you."), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "contact-content-item",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 400,
+      lineNumber: 453,
       columnNumber: 11
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "contac-content-item-first-name",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 401,
+      lineNumber: 454,
       columnNumber: 13
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Input"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Input"], {
     placeholder: "First name",
+    value: firstname,
+    onChange: function onChange(e) {
+      return setFirstname(e.target.value);
+    },
     className: "contact-input",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 402,
+      lineNumber: 455,
       columnNumber: 15
     }
-  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 404,
+      lineNumber: 457,
       columnNumber: 13
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Input"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Input"], {
     placeholder: "Last name",
+    value: lastname,
+    onChange: function onChange(e) {
+      return setLastname(e.target.value);
+    },
     className: "contact-input",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 405,
+      lineNumber: 458,
       columnNumber: 15
     }
-  }))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "contact-content-item",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 408,
+      lineNumber: 461,
       columnNumber: 11
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Input"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Input"], {
     placeholder: "Email address",
+    value: email,
+    onChange: function onChange(e) {
+      return setEmail(e.target.value);
+    },
     width: "100%",
     className: "contact-input",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 409,
+      lineNumber: 462,
       columnNumber: 13
     }
-  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "contact-content-item",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 411,
+      lineNumber: 464,
       columnNumber: 11
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Input"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Input"], {
     placeholder: "Phone number (optional)",
+    value: phone,
+    onChange: function onChange(e) {
+      return setPhone(e.target.value);
+    },
     width: "100%",
     className: "contact-input",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 412,
+      lineNumber: 465,
       columnNumber: 13
     }
-  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     className: "contact-item-title",
     family: "quicksand",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 414,
+      lineNumber: 467,
       columnNumber: 11
     }
-  }, "What budget range are you in? "), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, "What budget range are you in? "), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "contact-content-item",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 415,
+      lineNumber: 468,
       columnNumber: 11
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "inputGroup input-group-first-item",
+    onClick: function onClick() {
+      return setBudget('$500 - $1,000');
+    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 416,
+      lineNumber: 469,
       columnNumber: 13
     }
   }, __jsx("input", {
@@ -43748,7 +45740,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 417,
+      lineNumber: 470,
       columnNumber: 15
     }
   }), __jsx("label", {
@@ -43756,25 +45748,28 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 418,
+      lineNumber: 471,
       columnNumber: 15
     }
-  }, "$500 - $1,000")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, "$500 - $1,000")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "inputGroup",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 420,
+      lineNumber: 473,
       columnNumber: 13
     }
   }, __jsx("input", {
     id: "radio2",
     name: "radio",
     type: "radio",
+    onClick: function onClick() {
+      return setBudget('$1,000 - $5,000');
+    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 421,
+      lineNumber: 474,
       columnNumber: 15
     }
   }), __jsx("label", {
@@ -43782,33 +45777,36 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 422,
+      lineNumber: 475,
       columnNumber: 15
     }
-  }, "$1,000 - $5,000"))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, "$1,000 - $5,000"))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "contact-content-item",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 425,
+      lineNumber: 478,
       columnNumber: 11
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "inputGroup input-group-first-item",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 426,
+      lineNumber: 479,
       columnNumber: 13
     }
   }, __jsx("input", {
     id: "radio3",
     name: "radio",
     type: "radio",
+    onClick: function onClick() {
+      return setBudget('$5,000 - $10,000');
+    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 427,
+      lineNumber: 480,
       columnNumber: 15
     }
   }), __jsx("label", {
@@ -43816,25 +45814,28 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 428,
+      lineNumber: 481,
       columnNumber: 15
     }
-  }, "$5,000 - $10,000")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, "$5,000 - $10,000")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "inputGroup",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 430,
+      lineNumber: 483,
       columnNumber: 13
     }
   }, __jsx("input", {
     id: "radio4",
     name: "radio",
     type: "radio",
+    onClick: function onClick() {
+      return setBudget('$10,000 - $50,000+');
+    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 431,
+      lineNumber: 484,
       columnNumber: 15
     }
   }), __jsx("label", {
@@ -43842,39 +45843,39 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 432,
+      lineNumber: 485,
       columnNumber: 15
     }
-  }, "$10,000 - $50,000+"))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, "$10,000 - $50,000+"))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     className: "contact-item-title",
     family: "quicksand",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 435,
+      lineNumber: 488,
       columnNumber: 11
     }
-  }, "Tell me more about the project. "), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, "Tell me more about the project. "), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "contact-content-item",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 436,
+      lineNumber: 489,
       columnNumber: 11
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "contact-dropdown animated zoomIn",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 437,
+      lineNumber: 490,
       columnNumber: 13
     }
   }, __jsx("label", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 438,
+      lineNumber: 491,
       columnNumber: 17
     }
   }, __jsx("input", {
@@ -43883,16 +45884,16 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 439,
+      lineNumber: 492,
       columnNumber: 21
     }
-  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     src: "/static/illustrations/ios-arrow-down.svg",
     className: "icon-arrow-dropdown",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 440,
+      lineNumber: 493,
       columnNumber: 21
     }
   }), __jsx("span", {
@@ -43900,15 +45901,18 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 441,
+      lineNumber: 494,
       columnNumber: 21
     }
   }, "Choose your Timeline"), __jsx("label", {
     className: "option",
+    onClick: function onClick() {
+      return setTimeline('ASAP');
+    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 442,
+      lineNumber: 495,
       columnNumber: 21
     }
   }, __jsx("input", {
@@ -43917,7 +45921,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 443,
+      lineNumber: 496,
       columnNumber: 25
     }
   }), __jsx("span", {
@@ -43925,7 +45929,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 444,
+      lineNumber: 497,
       columnNumber: 25
     }
   }, __jsx("i", {
@@ -43933,15 +45937,18 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 444,
+      lineNumber: 497,
       columnNumber: 65
     }
   }), "ASAP")), __jsx("label", {
     className: "option",
+    onClick: function onClick() {
+      return setTimeline('1 Month');
+    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 446,
+      lineNumber: 499,
       columnNumber: 21
     }
   }, __jsx("input", {
@@ -43950,7 +45957,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 447,
+      lineNumber: 500,
       columnNumber: 25
     }
   }), __jsx("span", {
@@ -43958,7 +45965,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 448,
+      lineNumber: 501,
       columnNumber: 25
     }
   }, __jsx("i", {
@@ -43966,15 +45973,18 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 448,
+      lineNumber: 501,
       columnNumber: 65
     }
   }), "1 Month")), __jsx("label", {
     className: "option",
+    onClick: function onClick() {
+      return setTimeline('3 Months');
+    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 450,
+      lineNumber: 503,
       columnNumber: 21
     }
   }, __jsx("input", {
@@ -43983,7 +45993,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 451,
+      lineNumber: 504,
       columnNumber: 25
     }
   }), __jsx("span", {
@@ -43991,7 +46001,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 452,
+      lineNumber: 505,
       columnNumber: 25
     }
   }, __jsx("i", {
@@ -43999,15 +46009,18 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 452,
+      lineNumber: 505,
       columnNumber: 65
     }
   }), "3 Months")), __jsx("label", {
     className: "option",
+    onClick: function onClick() {
+      return setTimeline('6 Months');
+    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 454,
+      lineNumber: 507,
       columnNumber: 21
     }
   }, __jsx("input", {
@@ -44016,7 +46029,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 455,
+      lineNumber: 508,
       columnNumber: 25
     }
   }), __jsx("span", {
@@ -44024,7 +46037,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 456,
+      lineNumber: 509,
       columnNumber: 25
     }
   }, __jsx("i", {
@@ -44032,15 +46045,18 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 456,
+      lineNumber: 509,
       columnNumber: 65
     }
   }), "6 Months")), __jsx("label", {
     className: "option",
+    onClick: function onClick() {
+      return setTimeline('1 Year');
+    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 458,
+      lineNumber: 511,
       columnNumber: 21
     }
   }, __jsx("input", {
@@ -44049,7 +46065,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 459,
+      lineNumber: 512,
       columnNumber: 25
     }
   }), __jsx("span", {
@@ -44057,7 +46073,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 460,
+      lineNumber: 513,
       columnNumber: 25
     }
   }, __jsx("i", {
@@ -44065,15 +46081,18 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 460,
+      lineNumber: 513,
       columnNumber: 65
     }
   }), "1 Year")), __jsx("label", {
     className: "option",
+    onClick: function onClick() {
+      return setTimeline('Ongoing');
+    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 462,
+      lineNumber: 515,
       columnNumber: 21
     }
   }, __jsx("input", {
@@ -44082,7 +46101,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 463,
+      lineNumber: 516,
       columnNumber: 25
     }
   }), __jsx("span", {
@@ -44090,7 +46109,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 464,
+      lineNumber: 517,
       columnNumber: 25
     }
   }, __jsx("i", {
@@ -44098,227 +46117,231 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 464,
+      lineNumber: 517,
       columnNumber: 65
     }
-  }), "Ongoing"))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }), "Ongoing"))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "contact-content-item",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 469,
+      lineNumber: 522,
       columnNumber: 11
     }
   }, __jsx("textarea", {
     className: "input-textarea",
+    onChange: function onChange(e) {
+      return setMessage(e.target.value);
+    },
     placeholder: "Write us a few word about your project and we\u2019ll prepare a proposal for you within 24 hours.",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 470,
+      lineNumber: 523,
       columnNumber: 13
     }
-  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "contact-content-item",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 473,
+      lineNumber: 526,
       columnNumber: 11
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     family: "quicksand",
     variant: "dark",
     size: "16",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 474,
+      lineNumber: 527,
       columnNumber: 13
     }
-  }, "I promise to keep your personal information and never give it to anyone, for any reason.")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, "I promise to keep your personal information and never give it to anyone, for any reason.")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "contact-content-submit",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 476,
+      lineNumber: 529,
       columnNumber: 11
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Button"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Button"], {
     width: "150px",
     height: "40px",
+    onClick: inquiry,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 477,
+      lineNumber: 530,
       columnNumber: 13
     }
-  }, "SUBMIT")))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, "SUBMIT")))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "footer-wrapper",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 481,
+      lineNumber: 534,
       columnNumber: 7
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "footer-social-media",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 482,
+      lineNumber: 535,
       columnNumber: 13
     }
   }, __jsx("ul", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 483,
+      lineNumber: 536,
       columnNumber: 19
     }
   }, __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 484,
+      lineNumber: 537,
       columnNumber: 21
     }
   }, __jsx("a", {
-    href: "",
+    href: "https://www.linkedin.com/in/ahroidlife/",
     target: "_blank",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 485,
+      lineNumber: 538,
       columnNumber: 23
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     src: "/static/illustrations/linkedin.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 486,
+      lineNumber: 539,
       columnNumber: 25
     }
   }))), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 489,
+      lineNumber: 542,
       columnNumber: 21
     }
   }, __jsx("a", {
-    href: "",
+    href: "https://www.instagram.com/user.ahroidlife/",
     target: "_blank",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 490,
+      lineNumber: 543,
       columnNumber: 23
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     src: "/static/illustrations/instagram.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 491,
+      lineNumber: 544,
       columnNumber: 25
     }
   }))), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 494,
+      lineNumber: 547,
       columnNumber: 21
     }
   }, __jsx("a", {
-    href: "",
+    href: "https://www.facebook.com/krisnaahroid",
     target: "_blank",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 495,
+      lineNumber: 548,
       columnNumber: 23
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     src: "/static/illustrations/facebook.svg",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 496,
+      lineNumber: 549,
       columnNumber: 25
     }
-  }))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "footer-content",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 501,
+      lineNumber: 554,
       columnNumber: 13
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     family: "quicksand",
     variant: "dark",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 502,
+      lineNumber: 555,
       columnNumber: 15
     }
-  }, "Copyright 2020. Designed and build by Krisna Ahroid with XD, ReactJs, and Golang.")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, "Copyright 2020. Designed and build by Krisna Ahroid with XD, ReactJs, and Golang.")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "footer-languages",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 504,
+      lineNumber: 557,
       columnNumber: 13
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "languages-select",
     direction: "column",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 505,
+      lineNumber: 558,
       columnNumber: 15
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "select-item",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 506,
+      lineNumber: 559,
       columnNumber: 18
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 507,
+      lineNumber: 560,
       columnNumber: 19
     }
-  }, "ENGLISH"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Image"], {
+  }, "ENGLISH"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     src: "/static/illustrations/ios-arrow-down.svg",
     className: "icon-arrow-dropdown",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 508,
+      lineNumber: 561,
       columnNumber: 19
     }
-  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["View"], {
+  })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "select-item hidden",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 510,
+      lineNumber: 563,
       columnNumber: 18
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_6__["Text"], {
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 511,
+      lineNumber: 564,
       columnNumber: 19
     }
   }, "INDONESIA"))))));
