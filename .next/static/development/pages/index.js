@@ -44454,7 +44454,7 @@ var App = function App() {
       columnNumber: 15
     }
   })))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
-    className: "overlay",
+    className: "overlay-header",
     __self: _this,
     __source: {
       fileName: _jsxFileName,

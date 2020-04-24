@@ -7232,7 +7232,7 @@ const App = () => {
       columnNumber: 15
     }
   })))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
-    className: "overlay",
+    className: "overlay-header",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,

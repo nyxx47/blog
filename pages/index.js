@@ -245,7 +245,7 @@ const App = () => {
             </View>
           </View>
         </View>
-        <View className="overlay"></View>
+        <View className="overlay-header"></View>
       </View>
       <View className="tools-wrapper" direction="column">
         <Text className="tools-title">Work with</Text>
