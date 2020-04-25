@@ -250,8 +250,9 @@ const App = () => {
       </View>
       <View className="tools-wrapper" direction="column">
         <Text className="tools-title">Work with</Text>
-        <View className="tools-items">
+        
           <Flicking gap={50} infinite={true} infiniteThreshold={100}  bound={true} moveType="freeScroll" style={{width:100+'%', height: 50+'vh'}}>
+          <View className="tools-items">
                   <View className="tool-item">
                     <Image src="/static/tools/l_xd.svg"/>
                   </View>
@@ -300,8 +301,9 @@ const App = () => {
                   <View className="tool-item">
                     <Image src="/static/tools/lottiefiles.svg"/>
                   </View>
+                  </View>
           </Flicking>
-        </View>
+        
       </View>
       <View className="specializing-wrapper" direction="column">
           <View direction="column" align="center" className="specializing-header">
