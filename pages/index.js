@@ -89,6 +89,7 @@ const App = () => {
   }
 
   const done = () => {
+    setLoading(false)
     setVisible(false)
   }
 
@@ -251,52 +252,52 @@ const App = () => {
         <Text className="tools-title">Work with</Text>
         <View className="tools-items">
           <Flicking gap={50} infinite={true} infiniteThreshold={100}  bound={true} moveType="freeScroll" style={{width:100+'%', height: 50+'vh'}}>
-                  <View>
+                  <View className="tool-item">
                     <Image src="/static/tools/l_xd.svg"/>
                   </View>
-                  <View>
+                  <View className="tool-item">
                     <Image src="/static/tools/figma-1.svg"/>
                   </View>
-                  <View>
+                  <View className="tool-item">
                     <Image src="/static/tools/protopie.svg"/>
                   </View>
-                  <View>
+                  <View className="tool-item">
                     <Image src="/static/tools/affinity.png"/>
                   </View>
-                  <View>
+                  <View className="tool-item">
                     <Image src="/static/tools/ae.svg"/>
                   </View>
-                  <View>
+                  <View className="tool-item">
                     <Image src="/static/tools/l_Zeplin.svg"/>
                   </View>
-                  <View>
+                  <View className="tool-item">
                     <Image src="/static/tools/react.svg"/>
                   </View>
-                  <View>
+                  <View className="tool-item">
                     <Image src="/static/tools/l_redux.svg"/>
                   </View>
-                  <View>
+                  <View className="tool-item">
                     <Image src="/static/tools/next-js.svg"/>
                   </View>
-                  <View>
+                  <View className="tool-item">
                     <Image src="/static/tools/vue-js.svg"/>
                   </View>
-                  <View>
+                  <View className="tool-item">
                     <Image src="/static/tools/nuxt-square.svg"/>
                   </View>
-                  <View>
+                  <View className="tool-item">
                     <Image src="/static/tools/wix.svg"/>
                   </View>
-                  <View>
+                  <View className="tool-item">
                     <Image src="/static/tools/webflow.svg"/>
                   </View>
-                  <View>
+                  <View className="tool-item">
                     <Image src="/static/tools/github-1.svg"/>
                   </View>
-                  <View>
+                  <View className="tool-item">
                     <Image src="/static/tools/nginx.svg"/>
                   </View>
-                  <View>
+                  <View className="tool-item">
                     <Image src="/static/tools/lottiefiles.svg"/>
                   </View>
           </Flicking>
