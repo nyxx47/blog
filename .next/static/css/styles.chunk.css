@@ -366,7 +366,7 @@ body::-webkit-scrollbar-thumb {
       padding: 0 !important; }
     .tools-wrapper .tools-items .tool-item {
       width: auto;
-      display: inline; }
+      margin-right: 50px; }
 
 .specializing-wrapper {
   margin-top: 200px;
