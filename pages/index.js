@@ -307,8 +307,8 @@ const App = () => {
       </View>
       <View className="specializing-wrapper" direction="column">
           <View direction="column" align="center" className="specializing-header">
-                  <Text family="quicksand" size="32" weight="500">Specializing in</Text>
-                  <Text family="quicksand" size="18" weight="400">I a UI/UX Designer & Frontend  Developer, and I love what I do.</Text>
+                  <Text family="quicksand" size="32" weight="500" className="specializing-header-title">Specializing in</Text>
+                  <Text family="quicksand" size="18" weight="400" className="specializing-header-subtitle">I a UI/UX Designer & Frontend  Developer, and I love what I do.</Text>
           </View>
           <View className="specializing-content">
           <Image className="specializing-square-dots" src="/static/illustrations/dots.svg"/>
@@ -382,7 +382,9 @@ freelance work.
               </View>
             </View>
             <View className="about-content-right">
+              <View className="gallery-wrapper">
               <Image className="gallery" draggable="false" src="/static/illustrations/gallery.png"/>
+              </View>
             </View>
       </View>
       <View className="testimonial-wrapper" direction="column">

@@ -44782,6 +44782,7 @@ var App = function App() {
     family: "quicksand",
     size: "32",
     weight: "500",
+    className: "specializing-header-title",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -44792,6 +44793,7 @@ var App = function App() {
     family: "quicksand",
     size: "18",
     weight: "400",
+    className: "specializing-header-subtitle",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -45248,6 +45250,14 @@ var App = function App() {
       lineNumber: 384,
       columnNumber: 13
     }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
+    className: "gallery-wrapper",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 385,
+      columnNumber: 15
+    }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
     className: "gallery",
     draggable: "false",
@@ -45255,16 +45265,16 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 385,
+      lineNumber: 386,
       columnNumber: 15
     }
-  }))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
+  })))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     className: "testimonial-wrapper",
     direction: "column",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 388,
+      lineNumber: 390,
       columnNumber: 7
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -45274,7 +45284,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 389,
+      lineNumber: 391,
       columnNumber: 12
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
@@ -45282,7 +45292,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 390,
+      lineNumber: 392,
       columnNumber: 19
     }
   }, "TESTIMONIALS"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
@@ -45292,7 +45302,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 391,
+      lineNumber: 393,
       columnNumber: 19
     }
   }, "Customers's quotes"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
@@ -45300,7 +45310,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 392,
+      lineNumber: 394,
       columnNumber: 19
     }
   }, "Don\u2019t take our word for it. Take theirs\u2026")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -45308,7 +45318,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 394,
+      lineNumber: 396,
       columnNumber: 12
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -45316,7 +45326,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 395,
+      lineNumber: 397,
       columnNumber: 19
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
@@ -45325,7 +45335,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 396,
+      lineNumber: 398,
       columnNumber: 21
     }
   }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
@@ -45334,7 +45344,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 397,
+      lineNumber: 399,
       columnNumber: 21
     }
   }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -45342,7 +45352,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 398,
+      lineNumber: 400,
       columnNumber: 21
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
@@ -45351,14 +45361,14 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 399,
+      lineNumber: 401,
       columnNumber: 23
     }
   }, "What other people ", __jsx("br", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 400,
+      lineNumber: 402,
       columnNumber: 41
     }
   }), " are saying"))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -45366,7 +45376,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 404,
+      lineNumber: 406,
       columnNumber: 19
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
@@ -45375,7 +45385,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 405,
+      lineNumber: 407,
       columnNumber: 19
     }
   }), __jsx(_egjs_react_flicking__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -45391,7 +45401,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 406,
+      lineNumber: 408,
       columnNumber: 19
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -45400,7 +45410,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 407,
+      lineNumber: 409,
       columnNumber: 21
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -45408,14 +45418,14 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 408,
+      lineNumber: 410,
       columnNumber: 25
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 409,
+      lineNumber: 411,
       columnNumber: 27
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
@@ -45423,7 +45433,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 410,
+      lineNumber: 412,
       columnNumber: 29
     }
   })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -45432,7 +45442,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 412,
+      lineNumber: 414,
       columnNumber: 27
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
@@ -45441,7 +45451,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 413,
+      lineNumber: 415,
       columnNumber: 29
     }
   }, "Eduardo Hannari"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
@@ -45449,7 +45459,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 414,
+      lineNumber: 416,
       columnNumber: 29
     }
   }, "S\xE3o Paulo, Brazil "))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -45457,7 +45467,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 417,
+      lineNumber: 419,
       columnNumber: 25
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
@@ -45465,7 +45475,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 418,
+      lineNumber: 420,
       columnNumber: 27
     }
   }, "\u201CYou made it so simple and minimalist design.\u201D")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -45474,14 +45484,14 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 422,
+      lineNumber: 424,
       columnNumber: 25
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 423,
+      lineNumber: 425,
       columnNumber: 27
     }
   }, "Marketing Manager at Digital Mind"))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -45490,7 +45500,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 426,
+      lineNumber: 428,
       columnNumber: 21
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -45498,14 +45508,14 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 427,
+      lineNumber: 429,
       columnNumber: 25
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 428,
+      lineNumber: 430,
       columnNumber: 27
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
@@ -45513,7 +45523,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 429,
+      lineNumber: 431,
       columnNumber: 29
     }
   })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -45522,7 +45532,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 431,
+      lineNumber: 433,
       columnNumber: 27
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
@@ -45531,7 +45541,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 432,
+      lineNumber: 434,
       columnNumber: 29
     }
   }, "Boby Indra"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
@@ -45539,7 +45549,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 433,
+      lineNumber: 435,
       columnNumber: 29
     }
   }, "Jakarta, Indonesia "))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -45547,7 +45557,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 436,
+      lineNumber: 438,
       columnNumber: 25
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
@@ -45555,7 +45565,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 437,
+      lineNumber: 439,
       columnNumber: 27
     }
   }, "\u201CWorking together has been a pleasure. Exectional experience.\u201D")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -45564,14 +45574,14 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 441,
+      lineNumber: 443,
       columnNumber: 25
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 442,
+      lineNumber: 444,
       columnNumber: 27
     }
   }, "Founder at Konseline"))))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -45581,7 +45591,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 449,
+      lineNumber: 451,
       columnNumber: 7
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -45590,7 +45600,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 450,
+      lineNumber: 452,
       columnNumber: 9
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
@@ -45599,7 +45609,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 451,
+      lineNumber: 453,
       columnNumber: 13
     }
   }, "Get in Touch"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
@@ -45608,7 +45618,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 452,
+      lineNumber: 454,
       columnNumber: 13
     }
   }, "Let\u2019s start build something great together.")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -45617,7 +45627,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 454,
+      lineNumber: 456,
       columnNumber: 9
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
@@ -45626,7 +45636,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 455,
+      lineNumber: 457,
       columnNumber: 11
     }
   }, "Let me know about you."), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -45634,7 +45644,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 456,
+      lineNumber: 458,
       columnNumber: 11
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -45642,7 +45652,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 457,
+      lineNumber: 459,
       columnNumber: 13
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Input"], {
@@ -45655,14 +45665,14 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 458,
+      lineNumber: 460,
       columnNumber: 15
     }
   })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 460,
+      lineNumber: 462,
       columnNumber: 13
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Input"], {
@@ -45675,7 +45685,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 461,
+      lineNumber: 463,
       columnNumber: 15
     }
   }))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -45683,7 +45693,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 464,
+      lineNumber: 466,
       columnNumber: 11
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Input"], {
@@ -45697,7 +45707,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 465,
+      lineNumber: 467,
       columnNumber: 13
     }
   })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -45705,7 +45715,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 467,
+      lineNumber: 469,
       columnNumber: 11
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Input"], {
@@ -45719,7 +45729,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 468,
+      lineNumber: 470,
       columnNumber: 13
     }
   })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
@@ -45728,7 +45738,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 470,
+      lineNumber: 472,
       columnNumber: 11
     }
   }, "What budget range are you in? "), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -45736,7 +45746,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 471,
+      lineNumber: 473,
       columnNumber: 11
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -45747,7 +45757,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 472,
+      lineNumber: 474,
       columnNumber: 13
     }
   }, __jsx("input", {
@@ -45757,7 +45767,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 473,
+      lineNumber: 475,
       columnNumber: 15
     }
   }), __jsx("label", {
@@ -45765,7 +45775,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 474,
+      lineNumber: 476,
       columnNumber: 15
     }
   }, "$500 - $1,000")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -45773,7 +45783,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 476,
+      lineNumber: 478,
       columnNumber: 13
     }
   }, __jsx("input", {
@@ -45786,7 +45796,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 477,
+      lineNumber: 479,
       columnNumber: 15
     }
   }), __jsx("label", {
@@ -45794,7 +45804,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 478,
+      lineNumber: 480,
       columnNumber: 15
     }
   }, "$1,000 - $5,000"))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -45802,7 +45812,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 481,
+      lineNumber: 483,
       columnNumber: 11
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -45810,7 +45820,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 482,
+      lineNumber: 484,
       columnNumber: 13
     }
   }, __jsx("input", {
@@ -45823,7 +45833,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 483,
+      lineNumber: 485,
       columnNumber: 15
     }
   }), __jsx("label", {
@@ -45831,7 +45841,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 484,
+      lineNumber: 486,
       columnNumber: 15
     }
   }, "$5,000 - $10,000")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -45839,7 +45849,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 486,
+      lineNumber: 488,
       columnNumber: 13
     }
   }, __jsx("input", {
@@ -45852,7 +45862,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 487,
+      lineNumber: 489,
       columnNumber: 15
     }
   }), __jsx("label", {
@@ -45860,7 +45870,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 488,
+      lineNumber: 490,
       columnNumber: 15
     }
   }, "$10,000 - $50,000+"))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
@@ -45869,7 +45879,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 491,
+      lineNumber: 493,
       columnNumber: 11
     }
   }, "Tell me more about the project. "), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -45877,7 +45887,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 492,
+      lineNumber: 494,
       columnNumber: 11
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -45885,14 +45895,14 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 493,
+      lineNumber: 495,
       columnNumber: 13
     }
   }, __jsx("label", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 494,
+      lineNumber: 496,
       columnNumber: 17
     }
   }, __jsx("input", {
@@ -45901,7 +45911,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 495,
+      lineNumber: 497,
       columnNumber: 21
     }
   }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
@@ -45910,7 +45920,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 496,
+      lineNumber: 498,
       columnNumber: 21
     }
   }), __jsx("span", {
@@ -45918,7 +45928,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 497,
+      lineNumber: 499,
       columnNumber: 21
     }
   }, "Choose your Timeline"), __jsx("label", {
@@ -45929,7 +45939,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 498,
+      lineNumber: 500,
       columnNumber: 21
     }
   }, __jsx("input", {
@@ -45938,7 +45948,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 499,
+      lineNumber: 501,
       columnNumber: 25
     }
   }), __jsx("span", {
@@ -45946,7 +45956,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 500,
+      lineNumber: 502,
       columnNumber: 25
     }
   }, __jsx("i", {
@@ -45954,7 +45964,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 500,
+      lineNumber: 502,
       columnNumber: 65
     }
   }), "ASAP")), __jsx("label", {
@@ -45965,7 +45975,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 502,
+      lineNumber: 504,
       columnNumber: 21
     }
   }, __jsx("input", {
@@ -45974,7 +45984,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 503,
+      lineNumber: 505,
       columnNumber: 25
     }
   }), __jsx("span", {
@@ -45982,7 +45992,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 504,
+      lineNumber: 506,
       columnNumber: 25
     }
   }, __jsx("i", {
@@ -45990,7 +46000,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 504,
+      lineNumber: 506,
       columnNumber: 65
     }
   }), "1 Month")), __jsx("label", {
@@ -46001,7 +46011,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 506,
+      lineNumber: 508,
       columnNumber: 21
     }
   }, __jsx("input", {
@@ -46010,7 +46020,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 507,
+      lineNumber: 509,
       columnNumber: 25
     }
   }), __jsx("span", {
@@ -46018,7 +46028,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 508,
+      lineNumber: 510,
       columnNumber: 25
     }
   }, __jsx("i", {
@@ -46026,7 +46036,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 508,
+      lineNumber: 510,
       columnNumber: 65
     }
   }), "3 Months")), __jsx("label", {
@@ -46037,7 +46047,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 510,
+      lineNumber: 512,
       columnNumber: 21
     }
   }, __jsx("input", {
@@ -46046,7 +46056,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 511,
+      lineNumber: 513,
       columnNumber: 25
     }
   }), __jsx("span", {
@@ -46054,7 +46064,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 512,
+      lineNumber: 514,
       columnNumber: 25
     }
   }, __jsx("i", {
@@ -46062,7 +46072,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 512,
+      lineNumber: 514,
       columnNumber: 65
     }
   }), "6 Months")), __jsx("label", {
@@ -46073,7 +46083,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 514,
+      lineNumber: 516,
       columnNumber: 21
     }
   }, __jsx("input", {
@@ -46082,7 +46092,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 515,
+      lineNumber: 517,
       columnNumber: 25
     }
   }), __jsx("span", {
@@ -46090,7 +46100,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 516,
+      lineNumber: 518,
       columnNumber: 25
     }
   }, __jsx("i", {
@@ -46098,7 +46108,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 516,
+      lineNumber: 518,
       columnNumber: 65
     }
   }), "1 Year")), __jsx("label", {
@@ -46109,7 +46119,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 518,
+      lineNumber: 520,
       columnNumber: 21
     }
   }, __jsx("input", {
@@ -46118,7 +46128,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 519,
+      lineNumber: 521,
       columnNumber: 25
     }
   }), __jsx("span", {
@@ -46126,7 +46136,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 520,
+      lineNumber: 522,
       columnNumber: 25
     }
   }, __jsx("i", {
@@ -46134,7 +46144,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 520,
+      lineNumber: 522,
       columnNumber: 65
     }
   }), "Ongoing"))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -46142,7 +46152,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 525,
+      lineNumber: 527,
       columnNumber: 11
     }
   }, __jsx("textarea", {
@@ -46154,7 +46164,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 526,
+      lineNumber: 528,
       columnNumber: 13
     }
   })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -46162,7 +46172,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 529,
+      lineNumber: 531,
       columnNumber: 11
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
@@ -46172,7 +46182,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 530,
+      lineNumber: 532,
       columnNumber: 13
     }
   }, "I promise to keep your personal information and never give it to anyone, for any reason.")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -46180,7 +46190,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 532,
+      lineNumber: 534,
       columnNumber: 11
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Button"], {
@@ -46190,7 +46200,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 533,
+      lineNumber: 535,
       columnNumber: 13
     }
   }, "SUBMIT")))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -46198,7 +46208,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 537,
+      lineNumber: 539,
       columnNumber: 7
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -46206,21 +46216,21 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 538,
+      lineNumber: 540,
       columnNumber: 13
     }
   }, __jsx("ul", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 539,
+      lineNumber: 541,
       columnNumber: 19
     }
   }, __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 540,
+      lineNumber: 542,
       columnNumber: 21
     }
   }, __jsx("a", {
@@ -46229,7 +46239,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 541,
+      lineNumber: 543,
       columnNumber: 23
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
@@ -46237,14 +46247,14 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 542,
+      lineNumber: 544,
       columnNumber: 25
     }
   }))), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 545,
+      lineNumber: 547,
       columnNumber: 21
     }
   }, __jsx("a", {
@@ -46253,7 +46263,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 546,
+      lineNumber: 548,
       columnNumber: 23
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
@@ -46261,14 +46271,14 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 547,
+      lineNumber: 549,
       columnNumber: 25
     }
   }))), __jsx("li", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 550,
+      lineNumber: 552,
       columnNumber: 21
     }
   }, __jsx("a", {
@@ -46277,7 +46287,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 551,
+      lineNumber: 553,
       columnNumber: 23
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
@@ -46285,7 +46295,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 552,
+      lineNumber: 554,
       columnNumber: 25
     }
   }))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -46293,7 +46303,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 557,
+      lineNumber: 559,
       columnNumber: 13
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
@@ -46302,7 +46312,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 558,
+      lineNumber: 560,
       columnNumber: 15
     }
   }, "Copyright 2020. Designed and build by Krisna Ahroid with XD, ReactJs, and Golang.")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -46310,7 +46320,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 560,
+      lineNumber: 562,
       columnNumber: 13
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -46319,7 +46329,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 561,
+      lineNumber: 563,
       columnNumber: 15
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -46327,14 +46337,14 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 562,
+      lineNumber: 564,
       columnNumber: 18
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 563,
+      lineNumber: 565,
       columnNumber: 19
     }
   }, "ENGLISH"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Image"], {
@@ -46343,7 +46353,7 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 564,
+      lineNumber: 566,
       columnNumber: 19
     }
   })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -46351,14 +46361,14 @@ var App = function App() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 566,
+      lineNumber: 568,
       columnNumber: 18
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 567,
+      lineNumber: 569,
       columnNumber: 19
     }
   }, "INDONESIA"))))));
