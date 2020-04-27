@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/404.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/products.js"],{
 
 /***/ "./assets/icons/index.js":
 /*!*******************************!*\
@@ -21878,21 +21878,21 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F404&absolutePagePath=%2FUsers%2Fahroidlife%2FDocuments%2Fnextjs%2Fblog%2Fpages%2F404%2Findex.js!./":
-/*!******************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F404&absolutePagePath=%2FUsers%2Fahroidlife%2FDocuments%2Fnextjs%2Fblog%2Fpages%2F404%2Findex.js ***!
-  \******************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fproducts&absolutePagePath=%2FUsers%2Fahroidlife%2FDocuments%2Fnextjs%2Fblog%2Fpages%2Fproducts%2Findex.js!./":
+/*!****************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fproducts&absolutePagePath=%2FUsers%2Fahroidlife%2FDocuments%2Fnextjs%2Fblog%2Fpages%2Fproducts%2Findex.js ***!
+  \****************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/404", function() {
-      var mod = __webpack_require__(/*! ./pages/404/index.js */ "./pages/404/index.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/products", function() {
+      var mod = __webpack_require__(/*! ./pages/products/index.js */ "./pages/products/index.js")
       if(true) {
-        module.hot.accept(/*! ./pages/404/index.js */ "./pages/404/index.js", function() {
-          if(!next.router.components["/404"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/404/index.js */ "./pages/404/index.js")
-          next.router.update("/404", updatedPage)
+        module.hot.accept(/*! ./pages/products/index.js */ "./pages/products/index.js", function() {
+          if(!next.router.components["/products"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/products/index.js */ "./pages/products/index.js")
+          next.router.update("/products", updatedPage)
         })
       }
       return mod
@@ -28114,10 +28114,10 @@ if ( true && typeof window !== 'undefined') {
 
 /***/ }),
 
-/***/ "./pages/404/index.js":
-/*!****************************!*\
-  !*** ./pages/404/index.js ***!
-  \****************************/
+/***/ "./pages/products/index.js":
+/*!*********************************!*\
+  !*** ./pages/products/index.js ***!
+  \*********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -28131,7 +28131,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
 var _this = undefined,
-    _jsxFileName = "/Users/ahroidlife/Documents/nextjs/blog/pages/404/index.js";
+    _jsxFileName = "/Users/ahroidlife/Documents/nextjs/blog/pages/products/index.js";
 
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -28140,7 +28140,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-var Notfound = function Notfound() {
+var Products = function Products() {
   return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["Container"], {
     __self: _this,
     __source: {
@@ -28200,7 +28200,7 @@ var Notfound = function Notfound() {
   }))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Notfound);
+/* harmony default export */ __webpack_exports__["default"] = (Products);
 
 /***/ }),
 
@@ -28217,14 +28217,14 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 7:
-/*!**********************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F404&absolutePagePath=%2FUsers%2Fahroidlife%2FDocuments%2Fnextjs%2Fblog%2Fpages%2F404%2Findex.js ***!
-  \**********************************************************************************************************************************************/
+/***/ 9:
+/*!********************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fproducts&absolutePagePath=%2FUsers%2Fahroidlife%2FDocuments%2Fnextjs%2Fblog%2Fpages%2Fproducts%2Findex.js ***!
+  \********************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F404&absolutePagePath=%2FUsers%2Fahroidlife%2FDocuments%2Fnextjs%2Fblog%2Fpages%2F404%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F404&absolutePagePath=%2FUsers%2Fahroidlife%2FDocuments%2Fnextjs%2Fblog%2Fpages%2F404%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fproducts&absolutePagePath=%2FUsers%2Fahroidlife%2FDocuments%2Fnextjs%2Fblog%2Fpages%2Fproducts%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fproducts&absolutePagePath=%2FUsers%2Fahroidlife%2FDocuments%2Fnextjs%2Fblog%2Fpages%2Fproducts%2Findex.js!./");
 
 
 /***/ }),
@@ -28240,5 +28240,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[7,"static/runtime/webpack.js","styles"]]]);
-//# sourceMappingURL=404.js.map
+},[[9,"static/runtime/webpack.js","styles"]]]);
+//# sourceMappingURL=products.js.map

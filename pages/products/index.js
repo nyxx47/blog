@@ -3,7 +3,7 @@ import { NotFound } from '../../components/molecules'
 import Backpress from '../../static/illustrations/backpress.svg'
 import Link from 'next/link'
 
-const Notfound = () => {
+const Products = () => {
 
     return (
         <>
@@ -23,4 +23,4 @@ const Notfound = () => {
     )
 }
 
-export default Notfound;
+export default Products;

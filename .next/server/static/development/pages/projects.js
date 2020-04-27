@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -5108,10 +5108,10 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
-/***/ "./pages/404/index.js":
-/*!****************************!*\
-  !*** ./pages/404/index.js ***!
-  \****************************/
+/***/ "./pages/projects/index.js":
+/*!*********************************!*\
+  !*** ./pages/projects/index.js ***!
+  \*********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -5124,7 +5124,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _static_illustrations_backpress_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../static/illustrations/backpress.svg */ "./static/illustrations/backpress.svg");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
-var _jsxFileName = "/Users/ahroidlife/Documents/nextjs/blog/pages/404/index.js";
+var _jsxFileName = "/Users/ahroidlife/Documents/nextjs/blog/pages/projects/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -5132,7 +5132,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-const Notfound = () => {
+const Projects = () => {
   return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["Container"], {
     __self: undefined,
     __source: {
@@ -5192,7 +5192,7 @@ const Notfound = () => {
   }))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Notfound);
+/* harmony default export */ __webpack_exports__["default"] = (Projects);
 
 /***/ }),
 
@@ -5209,14 +5209,14 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 4:
-/*!**********************************!*\
-  !*** multi ./pages/404/index.js ***!
-  \**********************************/
+/***/ 5:
+/*!***************************************!*\
+  !*** multi ./pages/projects/index.js ***!
+  \***************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/ahroidlife/Documents/nextjs/blog/pages/404/index.js */"./pages/404/index.js");
+module.exports = __webpack_require__(/*! /Users/ahroidlife/Documents/nextjs/blog/pages/projects/index.js */"./pages/projects/index.js");
 
 
 /***/ }),
@@ -5299,4 +5299,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=404.js.map
+//# sourceMappingURL=projects.js.map
