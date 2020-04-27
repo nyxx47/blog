@@ -45,21 +45,26 @@ const App = () => {
         message: message
       }
 
-      setVisible(true)
-      setLoading(true)
-      axios.post(process.env.API+'/api/inquiry/create', JSON.stringify(payload)).then(res => {
-        setTimeout(() => {
-          setLoading(false)
-        }, 2000)
-        setFirstname('')
-        setLastname('')
-        setEmail('')
-        setPhone('')
-        setMessage('')
-        console.log("RES :: ", res)
-      }).catch(err => {
-        console.log(err)
-      })
+      
+      if(firstname.length > 3 && lastname.length > 3 && email.length > 8 && message.length > 20){
+        setVisible(true)
+        setLoading(true)
+        axios.post(process.env.API+'/api/inquiry/create', JSON.stringify(payload)).then(res => {
+          setTimeout(() => {
+            setLoading(false)
+          }, 2000)
+          setFirstname('')
+          setLastname('')
+          setEmail('')
+          setPhone('')
+          setMessage('')
+        }).catch(err => {
+          console.log(err)
+        })
+        return
+      }else{
+        return
+      }
     }
 
   useEffect(() => {
@@ -457,14 +462,14 @@ freelance work.
           <Text className="contact-item-title" family="quicksand">Let me know about you.</Text>
           <View className="contact-content-item">
             <View className="contac-content-item-first-name">
-              <Input placeholder="First name" value={firstname} onChange={(e) => setFirstname(e.target.value)} className="contact-input"/>
+              <Input placeholder="First name"  value={firstname} onChange={(e) => setFirstname(e.target.value)} className="contact-input"/>
             </View>
             <View>
               <Input placeholder="Last name" value={lastname} onChange={(e) => setLastname(e.target.value)} className="contact-input"/>
             </View>
           </View>
           <View className="contact-content-item">
-            <Input placeholder="Email address" value={email} onChange={(e) => setEmail(e.target.value)} width="100%" className="contact-input"/>
+            <Input placeholder="Email address" type="email" value={email} onChange={(e) => setEmail(e.target.value)} width="100%" className="contact-input"/>
           </View>
           <View className="contact-content-item">
             <Input placeholder="Phone number (optional)" value={phone} onChange={(e) => setPhone(e.target.value)} width="100%" className="contact-input"/>
@@ -525,7 +530,7 @@ freelance work.
             </View>
           </View>
           <View className="contact-content-item">
-            <textarea className="input-textarea" onChange={(e) => setMessage(e.target.value)} placeholder="Write us a few word about your project and we’ll prepare a proposal for you within 24 hours.">
+            <textarea className="input-textarea" value={message} onChange={(e) => setMessage(e.target.value)} placeholder="Write us a few word about your project and we’ll prepare a proposal for you within 24 hours.">
             </textarea>
           </View>
           <View className="contact-content-item">

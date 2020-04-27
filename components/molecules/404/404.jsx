@@ -1,6 +1,6 @@
 import React from 'react'
 import {Lottie, Text, View} from '../../atoms'
-import * as Notfound from '../../../assets/lottiefiles/404.json'
+import * as Notfound from '../../../assets/lottiefiles/404-lottiefile.json'
 
 const NotFound  = ({title}) => {
 
@@ -10,7 +10,7 @@ const NotFound  = ({title}) => {
                 <Lottie path={Notfound.default} width={700}/>
             </View>
             <View justify="center">
-                <Text align="center" size="16" margin="0  0 80px 0">{title}</Text>
+                <Text align="center" family="daily" size="24" margin="0  0 80px 0">{title}</Text>
             </View>
         </View>
     )
