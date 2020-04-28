@@ -525,7 +525,10 @@ __webpack_require__.r(__webpack_exports__);
 
 function configureStore(initialState = {}) {
   const rootReducer = Object(redux__WEBPACK_IMPORTED_MODULE_0__["combineReducers"])(_modules__WEBPACK_IMPORTED_MODULE_1__);
-  return Object(redux__WEBPACK_IMPORTED_MODULE_0__["createStore"])(rootReducer, initialState, Object(redux__WEBPACK_IMPORTED_MODULE_0__["applyMiddleware"])(redux_thunk__WEBPACK_IMPORTED_MODULE_2___default.a));
+  const composeEnhancers =  false ? undefined : redux__WEBPACK_IMPORTED_MODULE_0__["compose"];
+  const enhancer = composeEnhancers(Object(redux__WEBPACK_IMPORTED_MODULE_0__["applyMiddleware"])(redux_thunk__WEBPACK_IMPORTED_MODULE_2___default.a));
+  const store = Object(redux__WEBPACK_IMPORTED_MODULE_0__["createStore"])(rootReducer, initialState, enhancer);
+  return store;
 }
 
 /***/ }),
@@ -534,13 +537,17 @@ function configureStore(initialState = {}) {
 /*!********************************!*\
   !*** ./store/modules/index.js ***!
   \********************************/
-/*! exports provided: login */
+/*! exports provided: login, stories */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _login__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./login */ "./store/modules/login/index.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "login", function() { return _login__WEBPACK_IMPORTED_MODULE_0__["default"]; });
+
+/* harmony import */ var _stories__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./stories */ "./store/modules/stories/index.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "stories", function() { return _stories__WEBPACK_IMPORTED_MODULE_1__["default"]; });
+
 
 
 
@@ -617,6 +624,64 @@ const REGISTER = 'register';
 const AUTHENTICATE = 'authenticate';
 const DEAUTHENTICATE = 'deauthenticate';
 const USER = 'user';
+
+/***/ }),
+
+/***/ "./store/modules/stories/index.js":
+/*!****************************************!*\
+  !*** ./store/modules/stories/index.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _reducers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./reducers */ "./store/modules/stories/reducers.js");
+
+/* harmony default export */ __webpack_exports__["default"] = (_reducers__WEBPACK_IMPORTED_MODULE_0__["default"]);
+
+/***/ }),
+
+/***/ "./store/modules/stories/reducers.js":
+/*!*******************************************!*\
+  !*** ./store/modules/stories/reducers.js ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _type__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./type */ "./store/modules/stories/type.js");
+
+const initialState = {
+  story: null
+};
+/* harmony default export */ __webpack_exports__["default"] = ((state = initialState, action) => {
+  switch (action.type) {
+    case _type__WEBPACK_IMPORTED_MODULE_0__["SET_STORY"]:
+      return Object.assign({}, state, {
+        story: action.payload
+      });
+      break;
+
+    default:
+      return state;
+  }
+});
+
+/***/ }),
+
+/***/ "./store/modules/stories/type.js":
+/*!***************************************!*\
+  !*** ./store/modules/stories/type.js ***!
+  \***************************************/
+/*! exports provided: SET_STORY */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SET_STORY", function() { return SET_STORY; });
+const SET_STORY = 'story';
 
 /***/ }),
 

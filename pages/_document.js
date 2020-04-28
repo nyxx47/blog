@@ -4,10 +4,6 @@ import { ServerStyleSheet, createGlobalStyle } from 'styled-components';
 
 import { GA_TRACKING_ID } from '../lib/gtag'
 
-const GlobalStyle = createGlobalStyle`
- 
-`;
-
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const sheet = new ServerStyleSheet();
@@ -39,7 +35,7 @@ class MyDocument extends Document {
       <html lang="en">
         <Head>
           <meta charSet="utf-8" />
-          <title>Krisna Ahroid | Design & Code</title>
+          {/* <title>Krisna Ahroid | Design & Code</title> */}
           <meta name="viewport" content="width=device-width, initial-scale=1"/>
           <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet"></link>
           <link rel='stylesheet' href='/static/css/nprogress.css'/>
@@ -66,7 +62,6 @@ class MyDocument extends Document {
           />
         </Head>
         <body>
-          <GlobalStyle/>
           <Main />
           <NextScript />
         </body>

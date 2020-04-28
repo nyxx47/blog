@@ -9,9 +9,9 @@ const {direction, items} = Static.menus
 
 const BlogLayout = ({children, title, height, line}) => (
     <>
-        <Head>
+        {/* <Head>
             <title>{title}</title>
-        </Head>
+        </Head> */}
        
         <Header direction={direction.horizontal} items={items.default}/>
         <Container backgroundColor="#EDEDED" className={line} flexDirection="column" isEqualHeight={height}>

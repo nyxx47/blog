@@ -1,60 +1,112 @@
-import React, {Component, useEffect} from 'react'
+import React, {Component, useEffect, useState} from 'react'
 import { BlogLayout } from "../../components/templates/layouts";
 import {Hero} from '../../components/organisms'
 import ImageHero from '../../assets/illustrations/daily-stories.svg'
 import {SliderHero, SliderCategories} from '../../components/organisms'
-
+import Router from 'next/router'
 import { Container, View, Text, Rows} from '../../components/atoms'
 import { CardStories } from '../../components/molecules'
+import './stories.scss'
 
 import Knobs from './stories.knobs.json'
-const {item} = Knobs
+import { useDispatch } from 'react-redux';
+const {item, populars} = Knobs
+
+import actions from '../../store/modules/stories/actions'
+import Link from 'next/link';
+
+const client = require('contentful').createClient({
+    space: process.env.SPACE_ID,
+    accessToken: process.env.ACCESS_TOKEN
+})
 
 const Stories = () => {
+    const [popular, setPopular] = useState([])
+    const [stories, setStories] = useState([])
+    const [story, setStory] = useState([])
 
+    const dispatch = useDispatch()
+
+    async function fetchPopulars(){
+        const entries = await client.getEntries({
+            content_type: 'popularStories'
+        })
+        if (entries.items) return entries.items
+        console.log(`Error getting Entries for ${contentType.name}.`)
+    }
+
+    async function fetchStoryCategories(){
+        const entries = await client.getEntries({
+            content_type: 'stories'
+        })
+        if (entries.items) return entries.items
+        console.log(`Error getting Entries for ${contentType.name}.`)
+    }
+    
+    async function fetchStories(){
+        const entries = await client.getEntries({
+            content_type: 'story'
+        })
+        if (entries.items) return entries.items
+        console.log(`Error getting Entries for ${contentType.name}.`)
+    }
+    
     useEffect(() => {
         document.body.style.overflow = 'unset';
-    })
+        
+
+        async function getPopulars() {
+            const allPosts = await fetchPopulars()
+            setPopular([...allPosts])
+          }
+
+        async function getStoriesCategories(){
+            const allCategories = await fetchStoryCategories()
+            setStories([...allCategories])
+        }
+
+        async function getStories(){
+            const allStories = await fetchStories()
+            setStory([...allStories])
+        }
+
+        getStories()
+        getStoriesCategories()
+        getPopulars()
+    },[])
+
+    const handleToStory = (story) => {
+         dispatch(actions.setStory(story))
+        //  await Router.push(`/stories/${story.fields.slug}`)
+    }
 
     return ( 
         <BlogLayout title="Stories">
             <Hero
                 title="Stories Resources"
-                subtitle="The more that you read the more things you will know."
+                subtitle="The more that you read the more things you will know. "
                 img={ImageHero}/>
 
-            <SliderHero/>
-            <SliderCategories/>
+            <SliderHero items={popular}/>
+
+            <SliderCategories items={stories}/>
 
             <Container padding="100px" flexDirection="column">
                 <View margin="0 0 50px 0">
-                    <Text family="daily" size="32">Our Stories</Text>
+                    <Text family="daily" size="32" onClick={() => Router.push(`/stories/adasda`)}>Our Stories</Text>
                 </View>
                 <Rows>
-                    <View className="grid-item-3">
-                        <CardStories className="card-our-stories"/>
-                    </View>
-                    <View className="grid-item-3">
-                        <CardStories className="card-our-stories"/>
-                    </View>
-                    <View className="grid-item-3">
-                        <CardStories className="card-our-stories"/>
-                    </View>
-                    <View className="grid-item-3">
-                        <CardStories className="card-our-stories"/>
-                    </View>
-                    <View className="grid-item-3">
-                        <CardStories className="card-our-stories"/>
-                    </View>
-                    <View className="grid-item-3">
-                        <CardStories className="card-our-stories"/>
-                    </View>
-                    <View className="grid-item-3">
-                        <CardStories className="card-our-stories"/>
-                    </View>
-                    <View className="grid-item-3">
-                        <CardStories className="card-our-stories"/>
-                    </View>
+                    {
+                        story.map((item, index) => (
+                                    <View key={index} className="grid-item-3 story-item" onClick={() => handleToStory(item)}>
+                                        <Link href="/stories/[slug]" as={`/stories/${item.fields.slug}`}>
+                                            <a>
+                                            <CardStories title={item.fields.title} label={item.fields.label}  image={item.fields.image.fields.file.url} className="card-our-stories"/>
+                                            </a>
+                                        </Link>
+                                    </View>
+                        ))
+                    }
                 </Rows>
             </Container>
         </BlogLayout> 
