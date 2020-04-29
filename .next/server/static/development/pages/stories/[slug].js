@@ -6248,6 +6248,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var next_dist_client_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/dist/client/router */ "./node_modules/next/dist/client/router.js");
 /* harmony import */ var next_dist_client_router__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_router__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-redux */ "react-redux");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var react_markdown__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-markdown */ "react-markdown");
+/* harmony import */ var react_markdown__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react_markdown__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _contentful_rich_text_html_renderer__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @contentful/rich-text-html-renderer */ "@contentful/rich-text-html-renderer");
+/* harmony import */ var _contentful_rich_text_html_renderer__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_contentful_rich_text_html_renderer__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _contentful_rich_text_react_renderer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @contentful/rich-text-react-renderer */ "@contentful/rich-text-react-renderer");
+/* harmony import */ var _contentful_rich_text_react_renderer__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_contentful_rich_text_react_renderer__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _contentful_rich_text_types__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @contentful/rich-text-types */ "@contentful/rich-text-types");
+/* harmony import */ var _contentful_rich_text_types__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_contentful_rich_text_types__WEBPACK_IMPORTED_MODULE_10__);
 var _jsxFileName = "/Users/ahroidlife/Documents/nextjs/blog/pages/stories/[slug].jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -6257,21 +6267,77 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
+
+
+
+
+const Bold = ({
+  children
+}) => __jsx("p", {
+  className: "bold",
+  __self: undefined,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14,
+    columnNumber: 32
+  }
+}, children);
+
 const Story = props => {
   const router = Object(next_dist_client_router__WEBPACK_IMPORTED_MODULE_5__["useRouter"])();
   const {
     0: slug,
     1: setSlug
   } = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])('');
+  const story = Object(react_redux__WEBPACK_IMPORTED_MODULE_6__["useSelector"])(state => state.stories.story.fields);
+  const options = {
+    renderMark: {
+      [_contentful_rich_text_types__WEBPACK_IMPORTED_MODULE_10__["MARKS"].BOLD]: text => __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_2__["Text"], {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 24,
+          columnNumber: 33
+        }
+      }, text)
+    },
+    renderNode: {
+      [_contentful_rich_text_types__WEBPACK_IMPORTED_MODULE_10__["BLOCKS"].PARAGRAPH]: (node, children) => __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_2__["Text"], {
+        variant: "grey",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 27,
+          columnNumber: 51
+        }
+      }, children)
+    },
+    renderText: text => {
+      return text.split('\n').reduce((children, textSegment, index) => {
+        return [...children, index > 0 && __jsx("br", {
+          key: index,
+          __self: undefined,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 31,
+            columnNumber: 49
+          }
+        }), textSegment];
+      }, []);
+    }
+  };
+  const content = Object(_contentful_rich_text_react_renderer__WEBPACK_IMPORTED_MODULE_9__["documentToReactComponents"])(story.body, options);
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
     let param = router.query.slug;
     setSlug(param);
+    console.log("STATE :: ", story);
   });
   return __jsx(_components_templates_layouts__WEBPACK_IMPORTED_MODULE_1__["BlogLayout"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 43,
       columnNumber: 9
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_2__["Container"], {
@@ -6279,7 +6345,7 @@ const Story = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 44,
       columnNumber: 13
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_2__["View"], {
@@ -6288,7 +6354,7 @@ const Story = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 45,
       columnNumber: 17
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_4___default.a, {
@@ -6296,14 +6362,14 @@ const Story = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 46,
       columnNumber: 21
     }
   }, __jsx("a", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 47,
       columnNumber: 25
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_2__["View"], {
@@ -6311,7 +6377,7 @@ const Story = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 48,
       columnNumber: 29
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_2__["Image"], {
@@ -6319,7 +6385,7 @@ const Story = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 49,
       columnNumber: 33
     }
   })))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_2__["View"], {
@@ -6327,51 +6393,121 @@ const Story = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28,
+      lineNumber: 53,
       columnNumber: 21
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_2__["Text"], {
+  }, __jsx("h1", {
     className: "title",
-    family: "quicksand",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 54,
       columnNumber: 25
     }
-  }, "Atomic Design with Storybook and React 1.0 ", slug), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_2__["Text"], {
+  }, story.title), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_2__["Text"], {
     className: "subtitle",
     family: "quicksand",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 55,
       columnNumber: 25
     }
-  }, "Di bagian ini, Kita akan membangun komponen Frontend dan Menggunakan Storybook untuk membuat Component yang siap di gunakan."), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_2__["Image"], {
-    src: "https://images.ctfassets.net/fz8qdsqhkxef/52RBHaafeXHGdVhPb30G5V/8441ba2d45caefc417585bf44c685b4b/Atomic_design.png",
+  }, story.subtitle), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_2__["Image"], {
+    src: `https:${story.heroImage.fields.file.url}`,
+    className: "hero-image",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 56,
       columnNumber: 25
     }
   })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_2__["View"], {
     className: "story-content-body",
+    direction: "column",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 58,
       columnNumber: 21
     }
-  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_2__["Text"], {
+  }, content), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_2__["View"], {
+    className: "story-content-footer",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 62,
+      columnNumber: 21
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_2__["View"], {
+    className: "tags-wrapper",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63,
       columnNumber: 25
     }
-  }, JSON.stringify(props))))));
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_2__["Text"], {
+    className: "title",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64,
+      columnNumber: 29
+    }
+  }, "Tags"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_2__["View"], {
+    className: "tags",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65,
+      columnNumber: 29
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_2__["Badge"], {
+    title: "Storybook",
+    backgroundColor: "#FFEDED",
+    color: "#FF5252",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66,
+      columnNumber: 33
+    }
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_2__["Badge"], {
+    title: "Storybook",
+    backgroundColor: "#FFEDED",
+    color: "#FF5252",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70,
+      columnNumber: 34
+    }
+  }))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_2__["View"], {
+    className: "publish-date",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76,
+      columnNumber: 25
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_2__["Text"], {
+    className: "title",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77,
+      columnNumber: 29
+    }
+  }, "Publish date"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_2__["Text"], {
+    className: "subtitle",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78,
+      columnNumber: 29
+    }
+  }, "2020-04-28 14:50:00"))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Story);
@@ -6409,6 +6545,39 @@ const Story = props => {
 
 module.exports = __webpack_require__(/*! /Users/ahroidlife/Documents/nextjs/blog/pages/stories/[slug].jsx */"./pages/stories/[slug].jsx");
 
+
+/***/ }),
+
+/***/ "@contentful/rich-text-html-renderer":
+/*!******************************************************!*\
+  !*** external "@contentful/rich-text-html-renderer" ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@contentful/rich-text-html-renderer");
+
+/***/ }),
+
+/***/ "@contentful/rich-text-react-renderer":
+/*!*******************************************************!*\
+  !*** external "@contentful/rich-text-react-renderer" ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@contentful/rich-text-react-renderer");
+
+/***/ }),
+
+/***/ "@contentful/rich-text-types":
+/*!**********************************************!*\
+  !*** external "@contentful/rich-text-types" ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@contentful/rich-text-types");
 
 /***/ }),
 
@@ -6486,6 +6655,28 @@ module.exports = require("react-is");
 /***/ (function(module, exports) {
 
 module.exports = require("react-lottie");
+
+/***/ }),
+
+/***/ "react-markdown":
+/*!*********************************!*\
+  !*** external "react-markdown" ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-markdown");
+
+/***/ }),
+
+/***/ "react-redux":
+/*!******************************!*\
+  !*** external "react-redux" ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-redux");
 
 /***/ }),
 

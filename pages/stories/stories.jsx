@@ -98,10 +98,10 @@ const Stories = () => {
                 <Rows>
                     {
                         story.map((item, index) => (
-                                    <View key={index} className="grid-item-3 story-item" onClick={() => handleToStory(item)}>
+                                    <View key={index} className="grid-item-3" onClick={() => handleToStory(item)}>
                                         <Link href="/stories/[slug]" as={`/stories/${item.fields.slug}`}>
-                                            <a>
-                                            <CardStories title={item.fields.title} label={item.fields.label}  image={item.fields.image.fields.file.url} className="card-our-stories"/>
+                                            <a  style={{textDecoration: 'none'}}>
+                                                <CardStories title={item.fields.title} label={item.fields.label}  image={item.fields.image.fields.file.url} className="card-our-stories"/>
                                             </a>
                                         </Link>
                                     </View>

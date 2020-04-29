@@ -22271,7 +22271,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var qs__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(qs__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var lodash_isPlainObject__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash/isPlainObject */ "./node_modules/lodash/isPlainObject.js");
 /* harmony import */ var lodash_isPlainObject__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash_isPlainObject__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var os__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! os */ 8);
+/* harmony import */ var os__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! os */ 10);
 /* harmony import */ var os__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(os__WEBPACK_IMPORTED_MODULE_3__);
 
 
@@ -53377,7 +53377,7 @@ var Stories = function Stories() {
   }, story.map(function (item, index) {
     return __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
       key: index,
-      className: "grid-item-3 story-item",
+      className: "grid-item-3",
       onClick: function onClick() {
         return handleToStory(item);
       },
@@ -53397,6 +53397,9 @@ var Stories = function Stories() {
         columnNumber: 41
       }
     }, __jsx("a", {
+      style: {
+        textDecoration: 'none'
+      },
       __self: _this,
       __source: {
         fileName: _jsxFileName,
@@ -53412,7 +53415,7 @@ var Stories = function Stories() {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 104,
-        columnNumber: 45
+        columnNumber: 49
       }
     }))));
   }))));
@@ -53478,7 +53481,18 @@ var SET_STORY = 'story';
 
 /***/ }),
 
-/***/ 2:
+/***/ 10:
+/*!********************!*\
+  !*** os (ignored) ***!
+  \********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/* (ignored) */
+
+/***/ }),
+
+/***/ 5:
 /*!******************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fstories&absolutePagePath=%2FUsers%2Fahroidlife%2FDocuments%2Fnextjs%2Fblog%2Fpages%2Fstories%2Findex.js ***!
   \******************************************************************************************************************************************************/
@@ -53487,17 +53501,6 @@ var SET_STORY = 'story';
 
 module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fstories&absolutePagePath=%2FUsers%2Fahroidlife%2FDocuments%2Fnextjs%2Fblog%2Fpages%2Fstories%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fstories&absolutePagePath=%2FUsers%2Fahroidlife%2FDocuments%2Fnextjs%2Fblog%2Fpages%2Fstories%2Findex.js!./");
 
-
-/***/ }),
-
-/***/ 8:
-/*!********************!*\
-  !*** os (ignored) ***!
-  \********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-/* (ignored) */
 
 /***/ }),
 
@@ -53512,5 +53515,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js","styles"]]]);
+},[[5,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=stories.js.map

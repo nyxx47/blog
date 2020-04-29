@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -6446,7 +6446,7 @@ const Stories = () => {
     }
   }, story.map((item, index) => __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
     key: index,
-    className: "grid-item-3 story-item",
+    className: "grid-item-3",
     onClick: () => handleToStory(item),
     __self: undefined,
     __source: {
@@ -6464,6 +6464,9 @@ const Stories = () => {
       columnNumber: 41
     }
   }, __jsx("a", {
+    style: {
+      textDecoration: 'none'
+    },
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -6479,7 +6482,7 @@ const Stories = () => {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 104,
-      columnNumber: 45
+      columnNumber: 49
     }
   }))))))));
 };
@@ -6566,7 +6569,7 @@ const SET_STORY = 'story';
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!**************************************!*\
   !*** multi ./pages/stories/index.js ***!
   \**************************************/
