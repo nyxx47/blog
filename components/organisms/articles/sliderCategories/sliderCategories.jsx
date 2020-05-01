@@ -7,8 +7,8 @@ import {Container, View, Text, BackgroundImage} from '../../../atoms'
 const SliderCategories = ({items}) => {
 
     return (
-        <Container padding="100px 0 0 100px" isEqualHeight="50vh" flexDirection="column">
-            <View margin=" 0 0 50px 0">
+        <Container padding="100px 0 0 100px" isEqualHeight="50vh" flexDirection="column" className="slider-categories-container">
+            <View margin=" 0 0 50px 0" className="slider-categories-header">
                 <Text family="daily" size="32">Categories</Text>
             </View>
             <View>

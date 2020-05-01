@@ -3106,7 +3106,8 @@ var people = ["Siri", "Alexa", "Google", "Facebook", "Twitter", "Linkedin", "Sin
 
 var TextIcon = function TextIcon(_ref) {
   var placeholder = _ref.placeholder,
-      left = _ref.left;
+      left = _ref.left,
+      props = _ref.props;
 
   var _React$useState = react__WEBPACK_IMPORTED_MODULE_1___default.a.useState(""),
       _React$useState2 = Object(_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$useState, 2),
@@ -3129,6 +3130,7 @@ var TextIcon = function TextIcon(_ref) {
     setSearchResults(results);
   }, [searchTerm]);
   return __jsx(_atoms__WEBPACK_IMPORTED_MODULE_2__["Container"], {
+    className: "header-input-search",
     position: "relative",
     style: {
       left: left
@@ -3808,6 +3810,7 @@ var SliderCategories = function SliderCategories(_ref) {
     padding: "100px 0 0 100px",
     isEqualHeight: "50vh",
     flexDirection: "column",
+    className: "slider-categories-container",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -3816,6 +3819,7 @@ var SliderCategories = function SliderCategories(_ref) {
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_3__["View"], {
     margin: " 0 0 50px 0",
+    className: "slider-categories-header",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -3953,6 +3957,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 var SliderHero = function SliderHero(_ref) {
   var items = _ref.items;
   return __jsx(_atoms__WEBPACK_IMPORTED_MODULE_2__["Container"], {
+    className: "slider-hero-container",
     padding: "100px 0 0 100px",
     isEqualHeight: "70vh",
     __self: _this,
@@ -3964,6 +3969,7 @@ var SliderHero = function SliderHero(_ref) {
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_2__["View"], {
     width: "25%",
     direction: "column",
+    className: "slider-hero-header",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -4064,8 +4070,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _atoms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../atoms */ "./components/atoms/index.js");
 /* harmony import */ var _molecules__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../molecules */ "./components/molecules/index.js");
-/* harmony import */ var _footer_knobs_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer.knobs.json */ "./components/organisms/footer/footer.knobs.json");
-var _footer_knobs_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./footer.knobs.json */ "./components/organisms/footer/footer.knobs.json", 1);
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles.scss */ "./components/organisms/footer/styles.scss");
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _footer_knobs_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./footer.knobs.json */ "./components/organisms/footer/footer.knobs.json");
+var _footer_knobs_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./footer.knobs.json */ "./components/organisms/footer/footer.knobs.json", 1);
 var _this = undefined,
     _jsxFileName = "/Users/ahroidlife/Documents/nextjs/blog/components/organisms/footer/footer.jsx";
 
@@ -4074,7 +4082,8 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-var _knobs$data = _footer_knobs_json__WEBPACK_IMPORTED_MODULE_3__.data,
+
+var _knobs$data = _footer_knobs_json__WEBPACK_IMPORTED_MODULE_4__.data,
     menu = _knobs$data.menu,
     submenu = _knobs$data.submenu;
 
@@ -4083,11 +4092,12 @@ var Footer = function Footer(_ref) {
   return __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Container"], {
     isEqualHeight: "80vh",
     justifyContent: "center",
+    className: "footer-container",
     backgroundColor: "#EDEDED",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 13,
       columnNumber: 9
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4098,14 +4108,14 @@ var Footer = function Footer(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 19,
       columnNumber: 13
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 20,
       columnNumber: 17
     }
   }, __jsx(_molecules__WEBPACK_IMPORTED_MODULE_2__["Navigation"], {
@@ -4113,7 +4123,7 @@ var Footer = function Footer(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 21,
       columnNumber: 21
     }
   })), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4121,7 +4131,7 @@ var Footer = function Footer(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 23,
       columnNumber: 17
     }
   }, __jsx(_molecules__WEBPACK_IMPORTED_MODULE_2__["Social"], {
@@ -4132,7 +4142,7 @@ var Footer = function Footer(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 24,
       columnNumber: 21
     }
   }))));
@@ -4184,6 +4194,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _molecules__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../molecules */ "./components/molecules/index.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles.scss */ "./components/organisms/header/styles.scss");
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_4__);
 var _this = undefined,
     _jsxFileName = "/Users/ahroidlife/Documents/nextjs/blog/components/organisms/header/header.jsx";
 
@@ -4193,9 +4205,20 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
 var Header = function Header(_ref) {
   var direction = _ref.direction,
       items = _ref.items;
+
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
+      open = _useState[0],
+      setOpen = _useState[1];
+
+  var toggle = function toggle() {
+    setOpen(!open);
+    console.log("IS OPEN :: ", open);
+  };
+
   return __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Container"], {
     display: "flex",
     justifyContent: "space-between",
@@ -4207,17 +4230,19 @@ var Header = function Header(_ref) {
     zIndex: "9999",
     isEqualWidth: "100%",
     boxShadow: "0px 3px 6px rgba(137, 137, 137, 0.16)",
+    className: "header-container",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 18,
       columnNumber: 9
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
+    className: "header-brand",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 31,
       columnNumber: 13
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -4225,14 +4250,14 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 32,
       columnNumber: 17
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 33,
       columnNumber: 21
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Logo"], {
@@ -4240,7 +4265,7 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 34,
       columnNumber: 25
     }
   }))), __jsx(_molecules__WEBPACK_IMPORTED_MODULE_2__["TextIcon"], {
@@ -4249,26 +4274,96 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 37,
       columnNumber: 17
     }
   })), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
+    className: "search-on-mobile",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 39,
+      columnNumber: 13
+    }
+  }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Icon"], {
+    name: "search",
+    left: "15px",
+    top: "9px",
+    width: "1.3em",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 17
+    }
+  })), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
+    className: "menu-container",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
       columnNumber: 13
     }
   }, __jsx(_molecules__WEBPACK_IMPORTED_MODULE_2__["Navigation"], {
+    className: "menu",
     direction: direction,
     items: items,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 43,
       columnNumber: 17
     }
-  })));
+  }), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
+    className: "menu-mobile",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 17
+    }
+  }, __jsx("input", {
+    type: "checkbox",
+    onClick: toggle,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 21
+    }
+  }), __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 21
+    }
+  }), __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 21
+    }
+  })), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
+    className: "menu-content-on-mobile  ".concat(open ? 'isActive-menu-on-mobile' : ''),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 17
+    }
+  }, __jsx(_molecules__WEBPACK_IMPORTED_MODULE_2__["Navigation"], {
+    className: "menu",
+    direction: direction,
+    items: items,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 21
+    }
+  }))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -4304,10 +4399,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _atoms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../atoms */ "./components/atoms/index.js");
 /* harmony import */ var _molecules__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../molecules */ "./components/molecules/index.js");
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles.scss */ "./components/organisms/hero/styles.scss");
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_3__);
 var _this = undefined,
     _jsxFileName = "/Users/ahroidlife/Documents/nextjs/blog/components/organisms/hero/hero.jsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -4342,17 +4440,18 @@ var Hero = function Hero(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 28,
       columnNumber: 13
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
     height: "100%",
     flexValue: "1",
     direction: "column",
+    className: "hero-header",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 35,
       columnNumber: 17
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4361,10 +4460,11 @@ var Hero = function Hero(_ref) {
     align: "flex-start",
     padding: "150px 0px 0px 0px",
     isPadding: "0",
+    className: "hero-header-content",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 36,
       columnNumber: 21
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Text"], {
@@ -4374,17 +4474,18 @@ var Hero = function Hero(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 37,
       columnNumber: 25
     }
   }, title), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Text"], {
     margin: "50px 0px 0px 0px",
     isEqualMargin: "20px 0px 0px 0px",
     width: "45%",
+    className: "hero-subtitle",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 40,
       columnNumber: 25
     }
   }, subtitle), __jsx(_molecules__WEBPACK_IMPORTED_MODULE_2__["Navigation"], {
@@ -4394,7 +4495,7 @@ var Hero = function Hero(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 43,
       columnNumber: 25
     }
   })), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4406,7 +4507,7 @@ var Hero = function Hero(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
+      lineNumber: 45,
       columnNumber: 21
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Icon"], {
@@ -4415,7 +4516,7 @@ var Hero = function Hero(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 46,
       columnNumber: 25
     }
   }))), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4423,7 +4524,7 @@ var Hero = function Hero(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 49,
       columnNumber: 17
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -4433,7 +4534,7 @@ var Hero = function Hero(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48,
+      lineNumber: 50,
       columnNumber: 21
     }
   }))));
@@ -22271,7 +22372,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var qs__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(qs__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var lodash_isPlainObject__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash/isPlainObject */ "./node_modules/lodash/isPlainObject.js");
 /* harmony import */ var lodash_isPlainObject__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash_isPlainObject__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var os__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! os */ 10);
+/* harmony import */ var os__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! os */ 11);
 /* harmony import */ var os__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(os__WEBPACK_IMPORTED_MODULE_3__);
 
 
@@ -53084,12 +53185,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_molecules__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../components/molecules */ "./components/molecules/index.js");
 /* harmony import */ var _stories_scss__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./stories.scss */ "./pages/stories/stories.scss");
 /* harmony import */ var _stories_scss__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_stories_scss__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _stories_knobs_json__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./stories.knobs.json */ "./pages/stories/stories.knobs.json");
-var _stories_knobs_json__WEBPACK_IMPORTED_MODULE_10___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./stories.knobs.json */ "./pages/stories/stories.knobs.json", 1);
-/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
-/* harmony import */ var _store_modules_stories_actions__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../store/modules/stories/actions */ "./store/modules/stories/actions.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _stories_knobs_json__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./stories.knobs.json */ "./pages/stories/stories.knobs.json");
+var _stories_knobs_json__WEBPACK_IMPORTED_MODULE_11___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./stories.knobs.json */ "./pages/stories/stories.knobs.json", 1);
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var _store_modules_stories_actions__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../store/modules/stories/actions */ "./store/modules/stories/actions.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_14__);
 
 
 
@@ -53108,8 +53211,9 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
 
-var item = _stories_knobs_json__WEBPACK_IMPORTED_MODULE_10__.item,
-    populars = _stories_knobs_json__WEBPACK_IMPORTED_MODULE_10__.populars;
+
+var item = _stories_knobs_json__WEBPACK_IMPORTED_MODULE_11__.item,
+    populars = _stories_knobs_json__WEBPACK_IMPORTED_MODULE_11__.populars;
 
 
 
@@ -53131,7 +53235,7 @@ var Stories = function Stories() {
       story = _useState3[0],
       setStory = _useState3[1];
 
-  var dispatch = Object(react_redux__WEBPACK_IMPORTED_MODULE_11__["useDispatch"])();
+  var dispatch = Object(react_redux__WEBPACK_IMPORTED_MODULE_12__["useDispatch"])();
 
   function fetchPopulars() {
     var entries;
@@ -53301,15 +53405,29 @@ var Stories = function Stories() {
   }, []);
 
   var handleToStory = function handleToStory(story) {
-    dispatch(_store_modules_stories_actions__WEBPACK_IMPORTED_MODULE_12__["default"].setStory(story)); //  await Router.push(`/stories/${story.fields.slug}`)
+    dispatch(_store_modules_stories_actions__WEBPACK_IMPORTED_MODULE_13__["default"].setStory(story)); //  await Router.push(`/stories/${story.fields.slug}`)
   };
 
-  return __jsx(_components_templates_layouts__WEBPACK_IMPORTED_MODULE_3__["BlogLayout"], {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_10___default.a, {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85,
+      columnNumber: 9
+    }
+  }, __jsx("title", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86,
+      columnNumber: 13
+    }
+  }, "Krisna Ahroid | Stories")), __jsx(_components_templates_layouts__WEBPACK_IMPORTED_MODULE_3__["BlogLayout"], {
     title: "Stories",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84,
+      lineNumber: 88,
       columnNumber: 9
     }
   }, __jsx(_components_organisms__WEBPACK_IMPORTED_MODULE_4__["Hero"], {
@@ -53319,7 +53437,7 @@ var Stories = function Stories() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85,
+      lineNumber: 89,
       columnNumber: 13
     }
   }), __jsx(_components_organisms__WEBPACK_IMPORTED_MODULE_4__["SliderHero"], {
@@ -53327,7 +53445,7 @@ var Stories = function Stories() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90,
+      lineNumber: 94,
       columnNumber: 13
     }
   }), __jsx(_components_organisms__WEBPACK_IMPORTED_MODULE_4__["SliderCategories"], {
@@ -53335,16 +53453,17 @@ var Stories = function Stories() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92,
+      lineNumber: 96,
       columnNumber: 13
     }
-  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Container"], {
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
     padding: "100px",
-    flexDirection: "column",
+    direction: "column",
+    className: "stories-post-container",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94,
+      lineNumber: 98,
       columnNumber: 13
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -53352,26 +53471,23 @@ var Stories = function Stories() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95,
+      lineNumber: 99,
       columnNumber: 17
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
     family: "daily",
     size: "32",
-    onClick: function onClick() {
-      return next_router__WEBPACK_IMPORTED_MODULE_6___default.a.push("/stories/adasda");
-    },
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96,
+      lineNumber: 100,
       columnNumber: 21
     }
   }, "Our Stories")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Rows"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98,
+      lineNumber: 102,
       columnNumber: 17
     }
   }, story.map(function (item, index) {
@@ -53384,16 +53500,16 @@ var Stories = function Stories() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 101,
+        lineNumber: 105,
         columnNumber: 37
       }
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_13___default.a, {
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_14___default.a, {
       href: "/stories/[slug]",
       as: "/stories/".concat(item.fields.slug),
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 102,
+        lineNumber: 106,
         columnNumber: 41
       }
     }, __jsx("a", {
@@ -53403,7 +53519,7 @@ var Stories = function Stories() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 103,
+        lineNumber: 107,
         columnNumber: 45
       }
     }, __jsx(_components_molecules__WEBPACK_IMPORTED_MODULE_8__["CardStories"], {
@@ -53414,11 +53530,11 @@ var Stories = function Stories() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 104,
+        lineNumber: 108,
         columnNumber: 49
       }
     }))));
-  }))));
+  })))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Stories);
@@ -53481,7 +53597,7 @@ var SET_STORY = 'story';
 
 /***/ }),
 
-/***/ 10:
+/***/ 11:
 /*!********************!*\
   !*** os (ignored) ***!
   \********************/
@@ -53492,7 +53608,7 @@ var SET_STORY = 'story';
 
 /***/ }),
 
-/***/ 5:
+/***/ 2:
 /*!******************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fstories&absolutePagePath=%2FUsers%2Fahroidlife%2FDocuments%2Fnextjs%2Fblog%2Fpages%2Fstories%2Findex.js ***!
   \******************************************************************************************************************************************************/
@@ -53515,5 +53631,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js","styles"]]]);
+},[[2,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=stories.js.map

@@ -6,6 +6,14 @@
     position: relative;
     transition: all 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) 0s;
 
+    @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2){
+        width: 300px !important;
+        height: 400px !important;
+    }
+
     &:hover{
         box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 30px;
         transform: scale(1.05, 1.05);

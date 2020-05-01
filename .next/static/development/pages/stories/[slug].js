@@ -3093,7 +3093,8 @@ var people = ["Siri", "Alexa", "Google", "Facebook", "Twitter", "Linkedin", "Sin
 
 var TextIcon = function TextIcon(_ref) {
   var placeholder = _ref.placeholder,
-      left = _ref.left;
+      left = _ref.left,
+      props = _ref.props;
 
   var _React$useState = react__WEBPACK_IMPORTED_MODULE_1___default.a.useState(""),
       _React$useState2 = Object(_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$useState, 2),
@@ -3116,6 +3117,7 @@ var TextIcon = function TextIcon(_ref) {
     setSearchResults(results);
   }, [searchTerm]);
   return __jsx(_atoms__WEBPACK_IMPORTED_MODULE_2__["Container"], {
+    className: "header-input-search",
     position: "relative",
     style: {
       left: left
@@ -3795,6 +3797,7 @@ var SliderCategories = function SliderCategories(_ref) {
     padding: "100px 0 0 100px",
     isEqualHeight: "50vh",
     flexDirection: "column",
+    className: "slider-categories-container",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -3803,6 +3806,7 @@ var SliderCategories = function SliderCategories(_ref) {
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_3__["View"], {
     margin: " 0 0 50px 0",
+    className: "slider-categories-header",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -3940,6 +3944,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 var SliderHero = function SliderHero(_ref) {
   var items = _ref.items;
   return __jsx(_atoms__WEBPACK_IMPORTED_MODULE_2__["Container"], {
+    className: "slider-hero-container",
     padding: "100px 0 0 100px",
     isEqualHeight: "70vh",
     __self: _this,
@@ -3951,6 +3956,7 @@ var SliderHero = function SliderHero(_ref) {
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_2__["View"], {
     width: "25%",
     direction: "column",
+    className: "slider-hero-header",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -4051,8 +4057,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _atoms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../atoms */ "./components/atoms/index.js");
 /* harmony import */ var _molecules__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../molecules */ "./components/molecules/index.js");
-/* harmony import */ var _footer_knobs_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./footer.knobs.json */ "./components/organisms/footer/footer.knobs.json");
-var _footer_knobs_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./footer.knobs.json */ "./components/organisms/footer/footer.knobs.json", 1);
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles.scss */ "./components/organisms/footer/styles.scss");
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _footer_knobs_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./footer.knobs.json */ "./components/organisms/footer/footer.knobs.json");
+var _footer_knobs_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./footer.knobs.json */ "./components/organisms/footer/footer.knobs.json", 1);
 var _this = undefined,
     _jsxFileName = "/Users/ahroidlife/Documents/nextjs/blog/components/organisms/footer/footer.jsx";
 
@@ -4061,7 +4069,8 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-var _knobs$data = _footer_knobs_json__WEBPACK_IMPORTED_MODULE_3__.data,
+
+var _knobs$data = _footer_knobs_json__WEBPACK_IMPORTED_MODULE_4__.data,
     menu = _knobs$data.menu,
     submenu = _knobs$data.submenu;
 
@@ -4070,11 +4079,12 @@ var Footer = function Footer(_ref) {
   return __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Container"], {
     isEqualHeight: "80vh",
     justifyContent: "center",
+    className: "footer-container",
     backgroundColor: "#EDEDED",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11,
+      lineNumber: 13,
       columnNumber: 9
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4085,14 +4095,14 @@ var Footer = function Footer(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
+      lineNumber: 19,
       columnNumber: 13
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 20,
       columnNumber: 17
     }
   }, __jsx(_molecules__WEBPACK_IMPORTED_MODULE_2__["Navigation"], {
@@ -4100,7 +4110,7 @@ var Footer = function Footer(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 21,
       columnNumber: 21
     }
   })), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4108,7 +4118,7 @@ var Footer = function Footer(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21,
+      lineNumber: 23,
       columnNumber: 17
     }
   }, __jsx(_molecules__WEBPACK_IMPORTED_MODULE_2__["Social"], {
@@ -4119,7 +4129,7 @@ var Footer = function Footer(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22,
+      lineNumber: 24,
       columnNumber: 21
     }
   }))));
@@ -4171,6 +4181,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _molecules__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../molecules */ "./components/molecules/index.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./styles.scss */ "./components/organisms/header/styles.scss");
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_4__);
 var _this = undefined,
     _jsxFileName = "/Users/ahroidlife/Documents/nextjs/blog/components/organisms/header/header.jsx";
 
@@ -4180,9 +4192,20 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
+
 var Header = function Header(_ref) {
   var direction = _ref.direction,
       items = _ref.items;
+
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
+      open = _useState[0],
+      setOpen = _useState[1];
+
+  var toggle = function toggle() {
+    setOpen(!open);
+    console.log("IS OPEN :: ", open);
+  };
+
   return __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Container"], {
     display: "flex",
     justifyContent: "space-between",
@@ -4194,17 +4217,19 @@ var Header = function Header(_ref) {
     zIndex: "9999",
     isEqualWidth: "100%",
     boxShadow: "0px 3px 6px rgba(137, 137, 137, 0.16)",
+    className: "header-container",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
+      lineNumber: 18,
       columnNumber: 9
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
+    className: "header-brand",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23,
+      lineNumber: 31,
       columnNumber: 13
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -4212,14 +4237,14 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24,
+      lineNumber: 32,
       columnNumber: 17
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25,
+      lineNumber: 33,
       columnNumber: 21
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Logo"], {
@@ -4227,7 +4252,7 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 34,
       columnNumber: 25
     }
   }))), __jsx(_molecules__WEBPACK_IMPORTED_MODULE_2__["TextIcon"], {
@@ -4236,26 +4261,96 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29,
+      lineNumber: 37,
       columnNumber: 17
     }
   })), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
+    className: "search-on-mobile",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 39,
+      columnNumber: 13
+    }
+  }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Icon"], {
+    name: "search",
+    left: "15px",
+    top: "9px",
+    width: "1.3em",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 17
+    }
+  })), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
+    className: "menu-container",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42,
       columnNumber: 13
     }
   }, __jsx(_molecules__WEBPACK_IMPORTED_MODULE_2__["Navigation"], {
+    className: "menu",
     direction: direction,
     items: items,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 43,
       columnNumber: 17
     }
-  })));
+  }), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
+    className: "menu-mobile",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44,
+      columnNumber: 17
+    }
+  }, __jsx("input", {
+    type: "checkbox",
+    onClick: toggle,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45,
+      columnNumber: 21
+    }
+  }), __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46,
+      columnNumber: 21
+    }
+  }), __jsx("span", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47,
+      columnNumber: 21
+    }
+  })), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
+    className: "menu-content-on-mobile  ".concat(open ? 'isActive-menu-on-mobile' : ''),
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 17
+    }
+  }, __jsx(_molecules__WEBPACK_IMPORTED_MODULE_2__["Navigation"], {
+    className: "menu",
+    direction: direction,
+    items: items,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51,
+      columnNumber: 21
+    }
+  }))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -4291,10 +4386,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _atoms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../atoms */ "./components/atoms/index.js");
 /* harmony import */ var _molecules__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../molecules */ "./components/molecules/index.js");
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles.scss */ "./components/organisms/hero/styles.scss");
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_3__);
 var _this = undefined,
     _jsxFileName = "/Users/ahroidlife/Documents/nextjs/blog/components/organisms/hero/hero.jsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -4329,17 +4427,18 @@ var Hero = function Hero(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 28,
       columnNumber: 13
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
     height: "100%",
     flexValue: "1",
     direction: "column",
+    className: "hero-header",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 35,
       columnNumber: 17
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4348,10 +4447,11 @@ var Hero = function Hero(_ref) {
     align: "flex-start",
     padding: "150px 0px 0px 0px",
     isPadding: "0",
+    className: "hero-header-content",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 36,
       columnNumber: 21
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Text"], {
@@ -4361,17 +4461,18 @@ var Hero = function Hero(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 37,
       columnNumber: 25
     }
   }, title), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Text"], {
     margin: "50px 0px 0px 0px",
     isEqualMargin: "20px 0px 0px 0px",
     width: "45%",
+    className: "hero-subtitle",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38,
+      lineNumber: 40,
       columnNumber: 25
     }
   }, subtitle), __jsx(_molecules__WEBPACK_IMPORTED_MODULE_2__["Navigation"], {
@@ -4381,7 +4482,7 @@ var Hero = function Hero(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 43,
       columnNumber: 25
     }
   })), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4393,7 +4494,7 @@ var Hero = function Hero(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
+      lineNumber: 45,
       columnNumber: 21
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Icon"], {
@@ -4402,7 +4503,7 @@ var Hero = function Hero(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 46,
       columnNumber: 25
     }
   }))), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4410,7 +4511,7 @@ var Hero = function Hero(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 49,
       columnNumber: 17
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -4420,7 +4521,7 @@ var Hero = function Hero(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48,
+      lineNumber: 50,
       columnNumber: 21
     }
   }))));
@@ -56677,6 +56778,8 @@ var Bold = function Bold(_ref) {
 };
 
 var Story = function Story(props) {
+  var _renderNode;
+
   var router = Object(next_dist_client_router__WEBPACK_IMPORTED_MODULE_7__["useRouter"])();
 
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_2__["useState"])(''),
@@ -56697,7 +56800,7 @@ var Story = function Story(props) {
         }
       }, text);
     }),
-    renderNode: Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])({}, _contentful_rich_text_types__WEBPACK_IMPORTED_MODULE_12__["BLOCKS"].PARAGRAPH, function (node, children) {
+    renderNode: (_renderNode = {}, Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(_renderNode, _contentful_rich_text_types__WEBPACK_IMPORTED_MODULE_12__["BLOCKS"].PARAGRAPH, function (node, children) {
       return __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["Text"], {
         variant: "grey",
         __self: _this,
@@ -56707,7 +56810,23 @@ var Story = function Story(props) {
           columnNumber: 51
         }
       }, children);
-    }),
+    }), Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_1__["default"])(_renderNode, _contentful_rich_text_types__WEBPACK_IMPORTED_MODULE_12__["BLOCKS"].EMBEDDED_ASSET, function (node) {
+      // console.log(node)
+      var _node$data$target$fie = node.data.target.fields,
+          description = _node$data$target$fie.description,
+          title = _node$data$target$fie.title,
+          file = _node$data$target$fie.file;
+      console.log(file);
+      return __jsx("img", {
+        src: file.url,
+        __self: _this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32,
+          columnNumber: 20
+        }
+      });
+    }), _renderNode),
     renderText: function renderText(text) {
       return text.split('\n').reduce(function (children, textSegment, index) {
         return [].concat(Object(_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(children), [index > 0 && __jsx("br", {
@@ -56715,7 +56834,7 @@ var Story = function Story(props) {
           __self: _this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 31,
+            lineNumber: 37,
             columnNumber: 49
           }
         }), textSegment]);
@@ -56732,7 +56851,7 @@ var Story = function Story(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
+      lineNumber: 49,
       columnNumber: 9
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["Container"], {
@@ -56740,7 +56859,7 @@ var Story = function Story(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 50,
       columnNumber: 13
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["View"], {
@@ -56749,7 +56868,7 @@ var Story = function Story(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 51,
       columnNumber: 17
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
@@ -56757,14 +56876,14 @@ var Story = function Story(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
+      lineNumber: 52,
       columnNumber: 21
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 53,
       columnNumber: 25
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["View"], {
@@ -56772,7 +56891,7 @@ var Story = function Story(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48,
+      lineNumber: 54,
       columnNumber: 29
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["Image"], {
@@ -56780,7 +56899,7 @@ var Story = function Story(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 55,
       columnNumber: 33
     }
   })))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["View"], {
@@ -56788,7 +56907,7 @@ var Story = function Story(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
+      lineNumber: 59,
       columnNumber: 21
     }
   }, __jsx("h1", {
@@ -56796,7 +56915,7 @@ var Story = function Story(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 60,
       columnNumber: 25
     }
   }, story.title), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["Text"], {
@@ -56805,7 +56924,7 @@ var Story = function Story(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 61,
       columnNumber: 25
     }
   }, story.subtitle), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["Image"], {
@@ -56814,7 +56933,7 @@ var Story = function Story(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56,
+      lineNumber: 62,
       columnNumber: 25
     }
   })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["View"], {
@@ -56823,7 +56942,7 @@ var Story = function Story(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58,
+      lineNumber: 64,
       columnNumber: 21
     }
   }, content), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["View"], {
@@ -56831,7 +56950,7 @@ var Story = function Story(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62,
+      lineNumber: 68,
       columnNumber: 21
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["View"], {
@@ -56839,7 +56958,7 @@ var Story = function Story(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63,
+      lineNumber: 69,
       columnNumber: 25
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["Text"], {
@@ -56847,7 +56966,7 @@ var Story = function Story(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64,
+      lineNumber: 70,
       columnNumber: 29
     }
   }, "Tags"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["View"], {
@@ -56855,7 +56974,7 @@ var Story = function Story(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65,
+      lineNumber: 71,
       columnNumber: 29
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["Badge"], {
@@ -56865,17 +56984,17 @@ var Story = function Story(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66,
+      lineNumber: 72,
       columnNumber: 33
     }
   }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["Badge"], {
-    title: "Storybook",
+    title: "React",
     backgroundColor: "#FFEDED",
     color: "#FF5252",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70,
+      lineNumber: 76,
       columnNumber: 34
     }
   }))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["View"], {
@@ -56883,7 +57002,7 @@ var Story = function Story(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76,
+      lineNumber: 82,
       columnNumber: 25
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["Text"], {
@@ -56891,7 +57010,7 @@ var Story = function Story(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77,
+      lineNumber: 83,
       columnNumber: 29
     }
   }, "Publish date"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_4__["Text"], {
@@ -56899,7 +57018,7 @@ var Story = function Story(props) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78,
+      lineNumber: 84,
       columnNumber: 29
     }
   }, "2020-04-28 14:50:00"))))));
@@ -56909,7 +57028,7 @@ var Story = function Story(props) {
 
 /***/ }),
 
-/***/ 11:
+/***/ 13:
 /*!*************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fstories%2F%5Bslug%5D&absolutePagePath=%2FUsers%2Fahroidlife%2FDocuments%2Fnextjs%2Fblog%2Fpages%2Fstories%2F%5Bslug%5D.jsx ***!
   \*************************************************************************************************************************************************************************/
@@ -56932,5 +57051,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[11,"static/runtime/webpack.js","styles"]]]);
+},[[13,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=[slug].js.map

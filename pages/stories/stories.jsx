@@ -7,7 +7,7 @@ import Router from 'next/router'
 import { Container, View, Text, Rows} from '../../components/atoms'
 import { CardStories } from '../../components/molecules'
 import './stories.scss'
-
+import Head from 'next/head'
 import Knobs from './stories.knobs.json'
 import { useDispatch } from 'react-redux';
 const {item, populars} = Knobs
@@ -80,7 +80,11 @@ const Stories = () => {
         //  await Router.push(`/stories/${story.fields.slug}`)
     }
 
-    return ( 
+    return (
+        <>
+        <Head>
+            <title>Krisna Ahroid | Stories</title>
+        </Head>
         <BlogLayout title="Stories">
             <Hero
                 title="Stories Resources"
@@ -91,9 +95,9 @@ const Stories = () => {
 
             <SliderCategories items={stories}/>
 
-            <Container padding="100px" flexDirection="column">
+            <View padding="100px" direction="column" className="stories-post-container">
                 <View margin="0 0 50px 0">
-                    <Text family="daily" size="32" onClick={() => Router.push(`/stories/adasda`)}>Our Stories</Text>
+                    <Text family="daily" size="32" >Our Stories</Text>
                 </View>
                 <Rows>
                     {
@@ -108,9 +112,11 @@ const Stories = () => {
                         ))
                     }
                 </Rows>
-            </Container>
+            </View>
         </BlogLayout> 
+        </>
         )
+        
 }
 
 export default Stories;

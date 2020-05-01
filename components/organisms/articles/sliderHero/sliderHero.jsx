@@ -9,8 +9,8 @@ import './styles.scss'
 const SliderHero = ({items}) => {
 
   return (
-    <Container padding="100px 0 0 100px" isEqualHeight="70vh">
-      <View width="25%" direction="column">
+    <Container className="slider-hero-container" padding="100px 0 0 100px" isEqualHeight="70vh">
+      <View width="25%" direction="column" className="slider-hero-header">
         <View direction="column" flexValue="1">
           <Text family="daily" size="32" width="50px">Most Popular</Text>
           <Text margin="30px 30px 0  0">

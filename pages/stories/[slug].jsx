@@ -25,6 +25,12 @@ const Story = (props) => {
         },
         renderNode: {
           [BLOCKS.PARAGRAPH]: (node, children) => <Text variant="grey">{children}</Text>,
+          [BLOCKS.EMBEDDED_ASSET]: node => {
+            // console.log(node)
+            let { description, title, file } = node.data.target.fields
+            console.log(file)
+            return <img src={file.url} />
+          },
         },
         renderText: text => {
             return text.split('\n').reduce((children, textSegment, index) => {
@@ -68,7 +74,7 @@ const Story = (props) => {
                                 backgroundColor="#FFEDED"
                                 color="#FF5252"/>
                                  <Badge 
-                                title="Storybook"
+                                title="React"
                                 backgroundColor="#FFEDED"
                                 color="#FF5252"/>
                             </View>

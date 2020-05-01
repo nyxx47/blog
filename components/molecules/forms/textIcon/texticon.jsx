@@ -12,7 +12,7 @@ const people = [
     "Sinkedin"
   ];
 
-const TextIcon = ({placeholder, left}) => {
+const TextIcon = ({placeholder, left, props}) => {
 
         const [searchTerm, setSearchTerm] = React.useState("");
         const [searchResults, setSearchResults] = React.useState([]);
@@ -29,7 +29,7 @@ const TextIcon = ({placeholder, left}) => {
         }, [searchTerm]);
 
     return (
-        <Container position="relative" style={{
+        <Container className="header-input-search" position="relative" style={{
             left: left
         }}>
             <Icon name="search" position="absolute" left="15px" top="9px" width="1.3em"/>
