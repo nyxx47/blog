@@ -6,6 +6,7 @@ import Link from 'next/link'
 import './styles.scss'
 
 
+
 const Header = ({direction, items}) => {
     const [open, setOpen] = useState(false)
 
@@ -13,6 +14,9 @@ const Header = ({direction, items}) => {
         setOpen(!open)
         console.log("IS OPEN :: ",open)
     }
+
+
+
 
     return (
         <Container

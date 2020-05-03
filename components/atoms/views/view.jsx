@@ -5,6 +5,7 @@ import { any, string } from 'prop-types'
 
 const View = ({ 
     children, 
+    innerRef,
     style, 
     isEqualFlex,
     flexValue, 
@@ -32,6 +33,7 @@ const View = ({
 
     return (
         <StyledView 
+        ref={innerRef}
         style={style} 
         isBoxShadow={isBoxShadow} 
         isEqualFlex={isEqualFlex}

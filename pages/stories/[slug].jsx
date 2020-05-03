@@ -5,19 +5,22 @@ import { Container, View, Text, Image, Badge} from '../../components/atoms'
 import './stories.scss'
 import Link from 'next/link';
 import { useRouter } from 'next/dist/client/router';
-import { useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 import * as Markdown from 'react-markdown'
 import { documentToHtmlString } from '@contentful/rich-text-html-renderer';
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 import { BLOCKS, MARKS } from '@contentful/rich-text-types';
+import actions from '../../store/modules/stories/actions'
 
 const Bold = ({ children }) => <p className="bold">{children}</p>;
 
+const client = require('contentful').createClient({
+    space: process.env.SPACE_ID,
+    accessToken: process.env.ACCESS_TOKEN
+})
 
-const Story = (props) => {
-    const router = useRouter()
-    const [slug, setSlug] = useState('')
-    const story = useSelector(state => state.stories.story.fields)
+
+const Story = ({story}) => {
 
     const options = {
         renderMark: {
@@ -28,7 +31,7 @@ const Story = (props) => {
           [BLOCKS.EMBEDDED_ASSET]: node => {
             // console.log(node)
             let { description, title, file } = node.data.target.fields
-            console.log(file)
+
             return <img src={file.url} />
           },
         },
@@ -38,13 +41,9 @@ const Story = (props) => {
             }, []);
           },
       };
-    const content = documentToReactComponents(story.body, options)
 
-    useEffect(() => {
-        let param = router.query.slug
-        setSlug(param)
-        console.log("STATE :: ",story)
-    })
+    const content = documentToReactComponents(story.items[0].fields.body, options)
+      
     return (
         <BlogLayout>
             <Container className="story-container">
@@ -57,9 +56,9 @@ const Story = (props) => {
                         </a>
                     </Link>
                     <View className="story-content-header">
-                        <h1 className="title">{story.title}</h1>
-                        <Text className="subtitle" family="quicksand">{story.subtitle}</Text>
-                        <Image src={`https:${story.heroImage.fields.file.url}`} className="hero-image"/>
+                        <h1 className="title">{story.items[0].fields.title}</h1>
+                        <Text className="subtitle" family="quicksand">{story.items[0].fields.subtitle}</Text>
+                        <Image src={`https:${story.items[0].fields.heroImage.fields.file.url}`} className="hero-image"/>
                     </View>
                     <View className="story-content-body" direction="column">
                         {/* <Markdown source={content} /> */}
@@ -89,5 +88,14 @@ const Story = (props) => {
         </BlogLayout>
     )
 }
+
+Story.getInitialProps = async ({ query }) => {
+    const res = await client.getEntries({
+        content_type: 'story',
+        'fields.slug[match]': query.slug
+    })
+    
+    return { story: res }
+  }
 
 export default Story

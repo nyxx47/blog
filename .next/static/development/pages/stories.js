@@ -1534,6 +1534,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 var Input = function Input(_ref) {
   var type = _ref.type,
+      innerRef = _ref.innerRef,
       value = _ref.value,
       placeholder = _ref.placeholder,
       onChange = _ref.onChange,
@@ -1542,7 +1543,7 @@ var Input = function Input(_ref) {
       padding = _ref.padding,
       bottom = _ref.bottom,
       left = _ref.left,
-      props = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, ["type", "value", "placeholder", "onChange", "width", "height", "padding", "bottom", "left"]);
+      props = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, ["type", "innerRef", "value", "placeholder", "onChange", "width", "height", "padding", "bottom", "left"]);
 
   return __jsx(_input_styles_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
     type: type,
@@ -1553,7 +1554,8 @@ var Input = function Input(_ref) {
     height: height,
     padding: padding,
     bottom: bottom,
-    left: left
+    left: left,
+    ref: innerRef
   }, props, {
     __self: _this,
     __source: {
@@ -2169,6 +2171,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 var View = function View(_ref) {
   var children = _ref.children,
+      innerRef = _ref.innerRef,
       style = _ref.style,
       isEqualFlex = _ref.isEqualFlex,
       flexValue = _ref.flexValue,
@@ -2192,9 +2195,10 @@ var View = function View(_ref) {
       left = _ref.left,
       border = _ref.border,
       isPadding = _ref.isPadding,
-      props = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, ["children", "style", "isEqualFlex", "flexValue", "direction", "justify", "overflow", "isBoxShadow", "width", "isEqualWidth", "isEqualHeight", "height", "radius", "backgroundColor", "isEqualBackground", "isEqualDirection", "position", "bottom", "margin", "maxWidth", "top", "left", "border", "isPadding"]);
+      props = Object(_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_1__["default"])(_ref, ["children", "innerRef", "style", "isEqualFlex", "flexValue", "direction", "justify", "overflow", "isBoxShadow", "width", "isEqualWidth", "isEqualHeight", "height", "radius", "backgroundColor", "isEqualBackground", "isEqualDirection", "position", "bottom", "margin", "maxWidth", "top", "left", "border", "isPadding"]);
 
   return __jsx(_view_styles_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({
+    ref: innerRef,
     style: style,
     isBoxShadow: isBoxShadow,
     isEqualFlex: isEqualFlex,
@@ -2222,7 +2226,7 @@ var View = function View(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 35,
       columnNumber: 9
     }
   }), children);
@@ -3087,49 +3091,136 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _atoms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../atoms */ "./components/atoms/index.js");
-/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles.scss */ "./components/molecules/forms/textIcon/styles.scss");
-/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/toConsumableArray */ "./node_modules/@babel/runtime/helpers/esm/toConsumableArray.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime/helpers/esm/slicedToArray.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _atoms__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../atoms */ "./components/atoms/index.js");
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./styles.scss */ "./components/molecules/forms/textIcon/styles.scss");
+/* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_6__);
+
+
 
 
 var _this = undefined,
     _jsxFileName = "/Users/ahroidlife/Documents/nextjs/blog/components/molecules/forms/textIcon/texticon.jsx";
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement;
 
 
 
-var people = ["Siri", "Alexa", "Google", "Facebook", "Twitter", "Linkedin", "Sinkedin"];
+
+
+var client = __webpack_require__(/*! contentful */ "./node_modules/contentful/dist/es-modules/contentful.js").createClient({
+  space: "fz8qdsqhkxef",
+  accessToken: "feE_Euk-EnM3oB9wApHZlEe61_qKREqanmw-OsllD4I"
+});
 
 var TextIcon = function TextIcon(_ref) {
   var placeholder = _ref.placeholder,
       left = _ref.left,
       props = _ref.props;
 
-  var _React$useState = react__WEBPACK_IMPORTED_MODULE_1___default.a.useState(""),
-      _React$useState2 = Object(_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$useState, 2),
+  var _React$useState = react__WEBPACK_IMPORTED_MODULE_3___default.a.useState(""),
+      _React$useState2 = Object(_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_2__["default"])(_React$useState, 2),
       searchTerm = _React$useState2[0],
       setSearchTerm = _React$useState2[1];
 
-  var _React$useState3 = react__WEBPACK_IMPORTED_MODULE_1___default.a.useState([]),
-      _React$useState4 = Object(_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_React$useState3, 2),
+  var _React$useState3 = react__WEBPACK_IMPORTED_MODULE_3___default.a.useState([]),
+      _React$useState4 = Object(_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_2__["default"])(_React$useState3, 2),
       searchResults = _React$useState4[0],
       setSearchResults = _React$useState4[1];
+
+  var _React$useState5 = react__WEBPACK_IMPORTED_MODULE_3___default.a.useState(false),
+      _React$useState6 = Object(_babel_runtime_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_2__["default"])(_React$useState5, 2),
+      active = _React$useState6[0],
+      setActive = _React$useState6[1];
+
+  var refInput = Object(react__WEBPACK_IMPORTED_MODULE_3__["useRef"])();
+  var refResults = Object(react__WEBPACK_IMPORTED_MODULE_3__["useRef"])();
 
   var handleChange = function handleChange(event) {
     setSearchTerm(event.target.value);
   };
 
-  react__WEBPACK_IMPORTED_MODULE_1___default.a.useEffect(function () {
-    var results = people.filter(function (person) {
-      return person.toLowerCase().includes(searchTerm);
-    });
-    setSearchResults(results);
+  function searching(title) {
+    var entries;
+    return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.async(function searching$(_context) {
+      while (1) {
+        switch (_context.prev = _context.next) {
+          case 0:
+            _context.next = 2;
+            return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.awrap(client.getEntries({
+              content_type: 'story',
+              'fields.title[match]': title
+            }));
+
+          case 2:
+            entries = _context.sent;
+
+            if (!entries.items) {
+              _context.next = 5;
+              break;
+            }
+
+            return _context.abrupt("return", entries.items);
+
+          case 5:
+          case "end":
+            return _context.stop();
+        }
+      }
+    }, null, null, null, Promise);
+  }
+
+  Object(react__WEBPACK_IMPORTED_MODULE_3__["useEffect"])(function () {
+    function getResults() {
+      var results;
+      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.async(function getResults$(_context2) {
+        while (1) {
+          switch (_context2.prev = _context2.next) {
+            case 0:
+              _context2.next = 2;
+              return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_1___default.a.awrap(searching(searchTerm));
+
+            case 2:
+              results = _context2.sent;
+              setSearchResults(Object(_babel_runtime_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_0__["default"])(results));
+
+            case 4:
+            case "end":
+              return _context2.stop();
+          }
+        }
+      }, null, null, null, Promise);
+    }
+
+    var handleFocus = function handleFocus() {
+      setActive(true);
+    };
+
+    var current = refInput.current;
+    current.addEventListener('focus', handleFocus);
+
+    function handleClickOutside(event) {
+      if (refResults.current && !refResults.current.contains(event.target)) {
+        setActive(false);
+      }
+    }
+
+    document.addEventListener("mousedown", handleClickOutside);
+
+    if (searchTerm.length > 1) {
+      getResults();
+    } else {
+      setSearchResults([]);
+    }
   }, [searchTerm]);
-  return __jsx(_atoms__WEBPACK_IMPORTED_MODULE_2__["Container"], {
+  return __jsx(_atoms__WEBPACK_IMPORTED_MODULE_4__["Container"], {
     className: "header-input-search",
     position: "relative",
     style: {
@@ -3138,10 +3229,10 @@ var TextIcon = function TextIcon(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 61,
       columnNumber: 9
     }
-  }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_2__["Icon"], {
+  }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_4__["Icon"], {
     name: "search",
     position: "absolute",
     left: "15px",
@@ -3150,115 +3241,136 @@ var TextIcon = function TextIcon(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 64,
       columnNumber: 13
     }
-  }), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_2__["Input"], {
+  }), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_4__["Input"], {
     className: "inputTextIcon",
     placeholder: placeholder,
     width: "300px",
     padding: "5px 30px 5px 45px",
     value: searchTerm,
+    innerRef: refInput,
     onChange: handleChange,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 65,
       columnNumber: 13
     }
-  }), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_2__["View"], {
-    className: "search-results",
+  }), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_4__["View"], {
+    className: "search-results ".concat(active ? 'isActiveInput' : ''),
     direction: "column",
     isEqualFlex: "none",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 74,
       columnNumber: 13
     }
-  }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_2__["View"], {
+  }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_4__["View"], {
     height: "30px",
     justify: "space-between",
     align: "center",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 75,
       columnNumber: 17
     }
-  }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_2__["View"], {
+  }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_4__["View"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
+      lineNumber: 76,
       columnNumber: 21
     }
-  }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_2__["Text"], {
+  }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_4__["Text"], {
     weight: "medium",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 77,
       columnNumber: 25
     }
   }, "Results of ", __jsx("strong", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 77,
       columnNumber: 58
     }
-  }, "Trigonometry"))), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_2__["View"], {
+  }, searchTerm))), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_4__["View"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 79,
       columnNumber: 21
     }
-  }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_2__["View"], {
+  }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_4__["View"], {
     className: "rounded-counter",
     justify: "center",
     align: "center",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
+      lineNumber: 80,
       columnNumber: 25
     }
-  }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_2__["Text"], {
+  }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_4__["Text"], {
     variant: "secondary",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 81,
       columnNumber: 29
     }
-  }, "4")))), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_2__["View"], {
+  }, searchResults.length)))), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_4__["View"], {
     flexValue: "1",
     className: "content",
+    innerRef: refResults,
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 85,
       columnNumber: 17
     }
   }, __jsx("ul", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56,
+      lineNumber: 86,
       columnNumber: 21
     }
-  }, searchResults.map(function (item) {
-    return __jsx("li", {
-      key: item,
+  }, searchResults.map(function (item, index) {
+    return __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
+      key: index,
+      href: "/stories/[slug]",
+      as: "/stories/".concat(item.fields.slug),
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 58,
-        columnNumber: 25
+        lineNumber: 88,
+        columnNumber: 29
       }
-    }, item);
+    }, __jsx("a", {
+      style: {
+        textDecoration: 'none'
+      },
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 89,
+        columnNumber: 33
+      }
+    }, __jsx("li", {
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 90,
+        columnNumber: 37
+      }
+    }, item.fields.title)));
   })))));
 };
 
@@ -4234,7 +4346,7 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 22,
       columnNumber: 9
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4242,7 +4354,7 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 35,
       columnNumber: 13
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -4250,14 +4362,14 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 36,
       columnNumber: 17
     }
   }, __jsx("a", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 37,
       columnNumber: 21
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Logo"], {
@@ -4265,7 +4377,7 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 38,
       columnNumber: 25
     }
   }))), __jsx(_molecules__WEBPACK_IMPORTED_MODULE_2__["TextIcon"], {
@@ -4274,7 +4386,7 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 41,
       columnNumber: 17
     }
   })), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4282,7 +4394,7 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 43,
       columnNumber: 13
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Icon"], {
@@ -4293,7 +4405,7 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
+      lineNumber: 44,
       columnNumber: 17
     }
   })), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4301,7 +4413,7 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 46,
       columnNumber: 13
     }
   }, __jsx(_molecules__WEBPACK_IMPORTED_MODULE_2__["Navigation"], {
@@ -4311,7 +4423,7 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
+      lineNumber: 47,
       columnNumber: 17
     }
   }), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4319,7 +4431,7 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 48,
       columnNumber: 17
     }
   }, __jsx("input", {
@@ -4328,21 +4440,21 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 49,
       columnNumber: 21
     }
   }), __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
+      lineNumber: 50,
       columnNumber: 21
     }
   }), __jsx("span", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 51,
       columnNumber: 21
     }
   })), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4350,7 +4462,7 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
+      lineNumber: 54,
       columnNumber: 17
     }
   }, __jsx(_molecules__WEBPACK_IMPORTED_MODULE_2__["Navigation"], {
@@ -4360,7 +4472,7 @@ var Header = function Header(_ref) {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 55,
       columnNumber: 21
     }
   }))));
@@ -22372,7 +22484,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var qs__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(qs__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var lodash_isPlainObject__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash/isPlainObject */ "./node_modules/lodash/isPlainObject.js");
 /* harmony import */ var lodash_isPlainObject__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash_isPlainObject__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var os__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! os */ 11);
+/* harmony import */ var os__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! os */ 6);
 /* harmony import */ var os__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(os__WEBPACK_IMPORTED_MODULE_3__);
 
 
@@ -53403,23 +53515,18 @@ var Stories = function Stories() {
     getStoriesCategories();
     getPopulars();
   }, []);
-
-  var handleToStory = function handleToStory(story) {
-    dispatch(_store_modules_stories_actions__WEBPACK_IMPORTED_MODULE_13__["default"].setStory(story)); //  await Router.push(`/stories/${story.fields.slug}`)
-  };
-
   return __jsx(react__WEBPACK_IMPORTED_MODULE_2___default.a.Fragment, null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_10___default.a, {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85,
+      lineNumber: 84,
       columnNumber: 9
     }
   }, __jsx("title", {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86,
+      lineNumber: 85,
       columnNumber: 13
     }
   }, "Krisna Ahroid | Stories")), __jsx(_components_templates_layouts__WEBPACK_IMPORTED_MODULE_3__["BlogLayout"], {
@@ -53427,7 +53534,7 @@ var Stories = function Stories() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88,
+      lineNumber: 87,
       columnNumber: 9
     }
   }, __jsx(_components_organisms__WEBPACK_IMPORTED_MODULE_4__["Hero"], {
@@ -53437,7 +53544,7 @@ var Stories = function Stories() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89,
+      lineNumber: 88,
       columnNumber: 13
     }
   }), __jsx(_components_organisms__WEBPACK_IMPORTED_MODULE_4__["SliderHero"], {
@@ -53445,7 +53552,7 @@ var Stories = function Stories() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94,
+      lineNumber: 93,
       columnNumber: 13
     }
   }), __jsx(_components_organisms__WEBPACK_IMPORTED_MODULE_4__["SliderCategories"], {
@@ -53453,7 +53560,7 @@ var Stories = function Stories() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96,
+      lineNumber: 95,
       columnNumber: 13
     }
   }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -53463,7 +53570,7 @@ var Stories = function Stories() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98,
+      lineNumber: 97,
       columnNumber: 13
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
@@ -53471,7 +53578,7 @@ var Stories = function Stories() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99,
+      lineNumber: 98,
       columnNumber: 17
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Text"], {
@@ -53480,27 +53587,24 @@ var Stories = function Stories() {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100,
+      lineNumber: 99,
       columnNumber: 21
     }
   }, "Our Stories")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["Rows"], {
     __self: _this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102,
+      lineNumber: 101,
       columnNumber: 17
     }
   }, story.map(function (item, index) {
     return __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_7__["View"], {
       key: index,
       className: "grid-item-3",
-      onClick: function onClick() {
-        return handleToStory(item);
-      },
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 105,
+        lineNumber: 104,
         columnNumber: 37
       }
     }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_14___default.a, {
@@ -53509,7 +53613,7 @@ var Stories = function Stories() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 106,
+        lineNumber: 105,
         columnNumber: 41
       }
     }, __jsx("a", {
@@ -53519,7 +53623,7 @@ var Stories = function Stories() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 107,
+        lineNumber: 106,
         columnNumber: 45
       }
     }, __jsx(_components_molecules__WEBPACK_IMPORTED_MODULE_8__["CardStories"], {
@@ -53530,7 +53634,7 @@ var Stories = function Stories() {
       __self: _this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 108,
+        lineNumber: 107,
         columnNumber: 49
       }
     }))));
@@ -53597,17 +53701,6 @@ var SET_STORY = 'story';
 
 /***/ }),
 
-/***/ 11:
-/*!********************!*\
-  !*** os (ignored) ***!
-  \********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
-
 /***/ 2:
 /*!******************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fstories&absolutePagePath=%2FUsers%2Fahroidlife%2FDocuments%2Fnextjs%2Fblog%2Fpages%2Fstories%2Findex.js ***!
@@ -53617,6 +53710,17 @@ var SET_STORY = 'story';
 
 module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fstories&absolutePagePath=%2FUsers%2Fahroidlife%2FDocuments%2Fnextjs%2Fblog%2Fpages%2Fstories%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fstories&absolutePagePath=%2FUsers%2Fahroidlife%2FDocuments%2Fnextjs%2Fblog%2Fpages%2Fstories%2Findex.js!./");
 
+
+/***/ }),
+
+/***/ 6:
+/*!********************!*\
+  !*** os (ignored) ***!
+  \********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/* (ignored) */
 
 /***/ }),
 

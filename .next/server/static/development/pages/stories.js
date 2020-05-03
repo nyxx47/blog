@@ -1518,6 +1518,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 const Input = (_ref) => {
   let {
     type,
+    innerRef,
     value,
     placeholder,
     onChange,
@@ -1527,7 +1528,7 @@ const Input = (_ref) => {
     bottom,
     left
   } = _ref,
-      props = _objectWithoutProperties(_ref, ["type", "value", "placeholder", "onChange", "width", "height", "padding", "bottom", "left"]);
+      props = _objectWithoutProperties(_ref, ["type", "innerRef", "value", "placeholder", "onChange", "width", "height", "padding", "bottom", "left"]);
 
   return __jsx(_input_styles_jsx__WEBPACK_IMPORTED_MODULE_1__["default"], _extends({
     type: type,
@@ -1538,7 +1539,8 @@ const Input = (_ref) => {
     height: height,
     padding: padding,
     bottom: bottom,
-    left: left
+    left: left,
+    ref: innerRef
   }, props, {
     __self: undefined,
     __source: {
@@ -2115,6 +2117,7 @@ function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) r
 const View = (_ref) => {
   let {
     children,
+    innerRef,
     style,
     isEqualFlex,
     flexValue,
@@ -2139,9 +2142,10 @@ const View = (_ref) => {
     border,
     isPadding
   } = _ref,
-      props = _objectWithoutProperties(_ref, ["children", "style", "isEqualFlex", "flexValue", "direction", "justify", "overflow", "isBoxShadow", "width", "isEqualWidth", "isEqualHeight", "height", "radius", "backgroundColor", "isEqualBackground", "isEqualDirection", "position", "bottom", "margin", "maxWidth", "top", "left", "border", "isPadding"]);
+      props = _objectWithoutProperties(_ref, ["children", "innerRef", "style", "isEqualFlex", "flexValue", "direction", "justify", "overflow", "isBoxShadow", "width", "isEqualWidth", "isEqualHeight", "height", "radius", "backgroundColor", "isEqualBackground", "isEqualDirection", "position", "bottom", "margin", "maxWidth", "top", "left", "border", "isPadding"]);
 
   return __jsx(_view_styles_jsx__WEBPACK_IMPORTED_MODULE_1__["default"], _extends({
+    ref: innerRef,
     style: style,
     isBoxShadow: isBoxShadow,
     isEqualFlex: isEqualFlex,
@@ -2169,7 +2173,7 @@ const View = (_ref) => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 35,
       columnNumber: 9
     }
   }), children);
@@ -3008,12 +3012,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _atoms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../atoms */ "./components/atoms/index.js");
 /* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles.scss */ "./components/molecules/forms/textIcon/styles.scss");
 /* harmony import */ var _styles_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_scss__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
 var _jsxFileName = "/Users/ahroidlife/Documents/nextjs/blog/components/molecules/forms/textIcon/texticon.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-const people = ["Siri", "Alexa", "Google", "Facebook", "Twitter", "Linkedin", "Sinkedin"];
+
+
+const client = __webpack_require__(/*! contentful */ "contentful").createClient({
+  space: "fz8qdsqhkxef",
+  accessToken: "feE_Euk-EnM3oB9wApHZlEe61_qKREqanmw-OsllD4I"
+});
 
 const TextIcon = ({
   placeholder,
@@ -3022,14 +3033,50 @@ const TextIcon = ({
 }) => {
   const [searchTerm, setSearchTerm] = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState("");
   const [searchResults, setSearchResults] = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState([]);
+  const [active, setActive] = react__WEBPACK_IMPORTED_MODULE_0___default.a.useState(false);
+  const refInput = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])();
+  const refResults = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])();
 
   const handleChange = event => {
     setSearchTerm(event.target.value);
   };
 
-  react__WEBPACK_IMPORTED_MODULE_0___default.a.useEffect(() => {
-    const results = people.filter(person => person.toLowerCase().includes(searchTerm));
-    setSearchResults(results);
+  async function searching(title) {
+    const entries = await client.getEntries({
+      content_type: 'story',
+      'fields.title[match]': title
+    });
+    if (entries.items) return entries.items;
+  }
+
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
+    async function getResults() {
+      const results = await searching(searchTerm);
+      setSearchResults([...results]);
+    }
+
+    const handleFocus = () => {
+      setActive(true);
+    };
+
+    const {
+      current
+    } = refInput;
+    current.addEventListener('focus', handleFocus);
+
+    function handleClickOutside(event) {
+      if (refResults.current && !refResults.current.contains(event.target)) {
+        setActive(false);
+      }
+    }
+
+    document.addEventListener("mousedown", handleClickOutside);
+
+    if (searchTerm.length > 1) {
+      getResults();
+    } else {
+      setSearchResults([]);
+    }
   }, [searchTerm]);
   return __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Container"], {
     className: "header-input-search",
@@ -3040,7 +3087,7 @@ const TextIcon = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 61,
       columnNumber: 9
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Icon"], {
@@ -3052,7 +3099,7 @@ const TextIcon = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 64,
       columnNumber: 13
     }
   }), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Input"], {
@@ -3061,21 +3108,22 @@ const TextIcon = ({
     width: "300px",
     padding: "5px 30px 5px 45px",
     value: searchTerm,
+    innerRef: refInput,
     onChange: handleChange,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 65,
       columnNumber: 13
     }
   }), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
-    className: "search-results",
+    className: `search-results ${active ? 'isActiveInput' : ''}`,
     direction: "column",
     isEqualFlex: "none",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 74,
       columnNumber: 13
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -3085,14 +3133,14 @@ const TextIcon = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 75,
       columnNumber: 17
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
+      lineNumber: 76,
       columnNumber: 21
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Text"], {
@@ -3100,21 +3148,21 @@ const TextIcon = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 77,
       columnNumber: 25
     }
   }, "Results of ", __jsx("strong", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 77,
       columnNumber: 58
     }
-  }, "Trigonometry"))), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
+  }, searchTerm))), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 79,
       columnNumber: 21
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -3124,7 +3172,7 @@ const TextIcon = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
+      lineNumber: 80,
       columnNumber: 25
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Text"], {
@@ -3132,34 +3180,54 @@ const TextIcon = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 81,
       columnNumber: 29
     }
-  }, "4")))), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
+  }, searchResults.length)))), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
     flexValue: "1",
     className: "content",
+    innerRef: refResults,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 85,
       columnNumber: 17
     }
   }, __jsx("ul", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56,
+      lineNumber: 86,
       columnNumber: 21
     }
-  }, searchResults.map(item => __jsx("li", {
-    key: item,
+  }, searchResults.map((item, index) => __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
+    key: index,
+    href: "/stories/[slug]",
+    as: `/stories/${item.fields.slug}`,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58,
-      columnNumber: 25
+      lineNumber: 88,
+      columnNumber: 29
     }
-  }, item))))));
+  }, __jsx("a", {
+    style: {
+      textDecoration: 'none'
+    },
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89,
+      columnNumber: 33
+    }
+  }, __jsx("li", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 90,
+      columnNumber: 37
+    }
+  }, item.fields.title))))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (TextIcon);
@@ -4129,7 +4197,7 @@ const Header = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18,
+      lineNumber: 22,
       columnNumber: 9
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4137,7 +4205,7 @@ const Header = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31,
+      lineNumber: 35,
       columnNumber: 13
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -4145,14 +4213,14 @@ const Header = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32,
+      lineNumber: 36,
       columnNumber: 17
     }
   }, __jsx("a", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33,
+      lineNumber: 37,
       columnNumber: 21
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Logo"], {
@@ -4160,7 +4228,7 @@ const Header = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34,
+      lineNumber: 38,
       columnNumber: 25
     }
   }))), __jsx(_molecules__WEBPACK_IMPORTED_MODULE_2__["TextIcon"], {
@@ -4169,7 +4237,7 @@ const Header = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 41,
       columnNumber: 17
     }
   })), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4177,7 +4245,7 @@ const Header = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 43,
       columnNumber: 13
     }
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Icon"], {
@@ -4188,7 +4256,7 @@ const Header = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
+      lineNumber: 44,
       columnNumber: 17
     }
   })), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4196,7 +4264,7 @@ const Header = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 46,
       columnNumber: 13
     }
   }, __jsx(_molecules__WEBPACK_IMPORTED_MODULE_2__["Navigation"], {
@@ -4206,7 +4274,7 @@ const Header = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
+      lineNumber: 47,
       columnNumber: 17
     }
   }), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4214,7 +4282,7 @@ const Header = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 48,
       columnNumber: 17
     }
   }, __jsx("input", {
@@ -4223,21 +4291,21 @@ const Header = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45,
+      lineNumber: 49,
       columnNumber: 21
     }
   }), __jsx("span", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46,
+      lineNumber: 50,
       columnNumber: 21
     }
   }), __jsx("span", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 51,
       columnNumber: 21
     }
   })), __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4245,7 +4313,7 @@ const Header = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
+      lineNumber: 54,
       columnNumber: 17
     }
   }, __jsx(_molecules__WEBPACK_IMPORTED_MODULE_2__["Navigation"], {
@@ -4255,7 +4323,7 @@ const Header = ({
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 55,
       columnNumber: 21
     }
   }))));
@@ -6508,23 +6576,18 @@ const Stories = () => {
     getStoriesCategories();
     getPopulars();
   }, []);
-
-  const handleToStory = story => {
-    dispatch(_store_modules_stories_actions__WEBPACK_IMPORTED_MODULE_11__["default"].setStory(story)); //  await Router.push(`/stories/${story.fields.slug}`)
-  };
-
   return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_8___default.a, {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85,
+      lineNumber: 84,
       columnNumber: 9
     }
   }, __jsx("title", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86,
+      lineNumber: 85,
       columnNumber: 13
     }
   }, "Krisna Ahroid | Stories")), __jsx(_components_templates_layouts__WEBPACK_IMPORTED_MODULE_1__["BlogLayout"], {
@@ -6532,7 +6595,7 @@ const Stories = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88,
+      lineNumber: 87,
       columnNumber: 9
     }
   }, __jsx(_components_organisms__WEBPACK_IMPORTED_MODULE_2__["Hero"], {
@@ -6542,7 +6605,7 @@ const Stories = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89,
+      lineNumber: 88,
       columnNumber: 13
     }
   }), __jsx(_components_organisms__WEBPACK_IMPORTED_MODULE_2__["SliderHero"], {
@@ -6550,7 +6613,7 @@ const Stories = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94,
+      lineNumber: 93,
       columnNumber: 13
     }
   }), __jsx(_components_organisms__WEBPACK_IMPORTED_MODULE_2__["SliderCategories"], {
@@ -6558,7 +6621,7 @@ const Stories = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96,
+      lineNumber: 95,
       columnNumber: 13
     }
   }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
@@ -6568,7 +6631,7 @@ const Stories = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98,
+      lineNumber: 97,
       columnNumber: 13
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
@@ -6576,7 +6639,7 @@ const Stories = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99,
+      lineNumber: 98,
       columnNumber: 17
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["Text"], {
@@ -6585,24 +6648,23 @@ const Stories = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 100,
+      lineNumber: 99,
       columnNumber: 21
     }
   }, "Our Stories")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["Rows"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102,
+      lineNumber: 101,
       columnNumber: 17
     }
   }, story.map((item, index) => __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
     key: index,
     className: "grid-item-3",
-    onClick: () => handleToStory(item),
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105,
+      lineNumber: 104,
       columnNumber: 37
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
@@ -6611,7 +6673,7 @@ const Stories = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106,
+      lineNumber: 105,
       columnNumber: 41
     }
   }, __jsx("a", {
@@ -6621,7 +6683,7 @@ const Stories = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107,
+      lineNumber: 106,
       columnNumber: 45
     }
   }, __jsx(_components_molecules__WEBPACK_IMPORTED_MODULE_6__["CardStories"], {
@@ -6632,7 +6694,7 @@ const Stories = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108,
+      lineNumber: 107,
       columnNumber: 49
     }
   })))))))));

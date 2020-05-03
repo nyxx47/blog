@@ -68,7 +68,7 @@ const App = () => {
     }
 
   useEffect(() => {
-    console.log(`The component is ${isVisible ? "visible" : "not visible"}.`)
+    // console.log(`The component is ${isVisible ? "visible" : "not visible"}.`)
 
     let date = new Date();
     let time = date.getHours();

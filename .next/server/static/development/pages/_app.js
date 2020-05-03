@@ -440,7 +440,6 @@ nprogress__WEBPACK_IMPORTED_MODULE_6___default.a.configure({
 });
 
 next_router__WEBPACK_IMPORTED_MODULE_2___default.a.onRouteChangeStart = () => {
-  console.log("NPROGRESS is START!s");
   nprogress__WEBPACK_IMPORTED_MODULE_6___default.a.start();
 };
 
@@ -484,14 +483,14 @@ class MyApp extends next_app__WEBPACK_IMPORTED_MODULE_1___default.a {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 49,
+        lineNumber: 48,
         columnNumber: 9
       }
     }, __jsx(Component, _extends({}, pageProps, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 50,
+        lineNumber: 49,
         columnNumber: 11
       }
     })));
@@ -537,93 +536,15 @@ function configureStore(initialState = {}) {
 /*!********************************!*\
   !*** ./store/modules/index.js ***!
   \********************************/
-/*! exports provided: login, stories */
+/*! exports provided: stories */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _login__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./login */ "./store/modules/login/index.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "login", function() { return _login__WEBPACK_IMPORTED_MODULE_0__["default"]; });
-
-/* harmony import */ var _stories__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./stories */ "./store/modules/stories/index.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "stories", function() { return _stories__WEBPACK_IMPORTED_MODULE_1__["default"]; });
+/* harmony import */ var _stories__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./stories */ "./store/modules/stories/index.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "stories", function() { return _stories__WEBPACK_IMPORTED_MODULE_0__["default"]; });
 
 
-
-
-/***/ }),
-
-/***/ "./store/modules/login/index.js":
-/*!**************************************!*\
-  !*** ./store/modules/login/index.js ***!
-  \**************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _reducers__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./reducers */ "./store/modules/login/reducers.js");
-
-/* harmony default export */ __webpack_exports__["default"] = (_reducers__WEBPACK_IMPORTED_MODULE_0__["default"]);
-
-/***/ }),
-
-/***/ "./store/modules/login/reducers.js":
-/*!*****************************************!*\
-  !*** ./store/modules/login/reducers.js ***!
-  \*****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _types__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./types */ "./store/modules/login/types.js");
-
-const initialState = {
-  token: null,
-  user: null
-};
-/* harmony default export */ __webpack_exports__["default"] = ((state = initialState, action) => {
-  switch (action.type) {
-    case _types__WEBPACK_IMPORTED_MODULE_0__["AUTHENTICATE"]:
-      return Object.assign({}, state, {
-        token: action.payload
-      });
-
-    case _types__WEBPACK_IMPORTED_MODULE_0__["USER"]:
-      return Object.assign({}, state, {
-        user: action.payload
-      });
-
-    case _types__WEBPACK_IMPORTED_MODULE_0__["DEAUTHENTICATE"]:
-      return {
-        token: null
-      };
-
-    default:
-      return state;
-  }
-});
-
-/***/ }),
-
-/***/ "./store/modules/login/types.js":
-/*!**************************************!*\
-  !*** ./store/modules/login/types.js ***!
-  \**************************************/
-/*! exports provided: REGISTER, AUTHENTICATE, DEAUTHENTICATE, USER */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "REGISTER", function() { return REGISTER; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AUTHENTICATE", function() { return AUTHENTICATE; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DEAUTHENTICATE", function() { return DEAUTHENTICATE; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "USER", function() { return USER; });
-const REGISTER = 'register';
-const AUTHENTICATE = 'authenticate';
-const DEAUTHENTICATE = 'deauthenticate';
-const USER = 'user';
 
 /***/ }),
 

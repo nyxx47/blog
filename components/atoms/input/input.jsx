@@ -2,7 +2,7 @@ import React from "react";
 import StyledInput from './input.styles.jsx'
 import { func, string } from "prop-types";
 
-const Input = ({type, value, placeholder, onChange, width, height,padding, bottom,left, ...props}) => {
+const Input = ({type, innerRef, value, placeholder, onChange, width, height,padding, bottom,left, ...props}) => {
 
     return (
             <StyledInput 
@@ -15,6 +15,7 @@ const Input = ({type, value, placeholder, onChange, width, height,padding, botto
             padding={padding}
             bottom={bottom}
             left={left}
+            ref={innerRef}
             {...props}/>
     )
 }

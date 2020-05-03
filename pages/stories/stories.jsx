@@ -27,6 +27,8 @@ const Stories = () => {
 
     const dispatch = useDispatch()
 
+
+
     async function fetchPopulars(){
         const entries = await client.getEntries({
             content_type: 'popularStories'
@@ -51,9 +53,10 @@ const Stories = () => {
         console.log(`Error getting Entries for ${contentType.name}.`)
     }
     
+    
     useEffect(() => {
         document.body.style.overflow = 'unset';
-        
+
 
         async function getPopulars() {
             const allPosts = await fetchPopulars()
@@ -69,16 +72,12 @@ const Stories = () => {
             const allStories = await fetchStories()
             setStory([...allStories])
         }
-
+        
         getStories()
         getStoriesCategories()
         getPopulars()
     },[])
 
-    const handleToStory = (story) => {
-         dispatch(actions.setStory(story))
-        //  await Router.push(`/stories/${story.fields.slug}`)
-    }
 
     return (
         <>
@@ -102,7 +101,7 @@ const Stories = () => {
                 <Rows>
                     {
                         story.map((item, index) => (
-                                    <View key={index} className="grid-item-3" onClick={() => handleToStory(item)}>
+                                    <View key={index} className="grid-item-3">
                                         <Link href="/stories/[slug]" as={`/stories/${item.fields.slug}`}>
                                             <a  style={{textDecoration: 'none'}}>
                                                 <CardStories title={item.fields.title} label={item.fields.label}  image={item.fields.image.fields.file.url} className="card-our-stories"/>

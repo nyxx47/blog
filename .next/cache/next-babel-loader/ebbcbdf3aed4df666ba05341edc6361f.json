@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default as stories } from './stories';","map":{"version":3,"sources":["/Users/ahroidlife/Documents/nextjs/blog/store/modules/index.js"],"names":["default","stories"],"mappings":"AAAA,SAASA,OAAO,IAAIC,OAApB,QAAmC,WAAnC","sourcesContent":["export { default as stories } from './stories'"]},"metadata":{},"sourceType":"module"}
