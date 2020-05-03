@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import {Container, Text, View, Image, Icon} from '../../atoms'
 import {Navigation} from '../../molecules'
 
+import './styles.scss'
+
 const Hero = ({title, subtitle, img}) => {
     const [items, setItems] = useState([
         {
@@ -30,12 +32,12 @@ const Hero = ({title, subtitle, img}) => {
             padding="0px 100px 0px 100px"
             className="hero"
             >
-                <View height="100%" flexValue="1" direction="column" >
-                    <View flexValue="1" direction="column" align="flex-start" padding="150px 0px 0px 0px" isPadding="0">
+                <View height="100%" flexValue="1" direction="column" className="hero-header">
+                    <View flexValue="1" direction="column" align="flex-start" padding="150px 0px 0px 0px" isPadding="0" className="hero-header-content">
                         <Text family="daily" size="32" width="100px">
                             {title}
                         </Text>
-                        <Text margin="50px 0px 0px 0px" isEqualMargin="20px 0px 0px 0px" width="45%">
+                        <Text margin="50px 0px 0px 0px" isEqualMargin="20px 0px 0px 0px" width="45%" className="hero-subtitle">
                             {subtitle}
                         </Text>
                         <Navigation items={items} padding="50px 0px 0px 0px" isEqualPadding="20px 0 0 0"/>

@@ -4,7 +4,7 @@ import axios from 'axios'
 import Flicking from "@egjs/react-flicking";
 import useOnScreen from '../components/particles/useOnScreen'
 import {MainLayout} from '../components/templates/layouts'
-
+import Head from 'next/head'
 import {Navigation} from '../components/molecules'
 import {View, Text, Image, Button, Input, Lottie} from '../components/atoms'
 
@@ -68,7 +68,7 @@ const App = () => {
     }
 
   useEffect(() => {
-    console.log(`The component is ${isVisible ? "visible" : "not visible"}.`)
+    // console.log(`The component is ${isVisible ? "visible" : "not visible"}.`)
 
     let date = new Date();
     let time = date.getHours();
@@ -112,6 +112,10 @@ const App = () => {
 
 
   return (
+    <>
+      <Head>
+        <title>Krisna Ahroid | Design & Code</title>
+    </Head>
     <MainLayout>
     <div ref={ref}></div>
       <View className={`overlay ${visible ? 'isVisibility' : ''}`} justify="center" align="center" direction="column">
@@ -577,6 +581,7 @@ freelance work.
             </View>
       </View>
     </MainLayout>
+    </>
   )
 }
 

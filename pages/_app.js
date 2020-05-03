@@ -9,7 +9,6 @@ import NProgress from 'nprogress';
 NProgress.configure({ easing: 'ease', speed: 500, showSpinner: false });
 
 Router.onRouteChangeStart = () => {
-  console.log("NPROGRESS is START!s")
   NProgress.start();
 };
 

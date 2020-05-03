@@ -1113,9 +1113,6 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 
 
-const GlobalStyle = styled_components__WEBPACK_IMPORTED_MODULE_2__["createGlobalStyle"]`
- 
-`;
 
 class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
   static async getInitialProps(ctx) {
@@ -1128,7 +1125,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
           __self: this,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 19,
+            lineNumber: 15,
             columnNumber: 59
           }
         })))
@@ -1149,14 +1146,14 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 39,
+        lineNumber: 35,
         columnNumber: 7
       }
     }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Head"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 40,
+        lineNumber: 36,
         columnNumber: 9
       }
     }, __jsx("meta", {
@@ -1164,23 +1161,16 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 41,
+        lineNumber: 37,
         columnNumber: 11
       }
-    }), __jsx("title", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 42,
-        columnNumber: 11
-      }
-    }, "Krisna Ahroid | Design & Code"), __jsx("meta", {
+    }), __jsx("meta", {
       name: "viewport",
       content: "width=device-width, initial-scale=1",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 43,
+        lineNumber: 39,
         columnNumber: 11
       }
     }), __jsx("link", {
@@ -1189,7 +1179,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 44,
+        lineNumber: 40,
         columnNumber: 11
       }
     }), __jsx("link", {
@@ -1198,7 +1188,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 45,
+        lineNumber: 41,
         columnNumber: 11
       }
     }), __jsx("link", {
@@ -1207,7 +1197,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 46,
+        lineNumber: 42,
         columnNumber: 11
       }
     }), __jsx("meta", {
@@ -1217,7 +1207,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 47,
+        lineNumber: 43,
         columnNumber: 11
       }
     }), __jsx("meta", {
@@ -1226,7 +1216,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 48,
+        lineNumber: 44,
         columnNumber: 11
       }
     }), __jsx("script", {
@@ -1235,7 +1225,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 51,
+        lineNumber: 47,
         columnNumber: 11
       }
     }), __jsx("script", {
@@ -1252,35 +1242,28 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 55,
+        lineNumber: 51,
         columnNumber: 11
       }
     })), __jsx("body", {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 68,
+        lineNumber: 64,
         columnNumber: 9
       }
-    }, __jsx(GlobalStyle, {
+    }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Main"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 69,
-        columnNumber: 11
-      }
-    }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Main"], {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 70,
+        lineNumber: 65,
         columnNumber: 11
       }
     }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["NextScript"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 71,
+        lineNumber: 66,
         columnNumber: 11
       }
     })));

@@ -1,43 +1,31 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Flicking from "@egjs/react-flicking";
 import './styles.scss'
 
 import {Container, View, Text, BackgroundImage} from '../../../atoms'
 
-const SliderCategories = () => {
+const SliderCategories = ({items}) => {
 
     return (
-        <Container padding="100px 0 0 100px" isEqualHeight="50vh" flexDirection="column">
-            <View margin=" 0 0 50px 0">
+        <Container padding="100px 0 0 100px" isEqualHeight="50vh" flexDirection="column" className="slider-categories-container">
+            <View margin=" 0 0 50px 0" className="slider-categories-header">
                 <Text family="daily" size="32">Categories</Text>
             </View>
             <View>
             <Flicking id="stories-categories" gap={50} infinite={true} infiniteThreshold={100}  bound={true} moveType="freeScroll" style={{width:100+'%', height: 50+'vh'}}>
-                <View>
-                    <View className="card-categories">
-                        <BackgroundImage src="/static/unsplash/nourdine-diouane-HITtu6zs9Sg-unsplash.jpg" size="cover" className="card-categories-image"/>
-                        <View className="card-categories-content" align="flex-end">
-                            <Text size="24" variant="secondary">Adventures</Text>
+                { items.length > 0
+                    ? items.map((item, index) => (
+                        <View key={index}>
+                            <View className="card-categories">
+                                <BackgroundImage src={`https:${item.fields.image.fields.file.url}`} size="cover" className="card-categories-image"/>
+                                <View className="card-categories-content" align="flex-end">
+                                    <Text size="24" variant="secondary">{item.fields.title}</Text>
+                                </View>
+                            </View>
                         </View>
-                    </View>
-                </View>
-                <View>
-                    <View className="card-categories">
-                        <BackgroundImage src="/static/unsplash/sincerely-media-nGrfKmtwv24-unsplash.jpg" size="cover" className="card-categories-image"/>
-                        <View className="card-categories-content" align="flex-end">
-                            <Text size="24" variant="secondary">Level Up</Text>
-                        </View>
-                    </View>
-                </View>
-                <View>
-                    <View className="card-categories">
-                        <BackgroundImage src="/static/unsplash/freddy-castro-u3ajSXhZM_U-unsplash.jpg" size="cover" className="card-categories-image"/>
-                        <View className="card-categories-content" align="flex-end">
-                            <Text size="24" variant="secondary">Buckets</Text>
-                        </View>
-                    </View>
-                </View>
-
+                    ))
+                    : null
+                }
             </Flicking>
             </View>
         </Container>

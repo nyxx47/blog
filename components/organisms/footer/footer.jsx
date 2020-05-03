@@ -2,6 +2,8 @@ import React from "react";
 import { Container, View, Text } from '../../atoms'
 import {Navigation, Social} from '../../molecules'
 
+import './styles.scss'
+
 import knobs from './footer.knobs.json'
 const {menu, submenu} = knobs.data
 
@@ -11,7 +13,7 @@ const Footer = ({props}) => {
         <Container 
         isEqualHeight="80vh"
         justifyContent="center"
-        
+        className="footer-container"
         backgroundColor="#EDEDED"
         >
             <View direction="column" height="100%" position="relative" justify="center">

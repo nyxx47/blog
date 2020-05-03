@@ -10,5 +10,23 @@
             "title": "Case studies in rearchitecting",
             "subtitle": "How Buffer, ThoughtWorks, N26, and Zapier have shifted their software to respond to new contexts and met new needs."
         }
+    },
+    "populars": {
+        "items": [
+            {
+                "id":"1",
+                "title":"test",
+                "subtitle":"testing",
+                "label":"solo",
+                "image":"https://increment.com/art/12/architecture-for-generations/cover-1000-106a85d6.jpeg"
+            },
+            {
+                "id":"2",
+                "title":"test",
+                "subtitle":"testing",
+                "label":"solo",
+                "image":"https://increment.com/art/12/architecture-for-generations/cover-1000-106a85d6.jpeg"
+            }
+        ]
     }
 }

@@ -7,7 +7,7 @@ import '../../../static/css/main.scss'
 import Static from '../static.json'
 const {direction, items} = Static.menus
 
-const MainLayout = ({children, title, height, line}) => (
+const MainLayout = ({children, height, line}) => (
     <>
         {/* <Head>
             <title>{title}</title>

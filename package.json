@@ -13,6 +13,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@contentful/rich-text-html-renderer": "^13.4.0",
+    "@contentful/rich-text-react-renderer": "^13.4.0",
+    "@contentful/rich-text-types": "^14.1.0",
     "@egjs/flicking": "^3.4.7",
     "@egjs/react-flicking": "^3.2.1",
     "@storybook/addon-docs": "^5.3.17",
@@ -21,6 +24,7 @@
     "@zeit/next-sass": "^1.0.1",
     "axios": "^0.19.2",
     "babel-plugin-styled-components": "^1.10.7",
+    "contentful": "^7.14.3",
     "dotenv": "^8.2.0",
     "next": "^9.3.1",
     "next-fonts": "^1.0.3",
@@ -30,9 +34,12 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-lottie": "^1.2.3",
+    "react-markdown": "^4.3.1",
     "react-redux": "^7.2.0",
     "redux": "^4.0.5",
-    "styled-components": "^5.0.1"
+    "sitemap": "^6.1.2",
+    "styled-components": "^5.0.1",
+    "use-lodash-debounce": "^1.1.0"
   },
   "devDependencies": {
     "@storybook/addon-storyshots": "^5.3.18",
