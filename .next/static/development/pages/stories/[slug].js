@@ -25477,7 +25477,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var qs__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(qs__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var lodash_isPlainObject__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash/isPlainObject */ "./node_modules/lodash/isPlainObject.js");
 /* harmony import */ var lodash_isPlainObject__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash_isPlainObject__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var os__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! os */ 6);
+/* harmony import */ var os__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! os */ 4);
 /* harmony import */ var os__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(os__WEBPACK_IMPORTED_MODULE_3__);
 
 
@@ -65861,7 +65861,7 @@ var SET_STORY = 'story';
 
 /***/ }),
 
-/***/ 1:
+/***/ 13:
 /*!*************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fstories%2F%5Bslug%5D&absolutePagePath=%2FUsers%2Fahroidlife%2FDocuments%2Fnextjs%2Fblog%2Fpages%2Fstories%2F%5Bslug%5D.jsx ***!
   \*************************************************************************************************************************************************************************/
@@ -65873,7 +65873,7 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fstorie
 
 /***/ }),
 
-/***/ 6:
+/***/ 4:
 /*!********************!*\
   !*** os (ignored) ***!
   \********************/
@@ -65895,5 +65895,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js","styles"]]]);
+},[[13,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=[slug].js.map

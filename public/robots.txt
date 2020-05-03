@@ -1,4 +1,3 @@
-Sitemap: https://ahroidlife.com/stories/stories-sitemap
 
 User-agent: *
 Allow: /*
