@@ -8,8 +8,12 @@ import Head from 'next/head'
 import {Navigation} from '../components/molecules'
 import {View, Text, Image, Button, Input, Lottie} from '../components/atoms'
 
+import Lottiefiles from 'react-lottie'
+
 import * as Loading from '../assets/lottiefiles/loading-circle.json'
 import * as Success from '../assets/lottiefiles/success.json'
+import * as Gallery from '../assets/lottiefiles/gallery.json'
+
 import knobData from "./index.knobs.json";
 const {menus} = knobData.data;
 
@@ -23,6 +27,7 @@ const App = () => {
   const [date, setDate] = useState('01 Jan 2020')
   const [loading, setLoading] = useState(false)
   const [visible, setVisible] = useState(false)
+  const [gallery, setGallery] = useState(false)
 
   const [firstname, setFirstname] = useState('')
   const [lastname, setLastname] = useState('')
@@ -32,9 +37,11 @@ const App = () => {
   const [timeline, setTimeline] = useState('')
   const [message, setMessage] = useState('')
 
-  const ref = useRef()
+  const refMenu = useRef()
+  const refGallery = useRef()
 
-  const isVisible = useOnScreen(ref);
+  const isVisible = useOnScreen(refMenu);
+  const isGallery = useOnScreen(refGallery)
 
   const inquiry = () => {
       let payload = {
@@ -70,7 +77,10 @@ const App = () => {
     }
 
   useEffect(() => {
-    // console.log(`The component is ${isVisible ? "visible" : "not visible"}.`)
+    console.log(`The component is ${isVisible ? "visible - Menu" : "not visible - Menu"}.`)
+    console.log(`The component is ${isGallery ? "visible - Gallery" : "not visible - Gallery"}.`)
+
+    isGallery ? setGallery(true) : setGallery(false)
 
     let date = new Date();
     let time = date.getHours();
@@ -87,7 +97,7 @@ const App = () => {
     }
 
 
-  },[isVisible])
+  },[isVisible, isGallery])
 
   const toInquiry = () => {
     document.getElementById('inquiry').scrollIntoView({
@@ -112,6 +122,15 @@ const App = () => {
     document.body.style.overflow = 'unset';
   }
 
+  const defaultOptions = {
+    loop: false,
+    autoplay: false,
+    animationData: Gallery.default,
+    rendererSettings: {
+      preserveAspectRatio: 'xMidYMid slice'
+    }
+  };
+
 
   return (
     <>
@@ -130,7 +149,7 @@ const App = () => {
       }}
     />
     <MainLayout>
-    <div ref={ref}></div>
+    <div ref={refMenu}></div>
       <View className={`overlay ${visible ? 'isVisibility' : ''}`} justify="center" align="center" direction="column">
         { loading ? <Lottie width={200} height={200} autoplay={true} loop={true} path={Loading.default}/> : <Lottie width={250} height={250} autoplay={true} loop={true} path={Success.default}/>}
         <Text margin="15px 0 0 0" family="quicksand" size="32">{loading ? 'Just take a moment' : 'Thank You!'}</Text>
@@ -379,6 +398,7 @@ const App = () => {
           </View>
       </View>
       <View className="about-wrapper">
+      
             <View className="about-content-left">
             <Image draggable="false" src="/static/illustrations/square-dots.svg" alt="square-dots" className="square-art"/>
               <View className="about-content" direction="column">
@@ -406,7 +426,9 @@ freelance work.
             </View>
             <View className="about-content-right">
               <View className="gallery-wrapper">
-              <Image className="gallery" draggable="false" alt="gallery" src="/static/illustrations/gallery.png"/>
+              <div ref={refGallery}></div>
+              {/* <Image className="gallery" draggable="false" alt="gallery" src="/static/illustrations/gallery.png"/> */}
+                <Lottiefiles options={defaultOptions} isPaused={!gallery} isStopped={!gallery}/>
               </View>
             </View>
       </View>
