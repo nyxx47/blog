@@ -93,6 +93,31 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "./lib/next-seo.config.js":
+/*!********************************!*\
+  !*** ./lib/next-seo.config.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ({
+  title: 'Krisna Ahroid | Design & Code',
+  description: 'Krisna Ahroid. A UI/UX Designer & Frontend Developer based in Jakarta, Indonesia',
+  openGraph: {
+    type: 'website',
+    locale: 'en_IE',
+    url: 'https://www.ahroidlife.com/',
+    site_name: 'ahroidlife',
+    title: 'Krisna Ahroid | Design & Code',
+    description: 'Krisna Ahroid. A UI/UX Designer & Frontend Developer based in Jakarta, Indonesia',
+    image: 'https://ahroidlife.com/static/illustrations/hero-image.png'
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js":
 /*!**********************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/interopRequireDefault.js ***!
@@ -415,6 +440,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _store__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../store */ "./store/index.js");
 /* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! nprogress */ "nprogress");
 /* harmony import */ var nprogress__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(nprogress__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next-seo */ "next-seo");
+/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_seo__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _lib_next_seo_config__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../lib/next-seo.config */ "./lib/next-seo.config.js");
 var _jsxFileName = "/Users/ahroidlife/Documents/nextjs/blog/pages/_app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -425,6 +453,8 @@ function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (O
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
 
 
 
@@ -483,14 +513,21 @@ class MyApp extends next_app__WEBPACK_IMPORTED_MODULE_1___default.a {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 48,
+        lineNumber: 51,
         columnNumber: 9
       }
-    }, __jsx(Component, _extends({}, pageProps, {
+    }, __jsx(next_seo__WEBPACK_IMPORTED_MODULE_7__["DefaultSeo"], _extends({}, _lib_next_seo_config__WEBPACK_IMPORTED_MODULE_8__["default"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 49,
+        lineNumber: 52,
+        columnNumber: 11
+      }
+    })), __jsx(Component, _extends({}, pageProps, {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 53,
         columnNumber: 11
       }
     })));
@@ -626,6 +663,17 @@ module.exports = __webpack_require__(/*! private-next-pages/_app.js */"./pages/_
 /***/ (function(module, exports) {
 
 module.exports = require("next-redux-wrapper");
+
+/***/ }),
+
+/***/ "next-seo":
+/*!***************************!*\
+  !*** external "next-seo" ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next-seo");
 
 /***/ }),
 

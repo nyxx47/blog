@@ -12,6 +12,8 @@ import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 import { BLOCKS, MARKS } from '@contentful/rich-text-types';
 import actions from '../../store/modules/stories/actions'
 
+import { NextSeo } from 'next-seo';
+
 const Bold = ({ children }) => <p className="bold">{children}</p>;
 
 const client = require('contentful').createClient({
@@ -45,47 +47,71 @@ const Story = ({story}) => {
     const content = documentToReactComponents(story.items[0].fields.body, options)
       
     return (
-        <BlogLayout>
-            <Container className="story-container">
-                <View className="story-content" direction="column">
-                    <Link href="/stories">
-                        <a>
-                            <View className="story-close-btn">
-                                <Image src="/static/illustrations/close-dark.svg"/>
+        <>
+        <NextSeo
+            openGraph={{
+                title: story.items[0].fields.title,
+                description: story.items[0].fields.subtitle,
+                url: `https://ahroidlife.com/stories/${story.items[0].fields.slug}`,
+                type: 'article',
+                article: {
+                authors: [
+                    story.items[0].fields.author.fields.name,
+                ],
+                tags: [story.items[0].fields.tags],
+                },
+                images: [
+                {
+                    url: `https:${story.items[0].fields.heroImage.fields.file.url}`,
+                    width: story.items[0].fields.heroImage.fields.file.details.image.width,
+                    height: story.items[0].fields.heroImage.fields.file.details.image.height,
+                    alt: story.items[0].fields.heroImage.fields.file.title,
+                },
+                ],
+            }}
+            />
+            <BlogLayout>
+                <Container className="story-container">
+                    <View className="story-content" direction="column">
+                        <Link href="/stories">
+                            <a>
+                                <View className="story-close-btn">
+                                    <Image src="/static/illustrations/close-dark.svg"/>
+                                </View>
+                            </a>
+                        </Link>
+                        <View className="story-content-header">
+                            <h1 className="title">{story.items[0].fields.title}</h1>
+                            <Text className="subtitle" family="quicksand">{story.items[0].fields.subtitle}</Text>
+                            <Image src={`https:${story.items[0].fields.heroImage.fields.file.url}`} className="hero-image"/>
+                        </View>
+                        <View className="story-content-body" direction="column">
+                            {/* <Markdown source={content} /> */}
+                            {content}
+                        </View>
+                        <View className="story-content-footer">
+                            <View className="tags-wrapper">
+                                <Text className="title">Tags</Text>
+                                <View className="tags">
+                                    <Badge 
+                                    title="Storybook"
+                                    backgroundColor="#FFEDED"
+                                    color="#FF5252"/>
+                                    <Badge 
+                                    title="React"
+                                    backgroundColor="#FFEDED"
+                                    color="#FF5252"/>
+                                </View>
                             </View>
-                        </a>
-                    </Link>
-                    <View className="story-content-header">
-                        <h1 className="title">{story.items[0].fields.title}</h1>
-                        <Text className="subtitle" family="quicksand">{story.items[0].fields.subtitle}</Text>
-                        <Image src={`https:${story.items[0].fields.heroImage.fields.file.url}`} className="hero-image"/>
-                    </View>
-                    <View className="story-content-body" direction="column">
-                        {/* <Markdown source={content} /> */}
-                        {content}
-                    </View>
-                    <View className="story-content-footer">
-                        <View className="tags-wrapper">
-                            <Text className="title">Tags</Text>
-                            <View className="tags">
-                                <Badge 
-                                title="Storybook"
-                                backgroundColor="#FFEDED"
-                                color="#FF5252"/>
-                                 <Badge 
-                                title="React"
-                                backgroundColor="#FFEDED"
-                                color="#FF5252"/>
+                            <View className="publish-date">
+                                <Text className="title">Publish date</Text>
+                                <Text className="subtitle">2020-04-28 14:50:00</Text>
                             </View>
                         </View>
-                        <View className="publish-date">
-                            <Text className="title">Publish date</Text>
-                            <Text className="subtitle">2020-04-28 14:50:00</Text>
-                        </View>
                     </View>
-                </View>
-            </Container>
-        </BlogLayout>
+                </Container>
+            </BlogLayout>
+        </>
     )
 }
 
