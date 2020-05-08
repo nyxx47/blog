@@ -40,8 +40,8 @@ class MyDocument extends Document {
           <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet"></link>
           <link rel='stylesheet' href='/static/css/nprogress.css'/>
           <link rel="shortcut icon" href="/static/favicon.ico" />
-          <meta property="og:title" content="Krisna ahroid - Freelancer" key="krisna ahroid" />
-          <meta property="og:description" content="Krisna Ahroid. A freelance UI/UX Designer &amp; Frontend Developer based in Jakarta, Indonesia"/>
+          <meta property="og:title" content="Krisna Ahroid - Design & Code" key="krisna ahroid" />
+          <meta property="og:description" content="Krisna Ahroid. A UI/UX Designer &amp; Frontend Developer based in Jakarta, Indonesia"/>
 
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script

@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -6486,9 +6486,11 @@ __webpack_require__.r(__webpack_exports__);
 var _stories_knobs_json__WEBPACK_IMPORTED_MODULE_9___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./stories.knobs.json */ "./pages/stories/stories.knobs.json", 1);
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-redux */ "react-redux");
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react_redux__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _store_modules_stories_actions__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../store/modules/stories/actions */ "./store/modules/stories/actions.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! next-seo */ "next-seo");
+/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(next_seo__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var _store_modules_stories_actions__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../store/modules/stories/actions */ "./store/modules/stories/actions.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_13__);
 var _jsxFileName = "/Users/ahroidlife/Documents/nextjs/blog/pages/stories/stories.jsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -6507,6 +6509,7 @@ const {
   item,
   populars
 } = _stories_knobs_json__WEBPACK_IMPORTED_MODULE_9__;
+
 
 
 
@@ -6576,26 +6579,30 @@ const Stories = () => {
     getStoriesCategories();
     getPopulars();
   }, []);
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(next_head__WEBPACK_IMPORTED_MODULE_8___default.a, {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(next_seo__WEBPACK_IMPORTED_MODULE_11__["NextSeo"], {
+    title: "Krisna Ahroid | Stories",
+    description: "Krisna Ahroid. Stories is my story at day by day. I Write and Talk!",
+    openGraph: {
+      type: 'website',
+      locale: 'en_IE',
+      url: 'https://www.ahroidlife.com/stories',
+      site_name: 'ahroidlife',
+      title: 'Krisna Ahroid | Stories',
+      description: 'Krisna Ahroid. A UI/UX Designer & Frontend Developer based in Jakarta, Indonesia',
+      image: 'https://res.cloudinary.com/ahroidlife/image/upload/v1588948107/daily-stories_xssful.svg'
+    },
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84,
+      lineNumber: 86,
       columnNumber: 9
     }
-  }, __jsx("title", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 85,
-      columnNumber: 13
-    }
-  }, "Krisna Ahroid | Stories")), __jsx(_components_templates_layouts__WEBPACK_IMPORTED_MODULE_1__["BlogLayout"], {
+  }), __jsx(_components_templates_layouts__WEBPACK_IMPORTED_MODULE_1__["BlogLayout"], {
     title: "Stories",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87,
+      lineNumber: 100,
       columnNumber: 9
     }
   }, __jsx(_components_organisms__WEBPACK_IMPORTED_MODULE_2__["Hero"], {
@@ -6605,7 +6612,7 @@ const Stories = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88,
+      lineNumber: 101,
       columnNumber: 13
     }
   }), __jsx(_components_organisms__WEBPACK_IMPORTED_MODULE_2__["SliderHero"], {
@@ -6613,7 +6620,7 @@ const Stories = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 93,
+      lineNumber: 106,
       columnNumber: 13
     }
   }), __jsx(_components_organisms__WEBPACK_IMPORTED_MODULE_2__["SliderCategories"], {
@@ -6621,7 +6628,7 @@ const Stories = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95,
+      lineNumber: 108,
       columnNumber: 13
     }
   }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
@@ -6631,7 +6638,7 @@ const Stories = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97,
+      lineNumber: 110,
       columnNumber: 13
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
@@ -6639,7 +6646,7 @@ const Stories = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98,
+      lineNumber: 111,
       columnNumber: 17
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["Text"], {
@@ -6648,14 +6655,14 @@ const Stories = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 99,
+      lineNumber: 112,
       columnNumber: 21
     }
   }, "Our Stories")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["Rows"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101,
+      lineNumber: 114,
       columnNumber: 17
     }
   }, story.map((item, index) => __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_5__["View"], {
@@ -6664,16 +6671,16 @@ const Stories = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104,
+      lineNumber: 117,
       columnNumber: 37
     }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_12___default.a, {
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_13___default.a, {
     href: "/stories/[slug]",
     as: `/stories/${item.fields.slug}`,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105,
+      lineNumber: 118,
       columnNumber: 41
     }
   }, __jsx("a", {
@@ -6683,7 +6690,7 @@ const Stories = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 106,
+      lineNumber: 119,
       columnNumber: 45
     }
   }, __jsx(_components_molecules__WEBPACK_IMPORTED_MODULE_6__["CardStories"], {
@@ -6694,7 +6701,7 @@ const Stories = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107,
+      lineNumber: 120,
       columnNumber: 49
     }
   })))))))));
@@ -6782,7 +6789,7 @@ const SET_STORY = 'story';
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!**************************************!*\
   !*** multi ./pages/stories/index.js ***!
   \**************************************/
@@ -6813,6 +6820,17 @@ module.exports = require("@egjs/react-flicking");
 /***/ (function(module, exports) {
 
 module.exports = require("contentful");
+
+/***/ }),
+
+/***/ "next-seo":
+/*!***************************!*\
+  !*** external "next-seo" ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next-seo");
 
 /***/ }),
 

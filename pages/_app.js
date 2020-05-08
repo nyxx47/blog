@@ -1,10 +1,13 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import App from 'next/app';
 import Router from 'next/router';
 import {Provider} from 'react-redux';
 import withRedux from 'next-redux-wrapper';
 import configureStore from '../store';
 import NProgress from 'nprogress';
+import { DefaultSeo } from 'next-seo';
+
+import SEO from '../lib/next-seo.config'
 
 NProgress.configure({ easing: 'ease', speed: 500, showSpinner: false });
 
@@ -46,6 +49,7 @@ class MyApp extends App{
     const { Component, pageProps, store } = this.props;
     return (
         <Provider store={store}>
+          <DefaultSeo {...SEO} />
           <Component {...pageProps} />
         </Provider>
     );

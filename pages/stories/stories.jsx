@@ -12,6 +12,8 @@ import Knobs from './stories.knobs.json'
 import { useDispatch } from 'react-redux';
 const {item, populars} = Knobs
 
+import { NextSeo } from 'next-seo';
+
 import actions from '../../store/modules/stories/actions'
 import Link from 'next/link';
 
@@ -81,9 +83,20 @@ const Stories = () => {
 
     return (
         <>
-        <Head>
-            <title>Krisna Ahroid | Stories</title>
-        </Head>
+        <NextSeo
+            title= 'Krisna Ahroid | Stories'
+            description= 'Krisna Ahroid. Stories is my story at day by day. I Write and Talk!'
+            openGraph={{
+                type: 'website',
+                locale: 'en_IE',
+                url: 'https://www.ahroidlife.com/stories',
+                site_name: 'ahroidlife',
+                title: 'Krisna Ahroid | Stories',
+                description: 'Krisna Ahroid. A UI/UX Designer & Frontend Developer based in Jakarta, Indonesia',
+                image: 'https://res.cloudinary.com/ahroidlife/image/upload/v1588948107/daily-stories_xssful.svg',
+                
+            }}
+        />
         <BlogLayout title="Stories">
             <Hero
                 title="Stories Resources"

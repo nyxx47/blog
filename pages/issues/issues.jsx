@@ -21,6 +21,20 @@ const Issues = () => {
 
     return (
         <>
+        <NextSeo
+            title= 'Krisna Ahroid | Issues'
+            description= 'Krisna Ahroid. Issues is my problem which i found in everyday.'
+            openGraph={{
+                type: 'website',
+                locale: 'en_IE',
+                url: 'https://www.ahroidlife.com/issues',
+                site_name: 'ahroidlife',
+                title: 'Krisna Ahroid | Issues',
+                description: 'Krisna Ahroid. Issues is my problem which i found in everyday.',
+                image: 'https://res.cloudinary.com/ahroidlife/image/upload/v1588948217/daily-problem_wlqgnx.svg',
+                
+            }}
+        />
             <BlogLayout title="Issues" line="illustration-outline">
                 <Hero 
                     title="Daily Problems" 
