@@ -1379,8 +1379,7 @@ body::-webkit-scrollbar-thumb {
       .story-container .story-content .story-content-body ul li, .story-container .story-content .story-content-body ol li {
         padding-left: 10px; }
     .story-container .story-content .story-content-body img {
-      width: 100%;
-      height: auto; }
+      width: 100%; }
     .story-container .story-content .story-content-body blockquote {
       background: #f0f7ff;
       box-sizing: border-box;

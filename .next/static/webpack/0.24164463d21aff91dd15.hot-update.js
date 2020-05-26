@@ -29,7 +29,7 @@ webpackHotUpdate(0,{
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1588955985488");
+            injectCss(link, link.href.split("?")[0] + "?unix=1590486970962");
           });
       }
     }
@@ -66,7 +66,7 @@ webpackHotUpdate(0,{
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1588955985491");
+            injectCss(link, link.href.split("?")[0] + "?unix=1590486971119");
           });
       }
     }
@@ -103,7 +103,7 @@ webpackHotUpdate(0,{
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1588955985951");
+            injectCss(link, link.href.split("?")[0] + "?unix=1590486970678");
           });
       }
     }
@@ -140,7 +140,7 @@ webpackHotUpdate(0,{
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1588955985914");
+            injectCss(link, link.href.split("?")[0] + "?unix=1590486970688");
           });
       }
     }
@@ -177,7 +177,7 @@ webpackHotUpdate(0,{
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1588955985894");
+            injectCss(link, link.href.split("?")[0] + "?unix=1590486970651");
           });
       }
     }
@@ -214,7 +214,7 @@ webpackHotUpdate(0,{
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1588955985936");
+            injectCss(link, link.href.split("?")[0] + "?unix=1590486970667");
           });
       }
     }
@@ -251,7 +251,44 @@ webpackHotUpdate(0,{
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1588955985902");
+            injectCss(link, link.href.split("?")[0] + "?unix=1590486970643");
+          });
+      }
+    }
+  
+
+/***/ }),
+
+/***/ "./pages/stories/stories.scss":
+/*!************************************!*\
+  !*** ./pages/stories/stories.scss ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin;
+    if (true) {
+      var injectCss = function injectCss(prev, href) {
+        var link = prev.cloneNode();
+        link.href = href;
+        link.onload = function() {
+          prev.parentNode.removeChild(prev);
+        };
+        prev.stale = true;
+        prev.parentNode.insertBefore(link, prev);
+      };
+      module.hot.dispose(function() {
+        window.__webpack_reload_css__ = true;
+      });
+      if (window.__webpack_reload_css__) {
+        module.hot.__webpack_reload_css__ = false;
+        console.log("[HMR] Reloading stylesheets...");
+        var prefix = document.location.protocol + '//' + document.location.host;
+        document
+          .querySelectorAll("link[href][rel=stylesheet]")
+          .forEach(function(link) {
+            if (!link.href.match(prefix) || link.stale) return;
+            injectCss(link, link.href.split("?")[0] + "?unix=1590486969348");
           });
       }
     }
@@ -288,7 +325,7 @@ webpackHotUpdate(0,{
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1588955985481");
+            injectCss(link, link.href.split("?")[0] + "?unix=1590486969830");
           });
       }
     }

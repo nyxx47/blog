@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { BlogLayout } from "../../components/templates/layouts";
 import { Container, View, Text, Image, Badge} from '../../components/atoms'
+import Moment from 'moment';
 
 import './stories.scss'
 import Link from 'next/link';
@@ -23,6 +24,7 @@ const client = require('contentful').createClient({
 
 
 const Story = ({story}) => {
+    console.log("RES :: ", story)
 
     const options = {
         renderMark: {
@@ -93,19 +95,14 @@ const Story = ({story}) => {
                             <View className="tags-wrapper">
                                 <Text className="title">Tags</Text>
                                 <View className="tags">
-                                    <Badge 
-                                    title="Storybook"
-                                    backgroundColor="#FFEDED"
-                                    color="#FF5252"/>
-                                    <Badge 
-                                    title="React"
-                                    backgroundColor="#FFEDED"
-                                    color="#FF5252"/>
+                                {
+                                    story.items[0].fields.tags.map((tag, index) => <Badge key={index} title={tag} backgroundColor="#FFEDED" color="#FF5252"/>)
+                                }
                                 </View>
                             </View>
                             <View className="publish-date">
                                 <Text className="title">Publish date</Text>
-                                <Text className="subtitle">2020-04-28 14:50:00</Text>
+                                <Text className="subtitle">{Moment(story.items[0].fields.publishDate).format('LLLL')}</Text>
                             </View>
                         </View>
                     </View>
