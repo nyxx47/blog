@@ -1,4 +1,5 @@
 import React, {Component, useEffect, useState} from 'react'
+import ContentLoader from 'react-content-loader'
 import { BlogLayout } from "../../components/templates/layouts";
 import {Hero} from '../../components/organisms'
 import ImageHero from '../../assets/illustrations/daily-stories.svg'
@@ -26,6 +27,8 @@ const Stories = () => {
     const [popular, setPopular] = useState([])
     const [stories, setStories] = useState([])
     const [story, setStory] = useState([])
+    const [loading, setLoading] = useState(false)
+    const [loading2, setLoading2] = useState(false)
 
     const dispatch = useDispatch()
 
@@ -68,11 +71,13 @@ const Stories = () => {
         async function getStoriesCategories(){
             const allCategories = await fetchStoryCategories()
             setStories([...allCategories])
+            setLoading2(true)
         }
 
         async function getStories(){
             const allStories = await fetchStories()
             setStory([...allStories])
+            setLoading(true)
         }
         
         getStories()
@@ -105,7 +110,24 @@ const Stories = () => {
 
             <SliderHero items={popular}/>
 
-            <SliderCategories items={stories}/>
+            { 
+                loading2 ? 
+                <SliderCategories items={stories}/>
+                :
+                <View className="stories-loader">
+                    <ContentLoader
+                        width={730}
+                        height={304}
+                        speed={1}
+                        primaryColor="#e4e4e4"
+                        secondaryColor="#d3d3d3"
+                        >
+                        <rect x="0" y="49" rx="0" ry="0" width="100" height="20" />
+                        <rect x="0" y="97" rx="0" ry="0" width="100%" height="100" />
+                    </ContentLoader>
+                </View>
+            }
+            
 
             <View padding="100px" direction="column" className="stories-post-container">
                 <View margin="0 0 50px 0">
@@ -113,6 +135,7 @@ const Stories = () => {
                 </View>
                 <Rows>
                     {
+                        loading ? 
                         story.map((item, index) => (
                                     <View key={index} className="grid-item-3">
                                         <Link href="/stories/[slug]" as={`/stories/${item.fields.slug}`}>
@@ -121,9 +144,20 @@ const Stories = () => {
                                             </a>
                                         </Link>
                                     </View>
-                        ))
+                        )) :
+                        <ContentLoader
+                            viewBox="0 0 500 280"
+                            height={280}
+                            speed={3}
+                        >
+                            <rect x="3" y="3" rx="10" ry="10" width="100%" height="180" />
+                            <rect x="6" y="190" rx="0" ry="0" width="292" height="20" />
+                            <rect x="4" y="215" rx="0" ry="0" width="239" height="20" />
+                            <rect x="4" y="242" rx="0" ry="0" width="274" height="20" />
+                        </ContentLoader>
                     }
                 </Rows>
+                
             </View>
         </BlogLayout> 
         </>

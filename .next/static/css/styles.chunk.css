@@ -1287,6 +1287,12 @@ body::-webkit-scrollbar-thumb {
     .stories-post-container .card-our-stories {
       height: 350px !important; } }
 
+.stories-loader {
+  padding: 100px; }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+    .stories-loader {
+      padding: 20px !important; } }
+
 .story-container {
   width: 100%;
   min-height: 100vh;

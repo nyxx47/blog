@@ -20,7 +20,7 @@ const CardStories = ({title, subtitle, label, image, className}) => {
             <Text size="20">{subtitle}</Text>
           </View>
           <View>
-            <Text family="daily" size="32">{title}</Text>
+            <Text family="daily" size="32" variant="heavy">{title}</Text>
           </View>
         </View>
       </View>
