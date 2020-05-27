@@ -412,7 +412,7 @@ const App = () => {
                 </View>
                 <View className="about-content-body" direction="column">
                   <Text family="quicksand" variant="dark" className="hi">Hi There,</Text>
-                  <Text family="quicksand" variant="dark" className="about-me">I’m an enthusiastic UI/UX Designer & Frontend Developer, You can find my recent projects on <a href="https://dribbble.com/ahroidlife" rel="noreferrer" target="_blank">Dribbble</a> and <a href="https://www.instagram.com/user.ahroidlife/" rel="noreferrer" target="_blank">Instagram</a> or if you’re interested in my design and if you are want to development an application, let me know.
+                  <Text family="quicksand" variant="dark" className="about-me">I’m an UI/UX Designer & Javascript Enthusiast, You can find my recent projects on <a href="https://dribbble.com/ahroidlife" rel="noreferrer" target="_blank">Dribbble</a> and <a href="https://www.instagram.com/user.ahroidlife/" rel="noreferrer" target="_blank">Instagram</a> or if you’re interested in my design and if you are want to development an application, let me know.
                   </Text>
                   <Text family="quicksand" variant="dark" className="available-me">
                   I’m currently available for <br/>
