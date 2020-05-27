@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1985,6 +1985,9 @@ const color = props => {
     case "dark":
       return "#64637B";
 
+    case "heavy":
+      return "#0b0b0e";
+
     default:
       return props.variant;
       break;
@@ -2733,6 +2736,7 @@ const CardStories = ({
   }, __jsx(_atoms__WEBPACK_IMPORTED_MODULE_1__["Text"], {
     family: "daily",
     size: "32",
+    variant: "heavy",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -6831,7 +6835,7 @@ const SET_STORY = 'story';
 
 /***/ }),
 
-/***/ 4:
+/***/ 5:
 /*!****************************************!*\
   !*** multi ./pages/stories/[slug].jsx ***!
   \****************************************/
