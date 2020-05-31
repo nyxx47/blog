@@ -29,7 +29,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1590582844828");
+            injectCss(link, link.href.split("?")[0] + "?unix=1590929116914");
           });
       }
     }
@@ -66,7 +66,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1590582844831");
+            injectCss(link, link.href.split("?")[0] + "?unix=1590929116916");
           });
       }
     }
@@ -103,7 +103,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1590582845468");
+            injectCss(link, link.href.split("?")[0] + "?unix=1590929117546");
           });
       }
     }
@@ -140,7 +140,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1590582845460");
+            injectCss(link, link.href.split("?")[0] + "?unix=1590929117511");
           });
       }
     }
@@ -177,7 +177,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1590582845256");
+            injectCss(link, link.href.split("?")[0] + "?unix=1590929117306");
           });
       }
     }
@@ -214,7 +214,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1590582845488");
+            injectCss(link, link.href.split("?")[0] + "?unix=1590929117530");
           });
       }
     }
@@ -251,7 +251,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1590582845265");
+            injectCss(link, link.href.split("?")[0] + "?unix=1590929117313");
           });
       }
     }
@@ -271,10 +271,10 @@
 
 /***/ }),
 
-/***/ "./pages/stories/stories.scss":
-/*!************************************!*\
-  !*** ./pages/stories/stories.scss ***!
-  \************************************/
+/***/ "./pages/products/product.scss":
+/*!*************************************!*\
+  !*** ./pages/products/product.scss ***!
+  \*************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -300,7 +300,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1590582863005");
+            injectCss(link, link.href.split("?")[0] + "?unix=1590935925124");
           });
       }
     }
@@ -337,7 +337,7 @@
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1590582844824");
+            injectCss(link, link.href.split("?")[0] + "?unix=1590930486354");
           });
       }
     }

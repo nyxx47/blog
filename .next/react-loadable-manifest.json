@@ -103,8 +103,8 @@
       "publicPath": "static/chunks/styles.js"
     },
     {
-      "id": "./pages/stories/stories.scss",
-      "name": "./pages/stories/stories.scss",
+      "id": "./pages/products/product.scss",
+      "name": "./pages/products/product.scss",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     },

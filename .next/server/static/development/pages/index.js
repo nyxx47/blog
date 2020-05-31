@@ -8133,7 +8133,7 @@ const App = () => {
       lineNumber: 415,
       columnNumber: 19
     }
-  }, "I\u2019m an enthusiastic UI/UX Designer & Frontend Developer, You can find my recent projects on ", __jsx("a", {
+  }, "I\u2019m an UI/UX Designer & Javascript Enthusiast, You can find my recent projects on ", __jsx("a", {
     href: "https://dribbble.com/ahroidlife",
     rel: "noreferrer",
     target: "_blank",
@@ -8141,7 +8141,7 @@ const App = () => {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 415,
-      columnNumber: 172
+      columnNumber: 162
     }
   }, "Dribbble"), " and ", __jsx("a", {
     href: "https://www.instagram.com/user.ahroidlife/",
@@ -8151,7 +8151,7 @@ const App = () => {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 415,
-      columnNumber: 264
+      columnNumber: 254
     }
   }, "Instagram"), " or if you\u2019re interested in my design and if you are want to development an application, let me know."), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_8__["Text"], {
     family: "quicksand",
