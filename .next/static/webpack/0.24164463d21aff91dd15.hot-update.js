@@ -3037,7 +3037,7 @@ _defineProperty(YouTube, "displayName", 'YouTube');
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1590991518050");
+            injectCss(link, link.href.split("?")[0] + "?unix=1590992049346");
           });
       }
     }

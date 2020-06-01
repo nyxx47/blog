@@ -285,6 +285,20 @@ body{
                     padding-top: 10px;
                     padding-bottom: 10px;
                 }
+
+                .isVisible{
+                    visibility: visible !important;
+                }
+
+                .coming-soon{
+                    visibility: hidden;
+                    font-family: 'Quicksand', sans-serif;
+                    font-weight: 400;
+                    font-size: 16px;
+                    text-align: left;
+                    color: #ff6f6f;
+                    margin-top: 25px;
+                }
             }
 
 

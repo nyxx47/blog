@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 5);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -6647,7 +6647,7 @@ const App = () => {
     if (firstname.length > 3 && lastname.length > 3 && email.length > 8 && message.length > 20) {
       setVisible(true);
       setLoading(true);
-      axios__WEBPACK_IMPORTED_MODULE_2___default.a.post("http://localhost:8080" + '/api/inquiry/create', JSON.stringify(payload)).then(res => {
+      axios__WEBPACK_IMPORTED_MODULE_2___default.a.post("https://ahroidlife.com:81" + '/api/inquiry/create', JSON.stringify(payload)).then(res => {
         setTimeout(() => {
           setLoading(false);
         }, 2000);
@@ -9344,7 +9344,7 @@ module.exports = JSON.parse("{\"data\":{\"menus\":[{\"id\":\"1\",\"title\":\"Pro
 
 /***/ }),
 
-/***/ 5:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

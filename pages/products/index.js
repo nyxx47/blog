@@ -15,6 +15,7 @@ import { useState, useRef, useEffect } from 'react'
 const Products = () => {
     const [luna, setLuna] = useState(false)
     const [summary, setSummary] = useState(false)
+    const [visible, setVisible] = useState(false)
 
     const lunaRef = useRef()
     const summaryRef = useRef()
@@ -47,6 +48,10 @@ const Products = () => {
           preserveAspectRatio: 'xMidYMid slice'
         }
       };
+
+    const purchase = () => {
+        setVisible(true)
+    }
 
     return (
         <>
@@ -87,7 +92,7 @@ const Products = () => {
                 <Image src="/static/illustrations/box-dark.svg" className="box-dark" draggable="false" alt="box-dark"/>
                 <Image src="/static/illustrations/box-grey.svg" className="box-grey" draggable="false" alt="box-grey"/>
                     <View className="pricing">
-                        <strong>$45</strong>
+                        <strong>$57</strong>
                         <p>$82</p>
                     </View>
                     <View className="content">
@@ -126,7 +131,8 @@ const Products = () => {
                                 <p>You can easily make this kit your own by simply modifying the global text and color styles and adding your own content.
 Available for the latest versions of Adobe XD.</p>
 
-                                <Button className="button">Buy Now</Button>
+                                <Button className="button" onClick={purchase}>Buy Now</Button>
+                                <p className={`coming-soon ${visible ? 'isVisible' : ''}`} >Coming soon, Stay tuned for something Awesome.</p>
                             </View>
                         </View>
                 </View>
