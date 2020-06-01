@@ -92,8 +92,8 @@ const Products = () => {
                 <Image src="/static/illustrations/box-dark.svg" className="box-dark" draggable="false" alt="box-dark"/>
                 <Image src="/static/illustrations/box-grey.svg" className="box-grey" draggable="false" alt="box-grey"/>
                     <View className="pricing">
-                        <strong>$57</strong>
-                        <p>$82</p>
+                        <strong>$48</strong>
+                        <p>$75</p>
                     </View>
                     <View className="content">
                         <View className="title">
