@@ -40,6 +40,11 @@ body::-webkit-scrollbar-thumb
     src: url('/static/fonts/Daily.otf');
 }
 
+@font-face {
+    font-family: 'Bella';
+    src: url('/static/fonts/Bella.ttf');
+}
+
 // Landing page
 .isActiveEl{
     display: inline-block !important;

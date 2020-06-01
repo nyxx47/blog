@@ -751,6 +751,9 @@ var isBackgroundColor = function isBackgroundColor(props) {
       color = "#EDEDED";
       break;
 
+    case "dark":
+      color = "#1E2127";
+
     default:
       color = "#001CF9";
       break;
@@ -770,6 +773,9 @@ var isHover = function isHover(props) {
     case "secondary":
       color = "#001CF9";
       break;
+
+    case "dark":
+      color = "#000000";
 
     default:
       color = "#001CF9";
@@ -22585,7 +22591,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var qs__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(qs__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var lodash_isPlainObject__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash/isPlainObject */ "./node_modules/lodash/isPlainObject.js");
 /* harmony import */ var lodash_isPlainObject__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash_isPlainObject__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var os__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! os */ 3);
+/* harmony import */ var os__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! os */ 6);
 /* harmony import */ var os__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(os__WEBPACK_IMPORTED_MODULE_3__);
 
 
@@ -52607,7 +52613,7 @@ var App = function App() {
       lineNumber: 415,
       columnNumber: 19
     }
-  }, "I\u2019m an enthusiastic UI/UX Designer & Frontend Developer, You can find my recent projects on ", __jsx("a", {
+  }, "I\u2019m an UI/UX Designer & Javascript Enthusiast, You can find my recent projects on ", __jsx("a", {
     href: "https://dribbble.com/ahroidlife",
     rel: "noreferrer",
     target: "_blank",
@@ -52615,7 +52621,7 @@ var App = function App() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 415,
-      columnNumber: 172
+      columnNumber: 162
     }
   }, "Dribbble"), " and ", __jsx("a", {
     href: "https://www.instagram.com/user.ahroidlife/",
@@ -52625,7 +52631,7 @@ var App = function App() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 415,
-      columnNumber: 264
+      columnNumber: 254
     }
   }, "Instagram"), " or if you\u2019re interested in my design and if you are want to development an application, let me know."), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_8__["Text"], {
     family: "quicksand",
@@ -53831,7 +53837,7 @@ module.exports = JSON.parse("{\"data\":{\"menus\":[{\"id\":\"1\",\"title\":\"Pro
 
 /***/ }),
 
-/***/ 1:
+/***/ 4:
 /*!*************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fahroidlife%2FDocuments%2Fnextjs%2Fblog%2Fpages%2Findex.js ***!
   \*************************************************************************************************************************************/
@@ -53843,7 +53849,7 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absol
 
 /***/ }),
 
-/***/ 3:
+/***/ 6:
 /*!********************!*\
   !*** os (ignored) ***!
   \********************/
@@ -53865,5 +53871,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js",0]]]);
+},[[4,"static/runtime/webpack.js",0]]]);
 //# sourceMappingURL=index.js.map

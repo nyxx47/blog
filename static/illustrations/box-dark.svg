@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="336.504" height="336.504" viewBox="0 0 336.504 336.504">
+  <defs>
+    <filter id="Rectangle_75" x="0" y="0" width="336.504" height="336.504" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_109" data-name="Group 109" transform="translate(-905.144 -1287.276)">
+    <g transform="matrix(1, 0, 0, 1, 905.14, 1287.28)" filter="url(#Rectangle_75)">
+      <rect id="Rectangle_75-2" data-name="Rectangle 75" width="222" height="222" rx="40" transform="matrix(0.09, 1, -1, 0.09, 269.16, 38)" fill="#1e2127"/>
+    </g>
+    <g id="Group_107" data-name="Group 107" transform="translate(-2 -17)">
+      <path id="Path_49" data-name="Path 49" d="M2630.107,1296.5l108.474-108.474" transform="translate(-1615 220)" fill="none" stroke="#fff" stroke-width="1" opacity="0.2"/>
+      <path id="Path_50" data-name="Path 50" d="M2630.107,1256.263l68.237-68.237" transform="translate(-1611 227.237)" fill="none" stroke="#fff" stroke-width="1" opacity="0.2"/>
+      <path id="Path_51" data-name="Path 51" d="M2630.107,1235.431l47.405-47.405" transform="translate(-1549.168 243.237)" fill="none" stroke="#fff" stroke-width="1" opacity="0.2"/>
+    </g>
+  </g>
+</svg>

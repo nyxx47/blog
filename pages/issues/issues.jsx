@@ -5,6 +5,8 @@ import { ArticleText} from '../../components/organisms'
 import ImageHero from '../../assets/illustrations/daily-problem.svg'
 import IssueFlow from '../../static/illustrations/issue-flow.svg'
 
+import { NextSeo } from 'next-seo';
+
 import Knobs from './issues.knobs.json'
 import { useEffect } from "react";
 const {items, populars, others} = Knobs.data

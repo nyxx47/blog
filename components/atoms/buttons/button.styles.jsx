@@ -12,6 +12,8 @@ const isBackgroundColor = props => {
     case "secondary":
       color = "#EDEDED"
       break;
+    case "dark":
+      color = "#1E2127"
     default:
       color = "#001CF9"
       break;
@@ -30,6 +32,8 @@ const isHover = props => {
     case "secondary":
       color = "#001CF9"
       break;
+    case "dark":
+      color = "#000000"
     default:
       color = "#001CF9"
       break;
