@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Lottiefiles from 'react-lottie'
 import useOnScreen from '../../components/particles/useOnScreen'
 import ReactPlayer from 'react-player'
+import { NextSeo } from 'next-seo';
 
 import * as Lunafreya from '../../assets/lottiefiles/lunafreya.json'
 import * as Summary from '../../assets/lottiefiles/summary.json'
@@ -49,6 +50,20 @@ const Products = () => {
 
     return (
         <>
+        <NextSeo
+            title= 'Krisna Ahroid | Products'
+            description= 'Krisna Ahroid. Here we go, This is my products.'
+            openGraph={{
+                type: 'website',
+                locale: 'en_IE',
+                url: 'https://www.ahroidlife.com/products',
+                site_name: 'ahroidlife',
+                title: 'Krisna Ahroid | Products',
+                description: 'Krisna Ahroid. Here we go, This is my products.',
+                image: 'https://res.cloudinary.com/ahroidlife/image/upload/v1588948107/daily-stories_xssful.svg',
+                
+            }}
+        />
             <Container className="product-container illustration-outline">
                 <View position="absolute" top="3%" left="2%">
                     <Link href="/">

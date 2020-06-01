@@ -4107,15 +4107,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_particles_useOnScreen__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/particles/useOnScreen */ "./components/particles/useOnScreen.js");
 /* harmony import */ var react_player__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-player */ "react-player");
 /* harmony import */ var react_player__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react_player__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _assets_lottiefiles_lunafreya_json__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../assets/lottiefiles/lunafreya.json */ "./assets/lottiefiles/lunafreya.json");
-var _assets_lottiefiles_lunafreya_json__WEBPACK_IMPORTED_MODULE_7___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../assets/lottiefiles/lunafreya.json */ "./assets/lottiefiles/lunafreya.json", 1);
-/* harmony import */ var _assets_lottiefiles_summary_json__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../assets/lottiefiles/summary.json */ "./assets/lottiefiles/summary.json");
-var _assets_lottiefiles_summary_json__WEBPACK_IMPORTED_MODULE_8___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../assets/lottiefiles/summary.json */ "./assets/lottiefiles/summary.json", 1);
-/* harmony import */ var _product_scss__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./product.scss */ "./pages/products/product.scss");
-/* harmony import */ var _product_scss__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_product_scss__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next-seo */ "next-seo");
+/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_seo__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _assets_lottiefiles_lunafreya_json__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../assets/lottiefiles/lunafreya.json */ "./assets/lottiefiles/lunafreya.json");
+var _assets_lottiefiles_lunafreya_json__WEBPACK_IMPORTED_MODULE_8___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../assets/lottiefiles/lunafreya.json */ "./assets/lottiefiles/lunafreya.json", 1);
+/* harmony import */ var _assets_lottiefiles_summary_json__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../assets/lottiefiles/summary.json */ "./assets/lottiefiles/summary.json");
+var _assets_lottiefiles_summary_json__WEBPACK_IMPORTED_MODULE_9___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../assets/lottiefiles/summary.json */ "./assets/lottiefiles/summary.json", 1);
+/* harmony import */ var _product_scss__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./product.scss */ "./pages/products/product.scss");
+/* harmony import */ var _product_scss__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_product_scss__WEBPACK_IMPORTED_MODULE_10__);
 var _jsxFileName = "/Users/ahroidlife/Documents/nextjs/blog/pages/products/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -4148,7 +4151,7 @@ const Products = () => {
   const defaultOptions = {
     loop: false,
     autoplay: false,
-    animationData: _assets_lottiefiles_lunafreya_json__WEBPACK_IMPORTED_MODULE_7__,
+    animationData: _assets_lottiefiles_lunafreya_json__WEBPACK_IMPORTED_MODULE_8__,
     rendererSettings: {
       preserveAspectRatio: 'xMidYMid slice'
     }
@@ -4156,17 +4159,35 @@ const Products = () => {
   const defaultOptions2 = {
     loop: false,
     autoplay: true,
-    animationData: _assets_lottiefiles_summary_json__WEBPACK_IMPORTED_MODULE_8__,
+    animationData: _assets_lottiefiles_summary_json__WEBPACK_IMPORTED_MODULE_9__,
     rendererSettings: {
       preserveAspectRatio: 'xMidYMid slice'
     }
   };
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["Container"], {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(next_seo__WEBPACK_IMPORTED_MODULE_7__["NextSeo"], {
+    title: "Krisna Ahroid | Products",
+    description: "Krisna Ahroid. Here we go, This is my products.",
+    openGraph: {
+      type: 'website',
+      locale: 'en_IE',
+      url: 'https://www.ahroidlife.com/products',
+      site_name: 'ahroidlife',
+      title: 'Krisna Ahroid | Products',
+      description: 'Krisna Ahroid. Here we go, This is my products.',
+      image: 'https://res.cloudinary.com/ahroidlife/image/upload/v1588948107/daily-stories_xssful.svg'
+    },
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53,
+      columnNumber: 9
+    }
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["Container"], {
     className: "product-container illustration-outline",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 67,
       columnNumber: 13
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4176,7 +4197,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53,
+      lineNumber: 68,
       columnNumber: 17
     }
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
@@ -4184,14 +4205,14 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 69,
       columnNumber: 21
     }
   }, __jsx("a", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55,
+      lineNumber: 70,
       columnNumber: 25
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -4199,7 +4220,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56,
+      lineNumber: 71,
       columnNumber: 29
     }
   })))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4207,7 +4228,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60,
+      lineNumber: 75,
       columnNumber: 17
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4215,21 +4236,21 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61,
+      lineNumber: 76,
       columnNumber: 21
     }
   }, __jsx("h1", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62,
+      lineNumber: 77,
       columnNumber: 25
     }
   }, "Lunafreya"), __jsx("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63,
+      lineNumber: 78,
       columnNumber: 25
     }
   }, "Lunafreya is a UI Kit created to help you introduce your shoppping app, boost your creativity and save you time.")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4237,7 +4258,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65,
+      lineNumber: 80,
       columnNumber: 21
     }
   })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4245,7 +4266,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67,
+      lineNumber: 82,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -4253,7 +4274,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68,
+      lineNumber: 83,
       columnNumber: 21
     }
   }), __jsx(react_lottie__WEBPACK_IMPORTED_MODULE_4___default.a, {
@@ -4265,7 +4286,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 69,
+      lineNumber: 84,
       columnNumber: 21
     }
   })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4273,7 +4294,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71,
+      lineNumber: 86,
       columnNumber: 17
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -4284,7 +4305,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72,
+      lineNumber: 87,
       columnNumber: 17
     }
   }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -4295,7 +4316,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73,
+      lineNumber: 88,
       columnNumber: 17
     }
   }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4303,21 +4324,21 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74,
+      lineNumber: 89,
       columnNumber: 21
     }
   }, __jsx("strong", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75,
+      lineNumber: 90,
       columnNumber: 25
     }
   }, "$45"), __jsx("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76,
+      lineNumber: 91,
       columnNumber: 25
     }
   }, "$82")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4325,7 +4346,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78,
+      lineNumber: 93,
       columnNumber: 21
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4333,21 +4354,21 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79,
+      lineNumber: 94,
       columnNumber: 25
     }
   }, __jsx("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80,
+      lineNumber: 95,
       columnNumber: 29
     }
   }, "HIGHLIGHTS"), __jsx("h1", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81,
+      lineNumber: 96,
       columnNumber: 29
     }
   }, "Full Customizable")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4355,7 +4376,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83,
+      lineNumber: 98,
       columnNumber: 25
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4363,7 +4384,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84,
+      lineNumber: 99,
       columnNumber: 29
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -4373,21 +4394,21 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85,
+      lineNumber: 100,
       columnNumber: 33
     }
   }), __jsx("h1", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86,
+      lineNumber: 101,
       columnNumber: 33
     }
   }, "27+ Screens"), __jsx("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87,
+      lineNumber: 102,
       columnNumber: 33
     }
   }, "On screen iPhone X")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4395,7 +4416,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 89,
+      lineNumber: 104,
       columnNumber: 29
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -4405,21 +4426,21 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90,
+      lineNumber: 105,
       columnNumber: 33
     }
   }), __jsx("h1", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91,
+      lineNumber: 106,
       columnNumber: 33
     }
   }, "Typography"), __jsx("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92,
+      lineNumber: 107,
       columnNumber: 33
     }
   }, "Montserrat & Nunito Fonts family ")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4427,7 +4448,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94,
+      lineNumber: 109,
       columnNumber: 29
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -4437,21 +4458,21 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95,
+      lineNumber: 110,
       columnNumber: 33
     }
   }), __jsx("h1", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96,
+      lineNumber: 111,
       columnNumber: 33
     }
   }, "Vector Base"), __jsx("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97,
+      lineNumber: 112,
       columnNumber: 33
     }
   }, "Can modify your style"))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4459,7 +4480,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102,
+      lineNumber: 117,
       columnNumber: 17
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4467,7 +4488,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 103,
+      lineNumber: 118,
       columnNumber: 25
     }
   }, __jsx("div", {
@@ -4475,7 +4496,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104,
+      lineNumber: 119,
       columnNumber: 29
     }
   }), __jsx(react_lottie__WEBPACK_IMPORTED_MODULE_4___default.a, {
@@ -4487,7 +4508,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105,
+      lineNumber: 120,
       columnNumber: 29
     }
   })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4495,7 +4516,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 107,
+      lineNumber: 122,
       columnNumber: 25
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4503,7 +4524,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108,
+      lineNumber: 123,
       columnNumber: 29
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -4512,21 +4533,21 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109,
+      lineNumber: 124,
       columnNumber: 33
     }
   }), __jsx("h2", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110,
+      lineNumber: 125,
       columnNumber: 33
     }
   }, "Clean, minimal & modern design"), __jsx("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 111,
+      lineNumber: 126,
       columnNumber: 33
     }
   }, "You can easily make this kit your own by simply modifying the global text and color styles and adding your own content. Available for the latest versions of Adobe XD."), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["Button"], {
@@ -4534,7 +4555,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114,
+      lineNumber: 129,
       columnNumber: 33
     }
   }, "Buy Now")))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4542,7 +4563,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 118,
+      lineNumber: 133,
       columnNumber: 17
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4550,21 +4571,21 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119,
+      lineNumber: 134,
       columnNumber: 21
     }
   }, __jsx("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120,
+      lineNumber: 135,
       columnNumber: 25
     }
   }, "PREVIEW"), __jsx("h1", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 121,
+      lineNumber: 136,
       columnNumber: 25
     }
   }, "Full Interaction Design")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4572,7 +4593,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 123,
+      lineNumber: 138,
       columnNumber: 21
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4580,7 +4601,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124,
+      lineNumber: 139,
       columnNumber: 25
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4588,7 +4609,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 125,
+      lineNumber: 140,
       columnNumber: 29
     }
   }, __jsx(react_player__WEBPACK_IMPORTED_MODULE_6___default.a, {
@@ -4599,7 +4620,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126,
+      lineNumber: 141,
       columnNumber: 33
     }
   })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4607,7 +4628,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128,
+      lineNumber: 143,
       columnNumber: 29
     }
   }, __jsx(react_player__WEBPACK_IMPORTED_MODULE_6___default.a, {
@@ -4618,7 +4639,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 129,
+      lineNumber: 144,
       columnNumber: 33
     }
   }))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4626,7 +4647,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 132,
+      lineNumber: 147,
       columnNumber: 25
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4634,7 +4655,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133,
+      lineNumber: 148,
       columnNumber: 29
     }
   }, __jsx(react_player__WEBPACK_IMPORTED_MODULE_6___default.a, {
@@ -4645,7 +4666,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134,
+      lineNumber: 149,
       columnNumber: 33
     }
   })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4653,7 +4674,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136,
+      lineNumber: 151,
       columnNumber: 29
     }
   }, __jsx(react_player__WEBPACK_IMPORTED_MODULE_6___default.a, {
@@ -4664,7 +4685,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 137,
+      lineNumber: 152,
       columnNumber: 33
     }
   }))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4672,7 +4693,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 143,
+      lineNumber: 158,
       columnNumber: 17
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4680,21 +4701,21 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 144,
+      lineNumber: 159,
       columnNumber: 21
     }
   }, __jsx("ul", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 145,
+      lineNumber: 160,
       columnNumber: 25
     }
   }, __jsx("li", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 146,
+      lineNumber: 161,
       columnNumber: 29
     }
   }, __jsx("a", {
@@ -4704,7 +4725,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 147,
+      lineNumber: 162,
       columnNumber: 29
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -4713,14 +4734,14 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 148,
+      lineNumber: 163,
       columnNumber: 33
     }
   }))), __jsx("li", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151,
+      lineNumber: 166,
       columnNumber: 29
     }
   }, __jsx("a", {
@@ -4730,7 +4751,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 152,
+      lineNumber: 167,
       columnNumber: 29
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -4739,14 +4760,14 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 153,
+      lineNumber: 168,
       columnNumber: 33
     }
   }))), __jsx("li", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 156,
+      lineNumber: 171,
       columnNumber: 29
     }
   }, __jsx("a", {
@@ -4756,7 +4777,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 157,
+      lineNumber: 172,
       columnNumber: 29
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -4765,7 +4786,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 158,
+      lineNumber: 173,
       columnNumber: 33
     }
   }))))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4773,7 +4794,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 163,
+      lineNumber: 178,
       columnNumber: 21
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["Text"], {
@@ -4782,7 +4803,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 164,
+      lineNumber: 179,
       columnNumber: 21
     }
   }, "Copyright 2020. Designed and build by Krisna Ahroid with XD, ReactJs, and Golang.")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4790,7 +4811,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 166,
+      lineNumber: 181,
       columnNumber: 21
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4799,7 +4820,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 167,
+      lineNumber: 182,
       columnNumber: 21
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4807,14 +4828,14 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 168,
+      lineNumber: 183,
       columnNumber: 25
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["Text"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 169,
+      lineNumber: 184,
       columnNumber: 25
     }
   }, "ENGLISH"), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -4824,7 +4845,7 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 170,
+      lineNumber: 185,
       columnNumber: 25
     }
   })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4832,14 +4853,14 @@ const Products = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 172,
+      lineNumber: 187,
       columnNumber: 25
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["Text"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 173,
+      lineNumber: 188,
       columnNumber: 25
     }
   }, "INDONESIA")))))));
@@ -4882,6 +4903,17 @@ __webpack_require__.r(__webpack_exports__);
 
 module.exports = __webpack_require__(/*! /Users/ahroidlife/Documents/nextjs/blog/pages/products/index.js */"./pages/products/index.js");
 
+
+/***/ }),
+
+/***/ "next-seo":
+/*!***************************!*\
+  !*** external "next-seo" ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next-seo");
 
 /***/ }),
 

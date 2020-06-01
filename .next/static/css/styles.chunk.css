@@ -1290,7 +1290,7 @@ body {
 
 .product-container {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column !important; }
   .product-container .header {
     display: flex;
     align-items: center;
