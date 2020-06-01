@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -814,6 +814,9 @@ const isBackgroundColor = props => {
       color = "#EDEDED";
       break;
 
+    case "dark":
+      color = "#1E2127";
+
     default:
       color = "#001CF9";
       break;
@@ -833,6 +836,9 @@ const isHover = props => {
     case "secondary":
       color = "#001CF9";
       break;
+
+    case "dark":
+      color = "#000000";
 
     default:
       color = "#001CF9";
@@ -9338,7 +9344,7 @@ module.exports = JSON.parse("{\"data\":{\"menus\":[{\"id\":\"1\",\"title\":\"Pro
 
 /***/ }),
 
-/***/ 3:
+/***/ 5:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/

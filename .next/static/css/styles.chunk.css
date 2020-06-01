@@ -1432,6 +1432,87 @@ body {
             line-height: 30px;
             text-align: center;
             color: #1e2127; }
+  .product-container .summary {
+    width: 100%;
+    height: 100vh; }
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+      .product-container .summary {
+        flex-direction: column;
+        height: auto !important; }
+        .product-container .summary .column {
+          width: 100% !important; }
+          .product-container .summary .column .content {
+            padding: 30px !important; } }
+    .product-container .summary .column {
+      width: 50%;
+      height: 100%;
+      align-items: center; }
+      .product-container .summary .column .content {
+        flex-direction: column;
+        flex: 1;
+        text-align: left;
+        align-items: flex-start;
+        padding-right: 150px; }
+        .product-container .summary .column .content h2 {
+          font-family: 'Quicksand', sans-serif;
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 30px;
+          color: #1e2127;
+          text-align: left;
+          margin-bottom: 25px; }
+        .product-container .summary .column .content p {
+          font-family: 'Quicksand', sans-serif;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 25px;
+          text-align: left;
+          color: #1e2127; }
+        .product-container .summary .column .content .button {
+          margin-top: 100px;
+          background-color: #1E2127;
+          padding-top: 10px;
+          padding-bottom: 10px; }
+  .product-container .preview {
+    flex-direction: column;
+    margin-top: 100px; }
+    .product-container .preview .header {
+      height: auto; }
+      .product-container .preview .header p {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        text-align: left;
+        color: #1e2127; }
+      .product-container .preview .header h1 {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 30px;
+        text-align: center;
+        color: #1e2127; }
+    .product-container .preview .content {
+      width: 100%;
+      height: auto;
+      flex-direction: column; }
+      @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+        .product-container .preview .content {
+          margin-top: 50px; }
+          .product-container .preview .content .items {
+            flex-direction: column; }
+            .product-container .preview .content .items .item {
+              width: 100% !important;
+              margin-bottom: 0px !important;
+              padding-left: 30px;
+              padding-right: 30px;
+              padding-top: 0px;
+              padding-bottom: 0px; } }
+      .product-container .preview .content .items {
+        width: 100%; }
+        .product-container .preview .content .items .item {
+          width: 50%;
+          height: auto;
+          margin-bottom: 50px; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/
