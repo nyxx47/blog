@@ -22591,7 +22591,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var qs__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(qs__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var lodash_isPlainObject__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash/isPlainObject */ "./node_modules/lodash/isPlainObject.js");
 /* harmony import */ var lodash_isPlainObject__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash_isPlainObject__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var os__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! os */ 6);
+/* harmony import */ var os__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! os */ 5);
 /* harmony import */ var os__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(os__WEBPACK_IMPORTED_MODULE_3__);
 
 
@@ -51119,7 +51119,7 @@ var App = function App() {
     if (firstname.length > 3 && lastname.length > 3 && email.length > 8 && message.length > 20) {
       setVisible(true);
       setLoading(true);
-      axios__WEBPACK_IMPORTED_MODULE_2___default.a.post("http://localhost:8080" + '/api/inquiry/create', JSON.stringify(payload)).then(function (res) {
+      axios__WEBPACK_IMPORTED_MODULE_2___default.a.post("https://ahroidlife.com:81" + '/api/inquiry/create', JSON.stringify(payload)).then(function (res) {
         setTimeout(function () {
           setLoading(false);
         }, 2000);
@@ -53837,7 +53837,7 @@ module.exports = JSON.parse("{\"data\":{\"menus\":[{\"id\":\"1\",\"title\":\"Pro
 
 /***/ }),
 
-/***/ 4:
+/***/ 1:
 /*!*************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fahroidlife%2FDocuments%2Fnextjs%2Fblog%2Fpages%2Findex.js ***!
   \*************************************************************************************************************************************/
@@ -53849,7 +53849,7 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absol
 
 /***/ }),
 
-/***/ 6:
+/***/ 5:
 /*!********************!*\
   !*** os (ignored) ***!
   \********************/
@@ -53871,5 +53871,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js",0]]]);
+},[[1,"static/runtime/webpack.js",0]]]);
 //# sourceMappingURL=index.js.map
