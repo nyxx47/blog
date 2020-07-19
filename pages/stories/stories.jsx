@@ -97,7 +97,7 @@ const Stories = () => {
                 url: 'https://www.ahroidlife.com/stories',
                 site_name: 'ahroidlife',
                 title: 'Krisna Ahroid | Stories',
-                description: 'Krisna Ahroid. A UI/UX Designer & Frontend Developer based in Jakarta, Indonesia',
+                description: 'Krisna Ahroid. An Interaction Designer & Frontend Developer based in Jakarta, Indonesia',
                 image: 'https://res.cloudinary.com/ahroidlife/image/upload/v1588948107/daily-stories_xssful.svg',
                 
             }}
