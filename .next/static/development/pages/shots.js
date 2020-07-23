@@ -27489,7 +27489,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 2:
+/***/ 11:
 /*!**************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fshots&absolutePagePath=%2FUsers%2Fahroidlife%2FDocuments%2Fnextjs%2Fblog%2Fpages%2Fshots%2Findex.js ***!
   \**************************************************************************************************************************************************/
@@ -27512,5 +27512,5 @@ module.exports = dll_c2e10d183b950a67d9e7;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js",0]]]);
+},[[11,"static/runtime/webpack.js",0]]]);
 //# sourceMappingURL=shots.js.map
