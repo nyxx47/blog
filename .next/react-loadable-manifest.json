@@ -1,5 +1,11 @@
 {
-  "./dev/noop": [
+  "./DailyMotion": [
+    {
+      "id": 7,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
     {
       "id": "./components/molecules/articles/cardStories/styles.scss",
       "name": "./components/molecules/articles/cardStories/styles.scss",
@@ -37,43 +43,19 @@
       "publicPath": "static/chunks/styles.js"
     },
     {
-      "id": 4,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 6,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 2,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
-      "id": 7,
-      "name": null,
-      "file": "static/chunks/styles.js",
-      "publicPath": "static/chunks/styles.js"
-    },
-    {
       "id": "./components/organisms/hero/styles.scss",
       "name": "./components/organisms/hero/styles.scss",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     },
     {
-      "id": 8,
-      "name": null,
+      "id": "./node_modules/next/dist/client/dev/noop.js",
+      "name": "./node_modules/next/dist/client/dev/noop.js",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     },
     {
-      "id": 5,
+      "id": 3,
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
@@ -85,14 +67,2528 @@
       "publicPath": "static/chunks/styles.js"
     },
     {
+      "id": 14,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 4,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 12,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 6,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 11,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/Preview.js",
+      "name": "./node_modules/react-player/lib/Preview.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
       "id": 10,
       "name": null,
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     },
     {
+      "id": 8,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/DailyMotion.js",
+      "name": "./node_modules/react-player/lib/players/DailyMotion.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Facebook.js",
+      "name": "./node_modules/react-player/lib/players/Facebook.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/FilePlayer.js",
+      "name": "./node_modules/react-player/lib/players/FilePlayer.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Mixcloud.js",
+      "name": "./node_modules/react-player/lib/players/Mixcloud.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/SoundCloud.js",
+      "name": "./node_modules/react-player/lib/players/SoundCloud.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Streamable.js",
+      "name": "./node_modules/react-player/lib/players/Streamable.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Twitch.js",
+      "name": "./node_modules/react-player/lib/players/Twitch.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Vidyard.js",
+      "name": "./node_modules/react-player/lib/players/Vidyard.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Vimeo.js",
+      "name": "./node_modules/react-player/lib/players/Vimeo.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Wistia.js",
+      "name": "./node_modules/react-player/lib/players/Wistia.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/YouTube.js",
+      "name": "./node_modules/react-player/lib/players/YouTube.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./pages/products/product.scss",
+      "name": "./pages/products/product.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./pages/shots/shots.scss",
+      "name": "./pages/shots/shots.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./static/css/main.scss",
+      "name": "./static/css/main.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./Facebook": [
+    {
+      "id": 7,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/molecules/articles/cardStories/styles.scss",
+      "name": "./components/molecules/articles/cardStories/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/molecules/forms/textIcon/styles.scss",
+      "name": "./components/molecules/forms/textIcon/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/articles/sliderCategories/styles.scss",
+      "name": "./components/organisms/articles/sliderCategories/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/articles/sliderHero/styles.scss",
+      "name": "./components/organisms/articles/sliderHero/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/footer/styles.scss",
+      "name": "./components/organisms/footer/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/header/styles.scss",
+      "name": "./components/organisms/header/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/hero/styles.scss",
+      "name": "./components/organisms/hero/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
       "id": "./node_modules/next/dist/client/dev/noop.js",
       "name": "./node_modules/next/dist/client/dev/noop.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 3,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 9,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 14,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 4,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 12,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 6,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 11,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/Preview.js",
+      "name": "./node_modules/react-player/lib/Preview.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 10,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 8,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/DailyMotion.js",
+      "name": "./node_modules/react-player/lib/players/DailyMotion.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Facebook.js",
+      "name": "./node_modules/react-player/lib/players/Facebook.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/FilePlayer.js",
+      "name": "./node_modules/react-player/lib/players/FilePlayer.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Mixcloud.js",
+      "name": "./node_modules/react-player/lib/players/Mixcloud.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/SoundCloud.js",
+      "name": "./node_modules/react-player/lib/players/SoundCloud.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Streamable.js",
+      "name": "./node_modules/react-player/lib/players/Streamable.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Twitch.js",
+      "name": "./node_modules/react-player/lib/players/Twitch.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Vidyard.js",
+      "name": "./node_modules/react-player/lib/players/Vidyard.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Vimeo.js",
+      "name": "./node_modules/react-player/lib/players/Vimeo.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Wistia.js",
+      "name": "./node_modules/react-player/lib/players/Wistia.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/YouTube.js",
+      "name": "./node_modules/react-player/lib/players/YouTube.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./pages/products/product.scss",
+      "name": "./pages/products/product.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./pages/shots/shots.scss",
+      "name": "./pages/shots/shots.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./static/css/main.scss",
+      "name": "./static/css/main.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./FilePlayer": [
+    {
+      "id": 7,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/molecules/articles/cardStories/styles.scss",
+      "name": "./components/molecules/articles/cardStories/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/molecules/forms/textIcon/styles.scss",
+      "name": "./components/molecules/forms/textIcon/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/articles/sliderCategories/styles.scss",
+      "name": "./components/organisms/articles/sliderCategories/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/articles/sliderHero/styles.scss",
+      "name": "./components/organisms/articles/sliderHero/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/footer/styles.scss",
+      "name": "./components/organisms/footer/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/header/styles.scss",
+      "name": "./components/organisms/header/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/hero/styles.scss",
+      "name": "./components/organisms/hero/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/next/dist/client/dev/noop.js",
+      "name": "./node_modules/next/dist/client/dev/noop.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 3,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 9,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 14,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 4,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 12,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 6,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 11,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/Preview.js",
+      "name": "./node_modules/react-player/lib/Preview.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 10,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 8,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/DailyMotion.js",
+      "name": "./node_modules/react-player/lib/players/DailyMotion.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Facebook.js",
+      "name": "./node_modules/react-player/lib/players/Facebook.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/FilePlayer.js",
+      "name": "./node_modules/react-player/lib/players/FilePlayer.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Mixcloud.js",
+      "name": "./node_modules/react-player/lib/players/Mixcloud.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/SoundCloud.js",
+      "name": "./node_modules/react-player/lib/players/SoundCloud.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Streamable.js",
+      "name": "./node_modules/react-player/lib/players/Streamable.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Twitch.js",
+      "name": "./node_modules/react-player/lib/players/Twitch.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Vidyard.js",
+      "name": "./node_modules/react-player/lib/players/Vidyard.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Vimeo.js",
+      "name": "./node_modules/react-player/lib/players/Vimeo.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Wistia.js",
+      "name": "./node_modules/react-player/lib/players/Wistia.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/YouTube.js",
+      "name": "./node_modules/react-player/lib/players/YouTube.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./pages/products/product.scss",
+      "name": "./pages/products/product.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./pages/shots/shots.scss",
+      "name": "./pages/shots/shots.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./static/css/main.scss",
+      "name": "./static/css/main.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./Mixcloud": [
+    {
+      "id": 7,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/molecules/articles/cardStories/styles.scss",
+      "name": "./components/molecules/articles/cardStories/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/molecules/forms/textIcon/styles.scss",
+      "name": "./components/molecules/forms/textIcon/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/articles/sliderCategories/styles.scss",
+      "name": "./components/organisms/articles/sliderCategories/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/articles/sliderHero/styles.scss",
+      "name": "./components/organisms/articles/sliderHero/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/footer/styles.scss",
+      "name": "./components/organisms/footer/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/header/styles.scss",
+      "name": "./components/organisms/header/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/hero/styles.scss",
+      "name": "./components/organisms/hero/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/next/dist/client/dev/noop.js",
+      "name": "./node_modules/next/dist/client/dev/noop.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 3,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 9,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 14,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 4,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 12,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 6,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 11,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/Preview.js",
+      "name": "./node_modules/react-player/lib/Preview.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 10,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 8,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/DailyMotion.js",
+      "name": "./node_modules/react-player/lib/players/DailyMotion.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Facebook.js",
+      "name": "./node_modules/react-player/lib/players/Facebook.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/FilePlayer.js",
+      "name": "./node_modules/react-player/lib/players/FilePlayer.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Mixcloud.js",
+      "name": "./node_modules/react-player/lib/players/Mixcloud.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/SoundCloud.js",
+      "name": "./node_modules/react-player/lib/players/SoundCloud.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Streamable.js",
+      "name": "./node_modules/react-player/lib/players/Streamable.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Twitch.js",
+      "name": "./node_modules/react-player/lib/players/Twitch.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Vidyard.js",
+      "name": "./node_modules/react-player/lib/players/Vidyard.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Vimeo.js",
+      "name": "./node_modules/react-player/lib/players/Vimeo.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Wistia.js",
+      "name": "./node_modules/react-player/lib/players/Wistia.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/YouTube.js",
+      "name": "./node_modules/react-player/lib/players/YouTube.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./pages/products/product.scss",
+      "name": "./pages/products/product.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./pages/shots/shots.scss",
+      "name": "./pages/shots/shots.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./static/css/main.scss",
+      "name": "./static/css/main.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./Preview": [
+    {
+      "id": 7,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/molecules/articles/cardStories/styles.scss",
+      "name": "./components/molecules/articles/cardStories/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/molecules/forms/textIcon/styles.scss",
+      "name": "./components/molecules/forms/textIcon/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/articles/sliderCategories/styles.scss",
+      "name": "./components/organisms/articles/sliderCategories/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/articles/sliderHero/styles.scss",
+      "name": "./components/organisms/articles/sliderHero/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/footer/styles.scss",
+      "name": "./components/organisms/footer/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/header/styles.scss",
+      "name": "./components/organisms/header/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/hero/styles.scss",
+      "name": "./components/organisms/hero/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/next/dist/client/dev/noop.js",
+      "name": "./node_modules/next/dist/client/dev/noop.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 3,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 9,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 14,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 4,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 12,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 6,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 11,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/Preview.js",
+      "name": "./node_modules/react-player/lib/Preview.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 10,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 8,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/DailyMotion.js",
+      "name": "./node_modules/react-player/lib/players/DailyMotion.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Facebook.js",
+      "name": "./node_modules/react-player/lib/players/Facebook.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/FilePlayer.js",
+      "name": "./node_modules/react-player/lib/players/FilePlayer.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Mixcloud.js",
+      "name": "./node_modules/react-player/lib/players/Mixcloud.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/SoundCloud.js",
+      "name": "./node_modules/react-player/lib/players/SoundCloud.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Streamable.js",
+      "name": "./node_modules/react-player/lib/players/Streamable.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Twitch.js",
+      "name": "./node_modules/react-player/lib/players/Twitch.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Vidyard.js",
+      "name": "./node_modules/react-player/lib/players/Vidyard.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Vimeo.js",
+      "name": "./node_modules/react-player/lib/players/Vimeo.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Wistia.js",
+      "name": "./node_modules/react-player/lib/players/Wistia.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/YouTube.js",
+      "name": "./node_modules/react-player/lib/players/YouTube.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./pages/products/product.scss",
+      "name": "./pages/products/product.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./pages/shots/shots.scss",
+      "name": "./pages/shots/shots.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./static/css/main.scss",
+      "name": "./static/css/main.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./SoundCloud": [
+    {
+      "id": 7,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/molecules/articles/cardStories/styles.scss",
+      "name": "./components/molecules/articles/cardStories/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/molecules/forms/textIcon/styles.scss",
+      "name": "./components/molecules/forms/textIcon/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/articles/sliderCategories/styles.scss",
+      "name": "./components/organisms/articles/sliderCategories/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/articles/sliderHero/styles.scss",
+      "name": "./components/organisms/articles/sliderHero/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/footer/styles.scss",
+      "name": "./components/organisms/footer/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/header/styles.scss",
+      "name": "./components/organisms/header/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/hero/styles.scss",
+      "name": "./components/organisms/hero/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/next/dist/client/dev/noop.js",
+      "name": "./node_modules/next/dist/client/dev/noop.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 3,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 9,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 14,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 4,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 12,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 6,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 11,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/Preview.js",
+      "name": "./node_modules/react-player/lib/Preview.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 10,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 8,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/DailyMotion.js",
+      "name": "./node_modules/react-player/lib/players/DailyMotion.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Facebook.js",
+      "name": "./node_modules/react-player/lib/players/Facebook.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/FilePlayer.js",
+      "name": "./node_modules/react-player/lib/players/FilePlayer.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Mixcloud.js",
+      "name": "./node_modules/react-player/lib/players/Mixcloud.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/SoundCloud.js",
+      "name": "./node_modules/react-player/lib/players/SoundCloud.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Streamable.js",
+      "name": "./node_modules/react-player/lib/players/Streamable.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Twitch.js",
+      "name": "./node_modules/react-player/lib/players/Twitch.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Vidyard.js",
+      "name": "./node_modules/react-player/lib/players/Vidyard.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Vimeo.js",
+      "name": "./node_modules/react-player/lib/players/Vimeo.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Wistia.js",
+      "name": "./node_modules/react-player/lib/players/Wistia.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/YouTube.js",
+      "name": "./node_modules/react-player/lib/players/YouTube.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./pages/products/product.scss",
+      "name": "./pages/products/product.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./pages/shots/shots.scss",
+      "name": "./pages/shots/shots.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./static/css/main.scss",
+      "name": "./static/css/main.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./Streamable": [
+    {
+      "id": 7,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/molecules/articles/cardStories/styles.scss",
+      "name": "./components/molecules/articles/cardStories/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/molecules/forms/textIcon/styles.scss",
+      "name": "./components/molecules/forms/textIcon/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/articles/sliderCategories/styles.scss",
+      "name": "./components/organisms/articles/sliderCategories/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/articles/sliderHero/styles.scss",
+      "name": "./components/organisms/articles/sliderHero/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/footer/styles.scss",
+      "name": "./components/organisms/footer/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/header/styles.scss",
+      "name": "./components/organisms/header/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/hero/styles.scss",
+      "name": "./components/organisms/hero/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/next/dist/client/dev/noop.js",
+      "name": "./node_modules/next/dist/client/dev/noop.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 3,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 9,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 14,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 4,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 12,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 6,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 11,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/Preview.js",
+      "name": "./node_modules/react-player/lib/Preview.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 10,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 8,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/DailyMotion.js",
+      "name": "./node_modules/react-player/lib/players/DailyMotion.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Facebook.js",
+      "name": "./node_modules/react-player/lib/players/Facebook.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/FilePlayer.js",
+      "name": "./node_modules/react-player/lib/players/FilePlayer.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Mixcloud.js",
+      "name": "./node_modules/react-player/lib/players/Mixcloud.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/SoundCloud.js",
+      "name": "./node_modules/react-player/lib/players/SoundCloud.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Streamable.js",
+      "name": "./node_modules/react-player/lib/players/Streamable.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Twitch.js",
+      "name": "./node_modules/react-player/lib/players/Twitch.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Vidyard.js",
+      "name": "./node_modules/react-player/lib/players/Vidyard.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Vimeo.js",
+      "name": "./node_modules/react-player/lib/players/Vimeo.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Wistia.js",
+      "name": "./node_modules/react-player/lib/players/Wistia.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/YouTube.js",
+      "name": "./node_modules/react-player/lib/players/YouTube.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./pages/products/product.scss",
+      "name": "./pages/products/product.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./pages/shots/shots.scss",
+      "name": "./pages/shots/shots.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./static/css/main.scss",
+      "name": "./static/css/main.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./Twitch": [
+    {
+      "id": 7,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/molecules/articles/cardStories/styles.scss",
+      "name": "./components/molecules/articles/cardStories/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/molecules/forms/textIcon/styles.scss",
+      "name": "./components/molecules/forms/textIcon/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/articles/sliderCategories/styles.scss",
+      "name": "./components/organisms/articles/sliderCategories/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/articles/sliderHero/styles.scss",
+      "name": "./components/organisms/articles/sliderHero/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/footer/styles.scss",
+      "name": "./components/organisms/footer/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/header/styles.scss",
+      "name": "./components/organisms/header/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/hero/styles.scss",
+      "name": "./components/organisms/hero/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/next/dist/client/dev/noop.js",
+      "name": "./node_modules/next/dist/client/dev/noop.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 3,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 9,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 14,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 4,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 12,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 6,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 11,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/Preview.js",
+      "name": "./node_modules/react-player/lib/Preview.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 10,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 8,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/DailyMotion.js",
+      "name": "./node_modules/react-player/lib/players/DailyMotion.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Facebook.js",
+      "name": "./node_modules/react-player/lib/players/Facebook.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/FilePlayer.js",
+      "name": "./node_modules/react-player/lib/players/FilePlayer.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Mixcloud.js",
+      "name": "./node_modules/react-player/lib/players/Mixcloud.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/SoundCloud.js",
+      "name": "./node_modules/react-player/lib/players/SoundCloud.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Streamable.js",
+      "name": "./node_modules/react-player/lib/players/Streamable.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Twitch.js",
+      "name": "./node_modules/react-player/lib/players/Twitch.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Vidyard.js",
+      "name": "./node_modules/react-player/lib/players/Vidyard.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Vimeo.js",
+      "name": "./node_modules/react-player/lib/players/Vimeo.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Wistia.js",
+      "name": "./node_modules/react-player/lib/players/Wistia.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/YouTube.js",
+      "name": "./node_modules/react-player/lib/players/YouTube.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./pages/products/product.scss",
+      "name": "./pages/products/product.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./pages/shots/shots.scss",
+      "name": "./pages/shots/shots.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./static/css/main.scss",
+      "name": "./static/css/main.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./Vidyard": [
+    {
+      "id": 7,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/molecules/articles/cardStories/styles.scss",
+      "name": "./components/molecules/articles/cardStories/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/molecules/forms/textIcon/styles.scss",
+      "name": "./components/molecules/forms/textIcon/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/articles/sliderCategories/styles.scss",
+      "name": "./components/organisms/articles/sliderCategories/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/articles/sliderHero/styles.scss",
+      "name": "./components/organisms/articles/sliderHero/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/footer/styles.scss",
+      "name": "./components/organisms/footer/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/header/styles.scss",
+      "name": "./components/organisms/header/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/hero/styles.scss",
+      "name": "./components/organisms/hero/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/next/dist/client/dev/noop.js",
+      "name": "./node_modules/next/dist/client/dev/noop.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 3,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 9,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 14,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 4,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 12,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 6,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 11,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/Preview.js",
+      "name": "./node_modules/react-player/lib/Preview.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 10,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 8,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/DailyMotion.js",
+      "name": "./node_modules/react-player/lib/players/DailyMotion.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Facebook.js",
+      "name": "./node_modules/react-player/lib/players/Facebook.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/FilePlayer.js",
+      "name": "./node_modules/react-player/lib/players/FilePlayer.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Mixcloud.js",
+      "name": "./node_modules/react-player/lib/players/Mixcloud.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/SoundCloud.js",
+      "name": "./node_modules/react-player/lib/players/SoundCloud.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Streamable.js",
+      "name": "./node_modules/react-player/lib/players/Streamable.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Twitch.js",
+      "name": "./node_modules/react-player/lib/players/Twitch.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Vidyard.js",
+      "name": "./node_modules/react-player/lib/players/Vidyard.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Vimeo.js",
+      "name": "./node_modules/react-player/lib/players/Vimeo.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Wistia.js",
+      "name": "./node_modules/react-player/lib/players/Wistia.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/YouTube.js",
+      "name": "./node_modules/react-player/lib/players/YouTube.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./pages/products/product.scss",
+      "name": "./pages/products/product.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./pages/shots/shots.scss",
+      "name": "./pages/shots/shots.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./static/css/main.scss",
+      "name": "./static/css/main.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./Vimeo": [
+    {
+      "id": 7,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/molecules/articles/cardStories/styles.scss",
+      "name": "./components/molecules/articles/cardStories/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/molecules/forms/textIcon/styles.scss",
+      "name": "./components/molecules/forms/textIcon/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/articles/sliderCategories/styles.scss",
+      "name": "./components/organisms/articles/sliderCategories/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/articles/sliderHero/styles.scss",
+      "name": "./components/organisms/articles/sliderHero/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/footer/styles.scss",
+      "name": "./components/organisms/footer/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/header/styles.scss",
+      "name": "./components/organisms/header/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/hero/styles.scss",
+      "name": "./components/organisms/hero/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/next/dist/client/dev/noop.js",
+      "name": "./node_modules/next/dist/client/dev/noop.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 3,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 9,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 14,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 4,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 12,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 6,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 11,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/Preview.js",
+      "name": "./node_modules/react-player/lib/Preview.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 10,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 8,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/DailyMotion.js",
+      "name": "./node_modules/react-player/lib/players/DailyMotion.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Facebook.js",
+      "name": "./node_modules/react-player/lib/players/Facebook.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/FilePlayer.js",
+      "name": "./node_modules/react-player/lib/players/FilePlayer.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Mixcloud.js",
+      "name": "./node_modules/react-player/lib/players/Mixcloud.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/SoundCloud.js",
+      "name": "./node_modules/react-player/lib/players/SoundCloud.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Streamable.js",
+      "name": "./node_modules/react-player/lib/players/Streamable.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Twitch.js",
+      "name": "./node_modules/react-player/lib/players/Twitch.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Vidyard.js",
+      "name": "./node_modules/react-player/lib/players/Vidyard.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Vimeo.js",
+      "name": "./node_modules/react-player/lib/players/Vimeo.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Wistia.js",
+      "name": "./node_modules/react-player/lib/players/Wistia.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/YouTube.js",
+      "name": "./node_modules/react-player/lib/players/YouTube.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./pages/products/product.scss",
+      "name": "./pages/products/product.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./pages/shots/shots.scss",
+      "name": "./pages/shots/shots.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./static/css/main.scss",
+      "name": "./static/css/main.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./Wistia": [
+    {
+      "id": 7,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/molecules/articles/cardStories/styles.scss",
+      "name": "./components/molecules/articles/cardStories/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/molecules/forms/textIcon/styles.scss",
+      "name": "./components/molecules/forms/textIcon/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/articles/sliderCategories/styles.scss",
+      "name": "./components/organisms/articles/sliderCategories/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/articles/sliderHero/styles.scss",
+      "name": "./components/organisms/articles/sliderHero/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/footer/styles.scss",
+      "name": "./components/organisms/footer/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/header/styles.scss",
+      "name": "./components/organisms/header/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/hero/styles.scss",
+      "name": "./components/organisms/hero/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/next/dist/client/dev/noop.js",
+      "name": "./node_modules/next/dist/client/dev/noop.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 3,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 9,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 14,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 4,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 12,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 6,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 11,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/Preview.js",
+      "name": "./node_modules/react-player/lib/Preview.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 10,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 8,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/DailyMotion.js",
+      "name": "./node_modules/react-player/lib/players/DailyMotion.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Facebook.js",
+      "name": "./node_modules/react-player/lib/players/Facebook.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/FilePlayer.js",
+      "name": "./node_modules/react-player/lib/players/FilePlayer.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Mixcloud.js",
+      "name": "./node_modules/react-player/lib/players/Mixcloud.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/SoundCloud.js",
+      "name": "./node_modules/react-player/lib/players/SoundCloud.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Streamable.js",
+      "name": "./node_modules/react-player/lib/players/Streamable.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Twitch.js",
+      "name": "./node_modules/react-player/lib/players/Twitch.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Vidyard.js",
+      "name": "./node_modules/react-player/lib/players/Vidyard.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Vimeo.js",
+      "name": "./node_modules/react-player/lib/players/Vimeo.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Wistia.js",
+      "name": "./node_modules/react-player/lib/players/Wistia.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/YouTube.js",
+      "name": "./node_modules/react-player/lib/players/YouTube.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./pages/products/product.scss",
+      "name": "./pages/products/product.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./pages/shots/shots.scss",
+      "name": "./pages/shots/shots.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./static/css/main.scss",
+      "name": "./static/css/main.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./YouTube": [
+    {
+      "id": 7,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/molecules/articles/cardStories/styles.scss",
+      "name": "./components/molecules/articles/cardStories/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/molecules/forms/textIcon/styles.scss",
+      "name": "./components/molecules/forms/textIcon/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/articles/sliderCategories/styles.scss",
+      "name": "./components/organisms/articles/sliderCategories/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/articles/sliderHero/styles.scss",
+      "name": "./components/organisms/articles/sliderHero/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/footer/styles.scss",
+      "name": "./components/organisms/footer/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/header/styles.scss",
+      "name": "./components/organisms/header/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/hero/styles.scss",
+      "name": "./components/organisms/hero/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/next/dist/client/dev/noop.js",
+      "name": "./node_modules/next/dist/client/dev/noop.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 3,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 9,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 14,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 4,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 12,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 6,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 11,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/Preview.js",
+      "name": "./node_modules/react-player/lib/Preview.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 10,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 8,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/DailyMotion.js",
+      "name": "./node_modules/react-player/lib/players/DailyMotion.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Facebook.js",
+      "name": "./node_modules/react-player/lib/players/Facebook.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/FilePlayer.js",
+      "name": "./node_modules/react-player/lib/players/FilePlayer.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Mixcloud.js",
+      "name": "./node_modules/react-player/lib/players/Mixcloud.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/SoundCloud.js",
+      "name": "./node_modules/react-player/lib/players/SoundCloud.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Streamable.js",
+      "name": "./node_modules/react-player/lib/players/Streamable.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Twitch.js",
+      "name": "./node_modules/react-player/lib/players/Twitch.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Vidyard.js",
+      "name": "./node_modules/react-player/lib/players/Vidyard.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Vimeo.js",
+      "name": "./node_modules/react-player/lib/players/Vimeo.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Wistia.js",
+      "name": "./node_modules/react-player/lib/players/Wistia.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/YouTube.js",
+      "name": "./node_modules/react-player/lib/players/YouTube.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./pages/products/product.scss",
+      "name": "./pages/products/product.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./pages/shots/shots.scss",
+      "name": "./pages/shots/shots.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./static/css/main.scss",
+      "name": "./static/css/main.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    }
+  ],
+  "./dev/noop": [
+    {
+      "id": 7,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/molecules/articles/cardStories/styles.scss",
+      "name": "./components/molecules/articles/cardStories/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/molecules/forms/textIcon/styles.scss",
+      "name": "./components/molecules/forms/textIcon/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/articles/sliderCategories/styles.scss",
+      "name": "./components/organisms/articles/sliderCategories/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/articles/sliderHero/styles.scss",
+      "name": "./components/organisms/articles/sliderHero/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/footer/styles.scss",
+      "name": "./components/organisms/footer/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/header/styles.scss",
+      "name": "./components/organisms/header/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./components/organisms/hero/styles.scss",
+      "name": "./components/organisms/hero/styles.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/next/dist/client/dev/noop.js",
+      "name": "./node_modules/next/dist/client/dev/noop.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 3,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 9,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 14,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 4,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 12,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 6,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 11,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/Preview.js",
+      "name": "./node_modules/react-player/lib/Preview.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 10,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": 8,
+      "name": null,
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/DailyMotion.js",
+      "name": "./node_modules/react-player/lib/players/DailyMotion.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Facebook.js",
+      "name": "./node_modules/react-player/lib/players/Facebook.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/FilePlayer.js",
+      "name": "./node_modules/react-player/lib/players/FilePlayer.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Mixcloud.js",
+      "name": "./node_modules/react-player/lib/players/Mixcloud.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/SoundCloud.js",
+      "name": "./node_modules/react-player/lib/players/SoundCloud.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Streamable.js",
+      "name": "./node_modules/react-player/lib/players/Streamable.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Twitch.js",
+      "name": "./node_modules/react-player/lib/players/Twitch.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Vidyard.js",
+      "name": "./node_modules/react-player/lib/players/Vidyard.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Vimeo.js",
+      "name": "./node_modules/react-player/lib/players/Vimeo.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/Wistia.js",
+      "name": "./node_modules/react-player/lib/players/Wistia.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./node_modules/react-player/lib/players/YouTube.js",
+      "name": "./node_modules/react-player/lib/players/YouTube.js",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./pages/products/product.scss",
+      "name": "./pages/products/product.scss",
+      "file": "static/chunks/styles.js",
+      "publicPath": "static/chunks/styles.js"
+    },
+    {
+      "id": "./pages/shots/shots.scss",
+      "name": "./pages/shots/shots.scss",
       "file": "static/chunks/styles.js",
       "publicPath": "static/chunks/styles.js"
     },

@@ -1861,6 +1861,7 @@ var Rows = function Rows(_ref) {
   var children = _ref.children,
       props = _ref.props;
   return __jsx(_row_styles_jsx__WEBPACK_IMPORTED_MODULE_2__["default"], Object(_babel_runtime_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
+    className: "rowss",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -22591,7 +22592,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var qs__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(qs__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var lodash_isPlainObject__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lodash/isPlainObject */ "./node_modules/lodash/isPlainObject.js");
 /* harmony import */ var lodash_isPlainObject__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash_isPlainObject__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var os__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! os */ 3);
+/* harmony import */ var os__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! os */ 5);
 /* harmony import */ var os__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(os__WEBPACK_IMPORTED_MODULE_3__);
 
 
@@ -51471,7 +51472,7 @@ var App = function App() {
       columnNumber: 25
     }
   }, "My Products")))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "projects",
+    href: "shots",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
@@ -51511,7 +51512,7 @@ var App = function App() {
       lineNumber: 203,
       columnNumber: 25
     }
-  }, "My Related Projects")))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  }, "Shots")))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "issues",
     __self: _this,
     __source: {
@@ -53833,7 +53834,7 @@ var App = function App() {
 /*! exports provided: data, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"data\":{\"menus\":[{\"id\":\"1\",\"title\":\"Products\",\"url\":\"/products\"},{\"id\":\"2\",\"title\":\"Projects\",\"url\":\"/projects\"},{\"id\":\"3\",\"title\":\"Issues\",\"url\":\"/issues\"},{\"id\":\"4\",\"title\":\"Stories\",\"url\":\"stories\"}],\"sections\":[{\"id\":\"1\",\"items\":[{\"type\":\"large\",\"direction\":\"rows\",\"hero\":{\"image\":\"https://increment.com/art/12/case-studies-in-reachitecting/cover-1000-570f4642.jpeg\",\"class\":\"semi-half\"},\"content\":{\"title\":\"Case studies in rearchitecting\",\"subtitle\":\"How Buffer, ThoughtWorks, N26, and Zapier have shifted their software to respond to new contexts and met new needs.\"}},{\"childs\":[{\"id\":1,\"type\":\"half\",\"direction\":\"column\",\"hero\":{\"image\":\"https://increment.com/art/12/architecture-for-generations/cover-1000-106a85d6.jpeg\",\"class\":\"semi-half\"},\"content\":{\"title\":\"Case studies in rearchitecting\",\"subtitle\":\"How Buffer, ThoughtWorks, N26, and Zapier have shifted their software to respond to new contexts and met new needs.\"}},{\"id\":2,\"type\":\"half\",\"direction\":\"column\",\"hero\":{\"image\":\"https://increment.com/art/12/primer-on-functional-architecture/cover-1000-773fae0c.jpeg\",\"class\":\"semi-half\"},\"content\":{\"title\":\"Case studies in rearchitecting\",\"subtitle\":\"How Buffer, ThoughtWorks, N26, and Zapier have shifted their software to respond to new contexts and met new needs.\"}}]}]},{\"id\":\"2\",\"items\":[{\"id\":1,\"type\":\"large\",\"direction\":\"rows\",\"hero\":{\"image\":\"https://increment.com/art/12/case-studies-in-reachitecting/cover-1000-570f4642.jpeg\",\"class\":\"semi-half\"},\"content\":{\"title\":\"Case studies in rearchitecting\",\"subtitle\":\"How Buffer, ThoughtWorks, N26, and Zapier have shifted their software to respond to new contexts and met new needs.\"}},{\"childs\":[{\"id\":1,\"type\":\"half\",\"direction\":\"column\",\"hero\":{\"image\":\"https://increment.com/art/12/architecture-for-generations/cover-1000-106a85d6.jpeg\",\"class\":\"semi-half\"},\"content\":{\"title\":\"Case studies in rearchitecting\",\"subtitle\":\"How Buffer, ThoughtWorks, N26, and Zapier have shifted their software to respond to new contexts and met new needs.\"}},{\"id\":2,\"type\":\"half\",\"direction\":\"column\",\"hero\":{\"image\":\"https://increment.com/art/12/primer-on-functional-architecture/cover-1000-773fae0c.jpeg\",\"class\":\"semi-half\"},\"content\":{\"title\":\"Case studies in rearchitecting\",\"subtitle\":\"How Buffer, ThoughtWorks, N26, and Zapier have shifted their software to respond to new contexts and met new needs.\"}}]}]}]}}");
+module.exports = JSON.parse("{\"data\":{\"menus\":[{\"id\":\"1\",\"title\":\"Products\",\"url\":\"/products\"},{\"id\":\"2\",\"title\":\"Shots\",\"url\":\"/shots\"},{\"id\":\"3\",\"title\":\"Issues\",\"url\":\"/issues\"},{\"id\":\"4\",\"title\":\"Stories\",\"url\":\"stories\"}],\"sections\":[{\"id\":\"1\",\"items\":[{\"type\":\"large\",\"direction\":\"rows\",\"hero\":{\"image\":\"https://increment.com/art/12/case-studies-in-reachitecting/cover-1000-570f4642.jpeg\",\"class\":\"semi-half\"},\"content\":{\"title\":\"Case studies in rearchitecting\",\"subtitle\":\"How Buffer, ThoughtWorks, N26, and Zapier have shifted their software to respond to new contexts and met new needs.\"}},{\"childs\":[{\"id\":1,\"type\":\"half\",\"direction\":\"column\",\"hero\":{\"image\":\"https://increment.com/art/12/architecture-for-generations/cover-1000-106a85d6.jpeg\",\"class\":\"semi-half\"},\"content\":{\"title\":\"Case studies in rearchitecting\",\"subtitle\":\"How Buffer, ThoughtWorks, N26, and Zapier have shifted their software to respond to new contexts and met new needs.\"}},{\"id\":2,\"type\":\"half\",\"direction\":\"column\",\"hero\":{\"image\":\"https://increment.com/art/12/primer-on-functional-architecture/cover-1000-773fae0c.jpeg\",\"class\":\"semi-half\"},\"content\":{\"title\":\"Case studies in rearchitecting\",\"subtitle\":\"How Buffer, ThoughtWorks, N26, and Zapier have shifted their software to respond to new contexts and met new needs.\"}}]}]},{\"id\":\"2\",\"items\":[{\"id\":1,\"type\":\"large\",\"direction\":\"rows\",\"hero\":{\"image\":\"https://increment.com/art/12/case-studies-in-reachitecting/cover-1000-570f4642.jpeg\",\"class\":\"semi-half\"},\"content\":{\"title\":\"Case studies in rearchitecting\",\"subtitle\":\"How Buffer, ThoughtWorks, N26, and Zapier have shifted their software to respond to new contexts and met new needs.\"}},{\"childs\":[{\"id\":1,\"type\":\"half\",\"direction\":\"column\",\"hero\":{\"image\":\"https://increment.com/art/12/architecture-for-generations/cover-1000-106a85d6.jpeg\",\"class\":\"semi-half\"},\"content\":{\"title\":\"Case studies in rearchitecting\",\"subtitle\":\"How Buffer, ThoughtWorks, N26, and Zapier have shifted their software to respond to new contexts and met new needs.\"}},{\"id\":2,\"type\":\"half\",\"direction\":\"column\",\"hero\":{\"image\":\"https://increment.com/art/12/primer-on-functional-architecture/cover-1000-773fae0c.jpeg\",\"class\":\"semi-half\"},\"content\":{\"title\":\"Case studies in rearchitecting\",\"subtitle\":\"How Buffer, ThoughtWorks, N26, and Zapier have shifted their software to respond to new contexts and met new needs.\"}}]}]}]}}");
 
 /***/ }),
 
@@ -53849,7 +53850,7 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absol
 
 /***/ }),
 
-/***/ 3:
+/***/ 5:
 /*!********************!*\
   !*** os (ignored) ***!
   \********************/
