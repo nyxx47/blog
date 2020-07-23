@@ -6,7 +6,7 @@ body{
 
 .shot-container{
     width: 100%;
-    flex-direction: column;
+    flex-direction: column !important;
     background-color: #ffffff;
 
     .header{
