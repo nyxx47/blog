@@ -196,11 +196,11 @@ const App = () => {
                       </View>
                     </a>
                   </Link>
-                  <Link href="projects">
+                  <Link href="shots">
                     <a>
                       <View className="nav-menu-item">
                         <Image src="/static/illustrations/projects.svg" alt="projects"/>
-                        <Text size="18" margin="0 0 0 20px">My Related Projects</Text>
+                        <Text size="18" margin="0 0 0 20px">Shots</Text>
                       </View>
                     </a>
                   </Link>

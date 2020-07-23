@@ -1830,6 +1830,7 @@ const Rows = ({
   props
 }) => {
   return __jsx(_row_styles_jsx__WEBPACK_IMPORTED_MODULE_1__["default"], _extends({}, props, {
+    className: "rowss",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -6999,7 +7000,7 @@ const App = () => {
       columnNumber: 25
     }
   }, "My Products")))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "projects",
+    href: "shots",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -7039,7 +7040,7 @@ const App = () => {
       lineNumber: 203,
       columnNumber: 25
     }
-  }, "My Related Projects")))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  }, "Shots")))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "issues",
     __self: undefined,
     __source: {
@@ -9329,7 +9330,7 @@ const App = () => {
 /*! exports provided: data, default */
 /***/ (function(module) {
 
-module.exports = JSON.parse("{\"data\":{\"menus\":[{\"id\":\"1\",\"title\":\"Products\",\"url\":\"/products\"},{\"id\":\"2\",\"title\":\"Projects\",\"url\":\"/projects\"},{\"id\":\"3\",\"title\":\"Issues\",\"url\":\"/issues\"},{\"id\":\"4\",\"title\":\"Stories\",\"url\":\"stories\"}],\"sections\":[{\"id\":\"1\",\"items\":[{\"type\":\"large\",\"direction\":\"rows\",\"hero\":{\"image\":\"https://increment.com/art/12/case-studies-in-reachitecting/cover-1000-570f4642.jpeg\",\"class\":\"semi-half\"},\"content\":{\"title\":\"Case studies in rearchitecting\",\"subtitle\":\"How Buffer, ThoughtWorks, N26, and Zapier have shifted their software to respond to new contexts and met new needs.\"}},{\"childs\":[{\"id\":1,\"type\":\"half\",\"direction\":\"column\",\"hero\":{\"image\":\"https://increment.com/art/12/architecture-for-generations/cover-1000-106a85d6.jpeg\",\"class\":\"semi-half\"},\"content\":{\"title\":\"Case studies in rearchitecting\",\"subtitle\":\"How Buffer, ThoughtWorks, N26, and Zapier have shifted their software to respond to new contexts and met new needs.\"}},{\"id\":2,\"type\":\"half\",\"direction\":\"column\",\"hero\":{\"image\":\"https://increment.com/art/12/primer-on-functional-architecture/cover-1000-773fae0c.jpeg\",\"class\":\"semi-half\"},\"content\":{\"title\":\"Case studies in rearchitecting\",\"subtitle\":\"How Buffer, ThoughtWorks, N26, and Zapier have shifted their software to respond to new contexts and met new needs.\"}}]}]},{\"id\":\"2\",\"items\":[{\"id\":1,\"type\":\"large\",\"direction\":\"rows\",\"hero\":{\"image\":\"https://increment.com/art/12/case-studies-in-reachitecting/cover-1000-570f4642.jpeg\",\"class\":\"semi-half\"},\"content\":{\"title\":\"Case studies in rearchitecting\",\"subtitle\":\"How Buffer, ThoughtWorks, N26, and Zapier have shifted their software to respond to new contexts and met new needs.\"}},{\"childs\":[{\"id\":1,\"type\":\"half\",\"direction\":\"column\",\"hero\":{\"image\":\"https://increment.com/art/12/architecture-for-generations/cover-1000-106a85d6.jpeg\",\"class\":\"semi-half\"},\"content\":{\"title\":\"Case studies in rearchitecting\",\"subtitle\":\"How Buffer, ThoughtWorks, N26, and Zapier have shifted their software to respond to new contexts and met new needs.\"}},{\"id\":2,\"type\":\"half\",\"direction\":\"column\",\"hero\":{\"image\":\"https://increment.com/art/12/primer-on-functional-architecture/cover-1000-773fae0c.jpeg\",\"class\":\"semi-half\"},\"content\":{\"title\":\"Case studies in rearchitecting\",\"subtitle\":\"How Buffer, ThoughtWorks, N26, and Zapier have shifted their software to respond to new contexts and met new needs.\"}}]}]}]}}");
+module.exports = JSON.parse("{\"data\":{\"menus\":[{\"id\":\"1\",\"title\":\"Products\",\"url\":\"/products\"},{\"id\":\"2\",\"title\":\"Shots\",\"url\":\"/shots\"},{\"id\":\"3\",\"title\":\"Issues\",\"url\":\"/issues\"},{\"id\":\"4\",\"title\":\"Stories\",\"url\":\"stories\"}],\"sections\":[{\"id\":\"1\",\"items\":[{\"type\":\"large\",\"direction\":\"rows\",\"hero\":{\"image\":\"https://increment.com/art/12/case-studies-in-reachitecting/cover-1000-570f4642.jpeg\",\"class\":\"semi-half\"},\"content\":{\"title\":\"Case studies in rearchitecting\",\"subtitle\":\"How Buffer, ThoughtWorks, N26, and Zapier have shifted their software to respond to new contexts and met new needs.\"}},{\"childs\":[{\"id\":1,\"type\":\"half\",\"direction\":\"column\",\"hero\":{\"image\":\"https://increment.com/art/12/architecture-for-generations/cover-1000-106a85d6.jpeg\",\"class\":\"semi-half\"},\"content\":{\"title\":\"Case studies in rearchitecting\",\"subtitle\":\"How Buffer, ThoughtWorks, N26, and Zapier have shifted their software to respond to new contexts and met new needs.\"}},{\"id\":2,\"type\":\"half\",\"direction\":\"column\",\"hero\":{\"image\":\"https://increment.com/art/12/primer-on-functional-architecture/cover-1000-773fae0c.jpeg\",\"class\":\"semi-half\"},\"content\":{\"title\":\"Case studies in rearchitecting\",\"subtitle\":\"How Buffer, ThoughtWorks, N26, and Zapier have shifted their software to respond to new contexts and met new needs.\"}}]}]},{\"id\":\"2\",\"items\":[{\"id\":1,\"type\":\"large\",\"direction\":\"rows\",\"hero\":{\"image\":\"https://increment.com/art/12/case-studies-in-reachitecting/cover-1000-570f4642.jpeg\",\"class\":\"semi-half\"},\"content\":{\"title\":\"Case studies in rearchitecting\",\"subtitle\":\"How Buffer, ThoughtWorks, N26, and Zapier have shifted their software to respond to new contexts and met new needs.\"}},{\"childs\":[{\"id\":1,\"type\":\"half\",\"direction\":\"column\",\"hero\":{\"image\":\"https://increment.com/art/12/architecture-for-generations/cover-1000-106a85d6.jpeg\",\"class\":\"semi-half\"},\"content\":{\"title\":\"Case studies in rearchitecting\",\"subtitle\":\"How Buffer, ThoughtWorks, N26, and Zapier have shifted their software to respond to new contexts and met new needs.\"}},{\"id\":2,\"type\":\"half\",\"direction\":\"column\",\"hero\":{\"image\":\"https://increment.com/art/12/primer-on-functional-architecture/cover-1000-773fae0c.jpeg\",\"class\":\"semi-half\"},\"content\":{\"title\":\"Case studies in rearchitecting\",\"subtitle\":\"How Buffer, ThoughtWorks, N26, and Zapier have shifted their software to respond to new contexts and met new needs.\"}}]}]}]}}");
 
 /***/ }),
 

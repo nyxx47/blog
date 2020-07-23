@@ -5,7 +5,7 @@ import {node} from 'prop-types'
 const Rows = ({children, props}) => {
 
     return (
-        <StyledRows {...props}>
+        <StyledRows {...props} className="rowss">
             {children}
         </StyledRows>
     )
