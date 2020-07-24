@@ -41,7 +41,7 @@ class MyDocument extends Document {
           <link rel='stylesheet' href='/static/css/nprogress.css'/>
           <link rel="shortcut icon" href="/static/favicon.ico" />
           <meta property="og:title" content="Krisna Ahroid - Design & Code" key="krisna ahroid" />
-          <meta property="og:description" content="Krisna Ahroid. A UI/UX Designer &amp; Frontend Developer based in Jakarta, Indonesia"/>
+          <meta property="og:description" content="Krisna Ahroid. An Interaction Designer & Frontend Developer based in Jakarta, Indonesia"/>
 
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script
