@@ -29,7 +29,7 @@ const Issues = () => {
             openGraph={{
                 type: 'website',
                 locale: 'en_IE',
-                url: 'https://www.ahroidlife.com/issues',
+                url: 'https://www.ahroidlife.co/issues',
                 site_name: 'ahroidlife',
                 title: 'Krisna Ahroid | Issues',
                 description: 'Krisna Ahroid. Issues is my problem which i found in everyday.',

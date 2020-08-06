@@ -36,6 +36,21 @@ const Shots = () => {
       };
 
     return(
+        <>
+<NextSeo
+        title= 'Krisna Ahroid | Collections'
+        description= 'Krisna Ahroid. An Interaction Designer & Frontend Developer based in Jakarta, Indonesia'
+        openGraph={{
+            type: 'website',
+            locale: 'en_IE',
+            url: 'https://www.ahroidlife.co/',
+            site_name: 'ahroidlife',
+            title: 'Krisna Ahroid | Collections',
+            description: 'Krisna Ahroid. An Interaction Designer & Frontend Developer based in Jakarta, Indonesia',
+            image: 'https://ahroidlife.com/static/illustrations/hero-image.png',
+            
+        }}
+      />
         <Container className="shot-container">
             <View className="header">
                 <View className="column-h">
@@ -95,6 +110,7 @@ const Shots = () => {
                 </View>
             </View>
         </Container>
+        </>
     )
 }
 

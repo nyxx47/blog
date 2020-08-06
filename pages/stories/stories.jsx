@@ -94,7 +94,7 @@ const Stories = () => {
             openGraph={{
                 type: 'website',
                 locale: 'en_IE',
-                url: 'https://www.ahroidlife.com/stories',
+                url: 'https://www.ahroidlife.co/stories',
                 site_name: 'ahroidlife',
                 title: 'Krisna Ahroid | Stories',
                 description: 'Krisna Ahroid. An Interaction Designer & Frontend Developer based in Jakarta, Indonesia',
