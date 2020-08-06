@@ -61,7 +61,7 @@ const Products = () => {
             openGraph={{
                 type: 'website',
                 locale: 'en_IE',
-                url: 'https://www.ahroidlife.com/products',
+                url: 'https://www.ahroidlife.co/products',
                 site_name: 'ahroidlife',
                 title: 'Krisna Ahroid | Products',
                 description: 'Krisna Ahroid. Here we go, This is my products.',

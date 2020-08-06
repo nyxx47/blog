@@ -140,7 +140,7 @@ const App = () => {
       openGraph={{
           type: 'website',
           locale: 'en_IE',
-          url: 'https://www.ahroidlife.com/',
+          url: 'https://www.ahroidlife.co/',
           site_name: 'ahroidlife',
           title: 'Krisna Ahroid | Design & Code',
           description: 'Krisna Ahroid. An Interaction Designer & Frontend Developer based in Jakarta, Indonesia',
