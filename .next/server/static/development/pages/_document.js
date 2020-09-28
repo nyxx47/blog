@@ -1212,7 +1212,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       }
     }), __jsx("meta", {
       property: "og:description",
-      content: "Krisna Ahroid. A UI/UX Designer & Frontend Developer based in Jakarta, Indonesia",
+      content: "Krisna Ahroid. An UX Engineer & Frontend Developer based in Jakarta, Indonesia",
       __self: this,
       __source: {
         fileName: _jsxFileName,

@@ -4089,16 +4089,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_atoms__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/atoms */ "./components/atoms/index.js");
-/* harmony import */ var react_lottie__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-lottie */ "react-lottie");
-/* harmony import */ var react_lottie__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_lottie__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_particles_useOnScreen__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/particles/useOnScreen */ "./components/particles/useOnScreen.js");
-/* harmony import */ var _static_illustrations_backpress_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../static/illustrations/backpress.svg */ "./static/illustrations/backpress.svg");
-/* harmony import */ var _shots_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./shots.scss */ "./pages/shots/shots.scss");
-/* harmony import */ var _shots_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_shots_scss__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _assets_lottiefiles_creativity_json__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../assets/lottiefiles/creativity.json */ "./assets/lottiefiles/creativity.json");
-var _assets_lottiefiles_creativity_json__WEBPACK_IMPORTED_MODULE_6___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../assets/lottiefiles/creativity.json */ "./assets/lottiefiles/creativity.json", 1);
+/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next-seo */ "next-seo");
+/* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_seo__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_lottie__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-lottie */ "react-lottie");
+/* harmony import */ var react_lottie__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_lottie__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _components_particles_useOnScreen__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/particles/useOnScreen */ "./components/particles/useOnScreen.js");
+/* harmony import */ var react_player__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-player */ "react-player");
+/* harmony import */ var react_player__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react_player__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _static_illustrations_backpress_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../static/illustrations/backpress.svg */ "./static/illustrations/backpress.svg");
+/* harmony import */ var _shots_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./shots.scss */ "./pages/shots/shots.scss");
+/* harmony import */ var _shots_scss__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_shots_scss__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _assets_lottiefiles_creativity_json__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../assets/lottiefiles/creativity.json */ "./assets/lottiefiles/creativity.json");
+var _assets_lottiefiles_creativity_json__WEBPACK_IMPORTED_MODULE_8___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../assets/lottiefiles/creativity.json */ "./assets/lottiefiles/creativity.json", 1);
 var _jsxFileName = "/Users/ahroidlife/Documents/nextjs/blog/pages/shots/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0__["createElement"];
+
+
 
 
 
@@ -4111,7 +4117,7 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0__["createElement"];
 const Shots = () => {
   const [animated, setAnimated] = react__WEBPACK_IMPORTED_MODULE_0__["useState"](false);
   const refLottie = react__WEBPACK_IMPORTED_MODULE_0__["useRef"]();
-  const isAnimated = Object(_components_particles_useOnScreen__WEBPACK_IMPORTED_MODULE_3__["default"])(refLottie);
+  const isAnimated = Object(_components_particles_useOnScreen__WEBPACK_IMPORTED_MODULE_4__["default"])(refLottie);
   react__WEBPACK_IMPORTED_MODULE_0__["useEffect"](() => {
     isAnimated ? setAnimated(true) : setAnimated(false);
     document.body.style.overflow = 'unset';
@@ -4119,17 +4125,35 @@ const Shots = () => {
   const defaultOptions = {
     loop: false,
     autoplay: false,
-    animationData: _assets_lottiefiles_creativity_json__WEBPACK_IMPORTED_MODULE_6__,
+    animationData: _assets_lottiefiles_creativity_json__WEBPACK_IMPORTED_MODULE_8__,
     rendererSettings: {
       preserveAspectRatio: 'xMidYMid slice'
     }
   };
-  return __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["Container"], {
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, __jsx(next_seo__WEBPACK_IMPORTED_MODULE_2__["NextSeo"], {
+    title: "Krisna Ahroid | Collections",
+    description: "Krisna Ahroid. An UX Engineer & Frontend Developer based in Jakarta, Indonesia",
+    openGraph: {
+      type: 'website',
+      locale: 'en_IE',
+      url: 'https://www.ahroidlife.co/',
+      site_name: 'ahroidlife',
+      title: 'Krisna Ahroid | Collections',
+      description: 'Krisna Ahroid. An UX Engineer & Frontend Developer based in Jakarta, Indonesia',
+      image: 'https://ahroidlife.com/static/illustrations/hero-image.png'
+    },
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40,
+      columnNumber: 1
+    }
+  }), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["Container"], {
     className: "shot-container",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 54,
       columnNumber: 9
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4137,7 +4161,7 @@ const Shots = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
+      lineNumber: 55,
       columnNumber: 13
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4145,7 +4169,7 @@ const Shots = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41,
+      lineNumber: 56,
       columnNumber: 17
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4155,7 +4179,7 @@ const Shots = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 57,
       columnNumber: 21
     }
   }, __jsx("a", {
@@ -4163,15 +4187,15 @@ const Shots = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
+      lineNumber: 58,
       columnNumber: 25
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["Image"], {
-    src: _static_illustrations_backpress_svg__WEBPACK_IMPORTED_MODULE_4__["default"],
+    src: _static_illustrations_backpress_svg__WEBPACK_IMPORTED_MODULE_6__["default"],
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 59,
       columnNumber: 29
     }
   }))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["Image"], {
@@ -4179,7 +4203,7 @@ const Shots = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47,
+      lineNumber: 62,
       columnNumber: 21
     }
   })), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4187,49 +4211,49 @@ const Shots = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49,
+      lineNumber: 64,
       columnNumber: 17
     }
   }, __jsx("h5", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50,
+      lineNumber: 65,
       columnNumber: 21
     }
   }, "Creativity"), __jsx("h1", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 66,
       columnNumber: 21
     }
   }, __jsx("span", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 66,
       columnNumber: 25
     }
   }, "Inspiration"), " more ", __jsx("br", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 66,
       columnNumber: 55
     }
   }), "than ", __jsx("span", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51,
+      lineNumber: 66,
       columnNumber: 65
     }
   }, "abstracts.")), __jsx("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52,
+      lineNumber: 67,
       columnNumber: 21
     }
   }, "Working on a stylish collage or preparing the inspiring moodboard? You might need some abstract figures to fill the space and arrange your ideas in one harmonious composition."), __jsx("button", {
@@ -4237,7 +4261,7 @@ const Shots = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54,
+      lineNumber: 69,
       columnNumber: 21
     }
   }, "Explore"))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4245,7 +4269,7 @@ const Shots = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57,
+      lineNumber: 72,
       columnNumber: 13
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4253,42 +4277,42 @@ const Shots = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58,
+      lineNumber: 73,
       columnNumber: 17
     }
   }, __jsx("h1", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59,
+      lineNumber: 74,
       columnNumber: 21
     }
   }, __jsx("span", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59,
+      lineNumber: 74,
       columnNumber: 25
     }
   }, "Creativity"), " is intelligence ", __jsx("br", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59,
+      lineNumber: 74,
       columnNumber: 65
     }
   }), "having ", __jsx("span", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 60,
+      lineNumber: 75,
       columnNumber: 28
     }
   }, "fun"), "."), __jsx("p", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61,
+      lineNumber: 76,
       columnNumber: 21
     }
   }, "I love communication with design & code, creativity is nothing but a mindset my life to free to build something great!"), __jsx("button", {
@@ -4296,7 +4320,7 @@ const Shots = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62,
+      lineNumber: 77,
       columnNumber: 21
     }
   }, "Get in Touch")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4304,7 +4328,7 @@ const Shots = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64,
+      lineNumber: 79,
       columnNumber: 17
     }
   }, __jsx("div", {
@@ -4313,10 +4337,10 @@ const Shots = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65,
+      lineNumber: 80,
       columnNumber: 21
     }
-  }, __jsx(react_lottie__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, __jsx(react_lottie__WEBPACK_IMPORTED_MODULE_3___default.a, {
     width: `100%`,
     height: `100%`,
     options: defaultOptions,
@@ -4325,7 +4349,7 @@ const Shots = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66,
+      lineNumber: 81,
       columnNumber: 25
     }
   })))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4333,7 +4357,7 @@ const Shots = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70,
+      lineNumber: 85,
       columnNumber: 13
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4341,14 +4365,14 @@ const Shots = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71,
+      lineNumber: 86,
       columnNumber: 17
     }
   }, __jsx("ul", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72,
+      lineNumber: 87,
       columnNumber: 21
     }
   }, __jsx("li", {
@@ -4356,35 +4380,35 @@ const Shots = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73,
+      lineNumber: 88,
       columnNumber: 25
     }
   }, "All"), __jsx("li", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74,
+      lineNumber: 89,
       columnNumber: 25
     }
   }, "Dashboard"), __jsx("li", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75,
+      lineNumber: 90,
       columnNumber: 25
     }
   }, "Website"), __jsx("li", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76,
+      lineNumber: 91,
       columnNumber: 25
     }
   }, "Illustration"), __jsx("li", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 77,
+      lineNumber: 92,
       columnNumber: 25
     }
   }, "Interactions"))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4392,14 +4416,14 @@ const Shots = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80,
+      lineNumber: 95,
       columnNumber: 17
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["Rows"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81,
+      lineNumber: 96,
       columnNumber: 21
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
@@ -4407,71 +4431,162 @@ const Shots = () => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82,
+      lineNumber: 97,
       columnNumber: 25
+    }
+  }, __jsx("a", {
+    href: "https://www.instagram.com/p/B2Y83flA6mX/",
+    target: "_blank",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 98,
+      columnNumber: 29
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["Image"], {
     src: "/static/unsplash/shot-1.png",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 83,
-      columnNumber: 29
+      lineNumber: 99,
+      columnNumber: 33
     }
   }), __jsx("h2", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84,
-      columnNumber: 29
+      lineNumber: 100,
+      columnNumber: 33
     }
-  }, "Lunafreya Ui Kit")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
+  }, "Lunafreya Ui Kit"))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
     className: "shot grid-item-4",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86,
+      lineNumber: 103,
       columnNumber: 25
+    }
+  }, __jsx("a", {
+    href: "https://www.instagram.com/p/CEculbGgl-m/",
+    target: "_blank",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 104,
+      columnNumber: 29
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["Image"], {
     src: "/static/unsplash/shot-2.png",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87,
+      lineNumber: 105,
       columnNumber: 29
     }
   }), __jsx("h2", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88,
+      lineNumber: 106,
       columnNumber: 29
     }
-  }, "Notaimo")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
+  }, "Notaimo"))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
     className: "shot grid-item-4",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90,
+      lineNumber: 109,
       columnNumber: 25
+    }
+  }, __jsx("a", {
+    href: "https://www.instagram.com/p/B_b_K_-Arnk/",
+    target: "_blank",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 110,
+      columnNumber: 29
     }
   }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["Image"], {
     src: "/static/unsplash/shot-3.png",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91,
+      lineNumber: 111,
       columnNumber: 29
     }
   }), __jsx("h2", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92,
+      lineNumber: 112,
       columnNumber: 29
     }
-  }, "My own Landing page"))))));
+  }, "Landing page"))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
+    className: "shot grid-item-4",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 115,
+      columnNumber: 25
+    }
+  }, __jsx("a", {
+    href: "https://www.instagram.com/p/CFPdbekAsXS/",
+    target: "_blank",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 116,
+      columnNumber: 29
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+    src: "/static/unsplash/ps5.jpg",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 117,
+      columnNumber: 33
+    }
+  }), __jsx("h2", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 118,
+      columnNumber: 33
+    }
+  }, "Play Station 5"))), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["View"], {
+    className: "shot grid-item-4",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 121,
+      columnNumber: 25
+    }
+  }, __jsx("a", {
+    href: "https://www.instagram.com/p/CFlfCuCAv1J/",
+    target: "_blank",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 122,
+      columnNumber: 29
+    }
+  }, __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_1__["Image"], {
+    src: "/static/unsplash/namaaz.jpg",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 123,
+      columnNumber: 33
+    }
+  }), __jsx("h2", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 124,
+      columnNumber: 33
+    }
+  }, "Namaazdining"))))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Shots);
@@ -4511,6 +4626,17 @@ __webpack_require__.r(__webpack_exports__);
 
 module.exports = __webpack_require__(/*! /Users/ahroidlife/Documents/nextjs/blog/pages/shots/index.js */"./pages/shots/index.js");
 
+
+/***/ }),
+
+/***/ "next-seo":
+/*!***************************!*\
+  !*** external "next-seo" ***!
+  \***************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next-seo");
 
 /***/ }),
 
@@ -4566,6 +4692,17 @@ module.exports = require("react-is");
 /***/ (function(module, exports) {
 
 module.exports = require("react-lottie");
+
+/***/ }),
+
+/***/ "react-player":
+/*!*******************************!*\
+  !*** external "react-player" ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-player");
 
 /***/ }),
 

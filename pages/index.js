@@ -136,14 +136,14 @@ const App = () => {
     <>
     <NextSeo
       title= 'Krisna Ahroid | Design & Code'
-      description= 'Krisna Ahroid. An Interaction Designer & Frontend Developer based in Jakarta, Indonesia'
+      description= 'Krisna Ahroid. An UX Engineer & Frontend Developer based in Jakarta, Indonesia'
       openGraph={{
           type: 'website',
           locale: 'en_IE',
           url: 'https://www.ahroidlife.co/',
           site_name: 'ahroidlife',
           title: 'Krisna Ahroid | Design & Code',
-          description: 'Krisna Ahroid. An Interaction Designer & Frontend Developer based in Jakarta, Indonesia',
+          description: 'Krisna Ahroid. An UX Engineer & Frontend Developer based in Jakarta, Indonesia',
           image: 'https://ahroidlife.com/static/illustrations/hero-image.png',
           
       }}
@@ -243,7 +243,7 @@ const App = () => {
                   <a href="https://www.facebook.com/krisnaahroid" rel="noreferrer" target="_blank">FB</a>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/user.ahroidlife/" rel="noreferrer" target="_blank">IG</a>
+                  <a href="https://www.instagram.com/ahroidlife.co/" rel="noreferrer" target="_blank">IG</a>
                 </li>
               </ul>
             </View>
@@ -253,7 +253,7 @@ const App = () => {
               <Text variant="blue" family="quicksand" margin="0  0 50px 0 " className="sayHi">Hi, there</Text>
               <View direction="column" margin="0  0 30px 0 ">
                 <Text variant="blue" family="quicksand" weight="medium" className="fullname">I’m Krisna Ahroid</Text>
-                <Text family="quicksand" variant="grey" weight="medium" className="subtitle">An Interaction Designer & Frontend Developer</Text>
+                <Text family="quicksand" variant="grey" weight="medium" className="subtitle">An UX Engineer  & Frontend Developer</Text>
               </View>
               <View width="80%" className="main-header-text-content">
                 <Text
@@ -350,7 +350,7 @@ const App = () => {
       <View className="specializing-wrapper" direction="column">
           <View direction="column" align="center" className="specializing-header">
                   <Text family="quicksand" size="32" weight="500" className="specializing-header-title">Specializing in</Text>
-                  <Text family="quicksand" size="18" weight="400" className="specializing-header-subtitle">I'm An Interaction Designer & Frontend  Developer, and I love what I do.</Text>
+                  <Text family="quicksand" size="18" weight="400" className="specializing-header-subtitle">I'm An UX Engineer  & Frontend  Developer, and I love what I do.</Text>
           </View>
           <View className="specializing-content">
           <Image className="specializing-square-dots" src="/static/illustrations/dots.svg" alt="dots"/>
@@ -405,14 +405,14 @@ const App = () => {
                 <View className="about-content-header">
                   <Text variant="dark" family="quicksand" size="32" >
                   Krisna Ahroid. <br/>
-                  An Interaction Designer & <br/>
+                  An UX Engineer & <br/>
   Frontend  Developer  based in  <br/>
   Jakarta, Indonesia
                   </Text>
                 </View>
                 <View className="about-content-body" direction="column">
                   <Text family="quicksand" variant="dark" className="hi">Hi There,</Text>
-                  <Text family="quicksand" variant="dark" className="about-me">I’m An Interaction Designer & Javascript Enthusiast, You can find my recent projects on <a href="https://dribbble.com/ahroidlife" rel="noreferrer" target="_blank">Dribbble</a> and <a href="https://www.instagram.com/user.ahroidlife/" rel="noreferrer" target="_blank">Instagram</a> or if you’re interested in my design and if you are want to development an application, let me know.
+                  <Text family="quicksand" variant="dark" className="about-me">I’m An UX Engineer & Javascript Enthusiast, You can find my recent projects on <a href="https://dribbble.com/ahroidlife" rel="noreferrer" target="_blank">Dribbble</a> and <a href="https://www.instagram.com/ahroidlife.co/" rel="noreferrer" target="_blank">Instagram</a> or if you’re interested in my design and if you are want to development an application, let me know.
                   </Text>
                   <Text family="quicksand" variant="dark" className="available-me">
                   I’m currently available for <br/>
@@ -590,7 +590,7 @@ freelance work.
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.instagram.com/user.ahroidlife/" rel="noreferrer" target="_blank">
+                      <a href="https://www.instagram.com/ahroidlife.co/" rel="noreferrer" target="_blank">
                         <Image src="/static/illustrations/instagram.svg" alt="instagram"/>
                       </a>
                     </li>

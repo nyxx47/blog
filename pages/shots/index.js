@@ -1,10 +1,10 @@
 import * as React from 'react'
 import { Container, View, Image, Rows } from '../../components/atoms'
-
+import { NextSeo } from 'next-seo';
 import {Lottie} from '../../components/atoms'
 import Lottiefiles from 'react-lottie'
 import useOnScreen from '../../components/particles/useOnScreen'
-
+import ReactPlayer from 'react-player'
 import Backpress from '../../static/illustrations/backpress.svg'
 
 import './shots.scss'
@@ -39,14 +39,14 @@ const Shots = () => {
         <>
 <NextSeo
         title= 'Krisna Ahroid | Collections'
-        description= 'Krisna Ahroid. An Interaction Designer & Frontend Developer based in Jakarta, Indonesia'
+        description= 'Krisna Ahroid. An UX Engineer & Frontend Developer based in Jakarta, Indonesia'
         openGraph={{
             type: 'website',
             locale: 'en_IE',
             url: 'https://www.ahroidlife.co/',
             site_name: 'ahroidlife',
             title: 'Krisna Ahroid | Collections',
-            description: 'Krisna Ahroid. An Interaction Designer & Frontend Developer based in Jakarta, Indonesia',
+            description: 'Krisna Ahroid. An UX Engineer & Frontend Developer based in Jakarta, Indonesia',
             image: 'https://ahroidlife.com/static/illustrations/hero-image.png',
             
         }}
@@ -95,16 +95,34 @@ const Shots = () => {
                 <View className="shots">
                     <Rows>
                         <View className="shot grid-item-4">
-                            <Image src="/static/unsplash/shot-1.png"/>
-                            <h2>Lunafreya Ui Kit</h2>
+                            <a href="https://www.instagram.com/p/B2Y83flA6mX/" target="_blank">
+                                <Image src="/static/unsplash/shot-1.png"/>
+                                <h2>Lunafreya Ui Kit</h2>
+                            </a>
                         </View>
                         <View className="shot grid-item-4">
+                            <a href="https://www.instagram.com/p/CEculbGgl-m/" target="_blank">
                             <Image src="/static/unsplash/shot-2.png"/>
                             <h2>Notaimo</h2>
+                            </a>
                         </View>
                         <View className="shot grid-item-4">
+                            <a href="https://www.instagram.com/p/B_b_K_-Arnk/" target="_blank">
                             <Image src="/static/unsplash/shot-3.png"/>
-                            <h2>My own Landing page</h2>
+                            <h2>Landing page</h2>
+                            </a>
+                        </View>
+                        <View className="shot grid-item-4">
+                            <a href="https://www.instagram.com/p/CFPdbekAsXS/" target="_blank">
+                                <Image src="/static/unsplash/ps5.jpg"/>
+                                <h2>Play Station 5</h2>
+                            </a>
+                        </View>
+                        <View className="shot grid-item-4">
+                            <a href="https://www.instagram.com/p/CFlfCuCAv1J/" target="_blank">
+                                <Image src="/static/unsplash/namaaz.jpg"/>
+                                <h2>Namaazdining</h2>
+                            </a>
                         </View>
                     </Rows>
                 </View>

@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { SET_STORY } from './type';\nimport Router from 'next/router';\n\nvar setStory = function setStory(story) {\n  return function (dispatch) {\n    dispatch({\n      type: SET_STORY,\n      payload: story\n    });\n    console.log(\"SET STORY\");\n  };\n};\n\nexport default {\n  setStory: setStory\n};","map":null,"metadata":{},"sourceType":"module"}

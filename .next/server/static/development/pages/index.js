@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -6717,14 +6717,14 @@ const App = () => {
   };
   return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(next_seo__WEBPACK_IMPORTED_MODULE_14__["NextSeo"], {
     title: "Krisna Ahroid | Design & Code",
-    description: "Krisna Ahroid. An Interaction Designer & Frontend Developer based in Jakarta, Indonesia",
+    description: "Krisna Ahroid. An UX Engineer & Frontend Developer based in Jakarta, Indonesia",
     openGraph: {
       type: 'website',
       locale: 'en_IE',
-      url: 'https://www.ahroidlife.com/',
+      url: 'https://www.ahroidlife.co/',
       site_name: 'ahroidlife',
       title: 'Krisna Ahroid | Design & Code',
-      description: 'Krisna Ahroid. An Interaction Designer & Frontend Developer based in Jakarta, Indonesia',
+      description: 'Krisna Ahroid. An UX Engineer & Frontend Developer based in Jakarta, Indonesia',
       image: 'https://ahroidlife.com/static/illustrations/hero-image.png'
     },
     __self: undefined,
@@ -7222,7 +7222,7 @@ const App = () => {
       columnNumber: 17
     }
   }, __jsx("a", {
-    href: "https://www.instagram.com/user.ahroidlife/",
+    href: "https://www.instagram.com/ahroidlife.co/",
     rel: "noreferrer",
     target: "_blank",
     __self: undefined,
@@ -7291,7 +7291,7 @@ const App = () => {
       lineNumber: 256,
       columnNumber: 17
     }
-  }, "An Interaction Designer & Frontend Developer")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_8__["View"], {
+  }, "An UX Engineer  & Frontend Developer")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_8__["View"], {
     width: "80%",
     className: "main-header-text-content",
     __self: undefined,
@@ -7748,7 +7748,7 @@ const App = () => {
       lineNumber: 353,
       columnNumber: 19
     }
-  }, "I'm An Interaction Designer & Frontend  Developer, and I love what I do.")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_8__["View"], {
+  }, "I'm An UX Engineer  & Frontend  Developer, and I love what I do.")), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_8__["View"], {
     className: "specializing-content",
     __self: undefined,
     __source: {
@@ -8097,12 +8097,12 @@ const App = () => {
       lineNumber: 407,
       columnNumber: 34
     }
-  }), "An Interaction Designer & ", __jsx("br", {
+  }), "An UX Engineer & ", __jsx("br", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 408,
-      columnNumber: 45
+      columnNumber: 36
     }
   }), "Frontend  Developer  based in  ", __jsx("br", {
     __self: undefined,
@@ -8140,7 +8140,7 @@ const App = () => {
       lineNumber: 415,
       columnNumber: 19
     }
-  }, "I\u2019m An Interaction Designer & Javascript Enthusiast, You can find my recent projects on ", __jsx("a", {
+  }, "I\u2019m An UX Engineer & Javascript Enthusiast, You can find my recent projects on ", __jsx("a", {
     href: "https://dribbble.com/ahroidlife",
     rel: "noreferrer",
     target: "_blank",
@@ -8148,17 +8148,17 @@ const App = () => {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 415,
-      columnNumber: 168
+      columnNumber: 159
     }
   }, "Dribbble"), " and ", __jsx("a", {
-    href: "https://www.instagram.com/user.ahroidlife/",
+    href: "https://www.instagram.com/ahroidlife.co/",
     rel: "noreferrer",
     target: "_blank",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 415,
-      columnNumber: 260
+      columnNumber: 251
     }
   }, "Instagram"), " or if you\u2019re interested in my design and if you are want to development an application, let me know."), __jsx(_components_atoms__WEBPACK_IMPORTED_MODULE_8__["Text"], {
     family: "quicksand",
@@ -9198,7 +9198,7 @@ const App = () => {
       columnNumber: 21
     }
   }, __jsx("a", {
-    href: "https://www.instagram.com/user.ahroidlife/",
+    href: "https://www.instagram.com/ahroidlife.co/",
     rel: "noreferrer",
     target: "_blank",
     __self: undefined,
@@ -9345,7 +9345,7 @@ module.exports = JSON.parse("{\"data\":{\"menus\":[{\"id\":\"1\",\"title\":\"Pro
 
 /***/ }),
 
-/***/ 3:
+/***/ 6:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
