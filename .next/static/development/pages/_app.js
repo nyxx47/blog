@@ -11,14 +11,14 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   title: 'Krisna Ahroid | Design & Code',
-  description: 'Krisna Ahroid. An Interaction Designer & Frontend Developer based in Jakarta, Indonesia',
+  description: 'Krisna Ahroid. An UX Engineer & Frontend Developer based in Jakarta, Indonesia',
   openGraph: {
     type: 'website',
     locale: 'en_IE',
     url: 'https://www.ahroidlife.com/',
     site_name: 'ahroidlife',
     title: 'Krisna Ahroid | Design & Code',
-    description: 'Krisna Ahroid. An Interaction Designer & Frontend Developer based in Jakarta, Indonesia',
+    description: 'Krisna Ahroid. An UX Engineer & Frontend Developer based in Jakarta, Indonesia',
     image: 'https://ahroidlife.com/static/illustrations/hero-image.png'
   }
 });
